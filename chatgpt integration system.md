@@ -1,0 +1,35 @@
+---
+creation date: 2023-07-25 10:30
+modification date: 206 July 2023 10:30:02
+---
+# ChatGPT integration: What system are we testing?
+[[ChatGP experiment home]]
+
+Upon item creation:
+* if note>threshold.length then create summary of length threshold.length
+
+Notes on threshold length: 
+* higher threshold length - each item sent to chatgpt is on average larger and more likely to be an original note, not a summary, so:
+	* more original notes and fewer summaries are used
+	* larger collections impossible 
+* lower threshold length - more summaries are generated, so larger collections are possible, but with fewer original notes: chatgpt will be working with more summaries
+
+Upon entry of collection C with C.i items into chatgpt PromptContext field:
+* if sum(summaries)>8000 tokens then reject
+* elseif sum(notes)<=8000 tokens then use notes as prompt context 
+* elseif 7000<sum(summaries)<8000 then use summaries as prompt context 
+* else create and send mix of notes and summaries
+
+Create mix of notes and summaries
+* givens:
+	* sum(notes)>8000
+	* sum(summaries)<7000
+* goal: create a mix for the prompt context by replacing some summaries with notes, keeping sum(mix) < 8000:
+	* to begin with: sum(mix) = sum(summaries) - the prompt context is composed of summaries, totalling <7000 tokens
+	* where note > threshold.length
+		* where Highlight = YES
+			* choose item with longest note
+			* replace summary with note in mix
+			* if sum(mix) > 8000 then exit and use mix as prompt context
+			* else repeat with next longest note
+		* if sum(mix) < 8000 then repeat for Highlight = NO
