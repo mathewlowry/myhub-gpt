@@ -6,7 +6,7 @@ modification date: 227 August 2023 17:16:45
 
 # Editorial: Unveiling the Dynamics of Innovation, Creativity, and Collaboration (981 w)
 
-In a world constantly evolving through technological advancements and shifting paradigms, the quest for innovation has emerged as a driving force across industries. To uncover the intricate mechanisms behind this phenomenon, we delve into a selection of enlightening articles that illuminate the multifaceted dimensions of creativity, originality, collaboration, and the pursuit of novel ideas (*too long, meaningless drivel*).
+In a world constantly evolving through technological advancements and shifting paradigms, the quest for innovation has emerged as a driving force across industries. To uncover the intricate mechanisms behind this phenomenon, we delve into a selection of enlightening articles that illuminate the multifaceted dimensions of creativity, originality, collaboration, and the pursuit of novel ideas.
 
 ## *Originals | Hidden Brain : NPR*
 Adam Grant's exploration of originality in "Originals: How Non-Conformists Move the World" offers a captivating starting point. Contrary to popular belief, original thinkers are not just born with innate genius; rather, they cultivate their uniqueness through diverse experiences and questioning the status quo. Their propensity for procrastination acts as a breeding ground for ideas, and they exhibit resilience in facing fear and uncertainty, converting them into catalysts for action. Originality resides in unexpected corners, as evidenced by the disparity between talkative individuals and those with game-changing ideas. Notably, the journey to innovation involves embracing failure and nurturing unconventional ideas while distancing oneself from the comfort of the familiar.
@@ -67,7 +67,7 @@ As we navigate the diverse landscapes of innovation, these articles converge on 
 
 4. **[The downside of diversity](http://archive.boston.com/news/globe/ideas/articles/2007/08/05/the_downside_of_diversity/)**
    This piece explores the complex relationship between diversity, civic engagement, and innovation, shedding light on how diverse perspectives can drive productivity and creativity.
-
+ ^52bbb1
 5. **[Giving Up Is the Enemy of Creativity](https://hbr.org/2015/12/giving-up-is-the-enemy-of-creativity)**
    Harvard Business Review's research emphasizes the role of persistence in creativity, highlighting how undervaluing the benefits of persistence can hinder the emergence of truly creative ideas.
 
