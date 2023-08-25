@@ -4,6 +4,27 @@ modification date: 220 August 2023 10:57:03
 ---
 # chatgpt experiment method, created # 2023-08-08 10:57
 
+## At a glance
+![[experiment-method1.png]]
+
+* External resources, left, are content on the web worth Hubbing
+* Hubbed items include 
+	* my notes: what I found interesting in the article, and why
+	* tags (currently manually generated)
+	* summaries of my notes, generated automatically by ChatGPT using the summariser "Summariser 0 ("S-0") built into the pilot ChatGPT integration  
+* Hubbed items can be organised by Collections using the MyHub interface. Collection 1 ("C-1") is shown.
+* For each Collection, experiments can be run using three files:
+	* Currently, using the pilot ChatGPT integration the user can send the S-0 summaries of Collection 1 ("**C-1-S-0-summaries**") to ChatGPT using any prompt 
+	* The entirety of the Notes in the Collection are used to create "**C-1-AllNotes**"
+	* C-1-AllNotes are also processed using a second Summariser, set to a maximum word length X, to compare against S-0. Any number of Summarisers can be tested (S-X), and each Summariser can be tested at different word lengths. This process results in "**C-1-S-X-n-summaries**"
+* The above three files are sent to ChatGPT using (in the above diagram) Prompt 1 ("P-1"), and the three responses compared:
+	* **C-1-S-0-response-P-1**
+	* **C-1-AllNotes-response-P-1**
+	* **C-1-S-X-n-response-P-1**
+* The same experiment can be done with a variety of Prompts
+
+---
+
 ## experiment goals
 Existing short summaries ("S-0") are very short, and notes are whatever length.
 
@@ -54,9 +75,6 @@ We have the optimal length for Summariser 1 (S-1-X) using Prompt 1.
 * Test it using other Collections (C-n = C-2, C-3, ...)
 
 Take stock, design round 3
-
-
-
 
 ## experiment process 2
 * As above but add variation by Summary-X-*N* (Summary-X-1, Summary-X-2...)
