@@ -4,6 +4,28 @@
 
 As explained in [[Introduction]] I'm sharing the results of my research into integrating MyHub.ai with an LLM as they happen. 
 
+## Executive summaries
+### My first draft exec summary
+*My first exec summary, after doing the analysis manually (below):* 
+
+There was no clear "winner" - evaluated using 8 different parameters, each output had wins for some, losses for others. If I was looking for a first draft I could most efficiently edit into a newsletter, for example, the S-1-150 version was the closest in length and had all links integrated into its body, while the S-0 version highlighted the common themes a little more effectively, and AllNotes gave the least-worst title and article summaries of the least-wrong length.
+
+But most, possibly all, of any efficiency gains from using ChatGPT to write this newsletter could be lost in the necessary accuracy check. While checking the accuracy of each version's thoroughly would take more time than I have, every time I looked I found inaccurate hallucinations, misrepresenting the articles summarised.
+
+Those hallucinations, however, could be valuable if I wasn't trying to write a newsletter summarising 14 articles.
+
+### ChatGPT's exec summary
+Then I asked ChatGPT's opinion: "*I will provide you an analysis of an experiment into the best way of using ChatGPT to create a newsletter summarising the content of 14 different articles, You will write an executive summary of the analysis of no longer than 400 words. Here is the original analysis, in markdown format:*"
+
+Its full response is [[analysis-execsumm-chatgot]] (425 words), but the final section is worth embedding here:
+![[analysis-execsumm-chatgot#Lessons and Recommendations]]
+
+### Final executive summary
+What I wrote initially still stands, but bringing in ChatGPT to help write this executive summary helped me see better what I should be doing in the next experiment(s).
+
+Rather than evaluating different versions and word lengths of S-1 (ie, S-1-250, S-2-100...), I think I'll focus first on varying the prompt: rather than asking for a nice summary of Hubbed resources in newsletter format, I'll explore Prompts which, as ChatGPT puts it, "*Use ChatGPT outputs as idea generators rather than sources of literal truth*".
+
+---
 ## Outputs being evaluated
 Experiment 1's full title is C-1-S-1-150-P-1, so the three outputs to compare are:
 - [[C-1-AllNotes-response-P-1]]: what I get back from ChatGPT  
@@ -44,13 +66,12 @@ The AllNotes response is easy to "Fail": it provides 14 (admittedly good) summar
 **In S-1-150,** for example, we find 5 paragraphs like this:
 * *Central to nurturing creativity is the ability to reframe problems. The article ["Three Ways To Reframe A Problem To Find An Innovative Solution"](http://www.fastcompany.com/3050265/hit-the-ground-running/three-ways-to-reframe-a-problem-to-find-innovative-solution) highlights how adopting different perspectives can lead to breakthrough ideas. This concept is further reinforced in [the article "Ideation: List and Paint your Ideas"](https://medium.com/@krystacurtis/paint-by-idea-81dcd2f5d34e), which encourages the playful and creative generation of ideas. Building on this, ["What I Wish I Knew About Creativity When I Was 20"](https://open.bufferapp.com/creativity-advice/) underscores the significance of collaboration and the confluence of ideas in fostering innovation. Embracing this confluence is [the article "Build a Culture of Innovation: Kill Mediocrity"](http://weblog.mediatemple.net/tips/how-to-build-a-culture-of-innovation-by-killing-mediocrity-1), which advocates for dismantling complacency and hierarchy to create a culture of open idea-sharing.* 
 
-**The S-0 version** does something similar, but covers the ground in 7 sections. Moreover, each section gets a subtitle, which (as requested) to highlights the common themes identified - for example:
+**The S-0 version** does something similar, but covers the ground in 7 sections (and 8o more words). As it gives each section a subtitle, it  highlights the common themes identified, as requested - for example:
 * ***Reframing Problems for Innovation**
   Problem-solving lies at the core of innovation. "Three Ways To Reframe A Problem To Find An Innovative Solution" from Fast Company emphasizes the importance of tackling problems from novel angles. Techniques like imagination, creativity, and entrepreneurship are highlighted to transform challenges into opportunities. Similarly, "The Discipline of Creativity" underscores the need to link creative ideas with actionable steps. The proposed integrative process involves understanding problems deeply, generating tangible ideas, and translating them into action.*
 
 Here we are just evaluating the *form*, so S-0's subtitles wins this round.
-
-## Editorial Accuracy 
+## Editorial Content 
 **This aspect takes the most effort to judge but is, of course, the most important, as when I ask ChatGPT to "*highlight themes common to several articles*" I can't stop it from simply making stuff up.**
 
 For example, consider the above paragraph from the S-1-150 response, starting with "*Central to nurturing creativity*": 
@@ -65,9 +86,9 @@ So while ChatGPT's editorial, based on ChatGPT's summary of an article, says tha
 * one way to make confluence happen is to collaborate with others
 * so collaboration is significant to fostering innovation.
 
-(1) Note that I used the word "logic" loosely. ChatGPT did not "think this through", as I just did in the above bullet points. Instead, it connected the concepts "collaborate" with "confluence" because these words are well-connected in its training corpus. 
+(1) Note that I used the word "logic" loosely. ChatGPT did not "think this through", as I just did in the above bullet points. Instead, it connected the concepts "collaborate" with "confluence" because (I assume) these words are well-connected in its training corpus. 
 
-**ChatGPT's hallucination, in other words, made a connection that the author did not. That doesn't mean that it's wrong. It also doesn't mean that it's right.** 
+**ChatGPT's hallucination, in other words, was a connection that the author did not make. While that makes it a false summary of the author's work, that doesn't mean that it's wrong as a stand alone statement. But it also doesn't mean that it's right.** 
 
 Lessons: 
 * if you're looking for literal truth, doublecheck everything carefully
@@ -84,19 +105,19 @@ Prompt-1 asked for 80-word summaries of each article:
 
 AllNotes' consistency reduces the editorial polishing time, and so wins this particular comparison. But I asked for 80 word summaries, not ~20 word summaries.
 
-### Content
+### Article list content
 This obviously subjective comparison is made more difficult by the above length differences. 
 
 For example, [[C-1-S-0-response-P-1#[The downside of diversity](http //archive.boston.com/news/globe/ideas/articles/2007/08/05/the_downside_of_diversity/?page=full)|the summary of "The downside of diversity" based on the S-0 input]] provides more information, while the [[C-1-S-1-150-response-P-1#^2ca69e|S-1-150]] and [[C-1-AllNotes-response-P-1#^52bbb1|AllNotes]] versions benefit from their pithiness. Which is "best"? 
 * Given I wanted summaries of 80, not 18, words in length, S-0 wins by being closer to the target length.
 * If I'd valued pithiness, the S-1-150 captures the essence of the article better than the AllNotes version, which misses the "pros and cons" argument entirely, despite being longer and *despite [[C-1-AllNotes-response-P-1#*The downside of diversity*|capturing it perfectly well in its Editorial!]].*
 
-Think about that for a moment: sent Prompt 1 and asked to work with the *shortest* summary (S-O) of my notes about an article, ChatGPT created a richer and longer summary than when it worked from a longer summary (S-1-150). Moreover, *both were more accurate than when ChatGPT was working from my raw notes, unsummarised.*
+Think about that for a moment: sent Prompt 1 and asked to work with the *shortest* summary (S-O) of my notes about an article, ChatGPT created a richer and longer summary than when it worked from a *longer* summary (S-1-150). Moreover, *both were more accurate than when ChatGPT was working from my raw, **unsummarised** notes.*
 
 Another example: when given the S-0 summary of my notes about ["The idea that creative people are different from everyone else is a myth"](http://timkastelle.org/blog/2013/10/best-organisational-structure-creativity/), ChatGPT gave an accurate summary in the newsletter's article list:
 "*The article challenges the myth that creative people are different from others and highlights the organizational structure of the company that invented Gore-Tex, which operates in small teams and has minimal layers of management despite its large size.*""
 
-However, given S-1-150 and my (very brief) notes in full, it invented: neither the article nor my notes mention "diverse perspectives", "collaboration" or "diverse teams", but according to these versions of the newsletter, the article does. 
+However, when given S-1-150 and my (very brief) notes in full, ChatGPT invented: neither the article nor my notes mention "diverse perspectives", "collaboration" or "diverse teams", but according to these versions of the newsletter, the article does. 
 
 What do we learn from this? **ChatGPT doesn't always summarise when asked.** The above quote from the article list is 38 words long, and was generated when I asked ChatGPT to summarise the S-0 summary of my notes. But:
 * the summary in the article list and the S-0 summary are identical: when sent Prompt 1 and the S-0 summaries, **ChatGPT just reproduced the S-0 summaries in the article list**
