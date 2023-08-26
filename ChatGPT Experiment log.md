@@ -22,23 +22,3 @@ modification date: 224 August 2023 18:55:51
 	*  [[C-1-S-1-150-response-P-1]]
 * Analysis: [[Experiment 1 Analysis]]
 
-
----
-# Backup
-
-
-## Experiment 1, 2023-08-15: C-1-S-1-400-P-1
-* Collection 1
-	* Facets:
-	* URL: 
-	* [[C-1-AllNotes]]
-* Summarisers 
-	* 0: [[C-1-S-0]] - pasted from MyHub
-	* Summariser 1
-		* Summariser 1-400: [[C-1-S-1-150]]
-* Agent Prompt![[Agent Prompts#Prompt - 1 newsletter]]
-* Responses
-	* [[C-1-S-0-response-P-1]]
-	* [[C-1-AllNotes-response-P-1]]
-	*  [[C-1-S-1-400-response-P-1]]
-* Result
