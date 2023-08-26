@@ -17,8 +17,8 @@ Those hallucinations, however, could be valuable if I wasn't trying to write a n
 ### ChatGPT's exec summary
 Then I asked ChatGPT's opinion: "*I will provide you an analysis of an experiment into the best way of using ChatGPT to create a newsletter summarising the content of 14 different articles, You will write an executive summary of the analysis of no longer than 400 words. Here is the original analysis, in markdown format:*"
 
-Its full response is [[analysis-execsumm-chatgot]] (425 words), but the final section is worth embedding here:
-![[analysis-execsumm-chatgot#Lessons and Recommendations]]
+Its full response is [[Experiment 1 Aanalysis chatgpt execsumm]] (425 words), but the final section is worth embedding here:
+![[Experiment 1 Aanalysis chatgpt execsumm#Lessons and Recommendations]]
 
 ### Final executive summary
 What I wrote initially still stands, but bringing in ChatGPT to help write this executive summary helped me see better what I should be doing in the next experiment(s).
