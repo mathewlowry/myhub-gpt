@@ -2,9 +2,24 @@
 
 **The first results from my series of experiments to identify the most valuable MyHub Agent prompts are promising and confusing in equal measure.**
 
+## Intro, experiment 1
 As explained in [[Introduction]] I'm sharing the results of my research into integrating MyHub.ai with an LLM as they happen. 
+### Outputs being evaluated
+Experiment 1's full title is C-1-S-1-150-P-1, so the three outputs to compare are:
+- [[C-1-AllNotes-response-P-1]]: what I get back from ChatGPT  
+	- when I send it the entirety of the contents of the 14 Hubbed notes in Collection 1 ("[All the Stuff I Like about Everything tagged #creativity & #innovation, Anytime](https://myhub.ai/@mathewlowry/?tags=creativity&types=like&timeframe=anytime&quality=all&tags=innovation)") 
+	- and ask [[Prompt 1 - newsletter A]] (500 word editorial summarising the main themes & brief summaries of each article)
+- [[C-1-S-0-response-P-1.md]]: what ChatGPT returns when sent "Summariser 0" summaries of the posts in Collection 1, with Prompt 1
+- [[C-1-S-1-150-response-P-1.md]]: what ChatGPT returns when sent "Summariser 1" summaries, set to a maximum length of 150 words, of the posts in Collection 1, with Prompt 1.
 
-## Executive summaries
+See [[ChatGPT Experiment log#^56fa46]] for all files, and [[Introduction]] for a full explanation of the experimental method.
+### Remarks on the inputs
+If you check out the original Collection and input files, you+ll see that for many Notes there wasn't a huge difference between the AllNotes and S-1-150 versons sent to ChatGPT.
+
+That's due to the way I've changed how I Hub resources, creating the notes which are usually summarised before being sent to ChatGPT. For many years many of my Hubbed notes were more like bookmarks, providing a quick summary of why I thought a resource was worth reading, but not summarising what I learnt from it. It was only a few years ago, after reading [Sonke Ahren's "How to write smart notes"](https://www.soenkeahrens.de/de/takesmartnotes), that I more consistently spent more time summarising in my own words what I found valuable in the resources I Hubbed ([example](https://myhub.ai/items/ai-is-life)).
+
+---
+## Executive summaries, experiment 1
 ### My first draft exec summary
 *My first exec summary, after doing the analysis manually (below):* 
 
@@ -13,7 +28,6 @@ There was no clear "winner" - evaluated using 8 different parameters, each outpu
 But most, possibly all, of any efficiency gains from using ChatGPT to write this newsletter could be lost in the necessary accuracy check. While checking the accuracy of each version's thoroughly would take more time than I have, every time I looked I found inaccurate hallucinations, misrepresenting the articles summarised.
 
 Those hallucinations, however, could be valuable if I wasn't trying to write a newsletter summarising 14 articles.
-
 ### ChatGPT's exec summary
 Then I asked ChatGPT's opinion: "*I will provide you an analysis of an experiment into the best way of using ChatGPT to create a newsletter summarising the content of 14 different articles, You will write an executive summary of the analysis of no longer than 400 words. Here is the original analysis, in markdown format:*"
 
@@ -26,22 +40,7 @@ What I wrote initially still stands, but bringing in ChatGPT to help write this 
 Rather than evaluating different versions and word lengths of S-1 (ie, S-1-250, S-2-100...), I think I'll focus first on varying the prompt: rather than asking for a nice summary of Hubbed resources in newsletter format, I'll explore Prompts which, as ChatGPT puts it, "*Use ChatGPT outputs as idea generators rather than sources of literal truth*".
 
 ---
-## Outputs being evaluated
-Experiment 1's full title is C-1-S-1-150-P-1, so the three outputs to compare are:
-- [[C-1-AllNotes-response-P-1]]: what I get back from ChatGPT  
-	- when I send it the entirety of the contents of the 14 Hubbed notes in Collection 1 ("[All the Stuff I Like about Everything tagged #creativity & #innovation, Anytime](https://myhub.ai/@mathewlowry/?tags=creativity&types=like&timeframe=anytime&quality=all&tags=innovation)") 
-	- and ask [[Prompt 1 - newsletter A]] (500 word editorial summarising the main themes & brief summaries of each article)
-- [[C-1-S-0-response-P-1.md]]: what ChatGPT returns when sent "Summariser 0" summaries of the posts in Collection 1, with Prompt 1
-- [[C-1-S-1-150-response-P-1.md]]: what ChatGPT returns when sent "Summariser 1" summaries, set to a maximum length of 150 words, of the posts in Collection 1, with Prompt 1.
-
-See [[ChatGPT Experiment log#^56fa46]] for all files, and [[Introduction]] for a full explanation of the experimental method.
-## Remarks on the inputs
-If you check out the original Collection and input files, you+ll see that for many Notes there wasn't a huge difference between the AllNotes and S-1-150 versons sent to ChatGPT.
-
-That's due to the way I've changed how I Hub resources, creating the notes which are usually summarised before being sent to ChatGPT. For many years many of my Hubbed notes were more like bookmarks, providing a quick summary of why I thought a resource was worth reading, but not summarising what I learnt from it. It was only a few years ago, after reading [Sonke Ahren's "How to write smart notes"](https://www.soenkeahrens.de/de/takesmartnotes), that I more consistently spent more time summarising in my own words what I found valuable in the resources I Hubbed ([example](https://myhub.ai/items/ai-is-life)).
-
----
-And now for some analysis:
+**And now for some analysis:**
 
 Sent the same prompt [[Prompt 1 - newsletter A]], the differences between ChatGPT's proposed newsletters are striking.
 ## Title and opening drivel
