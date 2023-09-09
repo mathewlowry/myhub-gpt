@@ -3,7 +3,7 @@
 **The first results from my series of experiments to identify the most valuable MyHub Agent prompts are promising and confusing in equal measure.**
 
 ## Intro, experiment 1
-As explained in [[Introduction]] I'm sharing the results of my research into integrating MyHub.ai with an LLM as they happen. 
+As explained in [[README]] I'm sharing the results of my research into integrating MyHub.ai with an LLM as they happen. 
 ### Outputs being evaluated
 Experiment 1's full title is C-1-S-1-150-P-1, so the three outputs to compare are:
 - [[C-1-AllNotes-response-P-1]]: what I get back from ChatGPT  
