@@ -14,7 +14,7 @@ Experiment 1's full title is C-1-S-1-150-P-1, so the three outputs to compare ar
 
 See [[ChatGPT Experiment log#^56fa46]] for all files, and [[Introduction]] for a full explanation of the experimental method.
 ### Remarks on the inputs
-If you check out the original Collection and input files, you+ll see that for many Notes there wasn't a huge difference between the AllNotes and S-1-150 versons sent to ChatGPT.
+If you check out the original Collection and input files, you'll see that for many Notes there wasn't a huge difference between the AllNotes and S-1-150 versons sent to ChatGPT.
 
 That's due to the way I've changed how I Hub resources, creating the notes which are usually summarised before being sent to ChatGPT. For many years many of my Hubbed notes were more like bookmarks, providing a quick summary of why I thought a resource was worth reading, but not summarising what I learnt from it. It was only a few years ago, after reading [Sonke Ahren's "How to write smart notes"](https://www.soenkeahrens.de/de/takesmartnotes), that I more consistently spent more time summarising in my own words what I found valuable in the resources I Hubbed ([example](https://myhub.ai/items/ai-is-life)).
 
