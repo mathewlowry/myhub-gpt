@@ -9,25 +9,26 @@ To understand the experiments in this repository you need to read At a glance, b
 ![[experiment-method1.png]]
 
 * **External resources**, left, are content on the web worth Hubbing
-* **Hubbed items** include 
+* **Hubbed items** are database records composed of: 
+	* title and URL 
 	* my notes: what I found interesting in the article, and why
 	* tags (currently manually generated)
 	* summaries of my notes, generated automatically by ChatGPT using the summariser built into the pilot ChatGPT integration (Summariser 0, or "S-0")
 		* Summarisers are explained below
-* Hubbed items can be organised into **Collections** using the MyHub interface. Collection 1 ("C-1") is shown.
+	* Type (Like, Think or Do): irrelevant to AI for now but pretty important to humans - see [All the Stuff you Like, Think and Do in one place ](https://myhub.ai/items/faq-what-is-myhubai-what-is-a-hub-and-whos-it-for)
+* Hubbed items can be organised into **Collections** using the MyHub interface. Collection 1 ("C-1") is shown in the diagram, and might for example correspond to all [The Best Stuff I Like or Do or Think about Everything tagged ai & disinformation,  Anytime]( https://myhub.ai/@mathewlowry/?tags=disinformation&types=like&types=do&types=think&timeframe=anytime&quality=best&tags=ai)
 * For each Collection, experiments can be run using several files:
-	* Currently, using [[Pilot integration]], I can send the Summariser-0 summaries of Collection 1 ("**C-1-S-0**") to ChatGPT using any prompt 
-	* The entirety of the Notes in the Collection are used to create "**C-1-AllNotes**". 
-		* (To create this file I pass [the Collection's RSS feed](https://myhub.ai/items/faq-are-there-rss-feeds) through the [[RSS AllNotes Prompt]] manually)
+	* Currently I can send the Summariser-0 summaries of Collection 1 ("**C-1-S-0**") to ChatGPT using any prompt using the [[Pilot integration]] already in place
+	* The entirety of the Notes in the Collection can also be used to create "**C-1-AllNotes**", by passing [the Collection's RSS feed](https://myhub.ai/items/faq-are-there-rss-feeds) through the [[RSS AllNotes Prompt]] manually
 	* C-1-AllNotes are also processed using 2 or more other Summarisers to compare against Summariser-0. 
 		* These are called S-n (n=1,2,3...)
 		* Each S-n can be set to a maximum word length X, as each Summariser needs to be tested at different word lengths
-		* each experiment therefore involves a Summariser called "S-n-X" operating on the Collection, resulting in "**C-1-S-n-X" being sent to ChatGPT
-* The above three files are sent to ChatGPT using (in the above diagram) Prompt 1 ("P-1"), and the three responses compared:
+		* each experiment therefore involves a Summariser called "S-n-X" operating on the Collection ("*Summariser S-n set to max. word length of X*"), resulting in "**C-1-S-n-X" being sent to ChatGPT
+* Final step: the above three files are sent to ChatGPT using a Prompt (in the above diagram, Prompt 1, or "P-1"), creating three responses to be compared:
 	* **C-1-S-0-response-P-1**
 	* **C-1-AllNotes-response-P-1**
 	* **C-1-S-n-x-response-P-1**
-* The same experiment can be done with a variety of Prompts
+* The same experiment can be done with a variety of Prompts, Collections and Summarisers, with the Summarisers se to different max. lengths.
 
 ---
 ## Context

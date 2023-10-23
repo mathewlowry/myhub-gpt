@@ -6,14 +6,14 @@ modification date: 206 July 2023 10:30:02
 **What will the LLM integration into MyHub.ai look like?**
 
 ## Upon item creation
-**When User Hubs a Resource:**
-* if note>threshold.length then create a **summary** of the item of length threshold.length
+When User Hubs a Resource, including creating a note about the resource:
+* if note>threshold.length then create an **AI Summary** of the item of length **threshold.length**
 
 Notes on threshold length: 
 * higher threshold length - each item sent to chatgpt is on average larger and more likely to be an original note, not a summary, so:
 	* more original notes and fewer summaries are used
 	* larger collections impossible 
-* lower threshold length - more summaries are generated, so larger collections are possible, but with fewer original notes: chatgpt will be working with more summaries
+* lower threshold length - more summaries are generated, so larger collections are possible, but with fewer original notes: chatgpt will be sent more summaries
 
 ## Accessing MyHub LLM Agents
 Logged-in Hub Editors will have: 
