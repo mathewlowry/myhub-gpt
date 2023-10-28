@@ -1,8 +1,9 @@
-# Experiments 2 - 4 
-Three early Experiments in thematic analysis and visualisation:
+
+See [[Experiments 2 3 4]]
 
 ## Early experiments: 2-3
 These were early experiments, before I had really thought through what I was testing, and it shows - for example:
+
 * Collection 2 had 420 resources in it: when I tried feeding all the notes into ChatGPT manually to create the "AllNotes" version of the collection, ChatGPT told me it was too long; chances are the S-0 summaries were too. 
 * I only use Summariser 0
  
@@ -17,6 +18,7 @@ What of the Experiment 2 mindmap ([[C-2-S-0-response-P2-mindmap.jpeg]])? While C
 Did we do better with a collection of only 10 resources? 
 
 Even with only 10 resources, it's a lot of work for me to evaluate the appropriateness of all 6 themes and 27 subthemes ChatGPT found within them. At first glance the 6 themes look right, but a moment's thought and research reveals:
+
 * themes like "The brain's decision-making processes and susceptibility to misinformation" and "The importance of understanding cognitive biases and psychological factors in information processing" are pretty much saying the same thing
 * for the subtheme "Predictive coding and interpretation of sensory information", only one item in the collection mentioned "Predictive coding", and none of them mentioned "interpretation of sensory information"
 * for the subtheme "Reconstruction of memories and misattribution of information" I found no mention of "Reconstruction", although I found one (again, just one) mention of "misattribution" 
@@ -24,6 +26,7 @@ Even with only 10 resources, it's a lot of work for me to evaluate the appropria
 Moreover, when I asked it to identify subthemes which appear in more than one theme, it started making things up: the subtheme "Impact of media literacy education and fact-checking efforts" does *not* appear in the theme of "the need for effective communication, dialogue, and understanding in addressing misinformation and promoting accurate information", simply because that theme does not exist.
 
 The mindmap ([[C-3-S-0-response-P2-mindmap.png]]), on the other hand, is a lot better than in Experiment 2. All top-level themes are present and it's easier to read. But some subthemes are missing:
+
 * The use of explicit warnings and counterarguments to inoculate against misinformation 
 * Exposing individuals to a little bit of science denial to counter science denial  
 * Discrepancy between elite media commentators and grassroots groups/independent media outlets  
@@ -45,6 +48,7 @@ Experiment 4 is an evolution of Experiments 2 & 3 in that the same collection an
 
 ### New goal
 However, I'm aiming for a different goal, reflecting the problems discovered earlier:
+
 * Hallucinations
 	* In all experiments, ChatGPT hallucinates *credibly* - while it makes stuff up, it's believable stuff. 
 	* Moreover, the hallucinations took some finding: I had to dig back into the original texts to spot where it made stuff up
@@ -58,7 +62,8 @@ So rather than trying to get an accurate visualisation of a Collection, I'm now 
 
 For this, a different mindmap is required, showing both the articles and the themes. 
 ### New prompt
-Hence the new Prompt [[Prompt 2b themes]]. However
+Hence the new Prompt [[Prompt 2b themes]]. However:
+
 * I fed precisely the same prompt and collection to ChatGPT and got two completely different responses - see the themes identified by ChatGPT in [[C-3-AllNotes-response-P-2b-1]] and  [[C-3-AllNotes-response-P-2b-2]]
 * Moreover, Mermaid doesnt seem able to create a concept map which is *not* a centralised mindmap.
 
@@ -66,55 +71,3 @@ Hence the new Prompt [[Prompt 2b themes]]. However
 Maybe what I need is https://graphviz.org/Gallery/neato/ER.html
 
 
-
-
-
-
-## Experiments 2 - 4
-Experiments Experiments 2 & 3 were early experiments into thematic analysis and visualisation performed only via the chatgpt/myhub integration pilot, before I had the experimental system worked out. I then made Experiment 4 by tweaking the collections and prompts from Experiment 3.
-
-* Experiment 2
-	* Collection 2: "the best stuff I like" https://myhub.ai/@mathewlowry/?quality=best&types=like&timeframe=anytime
-	* Summariser 0
-	* AllNotes was too long for ChatGPT 
-	* Agent Prompt: [[Prompt 2 themes & subthemes]]
-	* Response: [[C-2-S-0-response-P-2]]
-* Experiment 3
-	* Collection 3: "the best stuff tagged psychology and disinformation" https://myhub.ai/@mathewlowry/?tags=disinformation&types=like&timeframe=anytime&quality=best&tags=psychology 
-	* Summariser 0
-	* Agent Prompt: [[Prompt 2 themes & subthemes]]
-	* Response: [[C-3-S-0-response-P-2]]
-* Experiment 4: aiming for a different style of visualisation
-	* Collection 3: "the best stuff tagged psychology and disinformation" https://myhub.ai/@mathewlowry/?tags=disinformation&types=like&timeframe=anytime&quality=best&tags=psychology 
-	* AllNotes: [[C-3-allnotes]]
-	* [[Summarisers]]: Summariser 1 [[C-3-S-1-150]]
-	* Agent Prompt: [[Prompt 2b themes]]
-	* Response: [[C-3-AllNotes-response-P-2b-1]]
-	* Response: [[C-3-AllNotes-response-P-2b-2]] (same prompt, entirely different thematic analysis from ChatGPT)
-	* Response: [[C-3-S-1-150-response-P-2b]]
-* Analysis: [[Experiments 2 - 4 analysis]]
-
-
-## Experiments 2 - 4
-Experiments Experiments 2 & 3 were early experiments into thematic analysis and visualisation performed only via the chatgpt/myhub integration pilot, before I had the experimental system worked out. I then made Experiment 4 by tweaking the collections and prompts from Experiment 3.
-
-* Experiment 2
-	* Collection 2: "the best stuff I like" https://myhub.ai/@mathewlowry/?quality=best&types=like&timeframe=anytime
-	* Summariser 0
-	* AllNotes was too long for ChatGPT 
-	* Agent Prompt: [[Prompt 2 themes & subthemes]]
-	* Response: [[C-2-S-0-response-P-2]]
-* Experiment 3
-	* Collection 3: "the best stuff tagged psychology and disinformation" https://myhub.ai/@mathewlowry/?tags=disinformation&types=like&timeframe=anytime&quality=best&tags=psychology 
-	* Summariser 0
-	* Agent Prompt: [[Prompt 2 themes & subthemes]]
-	* Response: [[C-3-S-0-response-P-2]]
-* Experiment 4: aiming for a different style of visualisation
-	* Collection 3: "the best stuff tagged psychology and disinformation" https://myhub.ai/@mathewlowry/?tags=disinformation&types=like&timeframe=anytime&quality=best&tags=psychology 
-	* AllNotes: [[C-3-allnotes]]
-	* [[Summarisers]]: Summariser 1 [[C-3-S-1-150]]
-	* Agent Prompt: [[Prompt 2b themes]]
-	* Response: [[C-3-AllNotes-response-P-2b-1]]
-	* Response: [[C-3-AllNotes-response-P-2b-2]] (same prompt, entirely different thematic analysis from ChatGPT)
-	* Response: [[C-3-S-1-150-response-P-2b]]
-* Analysis: [[Experiments 2 - 4 analysis]]

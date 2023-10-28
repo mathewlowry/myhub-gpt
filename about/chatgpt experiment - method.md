@@ -53,7 +53,7 @@ This begs some questions - for example, given the same prompt and collection:
 
 Then there's the questions of the Prompts. What's the best Prompt to create a newsletter summary? A knowledge visualisation? To generate ideas for a blog post or a paper? And does each prompt work well for all collections, or only some?
 
-In fact, to optimise the [[chatgpt integration system]] I need to test quite a few moving parts, so each experiment involves a number of different variables:
+In fact, to optimise the [[Chatgpt Integration planned]] I need to test quite a few moving parts, so each experiment involves a number of different variables:
 
 - the **Agent Prompt**, corresponding to the task the Agent is designed to perform for the User
 - the **Collection** of Hubbed items created by the User, to which the Agent Prompt is applied 
@@ -90,7 +90,7 @@ Moreover, we also need Collection Composer: when an Editor activates an Agent, t
 - on the other hand, if all the notes' Summaries total 8000 tokens, the Collection is rejected as too large from the outset
 - something interesting happens in the middle ground: where the notes total over 8000 tokens, Collection Composer substitutes some notes with their Summaries, starting with notes which are not Highlighted and which are only slightly over the Summary Threshold.
 
-In this way ChatGPT gets the Editor's notes of the Collection where possible, and their Summaries if the Collection's notes are either too numerous, too long, or both. The actual algorithm is spelt out a little more explicitly in [[chatgpt integration system]], while all Summarisers can be found in [[Summarisers]].
+In this way ChatGPT gets the Editor's notes of the Collection where possible, and their Summaries if the Collection's notes are either too numerous, too long, or both. The actual algorithm is spelt out a little more explicitly in [[Chatgpt Integration planned]], while all Summarisers can be found in [[Summarisers]].
 
 ### Questions to answer
 

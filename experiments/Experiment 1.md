@@ -1,7 +1,6 @@
-## Experiment 1
-^56fa46
-* created 2023-08-15
-* C-1-S-1-150-P-1
+
+Created 2023-08-15:
+* Analysis: [[Experiment 1 Analysis]]
 * Collection 1
 	* Facets: like, creativity, innovation
 	* URL: https://myhub.ai/@mathewlowry/?tags=creativity&types=like&timeframe=anytime&quality=all&tags=innovation
@@ -14,5 +13,4 @@
 	* [[C-1-S-0-response-P-1]] - bug reported 2023-08-15 fixed on 2023-08-16
 	* [[C-1-AllNotes-response-P-1]]
 	*  [[C-1-S-1-150-response-P-1]]
-* Analysis: [[Experiment 1 Analysis]]
 

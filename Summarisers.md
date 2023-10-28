@@ -15,9 +15,10 @@ Summarisers are prompts used by MyHub to create summaries of my Hubbed notes abo
 I will give you a set of items. Each item represents an article, and is composed of the article's title, its URL and a description. Reproduce the list, but if the description is longer than 150 words, replace it with a summary of 150 words. Here are the items:
 
 ## Summariser 0 
+
 This Summariser's built in to MyHub-ChatGPT pilot integration, and so will be used as a baseline for most experiments. It tends to create very short summaries:
 
-"_**Write a concise summary of the following:  "
+Write a concise summary of the following:  
 
 
 

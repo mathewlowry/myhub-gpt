@@ -1,7 +1,9 @@
-## Experiment 5 
-While I investigate visualisation options for finishing Experiment 4, I've decided to build on the results of Experiment 1 to create a weekly newsletter:
+**While I investigate visualisation options for finishing Experiment 4, I've decided to build on the results of [[Experiment 1]].**
 
-* C-5-S-0-P-5
+Status: *underway.*
+
+Files:
+
 * Collection 5: stuff I Hubbed week ending 2023-10-22: [[C-5-AllNotes]]
 * Prompt: [[Prompt 5 - Ideas from recent articles]]
 	* designed to reflect the recommend from Experiment 1: "Use ChatGPT outputs as idea generators rather than sources of literal truth"
