@@ -9,7 +9,9 @@ modification date: 206 July 2023 10:30:02
 
 This video sets out some wireframes: 
 
-However, behind the scenes there are some calculations being made:
+<< video>> 
+
+However, behind the scenes there are some calculations being made, as explained in [[chatgpt experiment - method]]:
 
 ## Upon item creation
 When User Hubs a Resource, including creating a note about the resource, the following test is made:

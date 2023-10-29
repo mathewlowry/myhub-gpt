@@ -26,9 +26,9 @@ To understand the experiments in this repository you need to read At a glance, b
 	* C-1-AllNotes are also processed using 2 or more other Summarisers to compare against Summariser-0. 
 		* These Summarisers are called S-n (n=1,2,3...)
 		* Each S-n can be set to a maximum word length X, as each Summariser needs to be tested at different word lengths
-	* Each experiment therefore involves a Summariser called "S-n-X" ("*Summariser S-n set to max. word length of X*") operating on the Collection C-n, resulting in "**C-1-S-n-X" being sent to ChatGPT
+		* Each experiment therefore involves a Summariser called "S-n-X" ("*Summariser S-n set to max. word length of X*") operating on the Collection C-n, resulting in "**C-1-S-n-X**" being sent to ChatGPT
 * Final step: the above three files (C-1-S-0, C-1-AllNotes and C-1-S-n-X) are sent to ChatGPT using a Prompt "P-n" (in the above diagram, Prompt 1, or "P-1").
-* This creates three responses to be compared:
+* This creates three **responses** to be compared and analysed:
 	* **C-1-S-0-response-P-1**
 	* **C-1-AllNotes-response-P-1**
 	* **C-1-S-n-x-response-P-1**
@@ -95,15 +95,16 @@ In this way ChatGPT gets the Editor's notes of the Collection where possible, an
 ### Questions to answer
 
 So we now have several questions requiring experiments to answer:
+
 - What is the best Agent Prompt for each task?
 - What is the best Summariser Prompt for capturing the essence of each note?
 - How long should Summary Threshold be?
 
-Moreover, is the best combination of Summariser Prompt, Summary Threshold and Agent Promot good for *all* Collections, or just the one I used in my first round of tests? So I need to test all these variables against Collection 1, Collection 2...
+Moreover, is the best combination of Summariser Prompt, Summary Threshold and Agent Promot good for *all* Collections, or just the one I used in my first round of tests? So I need to test all these variables against multiple Collections.
 
 Hence the name of my first experiment (C-1-S-1-150-P-1): testing Prompt 1 on Collection 1 using Summariser 1 set to a max length of 150 words. These files, the resulting responses from ChatGPT and my analyses of them can all be found in [[ChatGPT Experiment log]].
 
 --- 
 ### archived content
-[[Experimental nomenclature]]
+[[Experimental nomenclature - archived]]
 [[experiment round 1 - archived]]
