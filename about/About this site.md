@@ -1,4 +1,4 @@
-
+# About this site
 ## Welcome to my research notebook
 
 As explained on the homepage (aka [[README]]), I'm currently running some experiments to figure out how best to integrate Large Language Models with [MyHub.ai](https://myhub.ai/), which I launched in early 2020, just as the Covid pandemic swept the world. 
