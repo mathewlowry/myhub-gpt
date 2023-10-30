@@ -1,3 +1,14 @@
+
+## Welcome to my research notebook
+
+As explained on the homepage (aka [[README]]), I'm currently running some experiments to figure out how best to integrate Large Language Models with [MyHub.ai](https://myhub.ai/), which I launched in early 2020, just as the Covid pandemic swept the world. 
+
+[My personal hub on MyHub](https://myhub.ai/@mathewlowry/) is both an example of what a Hub is, and gives you a fair idea of the sorts of things I am into and where to connect with me.
+
+Given that I am managing my research notes in Obsidian, sharing them here via a massive wiki (below) was the obvious solution.
+
+## This site is a massive wiki
+
 This site is a massive wiki, which essentially means it's:
 
 * my notes (in this case on my experiments with integrating MyHub.ai with Large Language Models), stored and edited on my PCs in markdown format
