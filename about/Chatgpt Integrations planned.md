@@ -23,7 +23,7 @@ Logged-in Hub Editors will have:
 
 ## Behind the scenes: respecting token limits
 
-Behind the scenes, obviously, there are some calculations being made to ensure the token limit is not exceeded, as explained in [[chatgpt experiment - method]].
+Behind the scenes, obviously, there are some calculations being made to ensure the token limit is not exceeded, as explained in [[Experimental method]].
 
 ### Upon item creation
 When User Hubs a Resource, including creating a note about the resource, the following test is made: 

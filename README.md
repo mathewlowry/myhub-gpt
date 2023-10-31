@@ -19,10 +19,10 @@ As the MyHub,ai Early Adopters will soon get to play with this AI-boosted versio
 	* Do you have your own ChatGPT API key *and* a Hub? Email me and I'll set this up for you
 * Tomorrow: How (do I currently imagine) will the LLM integration into MyHub.ai look like in future? See [[Chatgpt Integrations planned]]
 
-### My experiments
+### Research
 
-* [[ChatGPT Experiment log]]
-* [[chatgpt experiment - method]] 
+* [[ChatGPT Experiment log]]: the actual experiments
+* [[Experimental method]]: 
 * The various [[Agent Prompts]] and [[Summarisers]] used in the experiments
 * [[Ideas log]] where I drop ideas for future experiments and blog posts as I go.
   

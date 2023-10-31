@@ -2,7 +2,7 @@
 creation date: 2023-08-08 10:57
 modification date: 220 August 2023 10:57:03
 ---
-# chatgpt experiment method, created # 2023-08-08 10:57
+# Experimental method, created # 2023-08-08 10:57
 
 To understand the experiments in this repository you need to read At a glance, below. To understand *why*, you need to read Context, which comes after it.
 ## At a glance

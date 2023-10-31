@@ -1,10 +1,10 @@
 **The first results from my series of experiments to identify the most valuable MyHub Agent prompts are promising and confusing in equal measure.**
 
 See [[Experiment 1]] for all files. Below:
+
 * the outputs being evaluated
 * three executive summaries of what I found, written with ChatGPT
 * what I found when I examined the outputs in depth.
-* 
 ## Outputs being evaluated
 Experiment 1's full title is C-1-S-1-150-P-1, so the three outputs to compare are:
 
@@ -16,9 +16,9 @@ Experiment 1's full title is C-1-S-1-150-P-1, so the three outputs to compare ar
 
 If you check out the original Collection and input files, you'll see that for many Notes there wasn't a huge difference between the AllNotes and S-1-150 versions sent to ChatGPT.
 
-That's probably \due to the way I've changed how I Hub resources, creating the notes which are usually summarised before being sent to ChatGPT:
+That's probably due to the way I've changed how I Hub resources, creating the notes which are usually summarised before being sent to ChatGPT:
 
-* for many years many of my Hubbed notes were more like bookmarks, providing a quick summary of why I thought a resource was worth reading, but not summarising what I learnt from it. 
+* for many years, many of my Hubbed notes were more like bookmarks, providing a quick summary of why I thought a resource was worth reading, but not summarising what I learnt from it. 
 * it was only a few years ago, after reading [Sonke Ahren's "How to write smart notes"](https://www.soenkeahrens.de/de/takesmartnotes), that I more consistently spent more time summarising in my own words what I found valuable in the resources I Hubbed ([example](https://myhub.ai/items/ai-is-life)).
 
 ---
@@ -68,7 +68,7 @@ WTF, ChatGPT?
 ### Links in Editorial to articles (winner: S-1-150?) ^4fc4d4
 
 * I started this experiment by sending the S-1-150 summaries to ChatGPT with a simpler version of Prompt 1, which is why the S-1-150 response ([[C-1-S-1-150-response-P-1]]) has two "attempts". When I saw that my first attempt hadn't linked the article titles to their URLs, I replied with: *"You forgot to make the articles link to the provided URLs. Provide the same content but in markdown format, with each article title linked to the URL provided with it"* , creating attempt 2, which has links throughout the editorial, as requested.
-* I then included this instruction in Prompt 1 *before* applying it to the other inputs. Despite this, neither included the links in the editorial. Perhaps asking ChatGPT twice simply gets a better result? Something to explore in [[Experiment 2]]
+* I then included this instruction in Prompt 1 *before* applying it to the other inputs. Despite this, neither included the links in the editorial. Perhaps asking ChatGPT twice simply gets a better result? Something to explore later.
 ### Editorial Form (winner: S-0)
 The AllNotes response is easy to "Fail": it provides 14 (admittedly good) summaries of 14 articles, but draws no links between them, as ChatGPT was specifically instructed. The other two responses did better, providing paragraphs drawing on multiple articles. 
 
