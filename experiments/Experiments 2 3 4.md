@@ -23,9 +23,12 @@ Links follow:
 ## Experiment 4: C-3-S-1-150-P-2b-x
 
 Aiming for a different style of visualisation:
+
 * Collection 3: "the best stuff tagged psychology and disinformation" https://myhub.ai/@mathewlowry/?tags=disinformation&types=like&timeframe=anytime&quality=best&tags=psychology 
 * AllNotes: [[C-3-allnotes]]
 * [[Summarisers]]: Summariser 1 [[C-3-S-1-150]]
 * Agent Prompt: [[Prompt 2b themes]]
-* Response: [[C-3-AllNotes-response-P-2b-1]]
-* Response: [[C-3-AllNotes-response-P-2b-2]] (same prompt, entirely different thematic analysis from ChatGPT) 
+* Responses: 
+	* [[C-3-AllNotes-response-P-2b-1]]
+	* [[C-3-AllNotes-response-P-2b-2]] (same prompt, entirely different thematic analysis from ChatGPT) 
+	* to be continued... 

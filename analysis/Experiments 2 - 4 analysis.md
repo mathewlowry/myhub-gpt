@@ -12,12 +12,13 @@ Nevertheless, I'm analysing here their results to better design experiment 4.
 ### Experiment 2
 The single most used tag in the collection was psychology (68 resources), yet this was not mentioned as a theme or subtheme. This may be because there was too much content for ChatGPT to consume, of course.
 
-What of the Experiment 2 mindmap ([[C-2-S-0-response-P2-mindmap.jpeg]])? While ChatGPT identified 8 toplevel themes, the mindmap only displays 4. Not good.
-
+What of the Experiment 2 mindmap?
+[[C-2-S-0-response-P2-mindmap.jpeg]] 
+While ChatGPT identified 8 toplevel themes, the mindmap only displays 4. Not good.
 ### Experiment 3
 Did we do better with a collection of only 10 resources? 
 
-Even with only 10 resources, it's a lot of work for me to evaluate the appropriateness of all 6 themes and 27 subthemes ChatGPT found within them. At first glance the 6 themes look right, but a moment's thought and research reveals:
+Even with only 10 resources, it's a lot of work for me to evaluate the appropriateness of all 6 themes and 27 subthemes ChatGPT found within them (see [[C-3-S-0-response-P-2]]. At first glance the 6 themes look right, but a moment's thought and research reveals:
 
 * themes like "The brain's decision-making processes and susceptibility to misinformation" and "The importance of understanding cognitive biases and psychological factors in information processing" are pretty much saying the same thing
 * for the subtheme "Predictive coding and interpretation of sensory information", only one item in the collection mentioned "Predictive coding", and none of them mentioned "interpretation of sensory information"
@@ -25,7 +26,11 @@ Even with only 10 resources, it's a lot of work for me to evaluate the appropria
 
 Moreover, when I asked it to identify subthemes which appear in more than one theme, it started making things up: the subtheme "Impact of media literacy education and fact-checking efforts" does *not* appear in the theme of "the need for effective communication, dialogue, and understanding in addressing misinformation and promoting accurate information", simply because that theme does not exist.
 
-The mindmap ([[C-3-S-0-response-P2-mindmap.png]]), on the other hand, is a lot better than in Experiment 2. All top-level themes are present and it's easier to read. But some subthemes are missing:
+The mindmap on the other hand, is a lot better than in Experiment 2. 
+
+[[C-3-S-0-response-P2-mindmap.png]]
+
+All top-level themes are present and it's easier to read. But some subthemes are missing:
 
 * The use of explicit warnings and counterarguments to inoculate against misinformation 
 * Exposing individuals to a little bit of science denial to counter science denial  
