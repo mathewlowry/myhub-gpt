@@ -2,7 +2,9 @@ Experiments 2 & 3 were early experiments into thematic analysis and visualisatio
 
 Note that all visualisations (so far) involve asking ChatGPT to give me mermaid code, which I then need to paste into mermaid.live. Building this feature direct into MyHub.ai would be pretty cool... but only if it's actually useful. Hence these experiments.
 
-Full analysis of results: [[Experiments 2 - 4 analysis]].
+*Status*: Experiment 4 still underway 
+
+Full analysis of results (so far): [[Experiments 2 - 4 analysis]].
 
 Links follow:
 
