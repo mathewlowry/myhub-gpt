@@ -4,7 +4,7 @@
 I will provide you an analysis of an experiment into the best way of using ChatGPT to create a newsletter summarising the content of 14 different articles, You will write an executive summary of the analysis of no longer than 400 words.
 
 Here is the original analysis, in markdown format:
--- [[Experiment 1 Analysis chatgpt execsumm]] inserted --
+-- [[experiment 1 analysis chatgpt execsumm]] inserted --
 
 #### ChatGPT:
 # Executive Summary of Experiment Analysis: Optimizing ChatGPT for Newsletter Creation

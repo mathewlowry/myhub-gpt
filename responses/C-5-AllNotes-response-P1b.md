@@ -1,4 +1,4 @@
-# Summarize Articles for Newsletter
+# C-5-AllNotes-response-P1b:  Summarize Articles for Newsletter
 
 #### You:
 You are a skilled summariser of online content for newsletters. I will give you a set of articles. For each article I will give you its title, URL and a summary text. You will summarise each article and list them in the following format:

@@ -1,6 +1,8 @@
+# Experiment 1 Analysis
+
 **The first results from my series of experiments to identify the most valuable MyHub Agent prompts are promising and confusing in equal measure.**
 
-See [[Experiment 1]] for all files. Below:
+See [[experiment 1]] for all files. Below:
 
 * the outputs being evaluated
 * three executive summaries of what I found, written with ChatGPT
@@ -8,11 +10,11 @@ See [[Experiment 1]] for all files. Below:
 ## Outputs being evaluated
 Experiment 1's full title is C-1-S-1-150-P-1, so the three outputs to compare are:
 
-- [[C-1-AllNotes-response-P-1]]: what I get back from ChatGPT  
+- [[c-1-allnotes-response-p-1]]: what I get back from ChatGPT  
 	- when I send it the entirety of the contents of the 14 Hubbed notes in Collection 1 ("[All the Stuff I Like about Everything tagged #creativity & #innovation, Anytime](https://myhub.ai/@mathewlowry/?tags=creativity&types=like&timeframe=anytime&quality=all&tags=innovation)") 
-	- and ask [[Prompt 1 - newsletter A]] (500 word editorial summarising the main themes & brief summaries of each article)
-- [[C-1-S-0-response-P-1.md]]: what ChatGPT returns when sent "Summariser 0" summaries of the posts in Collection 1, with Prompt 1
-- [[C-1-S-1-150-response-P-1.md]]: what ChatGPT returns when sent "Summariser 1" summaries, set to a maximum length of 150 words, of the posts in Collection 1, with Prompt 1.
+	- and ask [[prompt 1 - newsletter a]] (500 word editorial summarising the main themes & brief summaries of each article)
+- [[c-1-s-0-response-p-1]]: what ChatGPT returns when sent "Summariser 0" summaries of the posts in Collection 1, with Prompt 1
+- [[c-1-s-1-150-response-p-1]]: what ChatGPT returns when sent "Summariser 1" summaries, set to a maximum length of 150 words, of the posts in Collection 1, with Prompt 1.
 
 If you check out the original Collection and input files, you'll see that for many Notes there wasn't a huge difference between the AllNotes and S-1-150 versions sent to ChatGPT.
 
@@ -36,22 +38,22 @@ Those hallucinations, however, could be valuable if I wasn't trying to write a n
 ### ChatGPT's exec summary
 Then I asked ChatGPT's opinion: "*I will provide you an analysis of an experiment into the best way of using ChatGPT to create a newsletter summarising the content of 14 different articles, You will write an executive summary of the analysis of no longer than 400 words. Here is the original analysis, in markdown format:*"
 
-Its full response is [[Experiment 1 Analysis chatgpt execsumm]] (425 words), but the final section is worth embedding here:
-![[Experiment 1 Analysis chatgpt execsumm#Lessons and Recommendations]]
+Its full response is [[experiment 1 analysis chatgpt execsumm]] (425 words), but the final section is worth embedding here:
+![[experiment 1 analysis chatgpt execsumm#Lessons and Recommendations]]
 
 ### Final executive summary
 What I wrote initially still stands, but bringing in ChatGPT to help write this executive summary helped me see better what I should be doing in the next experiment(s).
 
 Rather than evaluating different versions and word lengths of S-1 (ie, S-1-250, S-2-100...), I think I'll focus first on varying the prompt: rather than asking for a nice summary of Hubbed resources in newsletter format, I'll explore Prompts which, as ChatGPT puts it, "*Use ChatGPT outputs as idea generators rather than sources of literal truth*".
 
-Update: see [[Experiment 5]], where I do precisely that.
+Update: see [[experiment 5]], where I do precisely that.
 
 ---
 ## What I found
 
 **And now for some analysis:**
 
-Sent the same prompt [[Prompt 1 - newsletter A]], the differences between ChatGPT's proposed newsletters are striking.
+Sent the same prompt [[prompt 1 - newsletter a]], the differences between ChatGPT's proposed newsletters are striking.
 ### Title and opening drivel
 * **title** (winner: AllNotes): personally I find the AllNotes version ("Unveiling the Dynamics of Innovation, Creativity, and Collaboration") as least worse, as the other two had glaring clunkers ("Persistent Efforts", "Diverse Perspectives") which have no place in any title. In any case I'd almost certainly rewrite the title after editing the Editorial, so this is only a minor "win" for AllNotes.
 * **opening drivel** (winner: S-1-150): this bullet was going to be "opening paragraph", but in all cases the opening paragraph - so important to an article like this - were great examples of "reversion to the mean", where the mean has been defined by New Grub Street marketing hacks over the last decades of a decaying civilisation. I detest all of them and refuse to pick a "winner", although the S-1-150 version is the one I'd rewrite as it provides more concrete ideas to work with.
@@ -67,7 +69,7 @@ WTF, ChatGPT?
 
 ### Links in Editorial to articles (winner: S-1-150?) ^4fc4d4
 
-* I started this experiment by sending the S-1-150 summaries to ChatGPT with a simpler version of Prompt 1, which is why the S-1-150 response ([[C-1-S-1-150-response-P-1]]) has two "attempts". When I saw that my first attempt hadn't linked the article titles to their URLs, I replied with: *"You forgot to make the articles link to the provided URLs. Provide the same content but in markdown format, with each article title linked to the URL provided with it"* , creating attempt 2, which has links throughout the editorial, as requested.
+* I started this experiment by sending the S-1-150 summaries to ChatGPT with a simpler version of Prompt 1, which is why the S-1-150 response ([[c-1-s-1-150-response-p-1]]) has two "attempts". When I saw that my first attempt hadn't linked the article titles to their URLs, I replied with: *"You forgot to make the articles link to the provided URLs. Provide the same content but in markdown format, with each article title linked to the URL provided with it"* , creating attempt 2, which has links throughout the editorial, as requested.
 * I then included this instruction in Prompt 1 *before* applying it to the other inputs. Despite this, neither included the links in the editorial. Perhaps asking ChatGPT twice simply gets a better result? Something to explore later.
 ### Editorial Form (winner: S-0)
 The AllNotes response is easy to "Fail": it provides 14 (admittedly good) summaries of 14 articles, but draws no links between them, as ChatGPT was specifically instructed. The other two responses did better, providing paragraphs drawing on multiple articles. 
@@ -123,7 +125,7 @@ AllNotes' consistency reduces the editorial polishing time, and so wins this par
 ### Article list content
 This obviously subjective comparison is made more difficult by the above length differences. 
 
-For example, [[C-1-S-0-response-P-1#[The downside of diversity](http //archive.boston.com/news/globe/ideas/articles/2007/08/05/the_downside_of_diversity/?page=full)|the summary of "The downside of diversity" based on the S-0 input]] provides more information, while the [[C-1-S-1-150-response-P-1#^2ca69e|S-1-150]] and [[C-1-AllNotes-response-P-1#^52bbb1|AllNotes]] versions benefit from their pithiness. Which is "best"? 
+For example, [[c-1-s-0-response-p-1#[The downside of diversity](http //archive.boston.com/news/globe/ideas/articles/2007/08/05/the_downside_of_diversity/?page=full)|the summary of "The downside of diversity" based on the S-0 input]] provides more information, while the [[c-1-s-1-150-response-p-1#^2ca69e|S-1-150]] and [[c-1-allnotes-response-p-1#^52bbb1|AllNotes]] versions benefit from their pithiness. Which is "best"? 
 
 * Given I wanted summaries of 80, not 18, words in length, S-0 wins by being closer to the target length.
 * If I'd valued pithiness, the S-1-150 captures the essence of the article better than the AllNotes version, which misses the "pros and cons" argument entirely, despite being longer and *despite [[C-1-AllNotes-response-P-1#*The downside of diversity*|capturing it perfectly well in its Editorial!]].*

@@ -1,3 +1,5 @@
+# Prompt 2: themes & subthemes, visualised
+
 You are a superb organiser of ideas and content. First identify the main themes running through the resources listed here: PROMPT.
 
 For each theme, identify the main subthemes within it.

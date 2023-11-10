@@ -1,5 +1,6 @@
+# Experiments 2 - 4: analysis
 
-See [[Experiments 2 3 4]]
+See [[experiments 2 3 4]]
 
 ## Early experiments: 2-3
 These were early experiments, before I had really thought through what I was testing, and it shows - for example:
@@ -13,12 +14,12 @@ Nevertheless, I'm analysing here their results to better design experiment 4.
 The single most used tag in the collection was psychology (68 resources), yet this was not mentioned as a theme or subtheme. This may be because there was too much content for ChatGPT to consume, of course.
 
 What of the Experiment 2 mindmap?
-[[C-2-S-0-response-P2-mindmap.jpeg]] 
+[[c-2-s-0-response-p2-mindmap.jpeg]] 
 While ChatGPT identified 8 toplevel themes, the mindmap only displays 4. Not good.
 ### Experiment 3
 Did we do better with a collection of only 10 resources? 
 
-Even with only 10 resources, it's a lot of work for me to evaluate the appropriateness of all 6 themes and 27 subthemes ChatGPT found within them (see [[C-3-S-0-response-P-2]]. At first glance the 6 themes look right, but a moment's thought and research reveals:
+Even with only 10 resources, it's a lot of work for me to evaluate the appropriateness of all 6 themes and 27 subthemes ChatGPT found within them (see [[c-3-s-0-response-p-2]]. At first glance the 6 themes look right, but a moment's thought and research reveals:
 
 * themes like "The brain's decision-making processes and susceptibility to misinformation" and "The importance of understanding cognitive biases and psychological factors in information processing" are pretty much saying the same thing
 * for the subtheme "Predictive coding and interpretation of sensory information", only one item in the collection mentioned "Predictive coding", and none of them mentioned "interpretation of sensory information"
@@ -28,7 +29,7 @@ Moreover, when I asked it to identify subthemes which appear in more than one th
 
 The mindmap on the other hand, is a lot better than in Experiment 2. 
 
-[[C-3-S-0-response-P2-mindmap.png]]
+[[c-3-s-0-response-p2-mindmap.png]]
 
 All top-level themes are present and it's easier to read. But some subthemes are missing:
 
@@ -67,9 +68,9 @@ So rather than trying to get an accurate visualisation of a Collection, I'm now 
 
 For this, a different mindmap is required, showing both the articles and the themes. 
 ### New prompt
-Hence the new Prompt [[Prompt 2b themes]]. However:
+Hence the new Prompt [[prompt 2b themes]]. However:
 
-* I fed precisely the same prompt and collection to ChatGPT and got two completely different responses - see the themes identified by ChatGPT in [[C-3-AllNotes-response-P-2b-1]] and  [[C-3-AllNotes-response-P-2b-2]]
+* I fed precisely the same prompt and collection to ChatGPT and got two completely different responses - see the themes identified by ChatGPT in [[c-3-allnotes-response-p-2b-1]] and  [[c-3-allnotes-response-p-2b-2]]
 * Moreover, Mermaid doesnt seem able to create a concept map which is *not* a centralised mindmap.
 
 ### New visualisation engine (up to here)

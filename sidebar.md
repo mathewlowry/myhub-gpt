@@ -14,17 +14,17 @@ Instead of bullet lists, use plain lines, with two space characters added to the
 
 ## Research
 
-[[ChatGPT Experiment log]]  
-[[Experimental method]]  
-[[Agent Prompts]]  
-[[Summarisers]]  
+[[experiment log]]  
+[[experimental method]]  
+[[agent prompts]]  
+[[summarisers]]  
 [[Ideas log]]   
 ## About
 
-[[About this site]]  
+[[about this site]]  
 About MyHub.ai / ChatGPT integration  
- - [[Pilot integration]] today  
- - [[Chatgpt Integrations planned]] tomorrow  
+ - [[pilot integration]] today  
+ - [[chatgpt Integrations planned]] tomorrow  
 [About me / Contact](https://myhub.ai/@mathewlowry/about/)   
 ## General Navigation
 

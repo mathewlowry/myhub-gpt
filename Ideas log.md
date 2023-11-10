@@ -9,9 +9,9 @@
 	* pooling and sharing prompts
 	* image generation prompts
 * To explore experimentally: 
-	* Asking twice: does asking twice get better results? See [[Experiment 1 Analysis#^4fc4d4]]
+	* Asking twice: does asking twice get better results? See [[experiment 1 analysis#^4fc4d4]]
 * Blog post ideas
 	* reversion to the mean 
 		* cf [LinkedIn post](https://www.linkedin.com/analytics/post-summary/urn:li:activity:7122652868104314881/)
 		* [However, while using AI "produce ideas of higher quality... there is a marked reduction in the variability ... [and so] might lead to more homogenized outputs."](https://myhub.ai/items/navigating-the-jagged-technological-frontier-field-experimental-evidence-of-the-effects-of-ai-on-knowledge-worker-productivity-and-quality)
-	* on AI-generated knowledge visualisations: "If [Charts can lie](https://albertocairo.com/), ChatGPT visualisations are **magician-level misleading**" - [[Experiments 2 - 4 analysis]]
+	* on AI-generated knowledge visualisations: "If [Charts can lie](https://albertocairo.com/), ChatGPT visualisations are **magician-level misleading**" - [[experiments 2 - 4 analysis]]

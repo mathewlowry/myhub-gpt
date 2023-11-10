@@ -1,3 +1,5 @@
+# C-3-AllNotes-response-P-2b-2
+
 #### You:
 You are a superb organiser and classifier of ideas and content. First identify and briefly summarise the top 7 themes running through some or all of the resources listed below, and list them in order of importance, so that themes relevant to most of the resources appear at the top. Here are the resources: 
 **A cognitive scientist explains why humans are so susceptible to fake news and misinformation » Nieman Journalism Lab**

@@ -245,4 +245,4 @@ The subthemes are now included in the mindmap code. Please use this revised code
 
 ---
 
-![[C-3-S-0-response-P2-mindmap.png]]
+![[c-3-s-0-response-p2-mindmap.png]]

@@ -1,17 +1,18 @@
+# Experiment 1
 
 Created 2023-08-15:
 
-* Analysis: [[Experiment 1 Analysis]]
+* Analysis: [[experiment 1 analysis]]
 * Collection 1
 	* Facets: like, creativity, innovation
 	* URL: https://myhub.ai/@mathewlowry/?tags=creativity&types=like&timeframe=anytime&quality=all&tags=innovation
-	* [[C-1-AllNotes]]
+	* [[c-1-allnotes]]
 * Summarisers 
-	* Summariser 0: [[C-1-S-0]] - pasted from [[Pilot integration]]
-	* Summariser 1 at max. length 150: [[C-1-S-1-150]]
-* Agent Prompt: [[Prompt 1 - newsletter A]]
+	* Summariser 0: [[c-1-s-0]] - pasted from [[pilot integration]]
+	* Summariser 1 at max. length 150: [[c-1-s-1-150]]
+* Agent Prompt: [[prompt 1 - newsletter a]]
 * Responses
-	* [[C-1-S-0-response-P-1]] - bug reported 2023-08-15 fixed on 2023-08-16
-	* [[C-1-AllNotes-response-P-1]]
-	*  [[C-1-S-1-150-response-P-1]]
+	* [[c-1-s-0-response-p-1]] - bug reported 2023-08-15 fixed on 2023-08-16
+	* [[c-1-allnotes-response-p-1]]
+	*  [[c-1-s-1-150-response-p-1]]
 
