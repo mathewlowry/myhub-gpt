@@ -23,7 +23,7 @@ As the MyHub,ai Early Adopters will soon get to play with this AI-boosted versio
 
 * [[experiment log]]: the actual experiments
 * [[experimental method]]: 
-* The various [[agent prompts]] and [[summarisers]] used in the experiments
+* The various [[agent prompts and gpts]] and [[summarisers]] used in the experiments
 * [[Ideas log]] where I drop ideas for future experiments and blog posts as I go.
   
 ### Learn more

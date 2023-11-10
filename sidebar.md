@@ -16,7 +16,7 @@ Instead of bullet lists, use plain lines, with two space characters added to the
 
 [[experiment log]]  
 [[experimental method]]  
-[[agent prompts]]  
+[[agent prompts and gpts]]  
 [[summarisers]]  
 [[Ideas log]]   
 ## About
