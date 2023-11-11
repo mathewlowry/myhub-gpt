@@ -10,7 +10,7 @@ modification date: 206 July 2023 10:30:02
 
 ## First AI features at a glance
 
-Right now I'm experimenting with integrating ChatGPT into each Hub as set out in [[pilot integration]]. Assuming these experiments show promise, the first features to be developed are briefly explained from around ~1m40 of [this video](https://www.youtube.com/watch?v=PykfgbRwZiY):
+Right now I'm experimenting with integrating ChatGPT into each Hub as set out in [[pilot MyHub ChatGPT integration]]. Assuming these experiments show promise, the first features to be developed are briefly explained from around ~1m40 of [this video](https://www.youtube.com/watch?v=PykfgbRwZiY):
 
 [![[aidropdown.jpg]]](https://www.youtube.com/watch?v=PykfgbRwZiY)
 
@@ -26,7 +26,7 @@ Logged-in Hub Editors will have:
 
 ## Behind the scenes: respecting token limits
 
-Behind the scenes, obviously, there are some calculations being made to ensure the token limit is not exceeded, as explained in [[experimental method]].
+Behind the scenes, obviously, there are some calculations being made to ensure the token limit is not exceeded, as explained in [[experimental methods]].
 
 ### Upon item creation
 When User Hubs a Resource, including creating a note about the resource, the following test is made: 

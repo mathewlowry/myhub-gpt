@@ -1,7 +1,7 @@
 extracted from [[chatgpt integration plans]] : 
 ### Behind the scenes: respecting token limits
 
-Behind the scenes, obviously, there are some calculations being made to ensure the token limit is not exceeded, as explained in [[experimental method]].
+Behind the scenes, obviously, there are some calculations being made to ensure the token limit is not exceeded, as explained in [[experimental methods]].
 
 *(Note: this section needs to be regularly doublechecked against the ever-evolving worlds of token limits; it currently reflects a 16k limit).*
 #### Upon item creation

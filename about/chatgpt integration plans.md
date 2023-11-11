@@ -8,14 +8,14 @@ modification date: 206 July 2023 10:30:02
 
 ## Introduction
 
-For the first 5 experiments I used the two ways of accessing ChatGPT open to me at the time: directly via the ChatGPT website, and using the pilot version of the MyHub.ai "GPT wrapper" set out in [[pilot integration]]. As I was working on the analysis of [[experiment 5]], however, OpenAI released the "*Create your own GPT*" feature, so I created my first GPT and quickly ran [[experiment 6]].
+For the first 5 experiments I used the two ways of accessing ChatGPT open to me at the time: directly via the ChatGPT website, and using the pilot version of the MyHub.ai "GPT wrapper" set out in [[pilot MyHub ChatGPT integration]]. As I was working on the analysis of [[experiment 5]], however, OpenAI released the "*Create your own GPT*" feature, so I created my first GPT and quickly ran [[experiment 6]].
 
 Which means I now have at least two ways forward to investigate and compare:
 
-* the [[chatgpt integration plans#API-based AIgent approach|API-based AIgent approach]] I always had planned, as set out in detail below
-*  [[chatgpt integration plans#Integrating MyHub.ai with GPTs|integrating MyHub.ai with GPT]] instead: this is only outlined below, because while people can do this today there's not currently nearly enough information to judge whether this is the right way forward.
+* the **API-based AIgent approach** I always had planned
+* **Integrating MyHub.ai with GPTs** instead: any Hub visitor or Editor can actually do today, but there's not currently enough information to judge whether this is the right way forward.
 
-Life being what it is, I'm reasonably certain that I'll have to combine both to allow Editors to explore and innovate, because if MyHub.ai *only* offered GPT integration, Hub Editors (and their subscribers?) would be restricted to the tasks those GPTs are capable of doing.
+Both are explored below. Life being what it is, however, I'm pretty certain that I'll have to combine both to allow Editors to explore and innovate, because if MyHub.ai *only* offered GPT integration, Hub Editors and their visitors/subscribers would be restricted to the tasks those GPTs were created to support.
 
 Either way, the picture  emerging looks something like this (image adapted from [Social knowledge graphs for collective intelligence](https://mathewlowry.medium.com/social-knowledge-graphs-for-collective-intelligence-75c436889320)):
 
@@ -23,7 +23,7 @@ Either way, the picture  emerging looks something like this (image adapted from 
 ---
 ## API-based AIgent approach
 
-Before *Create your own GPT* came along, my original idea was to build on the basic approach set out in [[pilot integration]]: allow Hub Editors to create "AIgents" that talk to ChatGPT via its API, as briefly explained from around ~1m40 of [this video](https://www.youtube.com/watch?v=PykfgbRwZiY):
+Before *Create your own GPT* came along, my original idea was to build on the basic approach set out in [[pilot MyHub ChatGPT integration]]: allow Hub Editors to create "AIgents" that talk to ChatGPT via its API, as briefly explained from around ~1m40 of [this video](https://www.youtube.com/watch?v=PykfgbRwZiY):
 
 [![[aidropdown.jpg]]](https://www.youtube.com/watch?v=PykfgbRwZiY)
 

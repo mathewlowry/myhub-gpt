@@ -8,7 +8,7 @@ Created 2023-08-15:
 	* URL: https://myhub.ai/@mathewlowry/?tags=creativity&types=like&timeframe=anytime&quality=all&tags=innovation
 	* [[c-1-allnotes]]
 * Summarisers 
-	* Summariser 0: [[c-1-s-0]] - pasted from [[pilot integration]]
+	* Summariser 0: [[c-1-s-0]] - pasted from [[pilot MyHub ChatGPT integration]]
 	* Summariser 1 at max. length 150: [[c-1-s-1-150]]
 * Agent Prompt: [[prompt 1 - newsletter a]]
 * Responses
