@@ -11,4 +11,4 @@ Files:
 	* and in any case I had to export the RSS to send it to Idea Weaver, so the actual Collection used is [[c-6-myhub-thismonth-2023-11-10.txt]] 
 * **prompt**: [[idea weaver gpt]]
 * **responses**: [[Idea Weaver response 1]]
-* **analysis**:  [[experiment-6-analysis]]
+* **analysis**:  *to be done*

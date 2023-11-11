@@ -19,7 +19,7 @@ While ChatGPT identified 8 toplevel themes, the mindmap only displays 4. Not goo
 ### Experiment 3
 Did we do better with a collection of only 10 resources? 
 
-Even with only 10 resources, it's a lot of work for me to evaluate the appropriateness of all 6 themes and 27 subthemes ChatGPT found within them (see [[c-3-s-0-response-p-2]]. At first glance the 6 themes look right, but a moment's thought and research reveals:
+Even with only 10 resources, it's a lot of work for me to evaluate the appropriateness of all 6 themes and 27 subthemes ChatGPT found within them (see [[c-3_s-0-response-p-2]]. At first glance the 6 themes look right, but a moment's thought and research reveals:
 
 * themes like "The brain's decision-making processes and susceptibility to misinformation" and "The importance of understanding cognitive biases and psychological factors in information processing" are pretty much saying the same thing
 * for the subtheme "Predictive coding and interpretation of sensory information", only one item in the collection mentioned "Predictive coding", and none of them mentioned "interpretation of sensory information"
@@ -68,9 +68,9 @@ So rather than trying to get an accurate visualisation of a Collection, I'm now 
 
 For this, a different mindmap is required, showing both the articles and the themes. 
 ### New prompt
-Hence the new Prompt [[prompt 2b themes]]. However:
+Hence the new Prompt [[prompt 2b - themes visualised]]. However:
 
-* I fed precisely the same prompt and collection to ChatGPT and got two completely different responses - see the themes identified by ChatGPT in [[c-3-allnotes-response-p-2b-1]] and  [[c-3-allnotes-response-p-2b-2]]
+* I fed precisely the same prompt and collection to ChatGPT and got two completely different responses - see the themes identified by ChatGPT in [[c-3_allnotes-response-p-2b-1]] and  [[c-3_allnotes-response-p-2b-2]]
 * Moreover, Mermaid doesnt seem able to create a concept map which is *not* a centralised mindmap.
 
 ### New visualisation engine (up to here)
