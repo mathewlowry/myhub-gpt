@@ -22,9 +22,10 @@ Instead of bullet lists, use plain lines, with two space characters added to the
 ## About
 
 [[about this site]]  
-About MyHub.ai / ChatGPT integration  
+Integrating MyHub.ai & ChatGPT  
  - [[pilot integration]] today  
- - [[chatgpt Integrations planned]] tomorrow  
+ - [[chatgpt integration plans]]  
+  
 [About me / Contact](https://myhub.ai/@mathewlowry/about/)   
 ## General Navigation
 

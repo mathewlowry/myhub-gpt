@@ -14,4 +14,4 @@ Using this form I can:
 
 I can thus have a conversation with ChatGPT about any collection of content n my personal Hub.
 
-However, as the rest of the above video points out, this is just the start - see [[chatgpt Integrations planned]].
+However, as the rest of the above video points out, this is just the start - see [[chatgpt integration plans]].

@@ -6,6 +6,8 @@ modification date: 206 July 2023 10:30:02
 
 **What will the LLM integration into MyHub.ai look like in the future?**
 
+(*This is a permanent version of this page. The latest version of this page can be found under Revision Notes, at the end.*)
+
 ## First AI features at a glance
 
 Right now I'm experimenting with integrating ChatGPT into each Hub as set out in [[pilot integration]]. Assuming these experiments show promise, the first features to be developed are briefly explained from around ~1m40 of [this video](https://www.youtube.com/watch?v=PykfgbRwZiY):
@@ -65,3 +67,13 @@ To begin with: sum(mix) = sum(summaries) - the prompt context is composed of sum
 	* if sum(mix) > 8000 then exit and use mix as prompt context
 	* else repeat with next longest note
 * if sum(mix) < 8000 then repeat for Highlight = NO
+
+---
+
+## Revision Notes
+
+This is one of this wiki's pages managed with the **permanent versions pattern** described in  [Two wiki authors and a blogger walk into a bar…](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e)  
+
+- version control
+    - this is version: 1
+    - here is the current version: [[chatgpt integration plans]]

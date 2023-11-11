@@ -4,8 +4,8 @@ modification date: 314 November 2023 09:49:03
 ---
 # Idea Weaver GPT, created # 2023-11-10 09:49
 
-# 1 
-sent https://myhub.ai/@mathewlowry/?quality=all&types=like&types=do&types=think&timeframe=this_month
+# Round 1 
+Triggered in [[experiment 6]]
 ## idea weaver
 
 The RSS file "Mathew Lowry's Hub RSS" contains a variety of items, each with a unique focus. To generate creative blog ideas, let's extract and compare ideas from different items within the file. Here are a few notable themes and contradictions that emerge:
@@ -31,7 +31,7 @@ The RSS file "Mathew Lowry's Hub RSS" contains a variety of items, each with a u
 These ideas provide a basis for blog posts that could explore the intersections of AI, human expertise, social media, and the future of digital interactions. Each theme offers a distinct angle, allowing for diverse and engaging content.
 
 
-# 2
+# Round 2
 Let's develop idea 1. Both articles you cite are by the same person: Ethan Mollick. Is there a contradiction between the two pieces?
 ## idea weaver
 
@@ -80,9 +80,8 @@ Introducing AI chatbots into the current social media landscape, especially in a
 Overall, the introduction of AI chatbots into social media will likely be a double-edged sword, offering potential benefits in terms of engagement and accessibility, while also posing significant challenges related to authenticity, privacy, and the quality of online discourse.
 
 # 4 
-Many of these ideas have already happened, except that the algorithms are hidden, behind the scenes, rather than explicit chatbots intervening in the conversations. Please imagine an optimistic development, where AI chatbots are developed specifically to improve the quality of online social media interactions. What could they do, and how would they act?
 
-*(I first included some ideas, then decided to simply see what it came up with)*
+*(I first included some ideas in this prompt, then decided to simply see what it came up with)*: Many of these ideas have already happened, except that the algorithms are hidden, behind the scenes, rather than explicit chatbots intervening in the conversations. Please imagine an optimistic development, where AI chatbots are developed specifically to improve the quality of online social media interactions. What could they do, and how would they act?
 
 ## idea weaver
 

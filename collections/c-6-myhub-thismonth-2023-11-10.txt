@@ -1,0 +1,163 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<rss version="2.0">
+<channel>
+<title>Mathew Lowry's Hub RSS</title>
+<link>https://myhub.ai/rss/@mathewlowry/?quality=all&types=like&types=do&types=think&timeframe=this_month</link>
+<description/>
+<item>
+<guid>https://myhub.ai/items/now-is-the-time-for-grimoires</guid>
+<pubDate>Thu, 09 Nov 2023 09:59:30 CET</pubDate>
+<title>Now is the time for grimoires</title>
+<link>https://www.oneusefulthing.org/p/now-is-the-time-for-grimoires</link>
+<image>
+<url>https://myhub.ai/images/TvgR1ZIUMBcT0QcpPdUyUSGsBM4=/12607/width-251/%5E2023/11/9/i/imagefetchw_1456c_limitf_autoq_autogoodfl_progressivesteepht_0KoLQbz.png</url>
+<link>https://www.oneusefulthing.org/p/now-is-the-time-for-grimoires</link>
+</image>
+<description><p data-block-key="r76j0">Rather than collecting and processing data, &quot;the most useful thing ... in this AI-haunted moment: creating grimoires, spellbooks full of prompts that encode expertise&quot;, but not those resulting from &quot;elaborate “prompt engineering”... [as] <a href="https://www.oneusefulthing.org/p/a-guide-to-prompting-ai-for-what">prompt engineering is overrated</a>... the prompts of experts ... encode our hard-earned expertise in ways that AI can help other people apply... to gift others with your own abilities.&quot;</p><p data-block-key="2dibp">All you actually need is to &quot;build a good prompt ... asking the AI to do something in back-and-forth dialogue, combined with trial and error, and a few small tricks&quot;. For example, whereas “<i>explain XX like I am five</i>” is not a good prompt - tutors need to &quot;<a href="https://www.researchgate.net/publication/222651587_Learning_from_human_tutoring">interact with the student</a>, forcing them to make an effort, pay attention to the material being learned, and connect what they are learning to old knowledge&quot;. Instead, Mollick provides a far more detailed tutor prompt (372 words) which &quot;takes a student through a learning experience based on the research on tutoring... designed for anyone to use, because it is interactive, asking questions&quot;. </p><p data-block-key="2i4qr">How to build your spellbook:</p><ul><li data-block-key="c1n93">be an expert</li><li data-block-key="6dcui">spent time with AI</li><li data-block-key="b4i28">have a clear view of what you want, to keep the AI focused on it.</li></ul><p data-block-key="2350v">&quot;the elements of a good expert prompt: </p><ul><li data-block-key="323ju">Role: Tell the AI who it is ...</li><li data-block-key="7su1r">Goal: Tell the AI what you want it to do... </li><li data-block-key="aerm7">Step-by-step instructions... [eg] <a href="https://arxiv.org/abs/2201.11903">Chain of Thought prompting</a>, gives the AI an example of how you want it to reason before you make your request ... [or just] give it step-by-step directions...</li><li data-block-key="7vrhu">Few-shot prompting, where you give the AI examples of the kinds of output you want to see ...</li><li data-block-key="dgc4o">Add personalization. Ask the user for information to help tailor the prompt for them&quot;</li><li data-block-key="6tri0">constrain the Ai from undesirable behaviour &quot;that may come up in your testing&quot;</li></ul><p data-block-key="9m9e0">Conclusion: &quot;You can be the world AI expert in whatever narrow field of expertise you want to apply AI, because no one else has yet figured out that use.&quot;</p><p>Tags: expertise, ai prompt, llm, ethan mollick, al</p></description>
+<category>expertise</category>
+<category>ai prompt</category>
+<category>llm</category>
+<category>ethan mollick</category>
+<category>al</category>
+</item>
+<item>
+<guid>https://myhub.ai/items/almost-an-agent-what-gpts-can-do-by-ethan-mollick</guid>
+<pubDate>Tue, 07 Nov 2023 03:57:36 CET</pubDate>
+<title>Almost an Agent: What GPTs can do - by Ethan Mollick</title>
+<link>https://www.oneusefulthing.org/p/almost-an-agent-what-gpts-can-do</link>
+<image>
+<url>https://myhub.ai/images/SIJsU6LiqRUs_GHu5bX0eJH6Siw=/12606/width-251/%5E2023/11/7/i/imagefetchw_1456c_limitf_autoq_autogoodfl_progressivesteepht_JEeEGY8.png</url>
+<link>https://www.oneusefulthing.org/p/almost-an-agent-what-gpts-can-do</link>
+</image>
+<description><p data-block-key="r2owa">In the wake of ChatGPT&#x27;s release of GPTs, Mollick asks: &quot;What would a real AI agent look like? A simple agent that writes academic papers would, after being given a dataset and a field of study, read about how to compose a good paper, analyze the data, conduct a literature review, generate hypotheses, test them, and then write up the results... you get a Word document&quot; - which is exactly what he did after kicking the tyres.</p><p data-block-key="cu94f">&quot;GPTs aren’t autonomous agents yet. I had to give feedback ... GPTs still have hallucinations and other issues&quot;, but nevertheless:</p><ul><li data-block-key="ds0cs">&quot;GPT system makes structured prompts more powerful and much easier to create, test, and share&quot;</li><li data-block-key="1tboe">they&#x27;re a precursor to truly (trustworthy) agents, but also...</li><li data-block-key="5jb1b">&quot;suggest new future vulnerabilities and risks&quot;.</li></ul><p data-block-key="8oghl">Using &quot;GPT Builder... the AI helps you create a GPT through conversation&quot;, you can preview the result and iterate. Based on the conversation, the AI creates &quot;a detailed configuration of the GPT, which I can also edit manually. The core ... is a structured prompt [plus] ... additional features... The [resulting] GPT ... is pretty good. But it isn’t amazing... To really build a great GPT, you are going to need to modify or build the structured prompt yourself. &quot; </p><p data-block-key="6qdsv">While you can provide documents to work from, it still hallucinates: &quot;I had no warning that these mistakes happened, and would not have noticed them if I wasn’t cross-referencing&quot;.</p><p data-block-key="ep4nc"><b>We can now create GPTs and share them with the world: </b>&quot;communities and organizations can begin to work together to create a set of agents that can be useful for work and school&quot;. He provides an example writing coach agent, and &quot;will be creating custom GPTs for every session of the classes I teach... simulations ... tutors or mentors [maybe]... teammates or assignments&quot;.</p><p data-block-key="3ct9p"><b>What of the risks?</b> &quot; GPTs can be easily integrated into with other systems ... a problem because AIs are incredibly gullible&quot;</p><p>Tags: openai, llm, ethan mollick, aigent</p></description>
+<category>openai</category>
+<category>llm</category>
+<category>ethan mollick</category>
+<category>aigent</category>
+</item>
+<item>
+<guid>https://myhub.ai/items/introducing-gpts</guid>
+<pubDate>Tue, 07 Nov 2023 11:09:59 CET</pubDate>
+<title>Introducing GPTs</title>
+<link>https://openai.com/blog/introducing-gpts</link>
+<description><p data-block-key="mlq8o">OpenAI rolled out &quot;custom versions of ChatGPT that you can create for a specific purpose... GPTs are a new way for anyone to create a tailored version of ChatGPT to be more helpful ... at specific tasks&quot;. Built with no-code via <a href="https://chat.openai.com/create">chat.openai.com/create</a>, you can share your GPT, and even monetise it, via their GPT Store later this month.</p><p data-block-key="9t25p">This is clearly something I can slot into myhub where I was going to build <i>MyHub AIgents</i>: &quot;Many power users maintain a list of carefully crafted prompts and instruction sets, manually copying them into ChatGPT. GPTs now do all of that for you.&quot;</p><p data-block-key="f2dgo">GPTs can also access &quot;real world&quot; apps via APIs and can be internal-only, &quot;securely publish them to your workspace&quot;.</p><p>Tags: ai, business plan, myhub, openai, llm, myhub chat, aigent</p></description>
+<category>ai</category>
+<category>business plan</category>
+<category>myhub</category>
+<category>openai</category>
+<category>llm</category>
+<category>myhub chat</category>
+<category>aigent</category>
+</item>
+<item>
+<guid>https://myhub.ai/items/crafting-an-ai-powered-chatbot-for-document-q</guid>
+<pubDate>Mon, 06 Nov 2023 10:54:34 CET</pubDate>
+<title>Crafting an AI-Powered Chatbot for Document Q</title>
+<link>https://medium.com/predict/conversational-document-analysis-streamline-research-and-information-extraction-with-ai-chatbots-83f00c1f6b4b</link>
+<description><p data-block-key="ei1sz">A guide to creating the &quot;chatbot that responds to queries based on the content of uploaded PDF or Text files... built using Langchain, FAISS (<a href="https://ai.meta.com/tools/faiss/#:~:text=FAISS%20(Facebook%20AI%20Similarity%20Search,more%20scalable%20similarity%20search%20functions."><b>Facebook AI Similarity Search</b>.</a>.. developed by Meta for efficient similarity search and clustering of dense vectors), and OpenAI’s GPT-4... found at <a href="http://ai-docreader.streamlit.app/">ai-docreader.streamlit.app</a>...&quot;.</p><p data-block-key="2bsgs">The piece first lists use cases under the headings Summarization &amp; Information Extraction, and provides the github repo before walking through the setup. It cautions that &quot;to enhance the tool for a specific use-case or higher quality delivery, further refinement will be required ... prompt engineering... more robust vector databases, and embedding models. One may also consider model fine-tuning&quot;.</p><p>Tags: ai, chatbot, llm, langchain, faiss</p></description>
+<category>ai</category>
+<category>chatbot</category>
+<category>llm</category>
+<category>langchain</category>
+<category>faiss</category>
+</item>
+<item>
+<guid>https://myhub.ai/items/why-im-finally-leaving-x-and-probably-all-social-media-by-douglas-rushkoff-oct-2023-medium</guid>
+<pubDate>Sun, 05 Nov 2023 12:57:09 CET</pubDate>
+<title>Why I’m Finally Leaving X and Probably All Social Media | by Douglas Rushkoff</title>
+<link>https://rushkoff.medium.com/why-im-finally-leaving-x-and-probably-all-social-media-5ded6b78ce33</link>
+<image>
+<url>https://myhub.ai/images/H6gI4XOYp4wF1hMs_IxdulFnCl0=/12605/width-251/%5E2023/11/5/1/1_tpLKlEiFkaeQ9dunUmMEGA1.jpeg</url>
+<link>https://rushkoff.medium.com/why-im-finally-leaving-x-and-probably-all-social-media-5ded6b78ce33</link>
+</image>
+<description><p data-block-key="grelx">Douglas Rushkoff, one of my favourite writers/thinkers on all things digital future, is &quot;finally, definitely, fully leaving X, and probably all social media... And I’m encouraging people to do the same... Twitter has no tolerance for ... ambiguity. It’s missing the moderated, the emotional, the poetic…the whole human experience... <i>this is just not good for me.</i>&quot;</p><h2 data-block-key="eq9u7">Feeling this</h2><p data-block-key="5s55q">I so totally feel this. I <a href="https://medium.com/the-mission/dont-deletefacebook-take-back-control-with-digital-minimalism-9d67795f5f1">dropped off Facebook</a> a few years ago, quiet quit Linked shortly after, but stayed active on Twitter until Elon Musk eviscerated it. By that point I had already for several years been hoping Mastodon and the Fediverse in general would provide an alternative, so I <a href="https://myhub.ai/@mathewlowry/?quality=all&amp;types=do&amp;types=think&amp;tags=mastodon&amp;timeframe=anytime">joined the Twitter migration with gusto,</a> only to become disenchanted with its <a href="https://campaign.openworlds.info/@mathew/110328160629235411">technical limitations</a> pretty quickly. As for Bluesky... whatever, by that point I just had zero enthusiasm for microblogging.</p><p data-block-key="ftu34">Because when Elon helped me quiet quit Twitter I didn&#x27;t find an alternative, <i>and I found that I didn&#x27;t mind</i>. I still go onto X to harvest some links for my reading queue, and - despite my own &quot;<a href="https://twitter.com/mathewlowry/status/1649865063014998022"><i>That&#x27;s it, I&#x27;m</i> <b><i>leaving</i></b><i>! (possibly!)</i></a><i>&quot;</i> moment - I still post there occasionally. I also check my LinkedIn notifications perhaps once a day, just to keep in touch, but I&#x27;m pretty sure <a href="https://twitter.com/mathewlowry/status/1715059805541249400">that won&#x27;t last</a>. What counts for me is the CozyWeb (small groups on tools like Discord, Mattermost, etc.); I no longer feel addicted to mainstream social media or feel any pressure to go there, <b>and it feels great.</b></p><p data-block-key="einj0">There&#x27;s only one problem. Pretty soon I&#x27;ll be releasing an early adopter programme on MyHub.ai. If that works, then I&#x27;ll need to raise money to build it out further. And that requires visibility. Balancing a need for visibility with maintaining personal mental health will be a challenge. After all, if you read this it&#x27;s probably because I shared it on social media.</p><h2 data-block-key="caot7">Achieving nuance</h2><p data-block-key="3b88r">I, of course, am not Douglas Rushkoff. He has come to his position from a different direction: &quot;I never felt it was appropriate for me to be on social media ... [which was] for people who weren’t getting paid three hundred dollars a column like me&quot;. His piece provides a good summary of the evolution of social media, from the hobbyist era through to its <b>colonisation by professionals</b>, which turned the &quot;quaint, amateur (meaning love-driven) spaces ... more competitive... driven by click counts and ad sales and, eventually, influence&quot;.</p><p data-block-key="agjj9">As a result, social media evolved &quot;from a play space to one that had some authority... It has been legitimized, including the lunacy ... all in the same size text...&quot;. It&#x27;s a poor bargain, given that these spaces also lost their social power <i>and</i> their ability to support experimentation and skill development by hobbyists. The social media platforms have a stranglehold on innovation, and buy anyone who nevertheless successfully creates something new.</p><p data-block-key="71l6j">Instead, Twitter <i>et al</i> are now &quot;the place to have supposedly serious conversations. And it’s not... It’s just the angry comments sections without the articles... Public discourse doesn’t work at scale&quot;. Which is why going to Twitter, as so many media do, to &quot;<i>find out how the public feels ... [is]</i> like going to the psych ward at Bellevue to find out how people feel about current events&quot;, particularly now that Musk has &quot;tweaked the whole thing to favor authoritarianism... institutionalized and amplified the worst qualities of the mob... 74% of the platform’s most viral, disinformation claims relating to the war come from blue-check users... promoted algorithmically&quot; for $8/m. Nuance just doesn&#x27;t get the retweets.</p><p data-block-key="chjcc">His position, he acknowledges, can look elitist (&quot;like a Shakespearean actor ... jumping into the pit where the groundlings are... surrendering the advantage&quot;), but what I took away from his piece that I hadn&#x27;t seen before was this: &quot;acknowledge this socially constructed power differential and use it to everyone’s benefit... you can ... let down your guard in a very different way than you can... standing on a soapbox in the park. ... a professional platform ... lets you be more vulnerable. You don’t have to fight for the dominance... [you can] express your doubt, to share where you’re at, and to talk about the difficult, ambiguous, in-between nature of real problems.... walk people through the experience of doubt.&quot;</p><h2 data-block-key="t8cd">Identity vs Community</h2><p data-block-key="f1u2p">With &quot;Our experience of reality increasingly informed by ... identity-obsessed drives... nothing nuanced, nothing provisional, experimental, or in between and unresolved can happen&quot; on mainstream social media. So what now?</p><p data-block-key="dr4i5">Rushkoff, of course, has his <i>Team Human</i> community of subscribers, because &quot;The extent to which any of us actually has an identity ... is entirely dependent on our connections we have with other people... <i>You</i> are my identity. Some call it audience capture; <b>I call it community&quot;</b> (emphases mine).</p><p>Tags: social media, community, identity, publicsphere, mobocracy, mastodon, twitter migration, quit, douglas rushkoff</p></description>
+<category>social media</category>
+<category>community</category>
+<category>identity</category>
+<category>publicsphere</category>
+<category>mobocracy</category>
+<category>mastodon</category>
+<category>twitter migration</category>
+<category>quit</category>
+<category>douglas rushkoff</category>
+</item>
+<item>
+<guid>https://myhub.ai/items/large-language-models-understand-and-can-be-enhanced-by-emotional-stimuli</guid>
+<pubDate>Sat, 04 Nov 2023 05:41:34 CET</pubDate>
+<title>Large Language Models Understand and Can Be Enhanced by Emotional Stimuli</title>
+<link>https://arxiv.org/pdf/2307.11760.pdf</link>
+<description><p data-block-key="ouf1j">&quot;exploring the ability of LLMs to understand emotional stimuli... automatic experiments on 45 tasks using various LLMs... span deterministic and generative applications ... show that LLMs have a grasp of emotional intelligence, and their performance can be improved with ... “EmotionPrompt” ... [which] requires only the addition of emotional stimuli to the initial prompts... to design effective emotional stimuli ... we take inspiration from three types of well-established psychological phenomena&quot;:</p><ul><li data-block-key="ccb4n">self-monitoring: &quot;the process by which individuals regulate and control their behavior in response to social situations and the reactions of others&quot;</li><li data-block-key="2f4su">social cognitive theory: &quot;stresses that learning can be closely linked to watching others in social settings, personal experiences, and exposure to information... that individuals seek to develop a sense of agency for exerting a large degree of control over important events in their lives&quot;</li><li data-block-key="2qoqn">cognitive emotion regulation: &quot;people lacking emotion regulation skills are more likely to engage in compulsive behavior and use poor coping strategies... Techniques from this theory, such as reappraisal, can help&quot;.</li></ul><p data-block-key="6dp2">Some key findings - EmotionPrompt:</p><ul><li data-block-key="4t64a">improves more in few-shot setting than zero-shot</li><li data-block-key="3ofi8">&quot;enhanced capacity for generating ethically responsible responses&quot;</li><li data-block-key="taef">&quot;enriched supporting evidence and superior linguistic articulation&quot;</li><li data-block-key="f1u04">&quot;stimulates the creative faculties and overarching cognizance of LLMs&quot;</li><li data-block-key="9h28h">may elicit responses with &quot;more definitive terms, such as “completely” and “will not”, while the narrative produced by the original prompt adopts a more tempered tone&quot;</li></ul><p data-block-key="cj8ph">The paper goes on to examine why this works, and which emotional stimuli are most effective.</p><p>Tags: psychology, ai, emotion, ai prompt, llm, ethan mollick</p></description>
+<category>psychology</category>
+<category>ai</category>
+<category>emotion</category>
+<category>ai prompt</category>
+<category>llm</category>
+<category>ethan mollick</category>
+</item>
+<item>
+<guid>https://myhub.ai/items/elevenlabs-generative-ai-text-to-speech</guid>
+<pubDate>Sat, 04 Nov 2023 05:40:03 CET</pubDate>
+<title>ElevenLabs - Generative AI Text to Speech</title>
+<link>https://elevenlabs.io/?utm_source=pocket_saves</link>
+<description><p data-block-key="rwu6b">&quot;text to speech and voice cloning software ... Create lifelike voiceovers for your content or use our AI voice generator as an easy-to-use text reader... spoken audio in any voice, style, and language ... renders human intonation and inflections &quot;</p><p>Tags: tool, ai, audiovisual, voice</p></description>
+<category>tool</category>
+<category>ai</category>
+<category>audiovisual</category>
+<category>voice</category>
+</item>
+<item>
+<guid>https://myhub.ai/items/some-fundamentals-of-assisted-intelligence</guid>
+<pubDate>Thu, 02 Nov 2023 08:14:58 CET</pubDate>
+<title>Some Fundamentals of Assisted Intelligence</title>
+<link>https://twitter.com/iwasrobbed/status/1718635164648063482?s=09&t=V90etYFfv1itHf7zi8SKRw&utm_source=pocket_saves</link>
+<image>
+<url>https://myhub.ai/images/Me1vn_VRXao6DMxku6RkoWiQVTc=/12372/width-251/%5E2022/6/29/e/errorslogo46x38.png</url>
+<link>https://twitter.com/iwasrobbed/status/1718635164648063482?s=09&t=V90etYFfv1itHf7zi8SKRw&utm_source=pocket_saves</link>
+</image>
+<description><p data-block-key="7rmnt">Rob Phillips, Founder &amp; CEO FastlaneAI, ex-VP for Siri etc., on the &quot;Fundamentals of Assisted Intelligence&quot; - or where OpenAI is going with AI agents: &quot;<b>OpenAI is building a new kind of computer</b>, beyond just an LLM for a middleware / frontend&quot;</p><p data-block-key="5ccn4">The rest of the post is a long, structured list. Some interesting highlights for me include:</p><ul><li data-block-key="e2eli">&quot;Context windows are limiting&quot;, so today AI providers use short-lived environments to run tasks in, &quot;but over time they&#x27;ll become a new type of Dropbox where your data is persisted long term for additional processing or cross-file inference / insights.&quot;</li><li data-block-key="4ds4m">&quot;<b>An App Store of Experts...</b> Regardless of OpenAI saying they&#x27;re focused on only ChatGPT, it&#x27;s inevitable they&#x27;ll rescope it and enable a long tail of specialized assistants&quot;, similar to how Apple opened up its (originally closed) app store. &quot;Builders will be able to compose multiple tools together&quot;, until AI learns from them how to do that itself.</li><li data-block-key="7d4s3">Continuing that theme, &quot;Fewer apps and startups will be needed to generate frontends&quot; because AIs will become available capable of helping us &quot;build our own workflows and compose together APIs&quot;</li></ul><p data-block-key="4vv8o">&quot; We&#x27;re in the early days of building <b><i>parts</i></b> of this at </p><p data-block-key="dbnh3"><a href="https://twitter.com/FastlaneAI">@FastlaneAI</a>&quot;</p><p>Tags: ai, llm, assistant, fastlane</p></description>
+<category>ai</category>
+<category>llm</category>
+<category>assistant</category>
+<category>fastlane</category>
+</item>
+<item>
+<guid>https://myhub.ai/items/duet-ai-in-google-workspace-generative-ai-tools-for-work</guid>
+<pubDate>Thu, 02 Nov 2023 08:00:21 CET</pubDate>
+<title>Duet AI in Google Workspace | Generative AI Tools for Work</title>
+<link>https://workspace.google.com/solutions/ai/?utm_source=labs</link>
+<description><p data-block-key="fgt25">Google&#x27;s AI-powered assistant: &quot;Duet AI is a powerful collaborator that can act as a coach, thought partner, source of inspiration, and productivity booster — all while ensuring every user and organization has control over their data... you must first have an eligible Google Workspace plan.&quot;</p><p data-block-key="57rdn">Via <a href="https://www.linkedin.com/posts/zainkahn_google-just-transformed-presentations-with-ugcPost-7124725970493677568-nEVV/">this post</a> on &quot;creating the perfect image for your presentation (for free)&quot;, although in fact Google Workspace is not free.</p><p>Tags: productivity, ai, google, google assistant, assistant</p></description>
+<category>productivity</category>
+<category>ai</category>
+<category>google</category>
+<category>google assistant</category>
+<category>assistant</category>
+</item>
+<item>
+<guid>https://myhub.ai/items/turning-a-whiteboard-sketch-into-functional-software-with-chatgpt</guid>
+<pubDate>Wed, 01 Nov 2023 06:48:03 CET</pubDate>
+<title>Turning a whiteboard sketch into functional software with ChatGPT</title>
+<link>https://www.linkedin.com/posts/joergstorm_drstorm-technology-digital-activity-7113218813298388993-JovJ?utm_source=share&utm_medium=member_desktop</link>
+<description>Short video. Pretty mindblowing.<p>Tags: productivity, ai, software</p></description>
+<category>productivity</category>
+<category>ai</category>
+<category>software</category>
+</item>
+<item>
+<guid>https://myhub.ai/items/questyai-what-is-the-best-communication-technique-for-reach</guid>
+<pubDate>Wed, 01 Nov 2023 06:41:36 CET</pubDate>
+<title>Questy.ai: What is the best communication technique for reach...</title>
+<link>https://questy.ai/p/clofz315v001eqv4x5eso4bqp</link>
+<image>
+<url>https://myhub.ai/images/12lU3T30quMdK81xsEAK_3YgUkw=/12602/width-251/%5E2023/11/1/_/_nextimage</url>
+<link>https://questy.ai/p/clofz315v001eqv4x5eso4bqp</link>
+</image>
+<description><p data-block-key="gjais">I asked Questy.ai, a startup, the following question: </p><p data-block-key="b7nna"><b>What is the best communication technique for reaching someone who believes many conspiracy theories, and sees all arguments as further evidence of conspirary?</b></p><p data-block-key="aa8oh">A summary of its response, which contained cited references:</p><p data-block-key="91s0i">&quot;When engaging with someone who holds fast to conspiracy theories and views any attempt to challenge these as evidence of additional conspiracy, several essential strategies can be identified...</p><ul><li data-block-key="20inj">approach the individual with empathy and listen patiently ... ensure a respectful discourse ... establish common ground... </li><li data-block-key="d3oh9">[but] remain realistic... the goal ... should not necessarily be to debunk the conspiracy theory ... focus on encouraging critical thinking and imparting the skills required to distinguish between reliable and unreliable sources of information </li><li data-block-key="7necb">applying the Socratic method... entices individuals to question their beliefs and engage in self-reflection through asking probing questions ... </li><li data-block-key="ckcib">Recognise the traits of conspiratorial thinking... CONSPIR (Contradictory ideas, Overriding suspicion, Nefarious intent, Something must be wrong, Persecuted victim, Immune to evidence, Re-interpreting randomness) </li><li data-block-key="8lqgc">&quot;inoculation&quot; against conspiracy theories... forewarning the individual that they might come across conspiracy theories and providing counter arguments to such theories ahead of time &quot; - this doesn&#x27;t quite capture the full idea of inoculation, but it gives references.</li><li data-block-key="agc4u">&quot;use &quot;trusted messengers&quot; who are former conspiracy theorists themselves...</li><li data-block-key="2n3l0"> identify the root causes ... may include feelings of concern, uncertainty, powerlessness, or social isolation&quot;, and address <i>them.</i></li></ul><p data-block-key="jbkl">The key question here is how well Questy identifies the right content to process.</p><p>Tags: psychology, ai, conspiracy, autosummarise, llm, questy</p></description>
+<category>psychology</category>
+<category>ai</category>
+<category>conspiracy</category>
+<category>autosummarise</category>
+<category>llm</category>
+<category>questy</category>
+</item>
+</channel>
+</rss>

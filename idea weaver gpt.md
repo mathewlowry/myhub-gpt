@@ -1,12 +1,16 @@
 # GPT: Idea Weaver
 
-My first GPT (name suggested by ChatGPT) builds on the insights gained in [[experiment 1]] & [[experiment 5]], and is designed to accept a collection of notes and help me identify interesting concept and ideas I could further investigate, with its help. 
+## Background
 
-I found it impossible to feed it a Collection of notes via a URL, and so resorted to creating and downloading an RSS file for the Collection, and then uploading it to the GPT. Integration with MyHub.ai should therefore be pretty simple, if each GPT has an API.
+My first GPT (name suggested by ChatGPT) builds on the insights gained in [[experiment 1]] & [[experiment 5]], and is designed to accept a collection of notes and help me identify interesting concept and ideas I could further investigate, with its help. It was first used in [[experiment 6]].
+
+I found it impossible to feed it a Collection of notes via a URL, and so resorted to creating and downloading an RSS file of the Collection, which I then uploaded to the GPT (the [[rss allnotes prompt]], developed earlier, therefore played a part as well). Integration with MyHub.ai should therefore be pretty simple, if each GPT has an API, although the cost of uploading files to a GPT is apparently far higher than simply sending text to ChatGPT (to be confirmed).
+
+## What it does
 
 According to its self-written description: "Idea Weaver is an advanced tool for transforming RSS file content into creative blog ideas, with a focus on identifying and comparing ideas from different items within the file. Here's how it operates:
 
-1. **RSS File Processing**: Specializes in handling RSS files, focusing on content within the <item> tags.
+1. RSS File Processing: Specializes in handling RSS files, focusing on content within the <item> tags.
 
 2. Content Extraction and Cleaning:
    - Ignores content outside the <item> tags.
