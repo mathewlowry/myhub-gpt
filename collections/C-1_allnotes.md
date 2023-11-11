@@ -75,7 +75,7 @@ Easier said than done. It'd be a lot simpler if we could just Kill the Mediocre.
 
 ---
 ## chatgpt outputs
-via [[rss allnotes prompt]]
+via [[rss to clean notes prompt]]
 Here are the processed contents of the provided RSS items according to the rules you've specified:
 
 1. **Originals | Hidden Brain : NPR**

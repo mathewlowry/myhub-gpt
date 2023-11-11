@@ -8,7 +8,7 @@ How:
 	* we already have "short summaries" created using Tim's simple prompt (Summariser 0) to chatgpt right now
 	* but I cant send their notes
 * manually create file of their notes: "C-n-AllNotes"
-	* using [[rss allnotes prompt]]
+	* using [[rss to clean notes prompt]]
 * manually create summaries using Summariser S-n of length X1 of their notes: "C-n-S-n-X1"
 * use Prompt-P-x (P-1, P-2)
 	* x = 1

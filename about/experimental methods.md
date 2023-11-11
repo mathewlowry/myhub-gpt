@@ -22,7 +22,7 @@ To understand the experiments in this repository you need to read At a glance, b
 	* More generally, Collections are numbered, so each experiment involves a Collection "C-n" (n=1,2,3...). 
 * For each Collection, experiments can be run using several files:
 	* Currently I can use the [[pilot MyHub ChatGPT integration]] already in place to send the Summariser-0 summaries of Collection 1 ("**C-1-S-0**") to ChatGPT using any prompt 
-	* The entirety of the Notes in the Collection can also be used to create "**C-1-AllNotes**", by passing [the Collection's RSS feed](https://myhub.ai/items/faq-are-there-rss-feeds) through the [[rss allnotes prompt]] manually
+	* The entirety of the Notes in the Collection can also be used to create "**C-1-AllNotes**", by passing [the Collection's RSS feed](https://myhub.ai/items/faq-are-there-rss-feeds) through the [[rss to clean notes prompt]] manually
 	* C-1-AllNotes are also processed using 2 or more other Summarisers to compare against Summariser-0. 
 		* These Summarisers are called S-n (n=1,2,3...)
 		* Each S-n can be set to a maximum word length X, as each Summariser needs to be tested at different word lengths
