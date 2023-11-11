@@ -9,6 +9,5 @@ modification date: 224 August 2023 18:52:03
 * [[prompt 2b - themes visualised]]: 
 * [[prompt 5 - ideate]]
 * [[idea weaver gpt]]
-* [[Idea Weaver response 1]]
 
 
