@@ -71,7 +71,7 @@ For example, **Prompt 1** is written to take a Collection of Hubbed notes and:
 > ## article title 
 > An 80 word summary of the article. 
 > 
-> Provide all content in markdown format, with each article title linked to the URL provided with it." - [[prompt 1 - newsletter a]]
+> Provide all content in markdown format, with each article title linked to the URL provided with it." - [[Prompt 1 - newsletter]]
 
 But if it was that simple, I would have done many experiments by now.
 
