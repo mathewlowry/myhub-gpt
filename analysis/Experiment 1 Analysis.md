@@ -2,7 +2,7 @@
 
 **The first results from my series of experiments to identify the most valuable MyHub Agent prompts are promising and confusing in equal measure.**
 
-See [[experiment 1]] for all files. Below:
+See [[experiment 1 - newsletter]] for all files. Below:
 
 * the outputs being evaluated
 * three executive summaries of what I found, written with ChatGPT
@@ -46,7 +46,7 @@ What I wrote initially still stands, but bringing in ChatGPT to help write this 
 
 Rather than evaluating different versions and word lengths of S-1 (ie, S-1-250, S-2-100...), I think I'll focus first on varying the prompt: rather than asking for a nice summary of Hubbed resources in newsletter format, I'll explore Prompts which, as ChatGPT puts it, "*Use ChatGPT outputs as idea generators rather than sources of literal truth*".
 
-Update: see [[experiment 5]], where I do precisely that.
+Update: see [[experiment 5 - ideator]], where I do precisely that.
 
 ---
 ## What I found

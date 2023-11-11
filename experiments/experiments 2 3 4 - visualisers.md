@@ -1,4 +1,4 @@
-# Experiments 2 3 4
+# Experiments 2 3 4 - text visualisers
 
 Experiments 2 & 3 were early experiments into thematic analysis and visualisation performed only via the chatgpt/myhub integration pilot, before I had the experimental system worked out. I then made Experiment 4 by tweaking the collections and prompts from Experiment 3.
 

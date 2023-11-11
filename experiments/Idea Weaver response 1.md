@@ -5,7 +5,7 @@ modification date: 314 November 2023 09:49:03
 # Idea Weaver GPT, created # 2023-11-10 09:49
 
 # Round 1 
-Triggered in [[experiment 6]]
+Triggered in [[experiment 6 - ideator GPT]]
 ## idea weaver
 
 The RSS file "Mathew Lowry's Hub RSS" contains a variety of items, each with a unique focus. To generate creative blog ideas, let's extract and compare ideas from different items within the file. Here are a few notable themes and contradictions that emerge:

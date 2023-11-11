@@ -8,7 +8,7 @@ modification date: 206 July 2023 10:30:02
 
 ## Introduction
 
-For the first 5 experiments I used the two ways of accessing ChatGPT open to me at the time: directly via the ChatGPT website, and using the pilot version of the MyHub.ai "GPT wrapper" set out in [[pilot MyHub ChatGPT integration]]. As I was working on the analysis of [[experiment 5]], however, OpenAI released the "*Create your own GPT*" feature, so I created my first GPT and quickly ran [[experiment 6]].
+For the first 5 experiments I used the two ways of accessing ChatGPT open to me at the time: directly via the ChatGPT website, and using the pilot version of the MyHub.ai "GPT wrapper" set out in [[pilot MyHub ChatGPT integration]]. As I was working on the analysis of [[experiment 5 - ideator]], however, OpenAI released the "*Create your own GPT*" feature, so I created my first GPT and quickly ran [[experiment 6 - ideator GPT]].
 
 Which means I now have at least two ways forward to investigate and compare:
 
@@ -79,7 +79,7 @@ The downside of the subscriber model is that the subscribers' fees (which are ge
 
 This is one of this wiki's pages managed with the **permanent versions pattern** described in  [Two wiki authors and a blogger walk into a bar…](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e)  
 
-- 2023-11-11: updated to account for [[experiment 6]], the release of GPTs, etc, ad shortened with the extraction of [[AIgents behind the scenes]] into a separate file.
+- 2023-11-11: updated to account for [[experiment 6 - ideator GPT]], the release of GPTs, etc, ad shortened with the extraction of [[AIgents behind the scenes]] into a separate file.
 - version control
     - this is version: current
     - here is the previous version: [[chatgpt integration plans 1]]

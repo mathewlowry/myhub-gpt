@@ -1,6 +1,6 @@
 # Experiments 2 - 4: analysis
 
-See [[experiments 2 3 4]]
+See [[experiments 2 3 4 - visualisers]]
 
 ## Early experiments: 2-3
 These were early experiments, before I had really thought through what I was testing, and it shows - for example:

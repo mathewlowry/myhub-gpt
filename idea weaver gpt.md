@@ -2,7 +2,7 @@
 
 ## Background
 
-My first GPT (name suggested by ChatGPT) builds on the insights gained in [[experiment 1]] & [[experiment 5]], and is designed to accept a collection of notes and help me identify interesting concept and ideas I could further investigate, with its help. It was first used in [[experiment 6]].
+My first GPT (name suggested by ChatGPT) builds on the insights gained in [[experiment 1 - newsletter]] & [[experiment 5 - ideator]], and is designed to accept a collection of notes and help me identify interesting concept and ideas I could further investigate, with its help. It was first used in [[experiment 6 - ideator GPT]].
 
 I found it impossible to feed it a Collection of notes via a URL, and so resorted to creating and downloading an RSS file of the Collection, which I then uploaded to the GPT (the [[rss allnotes prompt]], developed earlier, therefore played a part as well). Integration with MyHub.ai should therefore be pretty simple, if each GPT has an API, although the cost of uploading files to a GPT is apparently far higher than simply sending text to ChatGPT (to be confirmed).
 

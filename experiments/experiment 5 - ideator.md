@@ -1,6 +1,6 @@
 # Experiment 5: ideas from resources
 
-**While I investigate visualisation options for finishing Experiment 4, I've decided to build on the results of [[experiment 1]].**
+**While I investigate visualisation options for finishing Experiment 4, I've decided to build on the results of [[experiment 1 - newsletter]].**
 
 Status: *underway.*
 
