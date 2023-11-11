@@ -12,4 +12,4 @@ For the experiments to be meaningful, I need to compare several approaches in ea
 - **AllNotes**: to test if and how Summarisers affect the quality of ChatGPT's response, we need to apply the Prompt to the entirety of the notes, as well:
 	- [[c-1-allnotes]] contains the entirety of the notes in Collection 1, created by taking the [Collection's RSS feed](https://myhub.ai/rss/@mathewlowry/?tags=creativity&types=like&timeframe=anytime&quality=all&tags=innovation) and applying [[rss allnotes prompt]]
 	- [[c-1-allnotes-response-p-1]]: what ChatGPT returns when sent C-1-AllNotes.md and asked Prompt 1
-- finally, the analysis: [[Experiment 1 analysis]], itself written with the help of ChatGPT ([[experiment 1 analysis chatgpt execsumm]]).
+- finally, the analysis: [[Experiment 1 analyses]], itself written with the help of ChatGPT ([[experiment 1 analysis chatgpt execsumm]]).
