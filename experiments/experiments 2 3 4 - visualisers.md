@@ -30,7 +30,7 @@ Aiming for a different style of visualisation:
 
 * Collection 3: "the best stuff tagged psychology and disinformation" https://myhub.ai/@mathewlowry/?tags=disinformation&types=like&timeframe=anytime&quality=best&tags=psychology 
 * AllNotes: [[c-3_allnotes]]
-* [[summarisers]]: Summariser 1 [[c-3_s-1-150]]
+* Summariser 1 [[c-3_s-1-150]]
 * Agent Prompt: [[prompt 2b - themes visualised]]
 * Responses: 
 	* [[c-3_allnotes-response-p-2b-1]]

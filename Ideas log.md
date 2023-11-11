@@ -1,3 +1,4 @@
+# Ideas log
 
 **Ideas to explore in future experiments, possible features for MyHub.ai, blog posts which could be written and anything else I feel like jotting down.**
 
@@ -9,7 +10,7 @@
 	* pooling and sharing prompts
 	* image generation prompts
 * To explore experimentally: 
-	* Asking twice: does asking twice get better results? See [[Experiment 1 analyses#^4fc4d4]]
+	* Asking twice: does asking twice get better results? See [[Experiment 1 analyses]]
 * Blog post ideas
 	* reversion to the mean 
 		* cf [LinkedIn post](https://www.linkedin.com/analytics/post-summary/urn:li:activity:7122652868104314881/)

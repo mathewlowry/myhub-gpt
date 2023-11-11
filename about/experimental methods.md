@@ -27,12 +27,14 @@ To understand the experiments in this repository you need to read At a glance, b
 		* These Summarisers are called S-n (n=1,2,3...)
 		* Each S-n can be set to a maximum word length X, as each Summariser needs to be tested at different word lengths
 		* Each experiment therefore involves a Summariser called "S-n-X" ("*Summariser S-n set to max. word length of X*") operating on the Collection C-n, resulting in "**C-1-S-n-X**" being sent to ChatGPT
-* Final step: the above three files (C-1-S-0, C-1-AllNotes and C-1-S-n-X) are sent to ChatGPT using a Prompt "P-n" (in the above diagram, Prompt 1, or "P-1").
-* This creates three **responses** to be compared and analysed:
-	* **C-1-S-0-response-P-1**
-	* **C-1-AllNotes-response-P-1**
-	* **C-1-S-n-x-response-P-1**
-* The same experiment can be done with a variety of Prompts, Collections and Summarisers, with the Summarisers set to different maximum lengths.
+* What happens next depends on which method I'm using (see [[chatgpt integration plans]]):
+	* **API-based AIgent approach**: I take the above three files (C-1-S-0, C-1-AllNotes and C-1-S-n-X) and send them to ChatGPT using a Prompt "P-n" (in the above diagram, Prompt 1, or "P-1").
+	* **Integrating MyHub.ai with GPTs**: GPTs require a file upload, so I need to take the above files and manually drag them into the GPT's interface 
+	* Either way, this creates up to three **responses** to be compared and analysed:
+		* **C-1-S-0-response-P-1**
+		* **C-1-AllNotes-response-P-1**
+		* **C-1-S-n-x-response-P-1**
+	* The same experiment can be done with a variety of Prompts, Collections and Summarisers, with the Summarisers set to different maximum lengths.
 
 ---
 ## Context
@@ -55,7 +57,7 @@ Then there's the questions of the Prompts. What's the best Prompt to create a ne
 
 In fact, to optimise the [[chatgpt integration plans]] I need to test quite a few moving parts, so each experiment involves a number of different variables:
 
-- the **Agent Prompt**, corresponding to the task the Agent is designed to perform for the User
+- the **Agent Prompt** or the **GPT**, corresponding to the task the Agent is designed to perform for the User
 - the **Collection** of Hubbed items created by the User, to which the Agent Prompt is applied 
 - the **Summariser** used (explained below)
 - the **maximum length** applied using that Summariser (explained below).
@@ -90,7 +92,7 @@ Moreover, we also need Collection Composer: when an Editor activates an Agent, t
 - on the other hand, if all the notes' Summaries total 8000 tokens, the Collection is rejected as too large from the outset
 - something interesting happens in the middle ground: where the notes total over 8000 tokens, Collection Composer substitutes some notes with their Summaries, starting with notes which are not Highlighted and which are only slightly over the Summary Threshold.
 
-In this way ChatGPT gets the Editor's notes of the Collection where possible, and their Summaries if the Collection's notes are either too numerous, too long, or both. The actual algorithm is spelt out a little more explicitly in [[chatgpt integration plans]], while all Summarisers can be found in [[summarisers]].
+In this way ChatGPT gets the Editor's notes of the Collection where possible, and their Summaries if the Collection's notes are either too numerous, too long, or both. The actual algorithm is spelt out a little more explicitly in [[chatgpt integration plans]], while all Summarisers can be found in [[summarisers in summary]].
 
 ### Questions to answer
 
@@ -99,8 +101,9 @@ So we now have several questions requiring experiments to answer:
 - What is the best Agent Prompt for each task?
 - What is the best Summariser Prompt for capturing the essence of each note?
 - How long should Summary Threshold be?
+- How do these considerations change when I use a GPT instead?
 
-Moreover, is the best combination of Summariser Prompt, Summary Threshold and Agent Promot good for *all* Collections, or just the one I used in my first round of tests? So I need to test all these variables against multiple Collections.
+Moreover, is the best combination of Summariser Prompt, Summary Threshold and (Agent Prompt or GPT) good for *all* Collections, or just the one I used in my first round of tests? So I need to test all these variables against multiple Collections.
 
 Hence the name of my first experiment (C-1-S-1-150-P-1): testing Prompt 1 on Collection 1 using Summariser 1 set to a max length of 150 words. These files, the resulting responses from ChatGPT and my analyses of them can all be found in [[experiment log]].
 
