@@ -2,7 +2,7 @@
 
 Created 2023-08-15:
 
-* Analysis: [[experiment 1 analysis]]
+* Analysis: [[Experiment 1 analysis]]
 * Collection 1
 	* Facets: like, creativity, innovation
 	* URL: https://myhub.ai/@mathewlowry/?tags=creativity&types=like&timeframe=anytime&quality=all&tags=innovation

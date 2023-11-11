@@ -9,7 +9,7 @@
 	* pooling and sharing prompts
 	* image generation prompts
 * To explore experimentally: 
-	* Asking twice: does asking twice get better results? See [[experiment 1 analysis#^4fc4d4]]
+	* Asking twice: does asking twice get better results? See [[Experiment 1 analysis#^4fc4d4]]
 * Blog post ideas
 	* reversion to the mean 
 		* cf [LinkedIn post](https://www.linkedin.com/analytics/post-summary/urn:li:activity:7122652868104314881/)
