@@ -38,8 +38,17 @@ Those hallucinations, however, could be valuable if I wasn't trying to write a n
 ### ChatGPT's exec summary
 Then I asked ChatGPT's opinion: "*I will provide you an analysis of an experiment into the best way of using ChatGPT to create a newsletter summarising the content of 14 different articles, You will write an executive summary of the analysis of no longer than 400 words. Here is the original analysis, in markdown format:*"
 
-Its full response is [[experiment 1 analysis chatgpt execsumm]] (425 words), but the final section is worth embedding here:
-![[experiment 1 analysis chatgpt execsumm#Lessons and Recommendations]]
+Its full response is [[experiment 1 analysis chatgpt execsummary]] (425 words), but the final "Lessons and Recommendations" section is worth embedding here:
+
+*The analysis offered several valuable lessons for optimizing ChatGPT's use in newsletter creation:
+
+1. *Use ChatGPT outputs as idea generators rather than sources of literal truth.
+2. *Accuracy should be verified carefully, considering potential gaps between ChatGPT's generated content and the actual articles.*
+3. *For optimal editorial length, further refinement is needed to ensure adherence to specified limits.*
+4. *Experiment with variations in instructions and inputs to enhance link inclusion in the editorial.*
+5. *The trade-off between consistency and length in article summaries should be considered, with attention to the desired word count.*
+
+*In conclusion, the experiment demonstrated the complexity of using ChatGPT for newsletter content generation. While certain versions excelled in specific aspects, no single variant was flawless. As suggested, iterative refinement and exploration of different inputs and instructions could yield improved results in future experiments."*
 
 ### Final executive summary
 What I wrote initially still stands, but bringing in ChatGPT to help write this executive summary helped me see better what I should be doing in the next experiment(s).
