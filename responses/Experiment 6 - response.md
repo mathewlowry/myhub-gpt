@@ -2,7 +2,7 @@
 creation date: 2023-11-10 09:49
 modification date: 314 November 2023 09:49:03
 ---
-# Idea Weaver Response 1, created # 2023-11-10 09:49
+# Experiment 6 Response 1: Idea Weaver, created # 2023-11-10 09:49
 
 # Round 1 
 Triggered in [[experiment 6 - ideator GPT]]

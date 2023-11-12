@@ -10,5 +10,5 @@ Files:
 	* URL: [all the stuff I had Hubbed in the current month ***by 2023-11-10***](https://myhub.ai/@mathewlowry/?quality=all&types=like&types=do&types=think&timeframe=this_month) , but note that the content of the Collection at this link will vary over time...
 	* and in any case I had to export the RSS to send it to Idea Weaver, so the actual Collection used is [[c-6-myhub-thismonth-2023-11-10.txt]] 
 * **prompt**: [[idea weaver gpt]]
-* **responses**: [[Idea Weaver response 1]]
+* **responses**: [[Experiment 6 - response]], [[Experiment 6 Idea Weaver images]] 
 * **analysis**:  *to be done*
