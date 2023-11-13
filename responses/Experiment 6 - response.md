@@ -234,4 +234,7 @@ The integration of AI chatbots in social media offers a path filled with both pr
 
 ---
 
-*I then asked it to generate images to represent the two faces - optimistic and pessimistic - described above. See [[Experiment 6 Idea Weaver images]].* 
+*I then asked it to generate images to represent the two faces - optimistic and pessimistic - described above. See: [[Experiment 6 Idea Weaver response part 2 - images]].
+
+
+
