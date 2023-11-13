@@ -10,5 +10,7 @@ Files:
 	* URL: [all the stuff I had Hubbed in the current month ***by 2023-11-10***](https://myhub.ai/@mathewlowry/?quality=all&types=like&types=do&types=think&timeframe=this_month) , but note that the content of the Collection at this link will vary over time...
 	* and in any case I had to export the RSS to send it to Idea Weaver, so the actual Collection used is [[c-6-myhub-thismonth-2023-11-10.txt]] 
 * **prompt**: [[idea weaver gpt]]
-* **responses**: [[Experiment 6 - response]], [[Experiment 6 Idea Weaver images]] 
+* **responses**: 
+	* [[Experiment 6 - response]], [[Experiment 6 Idea Weaver images]] 
+	* extract published as blog post: https://mathewlowry.medium.com/the-dual-faces-of-ai-chatbots-in-social-media-according-to-my-gpt-4820d37d4d3d
 * **analysis**:  *to be done*

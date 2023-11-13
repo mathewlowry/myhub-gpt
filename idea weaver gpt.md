@@ -1,5 +1,7 @@
 # GPT: Idea Weaver
 
+Address https://chat.openai.com/g/g-2XXAZxHgn-idea-weaver
+
 ## Background
 
 My first GPT (name suggested by ChatGPT) builds on the insights gained in [[experiment 1 - newsletter]] & [[experiment 5 - ideator]], and is designed to accept a collection of notes and help me identify interesting concept and ideas I could further investigate, with its help. It was first used in [[experiment 6 - ideator GPT]].
@@ -14,7 +16,7 @@ It gave itself a name and a picture:
 
 ![[ideaweaver.jpg]]
 
-And according to its self-written description: 
+According to its self-written description: 
 
 ---
 *"Idea Weaver is an advanced tool for transforming RSS file content into creative blog ideas, with a focus on identifying and comparing ideas from different items within the file. Here's how it operates:*
