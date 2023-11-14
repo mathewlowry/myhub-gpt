@@ -16,3 +16,5 @@
 		* cf [LinkedIn post](https://www.linkedin.com/analytics/post-summary/urn:li:activity:7122652868104314881/)
 		* [However, while using AI "produce ideas of higher quality... there is a marked reduction in the variability ... [and so] might lead to more homogenized outputs."](https://myhub.ai/items/navigating-the-jagged-technological-frontier-field-experimental-evidence-of-the-effects-of-ai-on-knowledge-worker-productivity-and-quality)
 	* on AI-generated knowledge visualisations: "If [Charts can lie](https://albertocairo.com/), ChatGPT visualisations are **magician-level misleading**" - [[experiments 2 3 4 _ analysis]]
+	* explore the pros, cons and how of integrating emotional stimuli into GPTs (see [[experiment 6 analysis]])
+		* first come up with my own ideas, then see what GPT manages
