@@ -61,13 +61,13 @@ However, I'm aiming for a different goal, reflecting the problems discovered ear
 * If [Charts can lie](https://albertocairo.com/), ChatGPT visualisations are **magician-level misleading**
 	* Visualisations (almost) always generate a "Wow" factor, and hide the data behind it. This can blind the user to problems in  data or presentation method
 	* So while ChatGPT's hallucinations are a major problem at any time, they're doubly so when they generate visualisations
-* As is so often the case with knowledge visualisations, the initial Wow I got from viewing the vislualisations in Experiments 2 & 3 was  followed by a "So What?". What use are they, particularly when you have to double check everything for hallucinations?
-* Finally, a mindmap's centralised focus shows a central node connecting to themes, which connected to subthemes. The resources are not actually shown.
+* As is so often the case with knowledge visualisations, the initial Wow I got from viewing the vislualisations in Experiments 2 & 3 was  followed by a "So What?". What use are they, particularly when you have to double check everything for hallucinations? 
+* And while on the subject, what use are they even if they *don't* hallucinate? After all, a mindmap's centralised focus shows a central node connecting to themes, which connected to subthemes. **The resources are not actually shown.**
 
 So rather than trying to get an accurate visualisation of a Collection, I'm now more interested in getting a *provocative* one - something that will make me think by spotting potential new connections, even if those connections were not themselves present in the collection.
 
 For this, a different mindmap is required, showing both the articles and the themes. 
-### New prompt
+### Prompt2b
 Hence the new Prompt [[prompt 2b - themes visualised]]. However:
 
 * I fed precisely the same prompt and collection to ChatGPT and got two completely different responses - see the themes identified by ChatGPT in [[c-3_allnotes-response-p-2b-1]] and  [[c-3_allnotes-response-p-2b-2]]
@@ -76,4 +76,31 @@ Hence the new Prompt [[prompt 2b - themes visualised]]. However:
 ### New visualisation engine (up to here)
 Maybe what I need is https://graphviz.org/Gallery/neato/ER.html
 
+#### test visualisation
+![[neato-example.png]]
+The above image was drawn in http://magjac.com/graphviz-visual-editor/ using the following code:
+``` 
+graph ER {
+	fontname="Helvetica,Arial,sans-serif"
+	node [fontname="Helvetica,Arial,sans-serif"]
+	edge [fontname="Helvetica,Arial,sans-serif"]
+	layout=neato
+	node [shape=box]; theme1; "theme 2"; theme3;
+	node [shape=ellipse]; resource1; "resource 2"; "resource 3"; "resource 4"; 
 
+	theme1 -- resource1;
+	theme1 -- "resource 2";
+	theme3 -- "resource 2";
+	theme1 -- "resource 3";
+	"theme 2" -- "resource 2";
+	"theme 2" -- "resource 4";	
+	
+	theme3 -- resource1;
+	theme3 -- "resource 4";	
+	
+	label = "\n\nEntity Relation Diagram\ndrawn by NEATO";
+	fontsize=20;
+} ``` 
+```
+
+### Prompt 2c

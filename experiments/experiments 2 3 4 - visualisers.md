@@ -24,14 +24,17 @@ Links follow:
 * Agent Prompt: [[prompt 2 - themes]]
 * Response: [[c-3_s-0-response-p-2]]
 
-## Experiment 4: C-3-S-1-150-P-2b-x
+## Experiment 4: C-3-S-1-150-P-2b/c
 
 Aiming for a different style of visualisation:
 
 * Collection 3: "the best stuff tagged psychology and disinformation" https://myhub.ai/@mathewlowry/?tags=disinformation&types=like&timeframe=anytime&quality=best&tags=psychology 
 * AllNotes: [[c-3_allnotes]]
 * Summariser 1 [[c-3_s-1-150]]
-* Agent Prompt: [[prompt 2b - themes visualised]]
+* Agent Prompts: 
+	* [[prompt 2b - themes visualised]]
+	* [[prompt 2c - themes and resources visualised]]
 * Responses: 
 	* [[c-3_allnotes-response-p-2b-1]]
 	* [[c-3_allnotes-response-p-2b-2]] (same prompt, entirely different thematic analysis from ChatGPT)
+	* [[e-4-1.png]]
