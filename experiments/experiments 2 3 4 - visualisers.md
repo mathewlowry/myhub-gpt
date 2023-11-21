@@ -37,4 +37,4 @@ Aiming for a different style of visualisation:
 * Responses: 
 	* [[c-3_allnotes-response-p-2b-1]]
 	* [[c-3_allnotes-response-p-2b-2]] (same prompt, entirely different thematic analysis from ChatGPT)
-	* [[e-4-1.png]]
+	* [[c-3_allnotes-response-p-2c]] & [[c-3_allnotes-response-p-2c-1.png]]
