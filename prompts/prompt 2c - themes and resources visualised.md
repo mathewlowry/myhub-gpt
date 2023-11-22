@@ -46,6 +46,8 @@ graph ER {
 
 Now provide the same sort of code for the resources and themes we developed earlier.
 
+---
+
 ## v1
 You are a superb organiser and classifier of ideas and content. First identify and briefly summarise the top themes running through some or all of the resources I'm providing you. The most important themes are relevant to the most resources, and should be listed first. Please ensure each theme's title is short, and only provide at most 7 themes to start with. Then ask me if I want you to remove some themes, or generate more, or rename some. Here are the resources: PROMPT.
 

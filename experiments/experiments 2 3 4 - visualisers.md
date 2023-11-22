@@ -40,5 +40,5 @@ Aiming for a different style of visualisation:
 	* [[c-3_allnotes-response-p-2c-a]] using prompt 2c, version 1
 		*  [[c-3_allnotes-response-p-2c-1.png]]: first result
 		* [[c-3_allnotes-response-p-2c-12.png]]: final resultt
-	* this lead to c-3_allnotes-response-p-2c-a: prompt 2c, version 2, tested on the same collection
-		* 
+	* this lead to [[c-3_allnotes-response-p-2c-b]]: applying prompt 2c, version 2, tested on the same collection
+		* [[c-3_allnotes-response-p-2c-b.jpeg]]
