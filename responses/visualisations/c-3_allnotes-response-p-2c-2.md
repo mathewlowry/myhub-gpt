@@ -1,4 +1,8 @@
-# Identifying Top Themes
+# Visualising Resources' Top Themes
+
+What follows is a conversation I had with ChatGPT during experiment 4. Only some headings have been added to give it a little structure. 
+
+## First attempt
 
 #### You:
 You are a superb organiser and classifier of ideas and content. First identify and briefly summarise the top themes running through some or all of the resources I'm providing you. The most important themes are relevant to the most resources, and should be listed first. Please ensure each theme's title is short, and only provide at most 7 themes to start with. Then ask me if I want you to remove some themes, or generate more, or rename some. Here are the resources:
@@ -181,7 +185,10 @@ graph ER {
 
 You can use this code with Graphviz tools to generate a visual concept map of your resources and themes. Adjust the layout or styling as needed for your specific visualization preferences.
 
+### First attempt: result
+The above code generated [[c-3_allnotes-response-p-2c-1.png]]
 
+## Struggling with Graphviz
 #### You:
 All of the nodes in the code you provided are ellipses, and none of them are large enough to fit the titles inside it. Please rewrite the code so that the texts fit inside the nodes, the resources are represented by square nodes, and that only the nodes representing the themes are ellipses. Moreover, the themes should be drawn using lines with a thickness proportional to the theme's importance - the more important the theme, the thicker the line.
 
@@ -296,7 +303,7 @@ graph ER {
 
 I've made the changes you requested, including using square nodes for resources with yellow fill and inserting line breaks after punctuation marks or every 5 words if there are no punctuation marks in the resource titles.
 
-
+## Linebreaks
 #### You:
 Add a linebreak just before every hyphen in Resources
 
@@ -410,6 +417,7 @@ graph ER {
 
 I've removed the line breaks at the end of the resource titles as requested.
 
+## Spacing
 
 #### You:
 What do we need to do to ensure the nodes are spaced out, with no overlaps
@@ -764,7 +772,7 @@ graph ER {
 
 I've reduced the node separation (nodesep) to make the concept map more compact. Please let me know if you'd like any further adjustments.
 
-
+## Wrapping up
 #### You:
 Please provide the entire code, including the Connections between Resources and Themes
 
@@ -835,6 +843,9 @@ graph ER {
 
 This code reduces the spacing between nodes and ensures that the text of the Resources fits within the nodes' box shape. If you need any further adjustments or have more specific requirements, please let me know.
 
+## Write me a prompt for this
+
+The above code gives [[c-3_allnotes-response-p-2c-12.png]] in graphvis.
 
 #### You:
 This is the result I wanted. Please compose a prompt combining these characteristics so that I can generate concept maps like this quicker.
