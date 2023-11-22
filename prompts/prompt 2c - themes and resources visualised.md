@@ -1,7 +1,13 @@
 # Prompt 2c themes & resources visualised
 
 ## Goal
+
 Create a visualisation of how the various resources in a collection relate to the themes identified within them, using http://magjac.com/graphviz-visual-editor/ visualisation. 
+
+## History
+
+* [[experiments 2 3 4 - visualisers]]: I started with v1, below. In the resulting conversation (see [[c-3_allnotes-response-p-2c-1]]) chatgpt helped me improve the code, resulting in v2, which I tested on the same content:  
+* 
 
 ## v1
 ### Prompt 
