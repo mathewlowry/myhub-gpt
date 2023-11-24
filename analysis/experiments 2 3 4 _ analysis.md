@@ -62,7 +62,7 @@ However, I'm aiming for a different goal, reflecting the problems discovered ear
 	* Visualisations (almost) always generate a "Wow" factor, and hide the data behind it. This can blind the user to problems in  data or presentation method
 	* So while ChatGPT's hallucinations are a major problem at any time, they're doubly so when they generate visualisations
 * As is so often the case with knowledge visualisations, the initial Wow I got from viewing the vislualisations in Experiments 2 & 3 was  followed by a "So What?". What use are they, particularly when you have to double check everything for hallucinations? 
-* And while on the subject, what use are they even if they *don't* hallucinate? After all, a mindmap's centralised focus shows a central node connecting to themes, which connected to subthemes. **The resources are not actually shown.**
+* And while on the subject, what use are they even if they *don't* hallucinate? After all, a min dmap's centralised focus shows a central node connecting to themes, which connected to subthemes. **The resources are not actually shown.**
 
 So rather than trying to get an accurate visualisation of a Collection, I'm now more interested in getting a *provocative* one - something that will make me think by spotting potential new connections, even if those connections were not themselves present in the collection.
 
@@ -71,36 +71,17 @@ For this, a different mindmap is required, showing both the articles and the the
 Hence the new Prompt [[prompt 2b - themes visualised]]. However:
 
 * I fed precisely the same prompt and collection to ChatGPT and got two completely different responses - see the themes identified by ChatGPT in [[c-3_allnotes-response-p-2b-1]] and  [[c-3_allnotes-response-p-2b-2]]
-* Moreover, Mermaid doesnt seem able to create a concept map which is *not* a centralised mindmap.
+* Moreover, Mermaid doesnt seem able to create a concept map which is *not* a centralised mindmap. 
 
-### New visualisation engine (up to here)
-Maybe what I need is https://graphviz.org/Gallery/neato/ER.html
+### Prompt2c for a new visualisation engine 
+So I turned to a new mapping tool: https://graphviz.org/Gallery/neato/ER.html
+[[test neato visualisation]] and a new prompt: [[prompt 2c - themes and resources visualised]].   
 
-#### test visualisation
-![[neato-example.png]]
-The above image was drawn in http://magjac.com/graphviz-visual-editor/ using the following code:
-``` 
-graph ER {
-	fontname="Helvetica,Arial,sans-serif"
-	node [fontname="Helvetica,Arial,sans-serif"]
-	edge [fontname="Helvetica,Arial,sans-serif"]
-	layout=neato
-	node [shape=box]; theme1; "theme 2"; theme3;
-	node [shape=ellipse]; resource1; "resource 2"; "resource 3"; "resource 4"; 
+#### version 1: learning graphviz
+In [[c-3_allnotes-response-p-2c-a]] I started with **"version 1" of Prompt2c**, trying to get a useful visualisation of the same content ([[c-3_allnotes]]) using Graphviz. It wasn't great to say the least ([[c-3_allnotes-response-p-2c-1.png]]), so the conversation continued as I tried various techniques. Near the end I made the most progress by simply telling ChatGPT what I wanted, but the struggles beforehand taught me a lot about Graphviz. It will be interesting to see whether in the future I'll simply default to "ask ChatGPT" without the struggle.
 
-	theme1 -- resource1;
-	theme1 -- "resource 2";
-	theme3 -- "resource 2";
-	theme1 -- "resource 3";
-	"theme 2" -- "resource 2";
-	"theme 2" -- "resource 4";	
-	
-	theme3 -- resource1;
-	theme3 -- "resource 4";	
-	
-	label = "\n\nEntity Relation Diagram\ndrawn by NEATO";
-	fontsize=20;
-} ``` 
-```
+Once I had something looking OK ([[c-3_allnotes-response-p-2c-12.png]]) I asked my last question of the conversation: "compose a prompt combining these characteristics so that I can generate concept maps like this quicker".
 
-### Prompt 2c
+#### version 2: 
+I incorporated everything I learnt into **"version 2"** of Prompt2c, which I tested in [[c-3_allnotes-response-p-2c-b]], generating for the first time 
+]]
