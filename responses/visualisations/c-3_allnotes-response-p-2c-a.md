@@ -1,6 +1,6 @@
 # Visualising Resources' Top Themes
 
-What follows is a conversation I had with ChatGPT during experiment 4. Only some headings have been added to give it a little structure. 
+What follows is a conversation I had with ChatGPT during experiment 4 (see [[experiments 2 3 4 - visualisers]]). Only some headings have been added to give it a little structure. 
 
 ## First attempt
 

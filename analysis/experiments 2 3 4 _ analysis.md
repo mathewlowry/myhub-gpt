@@ -27,7 +27,7 @@ Even with only 10 resources, it's a lot of work for me to evaluate the appropria
 
 Moreover, when I asked it to identify subthemes which appear in more than one theme, it started making things up: the subtheme "Impact of media literacy education and fact-checking efforts" does *not* appear in the theme of "the need for effective communication, dialogue, and understanding in addressing misinformation and promoting accurate information", simply because that theme does not exist.
 
-The mindmap (**c-3-s-0-response-p2-mindmap.png**) on the other hand, is a lot better than in Experiment 2: [[c-3-s-0-response-p2-mindmap.png]]
+The mindmap **([[c-3-s-0-response-p2-mindmap.png]])** on the other hand, is a lot better than in Experiment 2: [[c-3-s-0-response-p2-mindmap.png]]. 
 
 All top-level themes are present and it's easier to read. But some subthemes are missing:
 
@@ -90,11 +90,27 @@ So I asked my last question of the conversation: "compose a prompt combining the
 
 This I then tested *using the same collection* to create [[c-3_allnotes-response-p-2c-b]], resulting in the **c-3_allnotes-response-p-2c-b.jpeg** concept map: [[c-3_allnotes-response-p-2c-b.jpeg]].
 
-**First observation:** although the content of the collection is identical and the prompts are essentially the same, the resulting concept maps are very different. While both are usable in some way, there are far more interconnections in concept map resulting from the earlier, far more drawn-out experiment (2c-a-12) than in the later one (2c-b).
+##### Different themes & interconnection density
+
+Although the content analysed in the collection is identical and the prompts very similar, the resulting concept maps are very different. While both are usable in some way, there are far more interconnections in the concept map resulting from the earlier, more drawn-out conversation (2c-a-12) than in the later one, where I tried to distil everything into a single prompt (2c-b):
+
+* in 2c-b, the average article is linked to 1 theme, while in 2c-a-12, the figure is 1.7.
+* interesting edge case: 
+	* in 2c-b ChatGPT correctly placed the "100 articles on Fake news" article off to the side, disconnected, as my notes on it were almost empty ("A library, organised by topic") as it was my own post, which I tend to only describe, not annotate. 
+	* in 2c-a-12, however, this article is linked to the Media Literacy theme.
+
+One possible reason is the **difference in themes**. As seen earlier, when asked to identify themes in the same content, ChatGPT will identify different themes each time. Moreover, I then asked ChatGPT to consolidate the themes differently, resulting in the 2 different theme sets seen in the two maps.
+
+It is also possible, however, that the key driver here is the nature of the conversations: 2c-a-12 was the result of a very long conversation as I wrestled with graphviz, whereas 2c-b
+
+##### Abbreviated titles
+
+Examining the graphs I noticed that 2c-a-12 has abbreviated resource titles. At a late stage of the conversation in [[c-3_allnotes-response-p-2c-a]] I asked it to "make the entire thing more compact", and I see now that ChatGPT turned "I read 100-and-counting articles on Fake News so you don’t have to" into "Reading 100+ Articles on Fake News". 
+
+This didn't happen in [[c-3_allnotes-response-p-2c-b]], as the prompt didn't give ChatGPT much leeway, simply asking it to "Reduce node separation to make the concept map compact".
 
 
-* It correctly placed the "100 articles on Fake news" article off to the side, disconnected, as my notes were almost empty (it is my own post). 
-* All but one of the other articles was connected to only one theme, while each theme is connected to 1 or 2 articles 
+
 * I find the figure constantly forcing me to ask questions like *why is article X not connected to Theme Y, when article Z is*? (eg, Why is *How Your Brain Decides Without You* ***not*** linked to *Confirmation Bias and Cognitive Influences?*) 
 * Of course these are based on just the article titles, while ChatGPT's underlying analysis is based only on my notes, so even without hallucinations the question shouldnt be "*is this correct*" but rather "*what does that make me think of?*" 
 
