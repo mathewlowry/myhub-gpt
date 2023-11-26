@@ -13,9 +13,9 @@ Nevertheless, I'm analysing here their results to better design experiment 4.
 ### Experiment 2
 The single most used tag in the collection was psychology (68 resources), yet this was not mentioned as a theme or subtheme. This may be because there was too much content for ChatGPT to consume, of course.
 
-What of the Experiment 2 mindmap?
-[[c-2-s-0-response-p2-mindmap.jpeg]] 
-While ChatGPT identified 8 toplevel themes, the mindmap only displays 4. Not good.
+What of the Experiment 2 mindmap: **c-2-s-0-response-p2-mindmap.jpeg**? [[c-2-s-0-response-p2-mindmap.jpeg]] 
+
+While ChatGPT identified 8 toplevel themes, the mindmap only displays 4. Not good!
 ### Experiment 3
 Did we do better with a collection of only 10 resources? 
 
@@ -27,9 +27,7 @@ Even with only 10 resources, it's a lot of work for me to evaluate the appropria
 
 Moreover, when I asked it to identify subthemes which appear in more than one theme, it started making things up: the subtheme "Impact of media literacy education and fact-checking efforts" does *not* appear in the theme of "the need for effective communication, dialogue, and understanding in addressing misinformation and promoting accurate information", simply because that theme does not exist.
 
-The mindmap on the other hand, is a lot better than in Experiment 2. 
-
-[[c-3-s-0-response-p2-mindmap.png]]
+The mindmap (**c-3-s-0-response-p2-mindmap.png**) on the other hand, is a lot better than in Experiment 2: [[c-3-s-0-response-p2-mindmap.png]]
 
 All top-level themes are present and it's easier to read. But some subthemes are missing:
 
@@ -78,29 +76,23 @@ So I turned to a new mapping tool ([Graphviz](https://graphviz.org/Gallery/neato
 [[test neato visualisation]], and a new prompt ([[prompt 2c - themes and resources visualised]]) to take advantage of it.   
 
 #### Prompt2c - version 1: learning graphviz
-In [[c-3_allnotes-response-p-2c-a]] I started with **"version 1" of Prompt2c**, trying to get a useful visualisation of the same content ([[c-3_allnotes]]) using Graphviz. The result wasn't great to say the least (**c-3_allnotes-response-p-2c-12.png**): 
+In [[c-3_allnotes-response-p-2c-a]] I started with **"version 1" of Prompt2c**, trying to get a useful visualisation of the same content ([[c-3_allnotes]]) using Graphviz. The result wasn't great to say the least (**c-3_allnotes-response-p-2c-a-1.png**): 
 
-[[c-3_allnotes-response-p-2c-a-1.png]]), 
+[[c-3_allnotes-response-p-2c-a-1.png]] 
 
 The conversation therefore continued as I tried tweaking node size, shape and colour; introduced line breaks into the texts so they'd fit inside the nodes; and tried to make the whole thing more compact.
 
 Near the end I made the most progress by simply telling ChatGPT what I wanted, but the struggles beforehand taught me a lot about Graphviz. It will be interesting to see whether in the future I'll simply default to "ask ChatGPT" *without* all that the struggle... and learning.
 
-Eventually I had something (**c-3_allnotes-response-p-2c-12.png**) that I can actually look at and assess: is it accurate, or provocative, or both? Most importantly, is it useful? [[c-3_allnotes-response-p-2c-a-12.png]] 
+Eventually I had something (**c-3_allnotes-response-p-2c-a-12.png**) that I can actually look at and assess: is it accurate, or provocative, or both? Most importantly, is it useful? [[c-3_allnotes-response-p-2c-a-12.png]] 
 #### Prompt2c - version 2
 So I asked my last question of the conversation: "compose a prompt combining these characteristics so that I can generate concept maps like this quicker", and then incorporated everything I learnt from [[c-3_allnotes-response-p-2c-a]] into **"version 2"** of [[prompt 2c - themes and resources visualised|Prompt2c]]. 
 
 This I then tested *using the same collection* to create [[c-3_allnotes-response-p-2c-b]], resulting in the **c-3_allnotes-response-p-2c-b.jpeg** concept map: [[c-3_allnotes-response-p-2c-b.jpeg]].
 
-**First observation:** although the content of the collection is identical and the prompts are essentially the same, the resulting concept maps are very different. While both are usable in some way, there are far more interconnections in the earlier experiment ([[c-3_allnotes-response-p-2c-a-12.png|2c-a-12]])
+**First observation:** although the content of the collection is identical and the prompts are essentially the same, the resulting concept maps are very different. While both are usable in some way, there are far more interconnections in concept map resulting from the earlier, far more drawn-out experiment (2c-a-12) than in the later one (2c-b).
 
-:
 
-* *
-
-Some observations:
-
-* DAMN: 
 * It correctly placed the "100 articles on Fake news" article off to the side, disconnected, as my notes were almost empty (it is my own post). 
 * All but one of the other articles was connected to only one theme, while each theme is connected to 1 or 2 articles 
 * I find the figure constantly forcing me to ask questions like *why is article X not connected to Theme Y, when article Z is*? (eg, Why is *How Your Brain Decides Without You* ***not*** linked to *Confirmation Bias and Cognitive Influences?*) 
