@@ -119,7 +119,7 @@ I find the figures constantly forcing me to ask questions like *why is article X
 
 Of course these questions are sparked by comparing just the article titles with the themes, while ChatGPT's underlying analysis is based only on my notes, so even without hallucinations the question shouldnt be "*is this correct*" but rather "*what does that make me think of?*" 
 
-And there is a quantitative difference here between the 2 concept maps. 2c-b is so sparse I nothing interesting jumps out to grab my attention, whereas the centrality of the *Misinformation and Cognitive Biases* theme in 2c-a-12 (linked to 5 resources) gives me something to work with.
+**And there is a quantitative difference here between the 2 concept maps.** 2c-b is so sparse I nothing interesting jumps out to grab my attention, whereas the centrality of the *Misinformation and Cognitive Biases* theme in 2c-a-12 (linked to 5 resources) gives me something to work with.
 
 ##### next steps
 
