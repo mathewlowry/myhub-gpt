@@ -85,10 +85,9 @@ Near the end I made the most progress by simply telling ChatGPT what I wanted, b
 Once I had something looking OK ([[c-3_allnotes-response-p-2c-12.png]]) I asked my last question of the conversation: "compose a prompt combining these characteristics so that I can generate concept maps like this quicker".
 
 #### Prompt2c - version 2
-I incorporated everything I learnt from  [[c-3_allnotes-response-p-2c-a]] into **"version 2"** of Prompt2c, which I tested in [[c-3_allnotes-response-p-2c-b]], generating for the first time something that looks somewhat useful:
+I incorporated everything I learnt from  [[c-3_allnotes-response-p-2c-a]] into **"version 2"** of Prompt2c, which I tested in [[c-3_allnotes-response-p-2c-b]], generating [[c-3_allnotes-response-p-2c-b.jpeg]].
 
-![[c-3_allnotes-response-p-2c-b.svg]]
-
+inline
 
 ![[c-3_allnotes-response-p-2c-b.jpeg]]
 

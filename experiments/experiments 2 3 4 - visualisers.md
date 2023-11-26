@@ -4,12 +4,8 @@ Experiments 2 & 3 were early experiments into thematic analysis and visualisatio
 
 Note that all visualisations (so far) involve asking ChatGPT to give me mermaid code, which I then need to paste into mermaid.live. Building this feature direct into MyHub.ai would be pretty cool... but only if it's actually useful. Hence these experiments.
 
-*Status*: Experiment 4 still underway 
-
-**Full analysis of results (so far):** [[experiments 2 3 4 _ analysis]].
-
-Links follow:
-
+*Status*: Experiment 4 still underway.
+Links follow, including [[experiments 2 3 4 _ analysis]]:
 ## Experiment 2
 
 * Collection 2: "the best stuff I like" https://myhub.ai/@mathewlowry/?quality=best&types=like&timeframe=anytime
@@ -26,7 +22,7 @@ Links follow:
 
 ## Experiment 4: C-3-S-1-150-P-2b/c
 
-Aiming for a different style of visualisation:
+Aiming for a different style of visualisation - concept map, rather than mindmap - resulting in a new visualisation tool:
 
 * Collection 3: "the best stuff tagged psychology and disinformation" https://myhub.ai/@mathewlowry/?tags=disinformation&types=like&timeframe=anytime&quality=best&tags=psychology 
 * AllNotes: [[c-3_allnotes]]
@@ -38,7 +34,6 @@ Aiming for a different style of visualisation:
 	* [[c-3_allnotes-response-p-2b-1]]
 	* [[c-3_allnotes-response-p-2b-2]] (same prompt, entirely different thematic analysis from ChatGPT)
 	* [[c-3_allnotes-response-p-2c-a]] using prompt 2c, version 1
-		*  [[c-3_allnotes-response-p-2c-1.png]]: first result
-		* [[c-3_allnotes-response-p-2c-12.png]]: final resultt
 	* this lead to [[c-3_allnotes-response-p-2c-b]]: applying prompt 2c, version 2, tested on the same collection
-		* [[c-3_allnotes-response-p-2c-b.jpeg]]
+* **Full analysis of results (so far): [[experiments 2 3 4 _ analysis]].**
+
