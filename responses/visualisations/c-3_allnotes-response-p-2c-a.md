@@ -186,7 +186,7 @@ graph ER {
 You can use this code with Graphviz tools to generate a visual concept map of your resources and themes. Adjust the layout or styling as needed for your specific visualization preferences.
 
 ### First attempt: result
-The above code generated [[c-3_allnotes-response-p-2c-1.png]]
+The above code generated [[c-3_allnotes-response-p-2c-a-1.png]]
 
 ## Struggling with Graphviz
 #### You:
@@ -845,7 +845,7 @@ This code reduces the spacing between nodes and ensures that the text of the Res
 
 ## Write me a prompt for this
 
-The above code gives [[c-3_allnotes-response-p-2c-12.png]] in graphvis.
+The above code gives [[c-3_allnotes-response-p-2c-a-12.png]] in graphvis.
 
 #### You:
 This is the result I wanted. Please compose a prompt combining these characteristics so that I can generate concept maps like this quicker.

@@ -80,17 +80,21 @@ So I turned to a new mapping tool ([Graphviz](https://graphviz.org/Gallery/neato
 #### Prompt2c - version 1: learning graphviz
 In [[c-3_allnotes-response-p-2c-a]] I started with **"version 1" of Prompt2c**, trying to get a useful visualisation of the same content ([[c-3_allnotes]]) using Graphviz. The result wasn't great to say the least (**c-3_allnotes-response-p-2c-12.png**): 
 
-[[c-3_allnotes-response-p-2c-1.png]]), 
+[[c-3_allnotes-response-p-2c-a-1.png]]), 
 
 The conversation therefore continued as I tried tweaking node size, shape and colour; introduced line breaks into the texts so they'd fit inside the nodes; and tried to make the whole thing more compact.
 
 Near the end I made the most progress by simply telling ChatGPT what I wanted, but the struggles beforehand taught me a lot about Graphviz. It will be interesting to see whether in the future I'll simply default to "ask ChatGPT" *without* all that the struggle... and learning.
 
-Eventually I had something (**c-3_allnotes-response-p-2c-12.png**) that I can actually look at and assess: is it accurate, or provocative, or both? Most importantly, is it useful? [[c-3_allnotes-response-p-2c-12.png]] 
+Eventually I had something (**c-3_allnotes-response-p-2c-12.png**) that I can actually look at and assess: is it accurate, or provocative, or both? Most importantly, is it useful? [[c-3_allnotes-response-p-2c-a-12.png]] 
 #### Prompt2c - version 2
-So I asked my last question of the conversation: "compose a prompt combining these characteristics so that I can generate concept maps like this quicker", and then incorporated everything I learnt from [[c-3_allnotes-response-p-2c-a]] into **"version 2"** of Prompt2c, which I then tested using the same collection in [[c-3_allnotes-response-p-2c-b]], generating: [[c-3_allnotes-response-p-2c-b.jpeg]].
+So I asked my last question of the conversation: "compose a prompt combining these characteristics so that I can generate concept maps like this quicker", and then incorporated everything I learnt from [[c-3_allnotes-response-p-2c-a]] into **"version 2"** of [[prompt 2c - themes and resources visualised|Prompt2c]]. 
 
-First observation: although the content of the collection is identical and the prompts essentially the same, the results are very different. While both are usable:
+This I then tested *using the same collection* to create [[c-3_allnotes-response-p-2c-b]], resulting in the **c-3_allnotes-response-p-2c-b.jpeg** concept map: [[c-3_allnotes-response-p-2c-b.jpeg]].
+
+**First observation:** although the content of the collection is identical and the prompts are essentially the same, the resulting concept maps are very different. While both are usable in some way, there are far more interconnections in the earlier experiment ([[c-3_allnotes-response-p-2c-a-12.png|2c-a-12]])
+
+:
 
 * *
 
