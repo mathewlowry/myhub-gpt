@@ -1,0 +1,158 @@
+<svg width="660" height="667" viewBox="0 0 495 500.25" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="translate(6.139447367219674,445.05098746208716) scale(0.3893485592673851)">
+<title>ER</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-958.52 1134.1,-958.52 1134.1,4 -4,4"/>
+
+<g id="node1" class="node">
+<title>Susceptibility to Misinformation</title>
+<ellipse fill="lightgrey" stroke="black" cx="164" cy="-576.42" rx="126" ry="90"/>
+<text text-anchor="middle" x="164" y="-572.82" font-family="Helvetica,Arial,sans-serif" font-size="12.00">Susceptibility to Misinformation</text>
+</g>
+<!-- course -->
+<g id="node7" class="node">
+<title>A cognitive scientist explains why humans\nare so susceptible to fake news and misinformation</title>
+<polygon fill="yellow" stroke="black" points="352.29,-224 136.29,-224 136.29,-152 352.29,-152 352.29,-224"/>
+<text text-anchor="middle" x="244.29" y="-197" font-family="Helvetica,Arial,sans-serif" font-size="10.00">A cognitive scientist explains why humans </text>
+<text text-anchor="middle" x="244.29" y="-185" font-family="Helvetica,Arial,sans-serif" font-size="10.00">are so susceptible to fake news</text>
+<text text-anchor="middle" x="244.29" y="-173" font-family="Helvetica,Arial,sans-serif" font-size="10.00"> and misinformation</text>
+</g>
+<!-- C&#45;I -->
+<g id="edge1" class="edge">
+<title>Susceptibility to Misinformation--A cognitive scientist explains why humans\nare so susceptible to fake news and misinformation</title>
+<path fill="none" stroke="black" stroke-width="1.5" d="M182.42,-487.31C199.64,-403.99 224.5,-283.74 236.81,-224.21"/>
+</g>
+<!-- course&#45;&#45;C&#45;I -->
+<g id="node12" class="node">
+<title>Why Facts Don’t Change Our Minds</title>
+<polygon fill="yellow" stroke="black" points="735.46,-226.57 555.46,-226.57 555.46,-168.57 735.46,-168.57 735.46,-226.57"/>
+<text text-anchor="middle" x="645.46" y="-194.57" font-family="Helvetica,Arial,sans-serif" font-size="10.00">Why Facts Don’t Change Our Minds</text>
+</g>
+<!-- institute -->
+<g id="edge2" class="edge">
+<title>Susceptibility to Misinformation--Why Facts Don’t Change Our Minds</title>
+<path fill="none" stroke="black" stroke-width="1.5" d="M248.69,-509.78C354.87,-426.24 532.2,-286.69 608.6,-226.58"/>
+</g>
+<!-- name1 -->
+<g id="node2" class="node">
+<title>Different Types of False Information</title>
+<ellipse fill="lightgrey" stroke="black" cx="374" cy="-794" rx="108" ry="72"/>
+<text text-anchor="middle" x="374" y="-790.7" font-family="Helvetica,Arial,sans-serif" font-size="11.00">Different Types of False Information</text>
+</g>
+<!-- institute&#45;&#45;name1 -->
+<g id="node9" class="node">
+<title>Stop Calling It Fake News.</title>
+<polygon fill="yellow" stroke="black" points="687.22,-822.99 507.22,-822.99 507.22,-764.99 687.22,-764.99 687.22,-822.99"/>
+<text text-anchor="middle" x="597.22" y="-790.99" font-family="Helvetica,Arial,sans-serif" font-size="10.00">Stop Calling It Fake News.</text>
+</g>
+<!-- S&#45;I -->
+<g id="edge3" class="edge">
+<title>Different Types of False Information--Stop Calling It Fake News.</title>
+<path fill="none" stroke="black" stroke-width="1.5" d="M482.02,-793.99C490.36,-793.99 498.74,-793.99 506.95,-793.99"/>
+</g>
+<!-- institute&#45;&#45;S&#45;I -->
+<g id="node3" class="node">
+<title>Confirmation Bias and Cognitive Influences</title>
+<ellipse fill="lightgrey" stroke="black" cx="701.01" cy="-593.34" rx="98.09" ry="54"/>
+<text text-anchor="middle" x="701.01" y="-590.34" font-family="Helvetica,Arial,sans-serif" font-size="10.00">Confirmation Bias and Cognitive Influences</text>
+</g>
+<!-- student -->
+<g id="node10" class="node">
+<title>The best shot at overcoming vaccination\nstandoffs? Having doctors listen</title>
+<polygon fill="yellow" stroke="black" points="530.78,-645.52 314.78,-645.52 314.78,-573.52 530.78,-573.52 530.78,-645.52"/>
+<text text-anchor="middle" x="422.78" y="-612.52" font-family="Helvetica,Arial,sans-serif" font-size="10.00">The best shot at overcoming vaccination</text>
+<text text-anchor="middle" x="422.78" y="-600.52" font-family="Helvetica,Arial,sans-serif" font-size="10.00">standoffs? Having doctors listen</text>
+</g>
+<!-- name2 -->
+<g id="edge4" class="edge">
+<title>Confirmation Bias and Cognitive Influences--The best shot at overcoming vaccination\nstandoffs? Having doctors listen</title>
+<path fill="none" stroke="black" stroke-width="1.5" d="M602.92,-599.05C579.61,-600.4 554.61,-601.85 530.87,-603.23"/>
+</g>
+<!-- student&#45;&#45;name2 -->
+<g id="edge5" class="edge">
+<title>Confirmation Bias and Cognitive Influences--Why Facts Don’t Change Our Minds</title>
+<path fill="none" stroke="black" stroke-width="1.5" d="M693.41,-539.14C681.49,-454.25 658.83,-292.81 649.57,-226.8"/>
+</g>
+<!-- grade -->
+<g id="node4" class="node">
+<title>Inoculation Theory and Counterarguments</title>
+<ellipse fill="lightgrey" stroke="black" cx="514.93" cy="-36" rx="96.86" ry="36"/>
+<text text-anchor="middle" x="514.93" y="-33" font-family="Helvetica,Arial,sans-serif" font-size="10.00">Inoculation Theory and Counterarguments</text>
+</g>
+<!-- student&#45;&#45;grade -->
+<g id="node11" class="node">
+<title>Inoculation theory: Using misinformation\nto fight misinformation</title>
+<polygon fill="yellow" stroke="black" points="851.73,-72 635.73,-72 635.73,0 851.73,0 851.73,-72"/>
+<text text-anchor="middle" x="743.73" y="-39" font-family="Helvetica,Arial,sans-serif" font-size="10.00">Inoculation theory: Using misinformation</text>
+<text text-anchor="middle" x="743.73" y="-27" font-family="Helvetica,Arial,sans-serif" font-size="10.00">to fight misinformation</text>
+</g>
+<!-- number -->
+<g id="edge6" class="edge">
+<title>Inoculation Theory and Counterarguments--Inoculation theory: Using misinformation\nto fight misinformation</title>
+<path fill="none" stroke="black" stroke-width="1.5" d="M611.96,-36C619.76,-36 627.66,-36 635.53,-36"/>
+</g>
+<!-- student&#45;&#45;number -->
+<g id="node5" class="node">
+<title>Polarization and Echo Chambers</title>
+<ellipse fill="lightgrey" stroke="black" cx="812" cy="-900.52" rx="90" ry="54"/>
+<text text-anchor="middle" x="812" y="-897.52" font-family="Helvetica,Arial,sans-serif" font-size="10.00">Polarization and Echo Chambers</text>
+</g>
+<!-- S&#45;C -->
+<g id="node13" class="node">
+<title>Why each side of the partisan divide thinks\nthe other is living in an alternate reality</title>
+<polygon fill="yellow" stroke="black" points="1130.1,-875.93 914.1,-875.93 914.1,-803.93 1130.1,-803.93 1130.1,-875.93"/>
+<text text-anchor="middle" x="1022.1" y="-842.93" font-family="Helvetica,Arial,sans-serif" font-size="10.00">Why each side of the partisan divide thinks</text>
+<text text-anchor="middle" x="1022.1" y="-830.93" font-family="Helvetica,Arial,sans-serif" font-size="10.00">the other is living in an alternate reality</text>
+</g>
+<!-- student&#45;&#45;S&#45;C -->
+<g id="edge7" class="edge">
+<title>Polarization and Echo Chambers--Why each side of the partisan divide thinks\nthe other is living in an alternate reality</title>
+<path fill="none" stroke="black" stroke-width="1.5" d="M893.23,-877.1C900.04,-875.13 907,-873.13 913.97,-871.12"/>
+</g>
+<!-- name0 -->
+<g id="node15" class="node">
+<title>The Deep Truth about “Fake News”</title>
+<polygon fill="yellow" stroke="black" points="926.66,-780 746.66,-780 746.66,-722 926.66,-722 926.66,-780"/>
+<text text-anchor="middle" x="836.66" y="-748" font-family="Helvetica,Arial,sans-serif" font-size="10.00">The Deep Truth about “Fake News”</text>
+</g>
+<!-- name0&#45;&#45;course -->
+<g id="edge8" class="edge">
+<title>Polarization and Echo Chambers--The Deep Truth about “Fake News”</title>
+<path fill="none" stroke="black" stroke-width="1.5" d="M820.9,-846.54C824.6,-824.12 828.74,-799 831.85,-780.14"/>
+</g>
+<!-- code -->
+<g id="node6" class="node">
+<title>Role of Media Literacy and Trust</title>
+<ellipse fill="lightgrey" stroke="black" cx="838.14" cy="-310.97" rx="78.27" ry="36"/>
+<text text-anchor="middle" x="838.14" y="-307.97" font-family="Helvetica,Arial,sans-serif" font-size="10.00">Role of Media Literacy and Trust</text>
+</g>
+<!-- code&#45;&#45;course -->
+<g id="node14" class="node">
+<title>Did Media Literacy Backfire?</title>
+<polygon fill="yellow" stroke="black" points="1110.1,-294.6 930.1,-294.6 930.1,-236.6 1110.1,-236.6 1110.1,-294.6"/>
+<text text-anchor="middle" x="1020.1" y="-262.6" font-family="Helvetica,Arial,sans-serif" font-size="10.00">Did Media Literacy Backfire?</text>
+</g>
+<!-- C&#45;I&#45;&#45;institute -->
+<g id="edge9" class="edge">
+<title>Role of Media Literacy and Trust--Did Media Literacy Backfire?</title>
+<path fill="none" stroke="black" stroke-width="1.5" d="M906.93,-293.82C914.48,-291.93 922.24,-290 930,-288.06"/>
+</g>
+<!-- S&#45;C&#45;&#45;course -->
+<g id="node16" class="node">
+<title>How Your Brain Decides Without You</title>
+<polygon fill="yellow" stroke="black" points="960.08,-210 780.08,-210 780.08,-152 960.08,-152 960.08,-210"/>
+<text text-anchor="middle" x="870.08" y="-178" font-family="Helvetica,Arial,sans-serif" font-size="10.00">How Your Brain Decides Without You</text>
+</g>
+<!-- S&#45;I&#45;&#45;student --><!-- Role of Media Literacy and Trust&#45;&#45;How Your Brain Decides Without You -->
+<g id="edge10" class="edge">
+<title>Role of Media Literacy and Trust--How Your Brain Decides Without You</title>
+<path fill="none" stroke="black" stroke-width="1.5" d="M846.95,-275.11C851.97,-254.67 858.19,-229.39 862.91,-210.18"/>
+</g>
+<!-- I read 100&#45;and&#45;counting articles on\nFake News so you don’t have to -->
+<g id="node8" class="node">
+<title>I read 100-and-counting articles on\nFake News so you don’t have to</title>
+<polygon fill="yellow" stroke="black" points="216,-908 0,-908 0,-836 216,-836 216,-908"/>
+<text text-anchor="middle" x="108" y="-875" font-family="Helvetica,Arial,sans-serif" font-size="10.00">I read 100-and-counting articles on</text>
+<text text-anchor="middle" x="108" y="-863" font-family="Helvetica,Arial,sans-serif" font-size="10.00">Fake News so you don’t have to</text>
+</g>
+</g>
+</svg>

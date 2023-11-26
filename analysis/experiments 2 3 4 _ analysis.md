@@ -78,7 +78,7 @@ So I turned to a new mapping tool ([Graphviz](https://graphviz.org/Gallery/neato
 [[test neato visualisation]], and a new prompt ([[prompt 2c - themes and resources visualised]]) to take advantage of it.   
 
 #### Prompt2c - version 1: learning graphviz
-In [[c-3_allnotes-response-p-2c-a]] I started with **"version 1" of Prompt2c**, trying to get a useful visualisation of the same content ([[c-3_allnotes]]) using Graphviz. It wasn't great to say the least ([[c-3_allnotes-response-p-2c-1.png]]), so the conversation continued as I tried tweaking node size, shape and colour; introduced line breaks into the texts so they'd fit inside the nodes; and tried to make the whole thing more compact.
+In [[c-3_allnotes-response-p-2c-a]] I started with **"version 1" of Prompt2c**, trying to get a useful visualisation of the same content ([[c-3_allnotes]]) using Graphviz. The result wasn't great to say the least ([[c-3_allnotes-response-p-2c-1.png]]), so the conversation continued as I tried tweaking node size, shape and colour; introduced line breaks into the texts so they'd fit inside the nodes; and tried to make the whole thing more compact.
 
 Near the end I made the most progress by simply telling ChatGPT what I wanted, but the struggles beforehand taught me a lot about Graphviz. It will be interesting to see whether in the future I'll simply default to "ask ChatGPT" *without* all that the struggle... and learning.
 
@@ -87,6 +87,26 @@ Once I had something looking OK ([[c-3_allnotes-response-p-2c-12.png]]) I asked 
 #### Prompt2c - version 2
 I incorporated everything I learnt from  [[c-3_allnotes-response-p-2c-a]] into **"version 2"** of Prompt2c, which I tested in [[c-3_allnotes-response-p-2c-b]], generating for the first time something that looks somewhat useful:
 
+![[c-3_allnotes-response-p-2c-b.svg]]
+
+
 ![[c-3_allnotes-response-p-2c-b.jpeg]]
 
-At last something that I can actually look at and assess: is it accurate, or provocative, or both? Most importantly, is it useful?
+
+At last something that I can actually look at and assess: is it accurate, or provocative, or both? Most importantly, is it useful? Some observations:
+
+* It correctly placed the "100 articles on Fake news" article off to the side, disconnected, as my notes were almost empty (it is my own post). 
+* All but one of the other articles was connected to only one theme, while each theme is connected to 1 or 2 articles 
+* I find the figure constantly forcing me to ask questions like *why is article X not connected to Theme Y, when article Z is*? (eg, Why is *How Your Brain Decides Without You* ***not*** linked to *Confirmation Bias and Cognitive Influences?*) 
+* Of course these are based on just the article titles, while ChatGPT's underlying analysis is based only on my notes, so even without hallucinations the question shouldnt be "*is this correct*" but rather "*what does that make me think of?*" 
+
+next steps
+
+* prompt 2c v3
+	* include tags in resource nodes
+	* continue conversation based on the concept map artefact
+	* visit resource URLs and recalculate
+		* combine original resource content with my notes
+		* give my notes 4x weight
+		* generate your own tags, compare with mine, suggest missing 
+		* check token limit
