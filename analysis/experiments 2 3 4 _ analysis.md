@@ -78,22 +78,25 @@ So I turned to a new mapping tool ([Graphviz](https://graphviz.org/Gallery/neato
 [[test neato visualisation]], and a new prompt ([[prompt 2c - themes and resources visualised]]) to take advantage of it.   
 
 #### Prompt2c - version 1: learning graphviz
-In [[c-3_allnotes-response-p-2c-a]] I started with **"version 1" of Prompt2c**, trying to get a useful visualisation of the same content ([[c-3_allnotes]]) using Graphviz. The result wasn't great to say the least ([[c-3_allnotes-response-p-2c-1.png]]), so the conversation continued as I tried tweaking node size, shape and colour; introduced line breaks into the texts so they'd fit inside the nodes; and tried to make the whole thing more compact.
+In [[c-3_allnotes-response-p-2c-a]] I started with **"version 1" of Prompt2c**, trying to get a useful visualisation of the same content ([[c-3_allnotes]]) using Graphviz. The result wasn't great to say the least (**c-3_allnotes-response-p-2c-12.png**): 
+
+[[c-3_allnotes-response-p-2c-1.png]]), 
+
+The conversation therefore continued as I tried tweaking node size, shape and colour; introduced line breaks into the texts so they'd fit inside the nodes; and tried to make the whole thing more compact.
 
 Near the end I made the most progress by simply telling ChatGPT what I wanted, but the struggles beforehand taught me a lot about Graphviz. It will be interesting to see whether in the future I'll simply default to "ask ChatGPT" *without* all that the struggle... and learning.
 
-Once I had something looking OK ([[c-3_allnotes-response-p-2c-12.png]]) I asked my last question of the conversation: "compose a prompt combining these characteristics so that I can generate concept maps like this quicker".
-
+Eventually I had something (**c-3_allnotes-response-p-2c-12.png**) that I can actually look at and assess: is it accurate, or provocative, or both? Most importantly, is it useful? [[c-3_allnotes-response-p-2c-12.png]] 
 #### Prompt2c - version 2
-I incorporated everything I learnt from  [[c-3_allnotes-response-p-2c-a]] into **"version 2"** of Prompt2c, which I tested in [[c-3_allnotes-response-p-2c-b]], generating [[c-3_allnotes-response-p-2c-b.jpeg]].
+So I asked my last question of the conversation: "compose a prompt combining these characteristics so that I can generate concept maps like this quicker", and then incorporated everything I learnt from [[c-3_allnotes-response-p-2c-a]] into **"version 2"** of Prompt2c, which I then tested using the same collection in [[c-3_allnotes-response-p-2c-b]], generating: [[c-3_allnotes-response-p-2c-b.jpeg]].
 
-inline
+First observation: although the content of the collection is identical and the prompts essentially the same, the results are very different. While both are usable:
 
-![[c-3_allnotes-response-p-2c-b.jpeg]]
+* *
 
+Some observations:
 
-At last something that I can actually look at and assess: is it accurate, or provocative, or both? Most importantly, is it useful? Some observations:
-
+* DAMN: 
 * It correctly placed the "100 articles on Fake news" article off to the side, disconnected, as my notes were almost empty (it is my own post). 
 * All but one of the other articles was connected to only one theme, while each theme is connected to 1 or 2 articles 
 * I find the figure constantly forcing me to ask questions like *why is article X not connected to Theme Y, when article Z is*? (eg, Why is *How Your Brain Decides Without You* ***not*** linked to *Confirmation Bias and Cognitive Influences?*) 
