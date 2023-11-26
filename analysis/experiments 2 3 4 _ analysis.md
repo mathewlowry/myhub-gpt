@@ -84,43 +84,51 @@ The conversation therefore continued as I tried tweaking node size, shape and co
 
 Near the end I made the most progress by simply telling ChatGPT what I wanted, but the struggles beforehand taught me a lot about Graphviz. It will be interesting to see whether in the future I'll simply default to "ask ChatGPT" *without* all that the struggle... and learning.
 
-Eventually I had something (**c-3_allnotes-response-p-2c-a-12.png**) that I can actually look at and assess: is it accurate, or provocative, or both? Most importantly, is it useful? [[c-3_allnotes-response-p-2c-a-12.png]] 
+Eventually I had something (**c-3_allnotes-response-p-2c-a-12.png**) that I can actually make sense of: [[c-3_allnotes-response-p-2c-a-12.png]] 
 #### Prompt2c - version 2
-So I asked my last question of the conversation: "compose a prompt combining these characteristics so that I can generate concept maps like this quicker", and then incorporated everything I learnt from [[c-3_allnotes-response-p-2c-a]] into **"version 2"** of [[prompt 2c - themes and resources visualised|Prompt2c]]. 
+So I asked my last question of the conversation: "compose a prompt combining these characteristics so that I can generate concept maps like this quicker". I then took that, incorporated everything I learnt from [[c-3_allnotes-response-p-2c-a]], and created **"version 2"** of [[prompt 2c - themes and resources visualised|Prompt2c]]. 
 
 This I then tested *using the same collection* to create [[c-3_allnotes-response-p-2c-b]], resulting in the **c-3_allnotes-response-p-2c-b.jpeg** concept map: [[c-3_allnotes-response-p-2c-b.jpeg]].
 
 ##### Different themes & interconnection density
 
-Although the content analysed in the collection is identical and the prompts very similar, the resulting concept maps are very different. While both are usable in some way, there are far more interconnections in the concept map resulting from the earlier, more drawn-out conversation (2c-a-12) than in the later one, where I tried to distil everything into a single prompt (2c-b):
+Although the content analysed in the collection is identical and the prompts very similar, the resulting concept maps are very different, with far more interconnections in the concept map resulting from the earlier conversation (2c-a-12) than in  (2c-b), when I tried to distil everything into a single prompt:
 
-* in 2c-b, the average article is linked to 1 theme, while in 2c-a-12, the figure is 1.7.
+* in 2c-b, the average article is linked to 1 theme, while in 2c-a-12, the figure is 1.7, with one theme (*Misinformation and Cognitive Biases*) ("Several resources discuss the phenomenon of fake news, misinformation, and their impact on society, examining how cognitive biases play a role in the spread of false information and its consequences. This theme encompasses both the nature of misinformation and the cognitive processes that influence its reception and propagation") connected to 5 articles.
+	* note that the *Misinformation and Cognitive Biases* theme is the one ChatGPT created after I asked it to combine two themes. 
+	* However I also had ChatGPT merge two themes in 2c-b, creating *Confirmation Bias and Cognitive Influences* ("Merging the influence of personal biases, identity, and various cognitive biases in shaping our belief systems and decision-making processes"). This theme, however, is not more central than anything else in 2c-b.
 * interesting edge case: 
 	* in 2c-b ChatGPT correctly placed the "100 articles on Fake news" article off to the side, disconnected, as my notes on it were almost empty ("A library, organised by topic") as it was my own post, which I tend to only describe, not annotate. 
 	* in 2c-a-12, however, this article is linked to the Media Literacy theme.
 
-One possible reason is the **difference in themes**. As seen earlier, when asked to identify themes in the same content, ChatGPT will identify different themes each time. Moreover, I then asked ChatGPT to consolidate the themes differently, resulting in the 2 different theme sets seen in the two maps.
+One obvious possible reason for the difference in connection density is the **difference in themes**. The two experiments show - not for the first time - that when asked to identify themes in the same content, ChatGPT will identify different themes each time. 
 
-It is also possible, however, that the key driver here is the nature of the conversations: 2c-a-12 was the result of a very long conversation as I wrestled with graphviz, whereas 2c-b
-
+However it is also possible that the key driver here is the *length* of the conversations: 2c-a-12 was the result of an 18-response conversation as I wrestled with graphviz, whereas 2c-b had only 3 responses. It doesn't necessarily make sense - the content, after all, is the same - but ChatGPT often doesn't.
 ##### Abbreviated titles
 
 Examining the graphs I noticed that 2c-a-12 has abbreviated resource titles. At a late stage of the conversation in [[c-3_allnotes-response-p-2c-a]] I asked it to "make the entire thing more compact", and I see now that ChatGPT turned "I read 100-and-counting articles on Fake News so you don’t have to" into "Reading 100+ Articles on Fake News". 
 
 This didn't happen in [[c-3_allnotes-response-p-2c-b]], as the prompt didn't give ChatGPT much leeway, simply asking it to "Reduce node separation to make the concept map compact".
 
+##### What's useful?
 
+I find the figures constantly forcing me to ask questions like *why is article X not connected to Theme Y, when article Z is*?  For example:
 
-* I find the figure constantly forcing me to ask questions like *why is article X not connected to Theme Y, when article Z is*? (eg, Why is *How Your Brain Decides Without You* ***not*** linked to *Confirmation Bias and Cognitive Influences?*) 
-* Of course these are based on just the article titles, while ChatGPT's underlying analysis is based only on my notes, so even without hallucinations the question shouldnt be "*is this correct*" but rather "*what does that make me think of?*" 
+* in 2c-b: Why is *How Your Brain Decides Without You* ***not*** linked to *Confirmation Bias and Cognitive Influences?*
+* in 2c-a-12: Why is *Why facts dont change our minds* not connected to *Communication Strategies*?
 
-next steps
+Of course these questions are sparked by comparing just the article titles with the themes, while ChatGPT's underlying analysis is based only on my notes, so even without hallucinations the question shouldnt be "*is this correct*" but rather "*what does that make me think of?*" 
 
-* prompt 2c v3
-	* include tags in resource nodes
-	* continue conversation based on the concept map artefact
-	* visit resource URLs and recalculate
-		* combine original resource content with my notes
-		* give my notes 4x weight
-		* generate your own tags, compare with mine, suggest missing 
-		* check token limit
+And there is a quantitative difference here between the 2 concept maps. 2c-b is so sparse I nothing interesting jumps out to grab my attention, whereas the centrality of the *Misinformation and Cognitive Biases* theme in 2c-a-12 (linked to 5 resources) gives me something to work with.
+
+##### next steps
+
+* find out how to get more connection density - more 2c-a-12 than 2c-b
+* reproduce 2c-a-12 result using prompt2c, creating prompt 2d
+* continue 2c-a-12 conversation based on the concept map artefact
+* include tags in resource nodes
+* visit resource URLs and recalculate
+	* combine original resource content with my notes
+	* give my notes 4x weight
+	* generate your own tags, compare with mine, suggest missing 
+	* check token limit
