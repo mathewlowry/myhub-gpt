@@ -117,16 +117,22 @@ I find the figures constantly forcing me to ask questions like *why is article X
 * in 2c-b: Why is *How Your Brain Decides Without You* ***not*** linked to *Confirmation Bias and Cognitive Influences?*
 * in 2c-a-12: Why is *Why facts dont change our minds* not connected to *Communication Strategies*?
 
-Of course these questions are sparked by comparing just the article titles with the themes, while ChatGPT's underlying analysis is based only on my notes, so even without hallucinations the question shouldnt be "*is this correct*" but rather "*what does that make me think of?*" 
+But these are not the best questions. They come from comparing just resource and theme *titles*, while the links themselves come from ChatGPT's underlying analysis of my notes rather than the full resource. Even without hallucinations, in other words, they're not that informative.
 
-**And there is a quantitative difference here between the 2 concept maps.** 2c-b is so sparse I nothing interesting jumps out to grab my attention, whereas the centrality of the *Misinformation and Cognitive Biases* theme in 2c-a-12 (linked to 5 resources) gives me something to work with.
+Rather than "*is this correct*", the question should be "*what does that make me think of?*" 
 
-##### next steps
+**And there is a quantitative difference here between the 2 concept maps.** 2c-b is so sparse I nothing interesting jumps out to grab my attention, whereas the centrality of the *Misinformation and Cognitive Biases* theme in 2c-a-12 (linked to 5 resources) gives me something to work with - for example:
 
-* find out how to get more connection density - more 2c-a-12 than 2c-b
-* reproduce 2c-a-12 result using prompt2c, creating prompt 2d
-* continue 2c-a-12 conversation based on the concept map artefact
-* include tags in resource nodes
+* what do the 3 resources relevant to Communication Strategies say when developing a communication strategy to counter disinformation? Focus specifically on where they agree and disagree.
+* how would you rearrange this picture - without changing the contents - so that it presents a framework for understanding political polarisation and misinformation? I want to see a clear "cause and effect" movement from left to right, showing how the different phenomena interact to give us the world we see today. Include and identify solutions in one part of the framework if relevant and available
+* Develop the theme of "Media literacy" into an overview of the four articles linked to it, with a particular focus on how media literacy either helps cause and/or solve the issues set out in "vaccination standoffs"
+* Suggest between 5 and 10 feasible ways the knowledge and ideas set out in these articles could help combat misinformation about the European Union
+
+##### Other ideas
+
+* finalise prompt2c: get the  connection density seen in 2c-a-12 from a single prompt
+* continue 2c-a-12 conversation based on the concept map artefact: how does a conversation between me and a visualisation look like?
+* include tags in resource nodes? One line theme summaries in theme nodes?
 * visit resource URLs and recalculate
 	* combine original resource content with my notes
 	* give my notes 4x weight
