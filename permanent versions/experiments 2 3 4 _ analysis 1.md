@@ -15,7 +15,7 @@ Nevertheless, I'm analysing here their results to better design experiment 4.
 ### Experiment 2
 The single most used tag in the collection was psychology (68 resources), yet this was not mentioned as a theme or subtheme. This may be because there was too much content for ChatGPT to consume, of course.
 
-What of the Experiment 2 mindmap: **c-2-s-0-response-p2-mindmap.jpeg**? [[c-2-s-0-response-p2-mindmap.jpeg]] 
+What of the Experiment 2 mindmap: **c-2-s-0-response-p2-mindmap.jpeg**? [[C-2-S-0-response-p2-mindmap1.jpeg]] 
 
 While ChatGPT identified 8 toplevel themes, the mindmap only displays 4. Not good!
 ### Experiment 3
@@ -29,7 +29,7 @@ Even with only 10 resources, it's a lot of work for me to evaluate the appropria
 
 Moreover, when I asked it to identify subthemes which appear in more than one theme, it started making things up: the subtheme "Impact of media literacy education and fact-checking efforts" does *not* appear in the theme of "the need for effective communication, dialogue, and understanding in addressing misinformation and promoting accurate information", simply because that theme does not exist.
 
-The mindmap **([[c-3-s-0-response-p2-mindmap.png]])** on the other hand, is a lot better than in Experiment 2: [[c-3-s-0-response-p2-mindmap.png]]. 
+The mindmap **([[C-3-S-0-response-p2-mindmap2.png]])** on the other hand, is a lot better than in Experiment 2: [[C-3-S-0-response-p2-mindmap2.png]]. 
 
 All top-level themes are present and it's easier to read. But some subthemes are missing:
 

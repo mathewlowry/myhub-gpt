@@ -15,7 +15,7 @@ The single most used tag in the collection was psychology (68 resources), yet th
 
 What of the Experiment 2 mindmap: **c-2-s-0-response-p2-mindmap.jpeg**? 
 
-![[c-2-s-0-response-p2-mindmap.jpeg]] 
+![[C-2-S-0-response-p2-mindmap1.jpeg]] 
 
 While ChatGPT identified 8 toplevel themes, the mindmap only displays 4. Not good!
 ### Experiment 3
@@ -31,7 +31,7 @@ Moreover, when I asked it to identify subthemes which appear in more than one th
 
 The mindmap c-3-s-0-response-p2-mindmap.png on the other hand, is a lot better than in Experiment 2: 
 
-![[c-3-s-0-response-p2-mindmap.png]]
+![[C-3-S-0-response-p2-mindmap2.png]]
 
 All top-level themes are present and it's easier to read. But some subthemes are missing:
 

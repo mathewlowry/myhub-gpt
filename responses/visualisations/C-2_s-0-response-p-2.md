@@ -275,7 +275,7 @@ QQ --> H
   
   
   
-  ![[c-2-s-0-response-p2-mindmap.jpeg]]
+  ![[C-2-S-0-response-p2-mindmap1.jpeg]]
   
   
   
