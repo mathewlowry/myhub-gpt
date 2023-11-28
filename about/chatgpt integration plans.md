@@ -82,4 +82,5 @@ This is one of this wiki's pages managed with the **permanent versions pattern**
 - 2023-11-11: updated to account for [[experiment 6 - ideator GPT]], the release of GPTs, etc, ad shortened with the extraction of [[AIgents behind the scenes]] into a separate file.
 - version control
     - this is version: current
+    - here is the current version: [[chatgpt integration plans]]
     - here is the previous version: [[chatgpt integration plans 1]]

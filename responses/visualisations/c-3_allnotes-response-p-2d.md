@@ -178,6 +178,6 @@ This code should generate a concept map with the specified characteristics. You 
 
 ---
 
-This is what the above code generated:
+This is what the above code generated: **c-3_allnotes-response-p-2d-1.jpeg**
 
-![[c-3_allnotes-response-p-2c-b.jpeg]]
+![[c-3_allnotes-response-p-2d-1.jpeg]]
