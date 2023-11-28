@@ -116,25 +116,27 @@ Examining the graphs I noticed that 2c-12 has abbreviated resource titles. At a 
 
 This didn't happen in [[c-3_allnotes-response-p-2d]], as the prompt didn't give ChatGPT much leeway, simply asking it to "Reduce node separation to make the concept map compact".
 
-##### What's useful?
+##### What's a useful question?
 
 I find the figures constantly forcing me to ask questions like *why is article X not connected to Theme Y, when article Z is*?  For example:
 
 * in 2d-1: Why is *How Your Brain Decides Without You* ***not*** linked to *Confirmation Bias and Cognitive Influences?*
 * in 2c-12: Why is *Why facts dont change our minds* not connected to *Communication Strategies*?
 
-**But these are not the best questions.** They come from comparing just resource and theme *titles*, while the links themselves come from ChatGPT's underlying analysis of my notes rather than the full resource. Even without hallucinations, in other words, they're not that informative.
+But these are *not* the best questions. They come from comparing just resource and theme *titles*, while the links themselves come from ChatGPT's underlying analysis of my notes rather than the full resource. Even without hallucinations, in other words, they're not that informative.
 
-**Rather than "*is this correct*", the question should be "*what does that make me think of?*"** 
+**Rather than "*is this correct*", the question should be "*what does that make me think of?*"** And there is a quantitative difference in the answers to that question between the 2 concept maps. 2d-1 is so sparse nothing interesting jumps out to grab my attention, whereas the centrality in 2c-12 of the *Misinformation and Cognitive Biases* theme (linked to 5 resources) seems to give me something to work with.
 
-**And there is a quantitative difference here between the 2 concept maps.** 2d-1 is so sparse I nothing interesting jumps out to grab my attention, whereas the centrality of the *Misinformation and Cognitive Biases* theme in 2c-12 (linked to 5 resources) gives me something to work with - for example:
+Interestingly, the first questions I found myself noting here are not about that theme, but about the themes "orbiting" it:
 
-* what do the 3 resources relevant to Communication Strategies say when developing a communication strategy to counter disinformation? Focus specifically on where they agree and disagree.
-* how would you rearrange this picture - without changing the contents - so that it presents a framework for understanding political polarisation and misinformation? I want to see a clear "cause and effect" movement from left to right, showing how the different phenomena interact to give us the world we see today. Include and identify solutions in one part of the framework if relevant and available
+* What do the 3 resources relevant to Communication Strategies say when developing a communication strategy to counter disinformation? Focus specifically on where they agree and disagree.
 * Develop the theme of "Media literacy" into an overview of the four articles linked to it, with a particular focus on how media literacy either helps cause and/or solve the issues set out in "vaccination standoffs"
+* How would you rearrange this picture - without changing the contents - so that it presents a framework for understanding political polarisation and misinformation? I want to see a clear "cause and effect" movement from left to right, showing how the different phenomena interact to give us the world we see today. Include and identify solutions in one part of the framework if relevant and available
 * Suggest between 5 and 10 feasible ways the knowledge and ideas set out in these articles could help combat misinformation about the European Union
 
 ##### Other ideas
+
+In no particular order, for now:
 
 * test prompt2d a few more times on different collections to see if it always generates low connection densities. If so, try and improve it so I get the density seen in 2c-12 from a single prompt
 * continue both conversations based on the concept map artefact: how does a conversation between me and a visualisation look like? 
