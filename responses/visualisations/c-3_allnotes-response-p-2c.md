@@ -104,7 +104,7 @@ Certainly, here are the six themes based on your preferences:
 
 Please let me know if you'd like any further adjustments or have additional requests.
 
-
+### Visualise this with Graphviz
 #### You:
 
 Now you are going to generate the Graphviz code for a Entity-Relation Data Model concept map of these resources and themes, where each resources is connected to the relevant themes. The map's nodes representing the resources should all be squares and have the same size. The nodes representing the themes should be ellipses, and sized according to their importance: the most important theme should have the largest node. 
@@ -905,7 +905,7 @@ You can use this template as a prompt to generate concept maps with the desired 
 
 ## Explore "Communication strategy" theme
 
-*Exploring how to use the concept maps to extract value - see [[experiments 2 3 4 _ analysis]].*
+*Exploring how to use the concept maps to extract value, as explained in [[experiments 2 3 4 _ analysis]].*
 
 #### You:
 Looking at the concept map, I see 3 resources connected to the Communication Strategies tgheme. What do they say when developing a communication strategy to counter disinformation? Focus specifically on where they agree and disagree.
@@ -1066,6 +1066,9 @@ To equip healthcare professionals with the knowledge and skills necessary to eff
     - Ensure healthcare professionals are prepared to address such situations with timely, evidence-based responses.
 
 By implementing this comprehensive strategy, healthcare professionals can enhance their ability to communicate effectively with patients, address vaccine misinformation, and promote vaccination as a critical public health measure. This approach not only emphasizes media literacy but also prioritizes patient-centered care and evidence-based communication.
+#### Images for a poster
+
+I then asked for "*4 different images for a poster that doctors can display in their waiting rooms in support of a strategy to help doctors effectively communicate with patients who inquire about vaccine misinformation*" - see  [[c-3_allnotes-response-p-2c-A-Visual_Posters_for_Vaccine_Strategy]]
 
 ## Rework concept map into framework
 
@@ -1171,7 +1174,13 @@ graph G {
 
 This code will create a concept map with the described structure, emphasizing the cause-and-effect relationship between elements. Adjustments can be made as needed for spacing and aesthetics.
 
+---
 
+##### image created
+
+![[c-3_allnotes-response-p-2c-B-frameworkmap1.jpeg]]
+
+---
 #### You:
 Add arrowheads and labels to the edges connecting the different nodes to help readers understand how one node affects another.
  
@@ -1215,6 +1224,13 @@ graph G {
 
 This code includes arrowheads and labels on the edges to indicate the direction and nature of the cause-and-effect relationships between the nodes in the concept map.
 
+---
+
+##### image created
+
+![[c-3_allnotes-response-p-2c-B-frameworkmap2.jpeg]]
+
+---
 
 #### You:
 Each node should be connected to at least one other node. The nodes "Root Causes", "Socioeconomic Disparities" and "Identity Politics" are all disconnected. How are they part of the picture?
@@ -1258,6 +1274,12 @@ graph G {
 
 Now, "Root Causes," "Socioeconomic Disparities," and "Identity Politics" are connected to the framework, illustrating their contributions to the overall understanding of political polarization and misinformation.
 
+---
+##### image created
+
+![[c-3_allnotes-response-p-2c-B-frameworkmap3.jpeg]]
+
+---
 
 #### You:
 But those three nodes are still disconnected from the rest of the framework. I don't understand what they stand for, or the role they play.
@@ -1302,6 +1324,11 @@ graph G {
 In this updated concept map, "Root Causes," "Socioeconomic Disparities," and "Identity Politics" are now connected to the framework. They are positioned as contributing factors ("Contribute to") to the root causes of political polarization and misinformation. This illustrates their role as underlying factors that interact with other elements in the framework to influence the overall dynamic.
 
 
+---
+##### image created: no change
+
+---
+
 #### You:
 Remove the node "Root causes", and connect "Socioeconomic Disparities," and "Identity Politics" directly to the framework wherever they are a root cause. Use the phrase "root cause" as a edge label to demonstrate what they cause. 
 
@@ -1343,6 +1370,12 @@ graph G {
 
 Now, "Socioeconomic Disparities" is connected directly to the "Misinformation Ecosystem," and "Identity Politics" is connected directly to "Confirmation Bias," both labeled as "Root Causes" to demonstrate their role as root causes in the framework.
 
+---
+##### image created: 
+
+![[c-3_allnotes-response-p-2c-B-frameworkmap4.jpeg]]
+
+---
 ### Still struggling with arrowheads
 
 #### You:
@@ -1386,6 +1419,10 @@ graph G {
 
 Now, arrowheads have been added to the edges to indicate causality, showing the direction of influence between the nodes.
 
+---
+##### image created: didn't work
+
+---
 
 #### You:
 I receive an error message for or near the line " "Socioeconomic Disparities" -> "Misinformation Ecosystem" [label="Root Cause", dir="forward"]; " Can you identify the problem?
@@ -1428,6 +1465,11 @@ graph G {
 
 This corrected code should resolve the issue with the arrowheads.
 
+
+---
+##### image created: didn't work
+
+---
 
 #### You:
 Your code is identical, and has the identical error message.
@@ -1474,6 +1516,11 @@ graph G {
 
 If you're still encountering issues, please ensure that Graphviz is correctly installed and that your environment supports its syntax.
 
+---
+##### image created: didn't work
+*At this point I did some research myself and realised ChatGPT's error*
+
+---
 ### Fixed the arrowhead problem myself
 
 #### You:
@@ -1518,6 +1565,45 @@ graph G {
 This code uses `--` for edges and includes `dir=forward` for the arrowheads to indicate causality.
 
 ---
+##### image created
+
+![[c-3_allnotes-response-p-2c-B-frameworkmap5.jpeg]]
+
+---
+
+## Disinfo about the EU
+
+### You: 
+Now take all of the above - from the notes on the individual resources through to the above framework for understanding political polarisation and misinformation - and use it to suggest between 5 and 10 feasible ways to help combat misinformation about the European Union
+
+### ChatGPT:
+Certainly, here are 7 feasible ways to combat misinformation about the European Union based on the insights and information gathered:
+
+1. **Media Literacy Education**: Implement comprehensive media literacy programs that equip citizens with critical thinking skills to evaluate the credibility of information sources and differentiate between reliable and misleading information about the EU.
+    
+2. **Fact-Checking Initiatives**: Support and promote fact-checking organizations dedicated to verifying claims and statements related to the EU. Encourage the use of fact-checking websites and tools to counter misinformation.
+    
+3. **Transparent EU Communication**: Enhance transparency in EU communication by providing accurate, accessible, and easily understandable information about its policies, decisions, and operations. Regularly update and maintain official EU websites and social media channels.
+    
+4. **Collaborative Journalism**: Encourage collaboration between journalists, media outlets, and experts across EU member states to investigate and report on EU-related issues. Promote in-depth reporting and analysis to counter sensationalist or biased narratives.
+    
+5. **Community Engagement**: Establish community-driven forums and platforms for open dialogue between EU officials, experts, and citizens. Foster discussions and address concerns to bridge the gap between the EU and its citizens.
+    
+6. **Citizen Fact-Checkers**: Empower citizens to become part of the solution by providing training and resources for grassroots fact-checking initiatives. Encourage individuals to actively verify information before sharing it.
+    
+7. **EU Digital Literacy Campaigns**: Launch targeted digital literacy campaigns focusing on EU-related topics. Educate citizens about the EU's structure, policies, and decision-making processes, enabling them to make informed judgments about EU-related information.
+    
+8. **Academic Research and Data Sharing**: Support academic research on the impact of misinformation on EU-related issues. Share research findings and data with the public to increase awareness of the challenges and solutions.
+    
+9. **Legal Framework for Online Platforms**: Advocate for a legal framework that holds online platforms accountable for the spread of false or misleading information. Encourage platforms to implement stricter content moderation policies and algorithms to reduce the visibility of misinformation.
+    
+10. **Cross-Border Collaboration**: Promote collaboration among EU member states to address misinformation collectively. Share best practices, resources, and strategies to combat misinformation effectively.
+    
+
+These strategies encompass media literacy, fact-checking, transparent communication, community engagement, and legal measures, aiming to create a well-rounded approach to combat misinformation about the European Union.
+
+---
+
 
 ## Revision Notes
 

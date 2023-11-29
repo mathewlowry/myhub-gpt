@@ -93,12 +93,12 @@ Eventually I had something (**c-3_allnotes-response-p-2c-12.png**) that I can ac
 ![[c-3_allnotes-response-p-2c-12.png]] 
 
 So I asked my last question of the conversation: "compose a prompt combining these characteristics so that I can generate concept maps like this quicker". 
-#### Prompt2d: building on prompt 2c 
+### Prompt2d: building on prompt 2c 
 I took that response, added in everything I learnt from [[c-3_allnotes-response-p-2c]], and created [[prompt 2d - themes and resources visualised]]. 
 
 This I then tested *using the same collection* to create [[c-3_allnotes-response-p-2d]], resulting in the **c-3_allnotes-response-p-2d-1.jpeg** concept map: [[c-3_allnotes-response-p-2d-1.jpeg]].
 
-##### Different themes & interconnection density
+#### Different themes & interconnection density
 
 Although the content analysed in the collection is identical and the prompts very similar, the resulting concept maps are very different, with far more interconnections in the concept map resulting from the earlier conversation (2c-12) than in (2d-1), when I tried to distil everything into a single prompt:
 
@@ -110,13 +110,13 @@ Although the content analysed in the collection is identical and the prompts ver
 One obvious possible reason for the difference in connection density is the **difference in themes**. The two experiments show - not for the first time - that when asked to identify themes in the same content, ChatGPT will identify different themes. 
 
 However it is also possible that the key driver here is the *length* of the conversations: 2c-12 was the result of an 18-response conversation as I wrestled with graphviz, whereas 2d-1 resulted from only 3 responses. It doesn't necessarily make sense - the content, after all, is the same - but ChatGPT often doesn't.
-##### Abbreviated titles
+#### Abbreviated titles
 
 Examining the graphs I noticed that 2c-12 has abbreviated resource titles. At a late stage of the conversation in [[c-3_allnotes-response-p-2c]] I asked it to "make the entire thing more compact", and I see now that ChatGPT turned "I read 100-and-counting articles on Fake News so you don’t have to" into "Reading 100+ Articles on Fake News". 
 
 This didn't happen in [[c-3_allnotes-response-p-2d]], as the prompt didn't give ChatGPT much leeway, simply asking it to "Reduce node separation to make the concept map compact".
 
-##### What's a useful question?
+### What's a useful question?
 
 I find the figures constantly forcing me to ask questions like *why is article X not connected to Theme Y, when article Z is*?  For example:
 
@@ -127,18 +127,65 @@ But these are *not* the best questions. They come from comparing just resource a
 
 **Rather than "*is this correct*", the question should be "*what does that make me think of?*"** And there is a quantitative difference in the answers to that question between the 2 concept maps. 2d-1 is so sparse nothing interesting jumps out to grab my attention, whereas the centrality in 2c-12 of the *Misinformation and Cognitive Biases* theme (linked to 5 resources) seems to give me something to work with.
 
-Interestingly, the first questions I found myself noting here are not about that theme, but about the themes "orbiting" it:
+Interestingly, the first questions I found myself noting here are not about that theme, but about the themes "orbiting" it. I asked the following questions as follow ups on conversation [[c-3_allnotes-response-p-2c]]:
 
-* What do the 3 resources relevant to Communication Strategies say when developing a communication strategy to counter disinformation? Focus specifically on where they agree and disagree.
-	* c-3_allnotes-response-p-2c-1
-* Develop the theme of "Media literacy" into an overview of the four articles linked to it, with a particular focus on how media literacy either helps cause and/or solve the issues set out in "vaccination standoffs"
-* How would you rearrange this picture - without changing the contents - so that it presents a framework for understanding political polarisation and misinformation? I want to see a clear "cause and effect" movement from left to right, showing how the different phenomena interact to give us the world we see today. Include and identify solutions in one part of the framework if relevant and available 
-	* [[code snippet dir forward]]
-* Suggest between 5 and 10 feasible ways the knowledge and ideas set out in these articles could help combat misinformation about the European Union
+#### Communication Strategies theme
 
-##### Other ideas
+I asked: *What do the 3 resources relevant to **Communication Strategies** say when developing a communication strategy to counter disinformation? Focus specifically on where they agree and disagree.*
 
-In no particular order, for now:
+ChatGPT's initial answer seemed based purely on the titles - I had to remind it I had provided notes on each - but even then its ideas were rather insipid, so I didn't pursue it.
+
+#### Media Literacy theme
+
+I asked: *OK let's look at the Media Literacy theme. Recalling the notes on the 4 resources provided earlier and your initial definition of the theme, develop the theme of "Media literacy" into an overview of these four articles linked to it, with a particular focus on how media literacy either helps cause and/or solves the issues set out in "vaccination standoffs".*
+
+The instruction to "recall the notes" seemed to work, so I followed up by asking it to "*Use these insights to design a strategy aimed at doctors to help them better communicate with their patients who ask them about vaccine misinformation"*
+
+The result was a good starting point, so I asked for images for a poster for doctors waiting rooms in support of the strategy - see  [[c-3_allnotes-response-p-2c-A-Visual_Posters_for_Vaccine_Strategy]]
+
+#### From concept map to framework
+
+I asked: *How would you rearrange this picture - without changing the contents - so that it presents a framework for understanding political polarisation and misinformation? I want to see a clear "cause and effect" movement from left to right, showing how the different phenomena interact to give us the world we see today. Include and identify solutions in one part of the framework if relevant and available*
+
+I didn't really expect to get an insightful framework, particularly as the collection of resources ChatGPT was working from could not be described as complete. But I was interested in whether it could rearrange a concept map upon demand.
+
+Answer: not without some trouble - as can be seen from the conversation, I had to tell it to connect disconnected nodes as well as add labels and debug it's attempt to add arrowheads, eventually generating **c-3_allnotes-response-p-2c-B-frameworkmap5.jpeg:**
+
+![[c-3_allnotes-response-p-2c-B-frameworkmap5.jpeg]]
+
+But while this process was laborious - I have to copy the code into graphviz, after all - I should be able to develop a prompt specific to "framework maps".
+
+More importantly, it's now easy to imagine an app which generates the visualisations as responses integrated into the conversation. This is the essential promise of this sort of visualisation:
+
+- you see at a glance how different concepts *might* relate to each other, according to ChatGPT
+- having to correct ChatGPT is the entire point: it makes you think about it
+
+#### Combat misinformation about the EU
+
+I asked it to suggest between 5 and 10 feasible ways the knowledge and ideas set out in the conversation could help combat misinformation about the European Union. 
+
+Why? I've written about this a lot in the past, so I thought this would make an interesting experiment - would I see anything I hadn't already thought of?
+
+Not really. Some are pretty obvious (Transparent EU Communication), although some of *them* are not an EU competence (Media Literacy Education) while others were relegated to the "too hard" basket long ago (Community Engagement - something I've been arguing for, and piloting since 2002). 
+
+Others, moreover, could be counterproductive by furnishing evidence of the sort of EU "Ministry of Truth" and "Propaganda in Schools/Media/Civil Society" initiatives so beloved of conspiracy theorists (Fact-Checking Initiatives, Collaborative Journalism, Citizen Fact-Checkers, EU Digital Literacy Campaigns). 
+
+Perhaps the only ideas which still may hold some potential would be Academic Research and Data Sharing, Legal Framework for Online Platforms (ie, the DSA) and Cross-Border Collaboration.
+
+Nevertheless I thought I'd try and combine what I've learnt so far:
+
+* created [[prompt 2e - framework]] 
+* applied it to the above EU anti-Disinfo programme: see [[ChatGPT-EU_Misinformation_Program_Model]]
+* producing this:
+
+![[c-3_allnotes-response-p-2e-EUDisinfo-1.jpeg]]
+
+This conversation, I suspect, could continue for a while, but this experiment has been productive enough.
+
+--- 
+### Other ideas
+
+*This is a dumping ground where I add ideas as they occur.* So in no particular order (for now at least):
 
 * test prompt2d a few more times on different collections to see if it always generates low connection densities. If so, try and improve it so I get the density seen in 2c-12 from a single prompt
 * continue both conversations based on the concept map artefact: how does a conversation between me and a visualisation look like? 
