@@ -131,7 +131,8 @@ Interestingly, the first questions I found myself noting here are not about that
 
 * What do the 3 resources relevant to Communication Strategies say when developing a communication strategy to counter disinformation? Focus specifically on where they agree and disagree.
 * Develop the theme of "Media literacy" into an overview of the four articles linked to it, with a particular focus on how media literacy either helps cause and/or solve the issues set out in "vaccination standoffs"
-* How would you rearrange this picture - without changing the contents - so that it presents a framework for understanding political polarisation and misinformation? I want to see a clear "cause and effect" movement from left to right, showing how the different phenomena interact to give us the world we see today. Include and identify solutions in one part of the framework if relevant and available
+* How would you rearrange this picture - without changing the contents - so that it presents a framework for understanding political polarisation and misinformation? I want to see a clear "cause and effect" movement from left to right, showing how the different phenomena interact to give us the world we see today. Include and identify solutions in one part of the framework if relevant and available 
+	* [[code snippet fir forward]]
 * Suggest between 5 and 10 feasible ways the knowledge and ideas set out in these articles could help combat misinformation about the European Union
 
 ##### Other ideas

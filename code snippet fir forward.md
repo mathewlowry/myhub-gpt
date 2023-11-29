@@ -1,0 +1,11 @@
+   "Socioeconomic Disparities" -- "Misinformation Ecosystem" [label="Root Cause", dir=forward];
+    "Identity Politics" -- "Confirmation Bias" [label="Root Cause", dir=forward];
+    "Echo Chambers" -- "Solutions and Interventions" [label="Reinforcement", dir=forward];
+    "Media Landscape" -- "Misinformation Ecosystem" [label="Shaping Content", dir=forward];
+    "Misinformation Ecosystem" -- "Confirmation Bias" [label="Spreading", dir=forward];
+    "Confirmation Bias" -- "Echo Chambers" [label="Reinforcing", dir=forward];
+    "Echo Chambers" -- "Political Polarization" [label="Result in", dir=forward];
+    "Political Polarization" -- "Impact on Society" [label="Contributes to", dir=forward];
+    "Impact on Society" -- "Solutions and Interventions" [label="Necessitates", dir=forward];
+    "Solutions and Interventions" -- "Positive Outcomes" [label="Lead to", dir=forward];
+    "Positive Outcomes" -- "Impact on Society" [label="Contribute to", dir=forward];
