@@ -11,6 +11,7 @@
 	* image generation prompts
 * To explore experimentally: 
 	* Asking twice: does asking twice get better results? See [[Experiment 1 analyses]]
+	* Build [[NetflixThis GPT]]
 * Blog post ideas
 	* reversion to the mean 
 		* cf [LinkedIn post](https://www.linkedin.com/analytics/post-summary/urn:li:activity:7122652868104314881/)
