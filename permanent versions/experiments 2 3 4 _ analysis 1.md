@@ -2,7 +2,7 @@
 
 (*This is a permanent version of this page. The latest version of this page can be found under Revision Notes, at the end.*)
 
-See [[experiments 2 3 4 - visualisers]]
+See [[experiments 2 3 4 - knowledge visualisation]]
 
 ## Early experiments: 2-3
 These were early experiments, before I had really thought through what I was testing, and it shows - for example:

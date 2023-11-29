@@ -1,6 +1,6 @@
 # EU Misinformation Program Model
 
-This conversation, part of [[experiments 2 3 4 - visualisers]], takes an output from [[c-3_allnotes-response-p-2c]] and combines it with [[prompt 2e - framework]].
+This conversation, part of [[experiments 2 3 4 - knowledge visualisation]], takes an output from [[c-3_allnotes-response-p-2c]] and combines it with [[prompt 2e - framework]].
 
 #### You:
 I want Graphviz code for a compact Entity-Relation Data Model concept map representing a programme to combat misinformation about the European Union. The programme is composed of 10 elements - please use Graphviz to visualise how these elements would work together.
