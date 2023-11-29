@@ -175,12 +175,12 @@ Perhaps the only ideas which still may hold some potential would be Academic Res
 Nevertheless I thought I'd try and combine what I've learnt so far:
 
 * created [[prompt 2e - framework]] 
-* applied it to the above EU anti-Disinfo programme: see [[ChatGPT-EU_Misinformation_Program_Model]]
+* applied it to the above EU anti-Disinfo programme: see [[c-3_allnotes-response-p-2c-EU_Misinformation_Program_Model]]
 * producing this:
 
 ![[c-3_allnotes-response-p-2e-EUDisinfo-1.jpeg]]
 
-This conversation, I suspect, could continue for a while, but this experiment has been productive enough.
+This conversation, I suspect, could continue for a while, but this experiment has already produced enough food for thought.
 
 --- 
 ### Other ideas
