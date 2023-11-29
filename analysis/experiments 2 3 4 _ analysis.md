@@ -130,9 +130,10 @@ But these are *not* the best questions. They come from comparing just resource a
 Interestingly, the first questions I found myself noting here are not about that theme, but about the themes "orbiting" it:
 
 * What do the 3 resources relevant to Communication Strategies say when developing a communication strategy to counter disinformation? Focus specifically on where they agree and disagree.
+	* c-3_allnotes-response-p-2c-1
 * Develop the theme of "Media literacy" into an overview of the four articles linked to it, with a particular focus on how media literacy either helps cause and/or solve the issues set out in "vaccination standoffs"
 * How would you rearrange this picture - without changing the contents - so that it presents a framework for understanding political polarisation and misinformation? I want to see a clear "cause and effect" movement from left to right, showing how the different phenomena interact to give us the world we see today. Include and identify solutions in one part of the framework if relevant and available 
-	* [[code snippet fir forward]]
+	* [[code snippet dir forward]]
 * Suggest between 5 and 10 feasible ways the knowledge and ideas set out in these articles could help combat misinformation about the European Union
 
 ##### Other ideas
@@ -157,6 +158,6 @@ This is one of this wiki's pages managed with the **permanent versions pattern**
 - changes:
 	- fixed inline images, file nomenclature
 - version control
-    - this is version: 2
+    - this is version: current
     - here is the current version: [[experiments 2 3 4 _ analysis]]
     - previous version: [[experiments 2 3 4 _ analysis 1]]

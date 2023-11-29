@@ -1,3 +1,6 @@
+
+(*This is a permanent version of this page. The latest version of this page can be found under Revision Notes, at the end.*)
+
 # Identifying Top Themes
 
 #### You:
@@ -237,3 +240,19 @@ graph ER {
 ```
 
 This code should represent your concept map as you described, with square nodes for resources, ellipses for themes, and line thickness proportional to theme importance.
+
+
+---
+
+## Revision Notes
+
+This is one of this wiki's pages managed with the **permanent versions pattern** described in  [Two wiki authors and a blogger walk into a bar…](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e)  
+
+- version control
+    - this is version: 1
+    - here is the current version: [[c-3_allnotes-response-p-2c]]
+    - previous version: n/a
+
+
+
+

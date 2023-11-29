@@ -1,8 +1,4 @@
-# Visualising Resources' Top Themes
-
-What follows is a conversation I had with ChatGPT during experiment 4 (see [[experiments 2 3 4 - visualisers]]). Only some headings have been added to give it a little structure. 
-
-## First attempt
+# c-3_allnotes-resp-p-2c
 
 #### You:
 You are a superb organiser and classifier of ideas and content. First identify and briefly summarise the top themes running through some or all of the resources I'm providing you. The most important themes are relevant to the most resources, and should be listed first. Please ensure each theme's title is short, and only provide at most 7 themes to start with. Then ask me if I want you to remove some themes, or generate more, or rename some. Here are the resources:
@@ -185,10 +181,7 @@ graph ER {
 
 You can use this code with Graphviz tools to generate a visual concept map of your resources and themes. Adjust the layout or styling as needed for your specific visualization preferences.
 
-### First attempt: result
-The above code generated [[c-3_allnotes-response-p-2c-1.png]]
 
-## Struggling with Graphviz
 #### You:
 All of the nodes in the code you provided are ellipses, and none of them are large enough to fit the titles inside it. Please rewrite the code so that the texts fit inside the nodes, the resources are represented by square nodes, and that only the nodes representing the themes are ellipses. Moreover, the themes should be drawn using lines with a thickness proportional to the theme's importance - the more important the theme, the thicker the line.
 
@@ -303,7 +296,7 @@ graph ER {
 
 I've made the changes you requested, including using square nodes for resources with yellow fill and inserting line breaks after punctuation marks or every 5 words if there are no punctuation marks in the resource titles.
 
-## Linebreaks
+
 #### You:
 Add a linebreak just before every hyphen in Resources
 
@@ -417,7 +410,6 @@ graph ER {
 
 I've removed the line breaks at the end of the resource titles as requested.
 
-## Spacing
 
 #### You:
 What do we need to do to ensure the nodes are spaced out, with no overlaps
@@ -772,7 +764,7 @@ graph ER {
 
 I've reduced the node separation (nodesep) to make the concept map more compact. Please let me know if you'd like any further adjustments.
 
-## Wrapping up
+
 #### You:
 Please provide the entire code, including the Connections between Resources and Themes
 
@@ -843,9 +835,6 @@ graph ER {
 
 This code reduces the spacing between nodes and ensures that the text of the Resources fits within the nodes' box shape. If you need any further adjustments or have more specific requirements, please let me know.
 
-## Write me a prompt for this
-
-The above code gives [[c-3_allnotes-response-p-2c-12.png]] in graphvis.
 
 #### You:
 This is the result I wanted. Please compose a prompt combining these characteristics so that I can generate concept maps like this quicker.
@@ -903,9 +892,6 @@ Additional Instructions:
 
 You can use this template as a prompt to generate concept maps with the desired characteristics quickly. Just replace the placeholders with your specific themes, resource titles, URLs, and connections.
 
-## Explore "Communication strategy" theme
-
-*Exploring how to use the concept maps to extract value - see [[experiments 2 3 4 _ analysis]].*
 
 #### You:
 Looking at the concept map, I see 3 resources connected to the Communication Strategies tgheme. What do they say when developing a communication strategy to counter disinformation? Focus specifically on where they agree and disagree.
@@ -930,6 +916,7 @@ To analyze the communication strategies related to countering disinformation as 
 
 To get a comprehensive understanding of where these resources agree and disagree regarding communication strategies to counter disinformation, you should review each resource individually and identify common themes and differing perspectives within their content. Look for shared strategies and areas where they present alternative approaches or opinions.
 
+
 #### You:
 Please consult the notes for each resource and carry out the review you just outlined
 
@@ -939,6 +926,7 @@ I apologize for any confusion, but I don't have access to specific content, note
 To conduct a thorough review of each resource's content and identify where they agree and disagree on communication strategies to counter disinformation, you will need to access and analyze the content of each resource individually. Look for key insights, strategies, and recommendations presented within each resource and compare them to identify commonalities and differences.
 
 If you have specific questions or need assistance with any particular points from the resources, feel free to provide those points or excerpts, and I can certainly provide analysis and insights based on the information you provide.
+
 
 #### You:
 I provided you with the notes at the beginning of this conversation.
@@ -968,7 +956,6 @@ Based on the summaries of these resources and their general content, they may ag
 
 For a more detailed analysis of where they specifically agree and disagree, it would be necessary to review the full content of each resource and identify commonalities and divergent points in their recommendations and strategies.
 
-## Explore "Media Literacy" theme
 
 #### You:
 OK let's look at the Media Literacy theme. Recalling the notes on the 4 resources provided earlier and your initial definition of the theme, develop the theme of "Media literacy" into an overview of these four articles linked to it, with a particular focus on how media literacy either helps cause and/or solves the issues set out in "vaccination standoffs".
@@ -1002,7 +989,6 @@ Media literacy is a critical skill in today's digital age, encompassing the abil
 
 In summary, media literacy is a vital tool in addressing vaccination standoffs by empowering individuals to critically assess the information they encounter, particularly in online and media spaces. While it can help mitigate the spread of misinformation, it's essential to recognize that effective media literacy strategies may vary depending on the specific context and community, and they should be tailored accordingly.
 
-## Support doctors tackling vaccine disinfo
 
 #### You:
 Use all of these insights to design a strategy aimed at doctors to help them better communicate with their patients who ask them about vaccine misinformation. 
@@ -1067,9 +1053,6 @@ To equip healthcare professionals with the knowledge and skills necessary to eff
 
 By implementing this comprehensive strategy, healthcare professionals can enhance their ability to communicate effectively with patients, address vaccine misinformation, and promote vaccination as a critical public health measure. This approach not only emphasizes media literacy but also prioritizes patient-centered care and evidence-based communication.
 
-## Rework concept map into framework
-
-### Describe the framework
 
 #### You:
 Let's return to the concept map. How would you rearrange it - without changing the contents - so that it presents a framework for understanding political polarisation and misinformation? I want to see a clear "cause and effect" movement from left to right, showing how the different phenomena interact to give us the world we see today. Include and identify solutions, ideally in the same part of the framework, if relevant and available.
@@ -1133,7 +1116,7 @@ In this framework, the elements flow from left to right, illustrating the causal
 
 This arrangement provides a clear cause-and-effect structure, helping to understand the dynamics of political polarization and misinformation while highlighting potential avenues for intervention and positive change.
 
-### Draw the framework with graphviz
+
 #### You:
 Please provide the graphviz code for this concept map, using the same formatting options as before.
 
@@ -1343,7 +1326,6 @@ graph G {
 
 Now, "Socioeconomic Disparities" is connected directly to the "Misinformation Ecosystem," and "Identity Politics" is connected directly to "Confirmation Bias," both labeled as "Root Causes" to demonstrate their role as root causes in the framework.
 
-### Still struggling with arrowheads
 
 #### You:
 Can you add arrowheads to the edges to display causality?
@@ -1474,7 +1456,6 @@ graph G {
 
 If you're still encountering issues, please ensure that Graphviz is correctly installed and that your environment supports its syntax.
 
-### Fixed the arrowhead problem myself
 
 #### You:
 Please include the dir=forward, but fix the following error: replace -> with --
@@ -1516,19 +1497,3 @@ graph G {
 ```
 
 This code uses `--` for edges and includes `dir=forward` for the arrowheads to indicate causality.
-
----
-
-## Revision Notes
-
-This is one of this wiki's pages managed with the **permanent versions pattern** described in  [Two wiki authors and a blogger walk into a bar…](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e)  
-
-- changes
-	- adds the part of the conversation continued on 2023-11-28
-- version control
-    - this is version: current
-    - this is the current version: [[c-3_allnotes-response-p-2c]]
-    - here is the previous version: [[c-3_allnotes-response-p-2c 2]]
-
-
-
