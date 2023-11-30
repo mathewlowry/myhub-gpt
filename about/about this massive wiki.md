@@ -9,13 +9,21 @@ Given that I am managing my research notes in Obsidian, sharing them here via aÂ
 
 ## This site is a massive wiki
 
-This site is a massive wiki, which essentially means it's:
+## Known issues:
+
+* Search currently doesn't work
+
+## This site is a massive wiki
+
+This essentially means it's:
 
 * my notes (in this case on my experiments with integrating MyHub.ai with Large Language Models), stored on my PCs in markdown format and edited using my preferred markdown editor (Obsidian)
 * synched to a GitHub repository: https://github.com/mathewlowry/myhub-gpt
 * and from there published to [experiments.myhub.ai](https://experiments.myhub.ai/) by the[ MassiveWiki publishing kit](https://github.com/Massive-Wiki/massive-wiki-publishing-kit) 
 
-How is this different from any other site? It means that (if you wish), you can [Clone the Repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) , which:
+## How is this different from any other site? 
+
+It means that (if you wish), you can [Clone the Repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) , which:
 
 * downloads a copy of all my experimental notes - the collections, prompts, summarisers, responses and analyses - onto your PC. There you can browse them just as easily as you can online, plus unlock features (like bidirectional links) which are unavailable to browsers of the online wiki
 * allows you to download any updates made to them in the future with a click of a button
