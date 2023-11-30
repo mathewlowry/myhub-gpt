@@ -22,14 +22,14 @@ Instead of bullet lists, use plain lines, with two space characters added to the
 ## About
 
 [[about this massive wiki]]  
-Integrating MyHub.ai & ChatGPT  
- - [[pilot MyHub ChatGPT integration]] today  
+MyHub.ai / ChatGPT integration:
+ - [[pilot MyHub ChatGPT integration|today's pilot]]   
  - [[chatgpt integration plans]]  
   
 [About me / Contact](https://myhub.ai/@mathewlowry/about/)   
 ## General Navigation
 
-[Search](/search.html)  
+ <! **-- [Search](/search.html) -->
 [All Pages](/all-pages.html)  
 [Recent Changes](/recent-pages.html)  
 
