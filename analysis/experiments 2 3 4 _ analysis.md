@@ -183,13 +183,16 @@ Nevertheless I thought I'd try and combine what I've learnt so far:
 This conversation, I suspect, could continue for a while, but this experiment has already produced enough food for thought.
 
 --- 
-### Other ideas
+## Other ideas & next steps
 
 *This is a dumping ground where I add ideas as they occur.* So in no particular order (for now at least):
 
+* feedback from someone in a private chatroom:
+	* "there is a distinct data-scrubbing activity/stage for AI-mediated knowledge graph development (*"knowledge cluster defuzzification"?*). You may find a better name for this analytic prep work; but your results under "Concept stage" nicely illustrated the benefit of this "defuzzification scrub".
+	* these charts... are "over-flattened" (too unidimensional?) so that it becomes difficult to pickup significance. Adding "macro-data enchrichment" activities to your analysis (_order by time, place, size or other significant macro-coordinate)_ should help new dimensions of meaning "pop out" a bit more for the casual reader of your visualizations."
 * test prompt2d a few more times on different collections to see if it always generates low connection densities. If so, try and improve it so I get the density seen in 2c-12 from a single prompt
 * continue both conversations based on the concept map artefact: how does a conversation between me and a visualisation look like? 
-* include tags in resource nodes? One line theme summaries in theme nodes?
+* include tags in resource nodes, and/or one-line theme summaries in theme nodes?
 * visit resource URLs and recalculate
 	* combine original resource content with my notes
 	* give my notes 4x weight
@@ -198,6 +201,7 @@ This conversation, I suspect, could continue for a while, but this experiment ha
 
 
 ---
+
 ## Revision Notes
 
 This is one of this wiki's pages managed with the **permanent versions pattern** described in  [Two wiki authors and a blogger walk into a bar…](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e)  
