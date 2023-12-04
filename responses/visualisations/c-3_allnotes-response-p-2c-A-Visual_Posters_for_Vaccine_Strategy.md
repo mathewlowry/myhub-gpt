@@ -108,6 +108,8 @@ Please produce images 2, 3 and 4.
 #### ChatGPT:
 ![[vaccineposter2.webp]]
 
+![[vaccineposter3.webp]]
+
 ![[vaccineposter4.webp]]
 
 
