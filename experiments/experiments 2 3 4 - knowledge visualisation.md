@@ -34,5 +34,7 @@ Aiming for a different style of visualisation - concept map, rather than mindmap
 	* [[c-3_allnotes-response-p-2b-2]] (same prompt, entirely different thematic analysis from ChatGPT)
 	* [[c-3_allnotes-response-p-2c]] using prompt 2c, version 1
 	* this lead to [[c-3_allnotes-response-p-2d]]: applying prompt 2c, version 2, tested on the same collection
+	* and [[c-3_allnotes-response-p-2c-A-Visual_Posters_for_Vaccine_Strategy]] with images
+	* and [[c-3_allnotes-response-p-2c-EU_Misinformation_Program_Model]], thanks to [[prompt 2e - framework]]
 * **Full analysis of results (so far): [[experiments 2 3 4 _ analysis]].**
 
