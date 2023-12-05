@@ -138,29 +138,27 @@ There are no problems with content policy here. Your images are excellent and do
 I only need images for episodes 4, 5 and 6.
 
 #### Plugin (dalle.text2im):
-
-#### ChatGPT:
 ![[vivek4.jpeg]]
-Here is the image for Episode 4, reflecting the theme of Vivek securing his party's presidential nomination and obtaining the 'Power Stone'. Now, I will create the images for Episodes 5 and 6.
+#### ChatGPT:
 
+Here is the image for Episode 4, reflecting the theme of Vivek securing his party's presidential nomination and obtaining the 'Power Stone'. Now, I will create the images for Episodes 5 and 6.
 
 #### Plugin (dalle.text2im):
 ![[vivek5.jpeg]]
 #### ChatGPT:
 The image for Episode 5 is now ready, showcasing the theme of navigating through legal challenges with the 'Time Stone'. Next, I will create the image for Episode 6.
 
-
 #### Plugin (dalle.text2im):
 ![[vivek6.jpeg]]
 #### ChatGPT:
 The final image for Episode 6 is now complete, capturing the pivotal moment of personal introspection with the 'Soul Stone'. With this, the set of images for Episodes 4, 5, and 6 are all ready.
 
-
 #### You:
 Now, create the movie poster, capturing the entire journey
 
 #### Plugin (dalle.text2im):
-#### ![[vivek-poster.jpeg]]ChatGPT:
+![[vivek-poster.jpeg]]
+#### ChatGPT:
 The movie poster for "The Infinity Campaign" is now created, capturing the essence of the entire journey.
 
 #### You:
