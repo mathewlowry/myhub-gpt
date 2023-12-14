@@ -2,9 +2,9 @@
 
 ![[c-7-alnotes-themes2.jpeg]]
 
-*The above visualisation presents a number of themes identified and linked to a [collection of resources](https://myhub.ai/@mathewlowry/?tags=internal+communications&types=like&types=do&types=think&timeframe=anytime&quality=all&tags=communications) on my Hub. It and the text below are both outputs of [[experiment 7]].*
+*The above visualisation presents a number of themes identified and linked to a [collection of resources](https://myhub.ai/@mathewlowry/?tags=internal+communications&types=like&types=do&types=think&timeframe=anytime&quality=all&tags=communications) on my Hub. It and the text below are two outputs of [[experiment 7]].*
 
-## Revised Themes and Related Articles
+## Themes and Related Resources
 
 **Communications Strategy and Business Integration**: Highlights the importance of integrating communications strategy with other business strategies for innovation and performance. Relevant Resources:
    
@@ -42,5 +42,4 @@
 
 *Note that there was some linkrot in the original collection: Mike Klein's article is offline as is Connected Enterprise's site, while  Melcrum's URL repoints to "hotelwithhottub.com", complete with "Examples of  Communication Strategies for Hotels with Jacuzzi"(!). But it also resurfaced some good gems from the past, as well as a couple of mine, including [An effective communications strategy must be connected to other strategies](https://medium.com/@mathewlowry/reframe-your-communications-strategy-as-part-of-your-innovation-programme-to-sidestep-internal-2fcc695ecaa4), which really covers the ground we discussed in the ZNLive interview and is where I first presented what I mean by "swimming upstream:*
 
-!https://miro.medium.com/v2/resize:fit:828/format:webp/1*Ngh5UO3ZG-5hbOQ0P-eUMQ.png
-
+![[swimming-upstream.jpeg]]
