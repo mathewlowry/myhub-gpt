@@ -1,9 +1,12 @@
-I thought I'd followup on the interview I did with ZN. The full interview is here on linkedin, but they are also producing a series of snippets, each shared separately. 
+# experiment 7
+
+In this experiment I thought I'd followup on a #ZNLive interview I did with ZN (see the [full interview on linkedin](https://www.linkedin.com/events/7138431781808107520/)). They are also producing a series of snippets, each shared separately, and as these are about a narrower set of topics I'm going to try and base this experiment on them. 
 
 ## Snippet 1
 
 ### Files
 
+* [a 2m10 chat on LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7140690237466292224/) on integrating internal and external communication strategies, knowledge management and more. 
 * **Collection 7**: 
 	* URL: [All the Stuff I Like or Do or Think about Everything tagged internal communications & communications,  Anytime]( https://myhub.ai/@mathewlowry/?tags=internal+communications&types=like&types=do&types=think&timeframe=anytime&quality=all&tags=communications) (9 resources)
 	*  [[C-7-allnotes]].
@@ -14,9 +17,9 @@ I thought I'd followup on the interview I did with ZN. The full interview is her
 * **response**:  [[c-7-allnotes-conversation]]
 * **analysis**:  *to be done*
 
-#### Process
+### Process
 
-[This part of the interview](https://www.linkedin.com/posts/zn_znlive-onestepahead-onestepahead-activity-7140690237466292224-8p9i?utm_source=share&utm_medium=member_desktop) focused on how a properly integrated comms strategy inevitably repositions the comms team from being a "peripheral megaphone" for the organisation to an interface between it and rest of world, and thus strategically central to the organisation's actual business. 
+[This interview snippet](https://www.linkedin.com/posts/zn_znlive-onestepahead-onestepahead-activity-7140690237466292224-8p9i?utm_source=share&utm_medium=member_desktop) focused on how a properly integrated comms strategy inevitably repositions the comms team from being a "peripheral megaphone" for the organisation to an interface between it and rest of world, and thus strategically central to the organisation's actual business. 
 
 From my notes as I listened to the segment:
 
@@ -34,8 +37,9 @@ From my notes as I listened to the segment:
 
 So I created a collection - [All the Stuff I Like or Do or Think about Everything tagged internal communications & communications,  Anytime]( https://myhub.ai/@mathewlowry/?tags=internal+communications&types=like&types=do&types=think&timeframe=anytime&quality=all&tags=communications) , 9 resources at the time - to create [[C-7-allnotes]].
 
-I then launched chatgpt, creating [[c-7-allnotes-conversation]]:
+I then:
 
+* launched chatgpt, creating [[c-7-allnotes-conversation]]
 * used [[rss to clean notes prompt]]
 * applied [[prompt 2c - themes and resources visualised]] and [[prompt 2d - themes and resources visualised]] to visualise the themes covered by this collection:
 
@@ -47,4 +51,7 @@ The conversation then continued as I used the visualisation to query ChatGPT's a
 
 I then asked it: "Please now reproduce your list of themes and related articles provided earlier, but with the following changes: reflect the connections in the above visualisation; and link the titles of the resources to their URLs, provided in the RSS feed."
 
-This gave me something interesting enough to publish separately.
+This gave me something interesting enough to consider publishing separately. However the transfer of this part of the conversation from ChatGPT via a markdown file in my vault through to GitHub and onto the web messed up the list a bit. As this problem is outside of ChatGPT the only way to fix it was to copy it below and edit it in my vault, which at least gave me an opportunity to examine it a little more closely.
+
+Combining the text and the visualisation gave me this: [[c-7-allnotes-themes-and-posts]]
+
