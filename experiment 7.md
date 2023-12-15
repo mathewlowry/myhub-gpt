@@ -14,7 +14,9 @@ In this experiment I thought I'd followup on a #ZNLive interview I did with ZN (
 	* [[rss to clean notes prompt]]
 	* [[prompt 2c - themes and resources visualised]] 
 	* [[prompt 2d - themes and resources visualised]] 
-* **response**:  [[c-7-allnotes-conversation]]
+* **response**:  
+	* full conversation with chatgpt: [[c-7-allnotes-conversation]]
+	* first extract: [[c-7-allnotes-themes-and-posts]]
 * **analysis**:  *to be done*
 
 ### Process

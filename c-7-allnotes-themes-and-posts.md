@@ -1,8 +1,8 @@
-# Title
+# Internal and external comms (experiment 7 extract)
 
 ![[c-7-alnotes-themes2.jpeg]]
 
-*The above visualisation presents a number of themes identified and linked to a [collection of resources](https://myhub.ai/@mathewlowry/?tags=internal+communications&types=like&types=do&types=think&timeframe=anytime&quality=all&tags=communications) on my Hub. It and the text below are two outputs of [[experiment 7]].*
+*The above visualisation presents a number of themes (grey ellipses) identified within a [collection of resources](https://myhub.ai/@mathewlowry/?tags=internal+communications&types=like&types=do&types=think&timeframe=anytime&quality=all&tags=communications) on my Hub (yellow squares). It and the text below are two outputs of [[experiment 7]], extracted from my conversation with ChatGPT about the collection: [[c-7-allnotes-conversation]].*
 
 ## Themes and Related Resources
 
@@ -40,6 +40,6 @@
 
 ---
 
-*Note that there was some linkrot in the original collection: Mike Klein's article is offline as is Connected Enterprise's site, while  Melcrum's URL repoints to "hotelwithhottub.com", complete with "Examples of  Communication Strategies for Hotels with Jacuzzi"(!). But it also resurfaced some good gems from the past, as well as a couple of mine, including [An effective communications strategy must be connected to other strategies](https://medium.com/@mathewlowry/reframe-your-communications-strategy-as-part-of-your-innovation-programme-to-sidestep-internal-2fcc695ecaa4), which really covers the ground we discussed in the ZNLive interview and is where I first presented what I mean by "swimming upstream:*
+*Note that there was some linkrot in the original collection: Mike Klein's article is offline, as is Connected Enterprise's site, while  Melcrum's URL repoints to "hotelwithhottub.com", complete with "Examples of  Communication Strategies for Hotels with Jacuzzi"(!). But it also resurfaced some good gems from the past, as well as a couple of mine, including [An effective communications strategy must be connected to other strategies](https://medium.com/@mathewlowry/reframe-your-communications-strategy-as-part-of-your-innovation-programme-to-sidestep-internal-2fcc695ecaa4), which really covers the ground we discussed in ZNLive interview snippet 1, and is where I first presented what I mean by "swimming upstream":*
 
 ![[swimming-upstream.jpeg]]
