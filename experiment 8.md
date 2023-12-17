@@ -19,4 +19,4 @@ Unfortunately, the collection I chose was too long for the "full notes" approach
 * **response**s:  
 	* feeding C-8-1 directly into ChatGPT integration gave [[C-8-1-S-0-response]] 
 	* feeding C-8-2 back into ChatGPT with similar questions gave [[C-8-2-allnotes-response]]
-* **analysis**:  *to be done*
+* **analysis**: *full analysis to be done*

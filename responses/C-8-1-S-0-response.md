@@ -6,8 +6,13 @@ modification date: 351 December 2023 14:17:28
 
 # Experiment 8 - ZN live snippet  (fediverse)
 
+This is C-8-1-S-0-response, part of [[experiment 8]].
+
 ## me
-I am interested in the possibilities offered by the "fediverse" - open, decentralised social media networks. I will give you some resources, I want you to suggest ways that organisations can use these networks to build online communities on their own websites, deeply interconnected with the wider Fediverse. Here are the resources:
+I am interested in the possibilities offered by the "fediverse" - open, decentralised social media networks. I will give you some resources, I want you to suggest ways that organisations can use these networks to build online communities on their own websites, deeply interconnected with the wider Fediverse. 
+
+Here are the resources: [All the Stuff I Like or Do or Think about Everything tagged fediverse,  Anytime](https://myhub.ai/@mathewlowry/?quality=all&types=like&types=do&types=think&tags=fediverse&timeframe=anytime ). 
+
 ## ChatGPT
 
 1. Build a decentralized online community on your organization's website using Bonfire's tool for developers. This would allow users to deploy a server and communicate with other instances without the need for a central authority, creating a truly open and decentralized community.  

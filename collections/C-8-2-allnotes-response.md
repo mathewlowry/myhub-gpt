@@ -1,5 +1,7 @@
 # Fediverse Community Building Strategies
 
+This is C-8-2-allnotes-response, part of [[experiment 8]].
+
 #### You:
 I am interested in the possibilities offered by the "fediverse" - open, decentralised social media networks. I will give you some resources, I want you to suggest ways that organisations can use these networks to build online communities on their own websites, deeply interconnected with the wider Fediverse. 
 
