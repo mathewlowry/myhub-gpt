@@ -5,6 +5,7 @@ modification date: 224 August 2023 18:55:51
 # Experiment log 
 
 * foretaste: should I develop [[NetflixThis GPT]]?
+* [[experiment 9]]: riffing off yet another excerpt from the LinkedIn chat (below), this time on the opportunities missed, and perhaps becoming available again, from on-site communities and newsletters
 * [[experiment 8]]: riffing off another excerpt from the LinkedIn chat (below), this time on alternative social media and their implications for communication strategies. 
 * [[experiment 7]]: riffing off a 2m excerpt from a LinkedIn chat I had on integrating internal and external communication strategies, knowledge management and more. 
 * [[experiment 6 - ideator GPT]]: trying to reprodice something like Experiment 5, but with (my first) GPT 
