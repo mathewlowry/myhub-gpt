@@ -10,6 +10,7 @@ Like [[experiment 7]] and [[experiment 8]], here I'm riffing off yet another [ex
 	* I then introduced [the best stuff tagged #EU and #Community](https://myhub.ai/@mathewlowry/?quality=best&types=like&types=do&types=think&tags=community&tags=eu&timeframe=anytime) - all mine, as I was worried I'd nuke the token window if I included [everything](https://myhub.ai/@mathewlowry/?quality=all&types=like&types=do&types=think&tags=community&tags=eu&timeframe=anytime)
 * prompt: I started with [[prompt 5 - ideate]]
 * response: [[C-9-S-0-p5-response]]
+	* generating images: [[C-9-S-0-p5-response-images]]
 * analysis: full analysis later, first thoughts so far follow:
 	* some of the first set of ideas looked intriguing
 	* then I blew it by then adding just my own resources to generate the second - unsurprisingly, examples of everything it came up with can be found in my CV. I shouldn't need to be warned against the dangers of [echo chambers](https://myhub.ai/@mathewlowry/?tags=echo+chamber&types=like&types=do&types=think&timeframe=anytime&quality=all)
