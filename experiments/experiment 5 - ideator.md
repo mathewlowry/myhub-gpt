@@ -14,4 +14,5 @@ Files:
 * hence there are 2 **Responses**
 	* [[c-5_allnotes-response-p5]]
 	* [[c-5_allnotes-response-p1b]]
-* **Analysis**: *to be done*
+* **Analysis**: the 10 ideas in [[c-5_allnotes-response-p5]] are what I would call "cursory" in nature: a few lines combining some basic, superficial ideas from two resources to create a third along the lines of "combines the XXX capabilities of knowledge graphs with YYY's abilities to do ZZZ". None of them are exactly original: AI-enhanced writing, content validation or fact-checking, 1-2 personal assistants and image generation tools, a medical assistant. 
+* Conclusion: It could simply be a numbers game, so worth trying again to see if something emerges from the next 10 resources, or the next 5. 

@@ -4,7 +4,7 @@ Experiments 2 & 3 were early experiments into thematic analysis and visualisatio
 
 Note that all visualisations (so far) involve asking ChatGPT to give me mermaid code, which I then need to paste into mermaid.live. Building this feature direct into MyHub.ai would be pretty cool... but only if it's actually useful. Hence these experiments.
 
-TL:DR;  [[experiments 2 3 4 _ analysis]]:
+TL:DR;  [[experiments 2 3 4 _ analysis]], and my newsletter: [Visualising knowledge with MyHub.ai and ChatGPT](https://myhub.ai/items/myhub-chatgpt-integration-visualising-knowledge-newsletter-2-december-2023)
 ## Experiment 2
 
 * Collection 2: "the best stuff I like" https://myhub.ai/@mathewlowry/?quality=best&types=like&timeframe=anytime
@@ -36,5 +36,7 @@ Aiming for a different style of visualisation - concept map, rather than mindmap
 	* this lead to [[c-3_allnotes-response-p-2d]]: applying prompt 2c, version 2, tested on the same collection
 	* and [[c-3_allnotes-response-p-2c-A-Visual_Posters_for_Vaccine_Strategy]] with images
 	* and [[c-3_allnotes-response-p-2c-EU_Misinformation_Program_Model]], thanks to [[prompt 2e - framework]]
-* **Full analysis of results (so far): [[experiments 2 3 4 _ analysis]].**
+* Analysis
+	* Full analysis of results (so far): [[experiments 2 3 4 _ analysis]]. 
+	* my newsletter: [Visualising knowledge with MyHub.ai and ChatGPT](https://myhub.ai/items/myhub-chatgpt-integration-visualising-knowledge-newsletter-2-december-2023)
 

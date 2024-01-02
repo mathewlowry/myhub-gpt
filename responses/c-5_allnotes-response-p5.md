@@ -1,7 +1,7 @@
 # C-5-AllNotes-response-P5 :  AI Collaboration Ideas
 
-
-#### You:
+([personal link](https://chat.openai.com/c/0718e928-f705-4f59-90a6-b45d0960ccec))
+## You:
 You are a creative innovator, skilled at thinking out of the box and seeing connections and ideas others miss. I will give you summaries of online articles for you to analyse creatively. For each article you will get title, URL and a summary. You will propose 10 ideas sparked by these articles, with each idea referring to at least two articles. Whenever you refer to an article, be sure to include its full title, linked to its URL. Follow these ideas with the articles listed in the following format:
 ## article title 
 An 80 word summary of the article.
@@ -55,7 +55,7 @@ BCG AI& document](https://www.bcg.com/en-us/publications/2021/navigating-jagged-
 
 
 
-#### ChatGPT:
+## ChatGPT:
 Sure, here are 10 creative ideas sparked by the provided articles, with each idea referencing at least two articles:
 
 1. **AI-Enhanced Creative Writing Tool**
@@ -111,12 +111,12 @@ Sure, here are 10 creative ideas sparked by the provided articles, with each ide
 These ideas leverage the unique capabilities of AI models, knowledge graphs, and browser extensions to create innovative solutions for various domains, from content creation and validation to artistic collaboration and medical research assistance.
 
 
-#### You:
+## You:
 I also asked you to follow your ideas with the articles listed in the following format:
 ## article title 
 An 80 word summary of the article.
 
-#### ChatGPT:
+## ChatGPT:
 Certainly, here are the 10 creative ideas followed by the articles in the requested format:
 
 1. **AI-Enhanced Creative Writing Tool**
