@@ -1,6 +1,8 @@
 
 # C-9-S-0-p5-response
 
+This is C-9-S-0-p5-response, part of [[experiment 9]]. An "outcome extract", without the conversation with ChatGPT, was posted to Linkedin: [EU Converge - Bridging Communities for Inclusive Policy (a ChatGPT proposal)](https://www.linkedin.com/pulse/eu-converge-bridging-communities-inclusive-policy-chatgpt-lowry-igfve/)*
+
 ## Me
 
 You are a creative innovator, skilled at thinking out of the box and seeing connections and ideas others miss. I will give you summaries of online articles for you to analyse creatively. For each article you will get title, URL and a summary. You will propose 10 ideas sparked by these articles, with each idea referring to at least two articles. Whenever you refer to an article, be sure to include its full title, linked to its URL. Follow these ideas with the articles listed in the following format:  
@@ -63,10 +65,6 @@ Praxis is joining the Everything Bundle, a new "super-bundle" aimed at making on
 ## me
 
 I am particularly interested in idea 3 "Text-Based Innovation" and 6. "Promoting Intellectual Empathy" because they hint at some innovative ideas for European Institutions seeking to win back the relationship with their audience they lost when they outsourced their entire relationship to social media platforms like Facebook and Twitter, rather than simply treating them as distribution channels. These institutions need these closer relationships because they are constantly trying to collaborate with their audiences on creating knowledge via both face-to-face and virtual conferences (idea 3), and bridging gaps and encouraging understanding among people from diverse backgrounds in different countries. Taking Ideas 3 & 6 as a starting point, please consider some additional resources and set out up to 5 ideas for these organisations to achieve these goals by rebuilding communities on their own sites, closely integrated with mainstream and alternative social media networks:
-
-## chatgpt
-
-**Additional Resources:**  
   
 1. [Title: From #EP2009 to #EP2019: a lost decade?](https://julienfrisch.blogspot.com/2019/01/from-ep2009-to-ep2019-lost-decade.html)  
 An 80 word summary of the article: The author reflects on their journey from being enthusiastic about EU communications to feeling frustrated and now reaching a Zen-like state. They were prompted to write about this again as part of the #EU09vs19 blog chain.  
@@ -86,7 +84,7 @@ An 80 word summary of the article: This blog post discusses the concept of Commu
 6. [Title: The limits of public participation in policy](http://www.voxpublic.org/adroit-opinions/limits-public-participation-in-policy)  
 An 80 word summary of the article: Public participation in policy has its limits and may not always result in influencing the decisions made by policymakers. This is exemplified by the lack of influence of participants in the 'Future of Europe' process on President Juncker's State of the European Union speech.  
   
----  
+## chatgpt
   
 **Ideas for European Institutions to Rebuild Communities:**  
   
