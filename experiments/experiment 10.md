@@ -23,8 +23,12 @@ In this experiment I'm going to try and combine techniques developed in as many 
 		* blogposts
 			* [[C-10-fullnotes-response-gpt35-extract-blogpost1]]
 			* [[C-10-fullnotes-response-gpt35-extract-blogpost2]]
-
-* Analyses:
-	* the newsletter was boring, wooden and repetitive - it didn't even try, for example, to play the two articles on "bullshit" together. I should have pushed back and asked for better, but the main goal was for me to get an overview of the articles to inform the next stage (visualisations). 
-	* visualisations: there was an improvement from 1 to 3, but frankly the underlying analysis was insufficiently insightful for these to be of much use
-	* comparing the blog posts: the second was an improvement textually, but it made up URLs, despite having them in its memory (unless they'd passed out the token window?)
+	* putting the **full notes collection** ([[C-10-fullnotes]]) through ChatGP4: tbd
+* Analyses: *underway*
+	* Using Summariser 0 (ie [[C-10-S-0-response]]):
+		* the newsletter was boring, wooden and repetitive - it didn't even try, for example, to play the two articles on "bullshit" together. I should have pushed back and asked for better, but the main goal was for me to get an overview of the articles to inform the next stage (visualisations). 
+		* visualisations: there was an improvement from 1 to 3, but frankly the underlying analysis was insufficiently insightful for these to be of much use
+		* comparing the blog posts: the second was an improvement textually, but it made up URLs, despite having them in its memory (unless they'd passed out the token window?)
+	* Using my full notes through ChatGPT3.5 (ie [[C-10-fullnotes-response-gpt35]])
+		* tbc
+	* Using my full notes through ChatGPT4: tbd
