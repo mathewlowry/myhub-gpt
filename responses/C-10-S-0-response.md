@@ -8,7 +8,7 @@ An 80 word summary of the article.
   
 Provide all content in markdown format, with each article title linked to the URL provided with it.  
 Here are the articles you are to summarise:
-[[Collection 10]]
+[[C-10]]
 
 ## ChatGPT
 

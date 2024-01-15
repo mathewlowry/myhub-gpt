@@ -6,20 +6,24 @@ In this experiment I'm going to try and combine techniques developed in as many 
 	* [[C-10-fullnotes]]
 * Process: I threw the best part of my kitchen sink at this one, just to see what would happen:
 	* first, [[Prompt 1 - newsletter]], creating a perfectly adequate summary
-	* then, [[prompt 2c - themes and resources visualised]] to generate some visualisations of the themes running through these articles, creating [[C-10-S-0-response-conceptmap1.jpeg]]
-	* this led to a new approach, focusing on the topic of open source AI and using elements of [[prompt 2e - framework]], creating [[C-10-S-0-response-conceptmap3.jpeg]]
-	* 2 versions were created of a blog post. For the second I asked for "*greater depth, using quotes from all relevant articles wherever relevant, and ensuring each reference to an article is linked to its URL.*"
+	* then, [[prompt 2c - themes and resources visualised]] to generate some visualisations of the themes running through these articles. 
+	* this led to a new approach, focusing on the topic of open source AI and using elements of [[prompt 2e - framework]] to create **C-10-S-0-response-conceptmap3.jpeg** (below)
+	* 2 versions were then created of a blog post. For the second I asked for "*greater depth, using quotes from all relevant articles wherever relevant, and ensuring each reference to an article is linked to its URL.*"
 	* I then challenged ChatGPT's bullshit about how AI creates bullshit, and it rather meekly agreed: "*The fact that the URL provided is fabricated emphasizes the importance of ensuring the reliability of AI-generated information. It raises concerns about the potential for chatbots or AI models to generate persuasive yet unsubstantiated text*"
 * Full responses: 
 	* [[C-10-S-0-response]], from which I have extracted:
 		* newsletter: [[C-10-S-0-extract-newsletter]]
-		* resource & theme visualisations: 
-			* drafts: [[C-10-S-0-response-conceptmap1.jpeg]], [[C-10-S-0-response-conceptmap2.jpeg]] 
-			* final: [[C-10-S-0-response-conceptmap3.jpeg]]
+		* final resource & theme visualisations: : [[C-10-S-0-response-conceptmap3.jpeg]]
 		* blog posts: 
 			* draft: [[C-10-S-0-response-extract-blogpost-1]]
 			* [[C-10-S-0-response-extract-blogpost 2]]
-	* [[C-10-fullnotes-response]],
+	* putting the **full notes collection** ([[C-10-fullnotes]]) through ChatGPT3.5, and using wherever possible identical prompts, gives [[C-10-fullnotes-response-gpt35]], from which I have extracted:: 
+		* newsletter: [[C-10-fullnotes-3-5-extract-newsletter]]
+		* visualisations: I had ChatGPT create 6 different visualisations, and I'm happy with none of them, so they remain embedded in [[C-10-fullnotes-response-gpt35]]
+		* blogposts
+			* [[C-10-fullnotes-response-gpt35-extract-blogpost1]]
+			* [[C-10-fullnotes-response-gpt35-extract-blogpost2]]
+
 * Analyses:
 	* the newsletter was boring, wooden and repetitive - it didn't even try, for example, to play the two articles on "bullshit" together. I should have pushed back and asked for better, but the main goal was for me to get an overview of the articles to inform the next stage (visualisations). 
 	* visualisations: there was an improvement from 1 to 3, but frankly the underlying analysis was insufficiently insightful for these to be of much use
