@@ -538,10 +538,10 @@ In this revised visualization, all articles are connected to at least one theme,
 Now please write me a blog post based on the above discussion. The post should have the above visualisation as its main image. It should explain the challenges and risks associated with widespread AI adoption by people, companies and governments, using the Mistral announcement to investigate how open source AI could help mitigate these risks. It should be no longer than 1500 words.
 
 #### ChatGPT:
-[[C-10-fullnotes-response-gpt35-extract-blogpost1]]
+[[C-10-fullnotes-response-gpt35-extract-blogpost1 1]]
 
 #### You:
 Please rewrite, following these guidelines. Develop each section by going into greater depth, using quotes from all relevant articles wherever relevant, and ensuring each reference to an article is linked to its URL. 
 
 #### ChatGPT:
-[[C-10-fullnotes-response-gpt35-extract-blogpost2]]
+[[C-10-fullnotes-response-gpt35-extract-blogpost2 1]]

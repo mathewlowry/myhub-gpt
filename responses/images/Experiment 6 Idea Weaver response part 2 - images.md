@@ -1,6 +1,6 @@
 # Experiment 6 Idea Weaver response part 2: images
 
-From my conversation with Idea Weaver in [[experiment 6 - ideator GPT]] - see  [[Experiment 6 - response]].
+From my conversation with Idea Weaver in [[experiment 6 - ideator GPT]] - see  [[Experiment 6 - response 1]].
 
 #### You:
 Can you now create an image containing two anthropogenic AIs battling over a social media universe. One epitomises the optimistic AI you described earlier, the other  is the pessmistic AI you described earlier. 

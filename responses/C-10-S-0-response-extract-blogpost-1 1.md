@@ -1,5 +1,5 @@
 
-*This is extracted from [[C-10-S-0-response]], part of [[experiment 10]].*
+*This is extracted from [[C-10-S-0-response 1]], part of [[experiment 10]].*
 
 # Embracing Open Source AI: Mitigating Risks in an AI-Driven World  
 

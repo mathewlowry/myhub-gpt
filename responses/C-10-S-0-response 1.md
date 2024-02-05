@@ -12,7 +12,7 @@ Here are the articles you are to summarise:
 
 ## ChatGPT
 
-[[C-10-S-0-extract-newsletter]]
+[[C-10-S-0-extract-newsletter 1]]
 ## You
 
 Please now act as a superb organiser and classifier of ideas and content. First identify and briefly summarise the top themes running through some or all of the above resources. For each theme list the relevant resources. Please list the most important themes - those relevant to the most resources - first. Please ensure each theme's title is short, and only provide at most 6 themes to start with. Then ask me if I want you to remove some themes, or generate more, or rename some.
@@ -362,14 +362,14 @@ Now please write me a blog post based on the above discussion. The post should h
 
 ## ChatGPT
 
-[[C-10-S-0-response-extract-blogpost-1]]
+[[C-10-S-0-response-extract-blogpost-1 1]]
 ## You
 
 Please rewrite, following these guidelines. Develop each section by going into greater depth, using quotes from all relevant articles wherever relevant, and ensuring each reference to an article is linked to its URL. 
 
 ## ChatGPT
 
-[[C-10-S-0-response-extract-blogpost 2]]
+[[C-10-S-0-response-extract-blogpost 2 1]]
 
 ## You
 

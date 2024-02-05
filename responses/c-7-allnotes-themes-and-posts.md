@@ -42,4 +42,4 @@
 
 *Note that there was some linkrot in the original collection: Mike Klein's article is offline, as is Connected Enterprise's site, while  Melcrum's URL repoints to "hotelwithhottub.com", complete with "Examples of  Communication Strategies for Hotels with Jacuzzi"(!). But it also resurfaced some good gems from the past, as well as a couple of mine, including [An effective communications strategy must be connected to other strategies](https://medium.com/@mathewlowry/reframe-your-communications-strategy-as-part-of-your-innovation-programme-to-sidestep-internal-2fcc695ecaa4), which really covers the ground we discussed in ZNLive interview snippet 1, and is where I first presented what I mean by "swimming upstream":*
 
-![[swimming-upstream.jpeg]]
+![[swimming-upstream 1.jpeg]]
