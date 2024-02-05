@@ -44,4 +44,5 @@ In this experiment I'm going to try and combine techniques developed in as many 
 			* after (as requested) introducing the subject (open source) and summarising the Mistral announcement, it was more able to address how the 4 other articles were relevant to open source
 			* on the other hand, while I asked it to "Write in a more journalistic, less academic style" it instead wrote something closer to a Mistral press release
 			* moreover, it really stretched to find anything relevant to OS in one of the articles. [My notes](https://myhub.ai/items/i-trained-chatgpt-on-my-notes-to-create-content-heres-what-happened) on this article do not "vividly illustrate the practical benefits of open-source AI". This is a borderline hallucination, but it's the sort of thing that can be useful if it helps you consider a connection that wasn't actually present in the original content... *if* you spot it.
+	* Conclusion: I'll need some time to digest this, as while the GPT4 outputs were clearly better, I'm not sure they are 100x better, while GPT4 costs 100x more.
 

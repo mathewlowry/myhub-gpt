@@ -12,15 +12,17 @@ For the first 5 experiments I used the two ways of accessing ChatGPT open to me 
 
 Which means I now have at least two ways forward to investigate and compare:
 
-* the **API-based AIgent approach** I always had planned
-* **Integrating MyHub.ai with GPTs** instead: any Hub visitor or Editor can actually do today, but there's not currently enough information to judge whether this is the right way forward.
+* the **API-based AIgent approach** I always had planned, below
+* **Integrating MyHub.ai with GPTs** instead.
 
 Both are explored below. Life being what it is, however, I'm pretty certain that I'll have to combine both to allow Editors to explore and innovate, because if MyHub.ai *only* offered GPT integration, Hub Editors and their visitors/subscribers would be restricted to the tasks those GPTs were created to support.
 
-Either way, the picture  emerging looks something like this (image adapted from [Social knowledge graphs for collective intelligence](https://mathewlowry.medium.com/social-knowledge-graphs-for-collective-intelligence-75c436889320)):
+Either way, the picture emerging looks something like this (image adapted from [Social knowledge graphs for collective intelligence](https://mathewlowry.medium.com/social-knowledge-graphs-for-collective-intelligence-75c436889320)):
 
 ![[myhub-gpt-aigents.png]]
+
 ---
+
 ## API-based AIgent approach
 
 Before *Create your own GPT* came along, my original idea was to build on the basic approach set out in [[pilot MyHub ChatGPT integration]]: allow Hub Editors to create "AIgents" that talk to ChatGPT via its API, as briefly explained from around ~1m40 of [this video](https://www.youtube.com/watch?v=PykfgbRwZiY):

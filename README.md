@@ -14,7 +14,7 @@ As the MyHub,ai Early Adopters will soon get to play with this AI-boosted versio
 
 ### Integrating MyHub.ai with Large Language Models
 
-* Today: [[pilot MyHub ChatGPT integration]] explains how MyHub/ChatGPT *currently* works. 
+* Today: [How to chat with ChatGPT about your content (v2)](https://myhub.ai/items/how-to-chat-with-chatgpt-about-your-content-v1) explains how MyHub/ChatGPT *currently* works. 
 	* If you're an Early Adopter kicking the tyres, this is a good place to start 
 	* Do you have your own ChatGPT API key *and* a Hub? Email me and I'll set this up for you
 * Tomorrow: How (do I currently imagine) will the LLM integration into MyHub.ai look like in future? See [[chatgpt integration plans]]
