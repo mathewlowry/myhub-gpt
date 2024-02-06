@@ -1,8 +1,10 @@
+*This is extracted from [[c-7-allnotes-conversation]], part of [[experiment 7]].*
+
 # Internal and external comms (experiment 7 extract)
 
 ![[c-7-alnotes-themes2.jpeg]]
 
-*The above visualisation presents a number of themes (grey ellipses) identified within a [collection of resources](https://myhub.ai/@mathewlowry/?tags=internal+communications&types=like&types=do&types=think&timeframe=anytime&quality=all&tags=communications) on my Hub (yellow squares). It and the text below are two outputs of [[experiment 7]], extracted from my conversation with ChatGPT about the collection: [[c-7-allnotes-conversation]].*
+*The above visualisation presents a number of themes (grey ellipses) identified within a [collection of resources](https://myhub.ai/@mathewlowry/?tags=internal+communications&types=like&types=do&types=think&timeframe=anytime&quality=all&tags=communications) on my Hub (yellow squares).
 
 ## Themes and Related Resources
 

@@ -1,3 +1,5 @@
+*This is extracted from [[C-10-fullnotes-response-gpt4]], part of [[experiment 10]].*
+
 # Open Source AI: A Game Changer in the Tech World
 
 In the rapidly evolving landscape of artificial intelligence (AI), a groundbreaking announcement from Mistral AI has sparked excitement and a wave of optimism across the tech community. Their latest model, built on a sophisticated "Mixture Of Experts" framework, not only rivals giants like GPT-4 in capability but also champions a cause that's close to the heart of the tech world: open source. This move by Mistral AI could very well be the harbinger of a new era in AI development, democratizing access to cutting-edge technology and fostering innovation on an unprecedented scale.

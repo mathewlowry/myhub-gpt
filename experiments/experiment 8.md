@@ -21,12 +21,16 @@ Unfortunately, the collection I chose was too long for the "full notes" approach
 		* "outcome extract", without the conversation with ChatGPT: [[C-8-1-S-0-response-outcome]].
 	* feeding C-8-2 back into ChatGPT with similar questions gave [[C-8-2-allnotes-response]]
 		* "outcome extract", without the conversation with ChatGPT: [[C-8-2-allnotes-response-outcome]].
-* **analysis**: *full analysis to be done*, here are some bullets as I read both responses side-by-side:
-	* in both cases, ChatGPT's initial response was pretty beside the point, so I used my followup to refocus, and used an old technique of mine to get clients to "get concrete" about what it is they want to achieve from their website ("Please write the website's "About this site" page, including several FAQs to guide new visitors"). While the followups were almost identical, they were customised to reflect the initial responses: 
-		* C-8-1 focused on the "stream/garden" metaphor
-		* C-8-2 preferred 'Online Parks'.
-	* Their "About pages" were equally bland, although C-8-2 at least came up with a name for the site ("GreenFieldsEU")
-	* The first 3 FAQs were pretty identical, while the last 2-3 diverged. None were badly written, and make a convincing case for their platforms. I can easily imagine this sort of content appearing relatively convincing in, say, a tender document
-	* I then asked a series of more and more specific questions, to force ChatGPT away from making vague statements. In [[C-8-1-S-0-response]] ChatGPT pushed the gardening metaphor amusingly far ("Planting Seeds", "Growing and Tending", "Weeding and Pruning", etc.), while [[C-8-2-allnotes-response]] was more ambitious for the site, including the full kitchen sink of functionalities, echoing suggestions I made to the EU's CORDIS site around 10 years ago.
-	* I then asked to dig into the Fediverse/Community integration, asking ChatGPT to explain how and what would happen in three different scenarios.  [[C-8-2-allnotes-response]] was far more concrete, offering single-sign-on authentication, direct integration, user preferences for sharing, etc.
-	* All in all, both responses made convincing cases, but as always need to be checked for hallucinations by a well-qualified software engineer
+* **analysis**: 
+	* both responses made convincing cases, but as always need to be checked for hallucinations by a well-qualified software engineer. 
+	* creating a prompt to get ChatGPT to describe a project by writing its website's About page and FAQs shows promise. 
+	* Comparing both responses side-by-side:
+		* the initial responses were both pretty beside the point, so I used my followup to refocus, using an old technique of mine to get clients to "get concrete" about what it is they want to achieve (see previous bullet). While the followups were almost identical, they were customised to reflect the initial responses: 
+			* C-8-1 focused on the "stream/garden" metaphor
+			* C-8-2 preferred 'Online Parks'.
+		* Their "About pages" were equally bland, although C-8-2 at least came up with a name for the site ("GreenFieldsEU")
+		* The first 3 FAQs were pretty identical, while the last 2-3 diverged. None were badly written, and make a convincing case for their platforms. I can easily imagine this sort of content appearing relatively convincing in, say, a tender document
+		* I then asked a series of more and more specific questions, to force ChatGPT away from making vague statements. 
+			* In [[C-8-1-S-0-response]] ChatGPT pushed the gardening metaphor amusingly far ("Planting Seeds", "Growing and Tending", "Weeding and Pruning", etc.), 
+			* while [[C-8-2-allnotes-response]] was more ambitious for the site, including the full kitchen sink of functionalities, echoing suggestions I made to the EU's CORDIS site around 10 years ago.
+		* I then asked to dig into the Fediverse/Community integration, asking ChatGPT to explain how and what would happen in three different scenarios.  [[C-8-2-allnotes-response]] was far more concrete, offering single-sign-on authentication, direct integration, user preferences for sharing, etc.

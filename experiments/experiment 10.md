@@ -1,4 +1,5 @@
 
+# Experiment 10
 In this experiment I'm going to try and combine techniques developed in as many of the previous ones as possible, using the same content:
 
 * **Collection 10:** [the stuff I like this year](https://myhub.ai/@mathewlowry/?quality=all&types=like&timeframe=this_year) - just 5 resources, as of 2024-01-09
@@ -17,9 +18,9 @@ In this experiment I'm going to try and combine techniques developed in as many 
 			* first effort: [[C-10-S-0-response-extract-blogpost-1 1]]
 			* I then asked for "*greater depth, using quotes from all relevant articles wherever relevant, and ensuring each reference to an article is linked to its URL.*": [[C-10-S-0-response-extract-blogpost 2 1]]
 		* I then challenged ChatGPT's bullshit about how AI creates bullshit, and it rather meekly agreed: "*The fact that the URL provided is fabricated emphasizes the importance of ensuring the reliability of AI-generated information. It raises concerns about the potential for chatbots or AI models to generate persuasive yet unsubstantiated text*"
-	* putting the **full notes collection** ([[C-10-fullnotes]]) through ChatGPT3.5, and using wherever possible identical prompts, gives [[C-10-fullnotes-response-gpt35 1]], from which I have extracted: 
+	* putting the **full notes collection** ([[C-10-fullnotes]]) through ChatGPT3.5, and using wherever possible identical prompts, gives [[C-10-fullnotes-response-gpt35]], from which I have extracted: 
 		* newsletter: [[C-10-fullnotes-3-5-extract-newsletter]]
-		* visualisations: I had ChatGPT create 6 different visualisations, and I'm happy with none of them, so they remain embedded in [[C-10-fullnotes-response-gpt35 1]]
+		* visualisations: I had ChatGPT create 6 different visualisations, and I'm happy with none of them, so they remain embedded in [[C-10-fullnotes-response-gpt35]]
 		* blogposts
 			* [[C-10-fullnotes-response-gpt35-extract-blogpost1 1]]
 			* [[C-10-fullnotes-response-gpt35-extract-blogpost2 1]]

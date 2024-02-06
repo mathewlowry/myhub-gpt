@@ -1,3 +1,5 @@
+*This is extracted from [[C-10-fullnotes-response-gpt35]], part of [[experiment 10]].*
+
 **Title: Navigating the Challenges of Widespread AI Adoption with Open Source AI**
 
 ![[C-10-fullnotes-response-conceptmap6.jpeg]]
