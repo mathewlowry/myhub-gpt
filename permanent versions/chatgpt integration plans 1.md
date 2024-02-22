@@ -76,5 +76,5 @@ This is one of this wiki's pages managed with the **permanent versions pattern**
 
 - version control
     - this is version: 1
-    - here is the current version: [[chatgpt integration plans]]
+    - here is the current version: [[LLM integration plans]]
     - previous version: n/a

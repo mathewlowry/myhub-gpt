@@ -27,7 +27,7 @@ To understand the experiments in this repository you need to read At a glance, b
 		* These Summarisers are called S-n (n=1,2,3...)
 		* Each S-n can be set to a maximum word length X, as each Summariser needs to be tested at different word lengths
 		* Each experiment therefore involves a Summariser called "S-n-X" ("*Summariser S-n set to max. word length of X*") operating on the Collection C-n, resulting in "**C-1-S-n-X**" being sent to ChatGPT
-* What happens next depends on which method I'm using (see [[chatgpt integration plans]]):
+* What happens next depends on which method I'm using (see [[LLM integration plans]]):
 	* **API-based AIgent approach**: I take the above three files (C-1-S-0, C-1-AllNotes and C-1-S-n-X) and send them to ChatGPT using a Prompt "P-n" (in the above diagram, Prompt 1, or "P-1").
 	* **Integrating MyHub.ai with GPTs**: GPTs require a file upload, so I need to take the above files and manually drag them into the GPT's interface 
 	* Either way, this creates up to three **responses** to be compared and analysed:
@@ -55,7 +55,7 @@ This begs some questions - for example, given the same prompt and collection:
 
 Then there's the questions of the Prompts. What's the best Prompt to create a newsletter summary? A knowledge visualisation? To generate ideas for a blog post or a paper? And does each prompt work well for all collections, or only some?
 
-In fact, to optimise the [[chatgpt integration plans]] I need to test quite a few moving parts, so each experiment involves a number of different variables:
+In fact, to optimise the [[LLM integration plans]] I need to test quite a few moving parts, so each experiment involves a number of different variables:
 
 - the **Agent Prompt** or the **GPT**, corresponding to the task the Agent is designed to perform for the User
 - the **Collection** of Hubbed items created by the User, to which the Agent Prompt is applied 
@@ -92,7 +92,7 @@ Moreover, we also need Collection Composer: when an Editor activates an Agent, t
 - on the other hand, if all the notes' Summaries total 8000 tokens, the Collection is rejected as too large from the outset
 - something interesting happens in the middle ground: where the notes total over 8000 tokens, Collection Composer substitutes some notes with their Summaries, starting with notes which are not Highlighted and which are only slightly over the Summary Threshold.
 
-In this way ChatGPT gets the Editor's notes of the Collection where possible, and their Summaries if the Collection's notes are either too numerous, too long, or both. The actual algorithm is spelt out a little more explicitly in [[chatgpt integration plans]], while all Summarisers can be found in [[summarisers in summary]].
+In this way ChatGPT gets the Editor's notes of the Collection where possible, and their Summaries if the Collection's notes are either too numerous, too long, or both. The actual algorithm is spelt out a little more explicitly in [[LLM integration plans]], while all Summarisers can be found in [[summarisers in summary]].
 
 ### Questions to answer
 

@@ -12,7 +12,7 @@ Like [[experiment 7]] and [[experiment 8]], here I'm riffing off yet another [ex
 * response: [[C-9-S-0-p5-response]]
 	* generating images: [[C-9-S-0-p5-response-images]]
 * analysis: 
-	* I processed my first thoughts a little more on LinkedIn: [EU Converge - Bridging Communities for Inclusive Policy (a ChatGPT proposal)](https://www.linkedin.com/pulse/eu-converge-bridging-communities-inclusive-policy-chatgpt-lowry-igfve/)
+	* I processed my first thoughts, below, a little more on LinkedIn: [EU Converge - Bridging Communities for Inclusive Policy (a ChatGPT proposal)](https://www.linkedin.com/pulse/eu-converge-bridging-communities-inclusive-policy-chatgpt-lowry-igfve/)
 	* first thoughts follow:
 		* some of the first set of ideas looked intriguing
 		* then I blew it by then adding just my own resources to generate the second - unsurprisingly, examples of everything it came up with can be found in my CV. I shouldn't need to be warned against the dangers of [echo chambers](https://myhub.ai/@mathewlowry/?tags=echo+chamber&types=like&types=do&types=think&timeframe=anytime&quality=all)

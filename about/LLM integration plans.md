@@ -2,7 +2,7 @@
 creation date: 2023-07-25 10:30
 modification date: 206 July 2023 10:30:02
 ---
-# ChatGPT integrations planned
+# LLM integrations planned
 
 **What will the LLM integration into MyHub.ai look like in the future?**
 
@@ -46,7 +46,7 @@ Behind the scenes, obviously, there are some calculations being made to ensure t
 
 As I write this (2023-11-11), details of OpenAI's GPT Store are still fuzzy, particularly wrt their claim that creators of popular GPTs will get [a share of the revenue](https://www.theverge.com/2023/11/6/23949371/more-on-how-openai-is-going-to-pay-gpt-creators). So this is just conjecture for now.
 
-But clearly it opens interesting possibilities, all based on the mechanic set out in  [[chatgpt integration plans#API-based AIgent approach|API-based AIgent approach]]. Instead of creating AIgents on MyHub which talk to ChatGPT, Hub Editors create **"GPT Agents"** which send the user's selection of Hubbed resources to the GPT, hosted on OpenAI.
+But clearly it opens interesting possibilities, all based on the mechanic set out in  [[LLM integration plans#API-based AIgent approach|API-based AIgent approach]]. Instead of creating AIgents on MyHub which talk to ChatGPT, Hub Editors create **"GPT Agents"** which send the user's selection of Hubbed resources to the GPT, hosted on OpenAI.
 
 ### "Pay as you Chat" with my Hub
 
@@ -84,5 +84,5 @@ This is one of this wiki's pages managed with the **permanent versions pattern**
 - 2023-11-11: updated to account for [[experiment 6 - ideator GPT]], the release of GPTs, etc, ad shortened with the extraction of [[AIgents behind the scenes]] into a separate file.
 - version control
     - this is version: current
-    - here is the current version: [[chatgpt integration plans]]
+    - here is the current version: [[LLM integration plans]]
     - here is the previous version: [[chatgpt integration plans 1]]

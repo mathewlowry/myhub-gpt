@@ -31,7 +31,7 @@ In this experiment I'm going to try and combine techniques developed in as many 
 			* [[C-10-fullnotes-response-gpt4-extract-blogpost1]]
 			* [[C-10-fullnotes-response-gpt4-extract-blogpost2]]
 			* [[C-10-fullnotes-response-gpt4-extract-blogpost3]]
-* Analyses: 
+* Analyses: Some thoughts from the following analysis went into [ChatGPT integration free trial, Bullshit, Botshit and Bubbles (newsletter 3)](https://myhub.ai/items/chatgpt-integration-free-trial-bullshit-botshit-and-bubbles-newsletter-3):
 	* Using Summariser 0 (ie [[C-10-S-0-response 1]]):
 		* the newsletter was boring, wooden and repetitive - it didn't even try, for example, to play the two articles on "bullshit" together. I should have pushed back and asked for better, but the main goal was for me to get an overview of the articles to inform the next stage (visualisations). 
 		* visualisations: there was an improvement from 1 to 3, but frankly the underlying analysis was insufficiently insightful for these to be of much use

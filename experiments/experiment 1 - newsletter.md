@@ -15,4 +15,5 @@ Created 2023-08-15:
 	* [[c-1_s-0-response-p-1]] - bug reported 2023-08-15 fixed on 2023-08-16
 	* [[c-1_allnotes-response-p-1]]
 	*  [[c-1_s-1-150-response-p-1]]
+* See also: [MyHub-ChatGPT integration (newsletter 1)](https://myhub.ai/items/myhub-chatgpt-integration-newsletter-october-2023)
 

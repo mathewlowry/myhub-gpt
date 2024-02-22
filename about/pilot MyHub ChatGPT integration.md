@@ -4,7 +4,7 @@
 ## Current version 
 This is currently described in [How to chat with ChatGPT about your content (v2)](https://myhub.ai/items/how-to-chat-with-chatgpt-about-your-content-v1).
 
-Note that this is just the start - see [[chatgpt integration plans]].
+Note that this is just the start - see [[LLM integration plans]].
 
 
 ---
