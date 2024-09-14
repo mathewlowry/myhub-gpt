@@ -11,6 +11,7 @@ Files:
 	* and in any case I had to export the RSS to send it to Idea Weaver, so the actual Collection used is [[c-6-myhub-thismonth-2023-11-10.txt]] 
 * **prompt**: [[idea weaver gpt]]
 * **responses**: 
-	* [[Experiment 6 - response]], [[Experiment 6 Idea Weaver response part 2 - images]] 
-	* extract published as blog post: https://mathewlowry.medium.com/the-dual-faces-of-ai-chatbots-in-social-media-according-to-my-gpt-4820d37d4d3d
-* **analysis**:  *to be done*
+	* [[Experiment 6 - response 1]], 
+		* [[Experiment 6 Idea Weaver response part 2 - images]] 
+	* extract published as blog post: [The Dual Faces of AI Chatbots in Social Media (according to my GPT)](https://mathewlowry.medium.com/the-dual-faces-of-ai-chatbots-in-social-media-according-to-my-gpt-4820d37d4d3d)
+* **analysis**: [The Dual Faces of AI Chatbots in Social Media (according to my GPT)](https://mathewlowry.medium.com/the-dual-faces-of-ai-chatbots-in-social-media-according-to-my-gpt-4820d37d4d3d)

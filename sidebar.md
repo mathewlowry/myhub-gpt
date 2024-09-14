@@ -24,7 +24,7 @@ Instead of bullet lists, use plain lines, with two space characters added to the
 [[about this massive wiki]]  
 MyHub.ai / ChatGPT integration:
  - [[pilot MyHub ChatGPT integration|today's pilot]]   
- - [[chatgpt integration plans]]  
+ - [[LLM integration plans]]  
   
 [About me / Contact](https://myhub.ai/@mathewlowry/about/)   
 ## General Navigation

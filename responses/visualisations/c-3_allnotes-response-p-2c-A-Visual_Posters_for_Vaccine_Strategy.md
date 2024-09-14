@@ -106,10 +106,15 @@ You can view and use the image from here. If you need further assistance or addi
 Please produce images 2, 3 and 4.
 
 #### ChatGPT:
+vaccineposter2.webp 
 ![[vaccineposter2.webp]]
 
+
+vaccineposter3.webp
 ![[vaccineposter3.webp]]
 
+vaccineposter4.webp
+>>>>>>> origin/main
 ![[vaccineposter4.webp]]
 
 

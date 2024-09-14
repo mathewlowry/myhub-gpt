@@ -1,6 +1,6 @@
 # Experiment 6 analysis
 
-Analysis of [[experiment 6 - ideator GPT]], notably [[Experiment 6 - response]] & [[Experiment 6 Idea Weaver response part 2 - images]].
+Analysis of [[experiment 6 - ideator GPT]], notably [[Experiment 6 - response 1]] & [[Experiment 6 Idea Weaver response part 2 - images]].
 
 ## Introduction
 

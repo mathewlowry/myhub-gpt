@@ -1,4 +1,4 @@
-extracted from [[chatgpt integration plans]] : 
+extracted from [[LLM integration plans]] : 
 ### Behind the scenes: respecting token limits
 
 Behind the scenes, obviously, there are some calculations being made to ensure the token limit is not exceeded, as explained in [[experimental methods]].
