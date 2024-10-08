@@ -63,6 +63,7 @@ Note that **the above figure is Fediverse-specific**: Bluesky and Nostr are buil
 ### *... section to be developed(?)*
 
 ***need to know about Bluesky and Nostr:***
+
 * structure, approach
 * how algorithmic freedom is/will be delivered
 
@@ -84,6 +85,7 @@ For AI4Communities to work we need social apps which people want to use _and_ wh
 ### *... section to be developed(?)*
 
 ***need to know about Bluesky and Nostr:***
+
 * how algorithmic freedom is/will be delivered
 * possible diversity of applications 
 
@@ -137,7 +139,7 @@ I explored one solution almost 4 years ago in [Thinking and writing in a decentr
 
 This video introduces the idea of a social ecosystem where users can seamlessly collaborate before exploring massive.wiki, an early example of what the collaborative part of the overall technology stack might look like:
 
-https://mathewlowry.medium.com/43ee9fe05bd4
+https://www.youtube.com/watch?v=qfYl3SiZJWU
 
 A social ecosystem where users can seamlessly collaborate is a worthy goal in itself. Moreover, that collaborative work can be supported by your village’s AI (given consent from the group), which means these collaborations become _another_ source of high-value AI training data.
 
@@ -151,11 +153,12 @@ But Bluesky, as well as most of the Nostr and Fediverse apps, are Twitter look-a
 ### *... section to be developed(?)*
 
 ***need to know about Bluesky and Nostr:***
+
 * am I talking out of my rear end?
 
 ---
 
-My gut feeling is that for AI4communities to work in decentralised, privacy-first spaces like these, the apps people use will need to be less superficial in nature to generate higher-quality training data. After all, there’s only so much value in short status updates.
+My gut feeling is that for AI4communities to work in **privacy-first** spaces like these, the apps people use will need to be less superficial to generate higher-quality training data. After all, there’s only so much value in short status updates, and noone's proposing following users around the web, siphoning up their data to sell to marketers as Facebook *et al* do.
 
 > there’s only so much value in short status updates
 
@@ -177,7 +180,7 @@ In May 2023 Brave Software, creators of the privacy-first eponymous browser and 
 
 As a result, Brave’s training data “_is much more representative of the Web people actually care about_”, without the huge morass of “_junk sites — spam, dead links, duplicates, and more_” one finds when crawling the Web at large. And that was written _before_ the Web started filling up with AI-generated content, which is even worse for training AI.
 
-#AI4Communities is the social media equivalent of Brave’s approach to search. Both revolve around **authenticity-driven data quality:**
+AI4Communities is the social media equivalent of Brave’s approach to search. Both revolve around **authenticity-driven data quality:**
 
 - People do not actually spend a lot of time browsing junk content, so Brave’s dataset doesn’t have any, and so is of higher quality
 - People in well-run communities do not curate, share and collaborate on rubbish content, so the data they create will be valuable, too.
@@ -187,8 +190,17 @@ As a result, Brave’s training data “_is much more representative of the Web 
 ### Conclusions
 ### *... section to be rewritten(?)*
 
+*Looking back over this post, I can see that it’s heavily influenced by my greater familiarity with the Fediverse than Bluesky or Nostr. It’s quite possible that the latter, more modern protocols already support everything I want to see built, or that ActivityPub never will, or that these ideas are simply unimplementable on all three.*
 
-Looking back over this post, I can see that it’s been skewed by my greater familiarity with the Fediverse than Bluesky or Nostr. I’m not an expert in social protocols — it’s quite possible that the latter, more modern protocols already support everything I’m hoping to see, while ActivityPub never will.
+*Stil needed:*
+
+* *reality check from bluseky and Nostr perspectives*
+* *a better visualisation of how this would look* 
+* *better explanation of how communities "buy" AI services but
+	* *still own the resulting model* 
+	* ***and** monetise the training data* 
+	* ***without** sharing any personally identifiable data with anyone* 
+	* *how the AI service provider is more of a hosting provider that provides useful services on top of the community-owned model*
 
 ---
 
