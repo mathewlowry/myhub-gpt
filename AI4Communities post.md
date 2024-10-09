@@ -33,11 +33,11 @@ So if small _is_ beautiful, why is everyone trapping each other on a few massive
 
 #### Must small be poor?
 
-Decentralised, federated networks have been around almost as long as Twitter and Facebook (Evan Prodromou’s Identi.ca launched in 2008, while linkbacks, invented to knit blogging conversations together, came much earlier). But although they are growing now, they tiny compared to the closed gardens of surveillance capitalism, at least partly because — unlike their closed counterparts — they lack a business model and so revenue, as I found out the hard way almost a year ago:
+Decentralised, federated networks have been around almost as long as Twitter and Facebook (Evan Prodromou’s Identi.ca launched in 2008, while linkbacks, invented to knit blogging conversations together, came much earlier). But although they are growing now, they are tiny compared to the closed gardens of surveillance capitalism, at least partly because — unlike their closed counterparts — they lack a business model, and hence revenue, as I found out the hard way almost a year ago:
 
 > “Social infrastructure needs to deliver content as a basic minimum. And running that infrastructure takes time, money and professionalism” — [All my toots gone](https://mathewlowry.medium.com/all-my-toots-gone-e844f7c5f255)
 
-The Three Legged Stool authors believe “_many VSOPs will likely receive most of their revenue from the communities they serve, similar to how a local newspaper or nonprofit is funded_”, and I hope they’re right. Today, however, only a small fraction of most Mastodon users currently donate to cover their server’s costs (anecodotal).
+The Three Legged Stool authors believe “_many VSOPs will likely receive most of their revenue from the communities they serve, similar to how a local newspaper or nonprofit is funded_”, and I hope they’re right. Today, however, only a small fraction of Mastodon users currently donate to cover their server’s costs (anecodotal).
 
 #### AI4Communities: when community monetises AI (not vice versa)
 
