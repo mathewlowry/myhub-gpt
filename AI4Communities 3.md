@@ -6,7 +6,7 @@
 
 In my last post I highlighted how the authors of the [model collapse paper](https://www.nature.com/articles/s41586-024-07566-y) in _Nature_ pointed out that in the future any data stemming from “_genuine human interactions … will be increasingly valuable_” for training the next generation of LLMs. Online, there’s nothing more genuinely human than the interactions in a well-managed digital community, so “_after greed and short-sightedness floods the commons with low-grade AI content…_ **_well-managed online communities of actual human beings [may be] the only place able to provide the sort of data tomorrow’s LLMs will need” (_**[How Model Collapse could revive authentic human communities](https://mathewlowry.medium.com/how-model-collapse-could-revive-authentic-human-communities-e723d8048ef3)).
 
-This supports the **AI4Communities** idea, first outlined in [A Minimum Viable Ecosystem for collective intelligence](https://mathewlowry.medium.com/a-minimum-viable-ecosystem-for-collective-intelligence-7738848ce9c4) in January 2023, which envisions tomorrow’s online denizens thriving in a diverse landscape of _“_[**_small is beautiful communities_**_, supported by AIs which the communities themselves own, train and monetise_](https://mathewlowry.medium.com/a-minimum-viable-ecosystem-for-collective-intelligence-7738848ce9c4)_”_, rather than putting up with whatever Meta’s or X’s global, “one size fits all” algorithms inflict on them to turn a profit.
+This supports the **AI4Communities** idea, first outlined in [A Minimum Viable Ecosystem for collective intelligence](https://mathewlowry.medium.com/a-minimum-viable-ecosystem-for-collective-intelligence-7738848ce9c4) in January 2023, which envisions tomorrow’s online denizens thriving in a wide range of _“_[**_small is beautiful communities_**_, supported by AIs which the communities themselves own, train and monetise_](https://mathewlowry.medium.com/a-minimum-viable-ecosystem-for-collective-intelligence-7738848ce9c4)_”_, rather than putting up with whatever Meta’s or X’s global, “one size fits all” algorithms inflict on them to turn a profit.
 
 If model collapse has made AI4Communities more feasible, what is it exactly, how do we get there, and who’s building it? But first, why care?
 
@@ -43,13 +43,15 @@ The Three Legged Stool authors believe “_many VSOPs will likely receive most o
 
 **People may pay more for a better experience.** An AI owned by the community, which reflects their preferences and adds value in many ways (as explored below) could provide that experience.
 
-These communities therefore need access to what the Three Legged Stool manifesto calls a “**Friendly Neighborhood Algorithm Store**”. I see these as marketplaces, somewhat akin to hosting providers, where cozyweb villages can subscribe to open-source LLMs and a set of associated services. Many of those associated services support communities, as explored below, and can be configured by the village, while others ensure that each community's data fine-tunes "their" model, so it reflects their interests and preferences.
+These communities therefore need access to what the Three Legged Stool manifesto calls a “**Friendly Neighborhood Algorithm Store**” — a marketplace where cozyweb villages can purchase, rent or lease AI services.
 
-Moreover, as I [pointed out](https://myhub.ai/items/faq-how-is-myhubai-free-and-without-ads-what-is-your-business-model) in 2020 when I launched myhub.ai, each community could act as a **data union**: rather than just buying or renting an AI to support their community, they could [monetise the resulting algorithm](https://mathewlowry.medium.com/how-artificial-intelligence-will-finance-collective-intelligence-5d17adcce98b) to at least help cover the costs of running the community. While I shelved this idea when ChatGPT appeared, the model collapse paper now suggests that the **training data** created by well-managed communities could be the new currency of collective intelligence. 
+Moreover, as I [pointed out](https://myhub.ai/items/faq-how-is-myhubai-free-and-without-ads-what-is-your-business-model) in 2020 when I launched myhub.ai, each community could act as a **data union**: rather than just buying or renting  an AI to support their community, they could [**own, train and _monetise_ the resulting algorithm**](https://mathewlowry.medium.com/how-artificial-intelligence-will-finance-collective-intelligence-5d17adcce98b) to at least help cover the costs of running the community.
 
 > training data created by well-managed communities could be the new currency of collective intelligence
 
-So as a community browses the algorithm store they may find some lower-cost subscription plans where the village's data, suitably anonymised, is aggregated with others and used by the Store to train its models. While one village may form a data union, therefore, another could set up a for-profit instance, a third could let users choose between paying a subscription fee or seeing ads, and so on.
+While I shelved this idea when ChatGPT appeared, the model collapse paper now suggests that the **training data** created by well-managed communities could be the new currency of collective intelligence. 
+
+Forming a data union is just one model: someone else could set up a for-profit instance, a third could let users choose between paying a subscription fee or seeing ads, and so on.
 
 ![](https://cdn-images-1.medium.com/max/1600/1*3WBzTFfnFM1bgbiQsV3T3A.png)
 
@@ -160,11 +162,7 @@ My gut feeling is that for AI4communities to work in **privacy-first** spaces li
 
 > there’s only so much value in short status updates
 
-For one example of how that could look, [A Minimum Viable Ecosystem for collective intelligence](https://mathewlowry.medium.com/a-minimum-viable-ecosystem-for-collective-intelligence-7738848ce9c4) suggests combining **publishing tools** (blogs, social posts), **social bookmarking** and **personal knowledge management**, and networking them together across **federated networks**, all supported by your personal AI. 
-[![](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*hhPR3ipH50_ttWR6dCtATA.png)](https://mathewlowry.medium.com/social-knowledge-graphs-for-collective-intelligence-75c436889320)
-*(caption) From [Social knowledge graphs for collective intelligence](https://mathewlowry.medium.com/social-knowledge-graphs-for-collective-intelligence-75c436889320) (January 2023)*
-
-Because then your AI will be able to can learn from:
+For one example of how that could look, [A Minimum Viable Ecosystem for collective intelligence](https://mathewlowry.medium.com/a-minimum-viable-ecosystem-for-collective-intelligence-7738848ce9c4) suggests combining **publishing tools** (blogs, social posts), **social bookmarking** and **personal knowledge management**, and networking them together across **federated networks**, all supported by your personal AI. Because then your AI will be able to can learn from:
 
 - what you do on your social network(s)
 - every article you bookmark or Hub (and so find really, really useful)
@@ -172,7 +170,7 @@ Because then your AI will be able to can learn from:
 - everything else (blog posts and professional references, mainly) which you publish alongside them
 - and everything else in your private knowledge library you make accessible to it.
 
-That’s a _lot_ of tightly interconnected knowledge, all reflecting your interests and expertise. Any AI sourcing that sort of knowledgebase will perform content discovery superbly well for you. And that AI is also being trained by everyone else in your village, with whom you presumably share some interests and values, and with whom you may also be collaborating (see below). Together, your community will generate extremely valuable AI training data, due to the **authentically human curation and creation** processes involved in making it.
+That’s a _lot_ of tightly interconnected knowledge, all reflecting your interests and expertise. Any AI sourcing that sort of knowledgebase will perform content discovery superbly well for you. And that AI is also being trained by everyone else in your village, with whom you presumably share some interests and values. Together the community will generate extremely valuable AI training data, due to the **authentically human curation and creation** processes involved in making it.
 
 #### A Brave, early inspiration
 
@@ -198,6 +196,11 @@ AI4Communities is the social media equivalent of Brave’s approach to search. B
 
 * *reality check from bluseky and Nostr perspectives*
 * *a better visualisation of how this would look* 
+* *better explanation of how communities "buy" AI services but
+	* *still own the resulting model* 
+	* ***and** monetise the training data* 
+	* ***without** sharing any personally identifiable data with anyone* 
+	* *how the AI service provider is more of a hosting provider that provides useful services on top of the community-owned model*
 
 ---
 
@@ -205,12 +208,10 @@ AI4Communities is the social media equivalent of Brave’s approach to search. B
 
 This is one of this wiki's pages managed with the **permanent versions pattern** described in  [Two wiki authors and a blogger walk into a bar…](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e)  
 
-- changes in this version: includes a paragraph or two on how 
-	* the AI service provider is more of a hosting provider that provides useful services on top of open source LLMs
-	- communities "buy" AI services but still own the resulting model and/or monetise the training data, without sharing any personally identifiable data with anyone, 
-	- needs more work though 
+- changes in this version
+	- developed questions to be answered re: bluesky and nostr affordances
 - version control
-    - this is version: 4
+    - this is version: 3
     - this is the current version: [[AI4Communities post]]
     - here is the previous version: [[AI4Communities 2]]
 
