@@ -96,8 +96,7 @@ Content discovery is what happens when content you like or needed to see is pres
 
 Introducing AI4Communities, however, means that each instance can access AIs which can proactively pull in and surface content from across the Fediverse (excluding un-federated servers) of interest to each village inhabitant. These customisable “For You” feeds will be driven by **relevance and trust**, as explored earlier:
 
-[![](https://cdn-images-1.medium.com/max/1600/1*uDYUKBayeAMIplXG1m-4KA.png)](https://mathewlowry.medium.com/building-collective-intelligence-from-social-knowledge-graphs-e3a465852e8b)
-
+![[concentric circles.jpg]]
 (caption) *Concentric trust circles of collective intelligence, from [Building collective intelligence from social knowledge graphs](https://mathewlowry.medium.com/building-collective-intelligence-from-social-knowledge-graphs-e3a465852e8b)*
 
 So **how is this any different to X, Threads _et al_? Simple: your village’s algorithm works for you**, not the platform’s owners and advertisers. Don’t want it to optimise your feed for enragement? Tell it not to. Don’t like engagement bait, NSFW comedy or culture war memes? Tell it so. Only interested in a few topics? Let it know.
@@ -206,8 +205,7 @@ AI4Communities is the social media equivalent of Brave’s approach to search. B
 
 This is one of this wiki's pages managed with the **permanent versions pattern** described in  [Two wiki authors and a blogger walk into a bar…](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e)  
 
-- changes in this version: reflecting [audio discussion - v4](https://notebooklm.google.com/notebook/39e58e82-8235-45d0-bcfa-e378b3572b69/audio), a NotebookLLM podcast based on v4
-
+- changes in this version: added link to [audio discussion - v4](https://notebooklm.google.com/notebook/39e58e82-8235-45d0-bcfa-e378b3572b69/audio), a NotebookLLM podcast based on v4. Processing.
 - version control
     - this is version: 5
     - this is the current version: [[AI4Communities post]]
