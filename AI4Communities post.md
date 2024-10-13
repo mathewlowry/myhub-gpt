@@ -2,7 +2,8 @@
 
 **Model collapse may provide the funding for accelerating decentralised collective intelligence. What needs to happen next?** 
 
-*The version you're reading now is an early draft: I am publishing this using the [permanent versions pattern](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e) - where I publish a string of versions as I develop my thoughts - because I'm hoping constructive reactions to early drafts like these will help me answer my questions and so finish the post. Links to the latest and previous versions, if any, are in the footer.*
+*(Notes: This is an early draft: I am using the [permanent versions pattern](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e), where I publish my early versions as I develop my thoughts in the hope that constructive comments will help me finish the post. More information and links to the latest and previous versions in the footer. 
+I also just loaded version 4, including most of the sources, into NotebookLLM and generated [audio discussion - v4](https://notebooklm.google.com/notebook/39e58e82-8235-45d0-bcfa-e378b3572b69/audio). Still absorbing it.)*
 
 In my last post I highlighted how the authors of the [model collapse paper](https://www.nature.com/articles/s41586-024-07566-y) in _Nature_ pointed out that in the future any data stemming from “_genuine human interactions … will be increasingly valuable_” for training the next generation of LLMs. Online, there’s nothing more genuinely human than the interactions in a well-managed digital community, so “_after greed and short-sightedness floods the commons with low-grade AI content…_ **_well-managed online communities of actual human beings [may be] the only place able to provide the sort of data tomorrow’s LLMs will need” (_**[How Model Collapse could revive authentic human communities](https://mathewlowry.medium.com/how-model-collapse-could-revive-authentic-human-communities-e723d8048ef3)).
 
@@ -205,12 +206,10 @@ AI4Communities is the social media equivalent of Brave’s approach to search. B
 
 This is one of this wiki's pages managed with the **permanent versions pattern** described in  [Two wiki authors and a blogger walk into a bar…](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e)  
 
-- changes in this version: includes a paragraph or two on how 
-	* the AI service provider is more of a hosting provider that provides useful services on top of open source LLMs
-	- communities "buy" AI services but still own the resulting model and/or monetise the training data, without sharing any personally identifiable data with anyone, 
-	- needs more work though 
+- changes in this version: reflecting [audio discussion - v4](https://notebooklm.google.com/notebook/39e58e82-8235-45d0-bcfa-e378b3572b69/audio), a NotebookLLM podcast based on v4
+
 - version control
-    - this is version: 4
+    - this is version: 5
     - this is the current version: [[AI4Communities post]]
-    - here is the previous version: [[AI4Communities 2]]
+    - here is the previous version: [[AI4Communities 4]]
 
