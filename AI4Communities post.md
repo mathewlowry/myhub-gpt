@@ -61,11 +61,13 @@ How would this look on each of these networks?
 
 *Subfiles to be developed:*
 
-* [[AI4Communities on the Fediverse]]
-* [[AI4Communities on Bluesky]]
-* AI4Communities on Nostr (tbd)
+* [[AI4Communities on the Fediverse]], *extracted from the previous version of this post and lightly edited*
+* [[AI4Communities on Bluesky]] *created early November*
+* AI4Communities on Nostr, *next.*
 
-*Note: the rest of the post has not been rewritten to reflect  [[AI4Communities on Bluesky]], and so still reflects a Fediverse bias.*
+As I work on the above files, an idea is emerging in my mind:  AI4communities will look different on different protocols, and this is a feature, not a bug, as it might lead to "protocol competition" in much the same way that platform competition in the telecommunications industry helped accelerate the rollout of broadband.
+
+*Note: the rest of the post has **not** been rewritten to reflect  [[AI4Communities on Bluesky]], and so still reflects a Fediverse bias.*
 
 --- 
 

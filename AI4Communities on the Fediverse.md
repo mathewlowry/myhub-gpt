@@ -25,7 +25,7 @@ The diversity of both funding schemes and AI plans means that one village may fo
 
 What I don't know, however:
 
-* how effective will some of the AI services explored in  [[AI4Communities post]] be on the Fediverse? After all, content discovery algorithms can discover content from an instance which isn't connected to its home village
+* how effective will some of the AI services explored in  [[AI4Communities post]] be on the Fediverse? After all, a content discovery algorithm cannot discover content from an instance which isn't connected in some way to its home village
 * how much protocol development would be required?
 * is AI4communities a good cultural fit for the Fediverse?
 
