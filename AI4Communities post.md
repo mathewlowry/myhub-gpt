@@ -168,9 +168,7 @@ This is possible because Bluesky wants to give users [Algorithmic choice](https:
 
 Bluesky doesn't even control feed creation. Instead, they provide "**APIs for feed generation**... allowing for custom feed and moderation systems to be created as independent services ... [and] **a feed selection system** that enables users to explore third-party feeds and access them as effortlessly as their home timeline... we’re using a similar approach to address reputation, misinformation labeling, and moderation."
 
-- [ ] I've therefore started work on a Bluesky feed for the Brussels Bubble to see whether that will help them off their nasty Xitter habit, and have added it to the [Bluesky Brussels Bubble Starter Pack](https://go.bsky.app/LZExyns).
-
-- [ ] However, these are not AI-driven...?? 
+I've therefore started work on a Bluesky feed for the Brussels Bubble to see whether that will help them off their nasty Xitter habit, and have added it to the [Bluesky Brussels Bubble Starter Pack](https://go.bsky.app/LZExyns). However, these are not AI-driven.
 
 **I’m less familiar with Nostr,** but I know that Jack Dorsey, its founder and the guy who launched Bluesky when he ran Twitter, definitely [believes in algorithmic choice](https://cointelegraph.com/magazine/algorithm-choice-can-fix-social-media-but-only-on-decentralized-platforms/). My introduction to Nostr came via one of my favourite thinkers in this space, Gordon Brander ([6 resources](https://myhub.ai/@mathewlowry/?tags=gordon+brander)), whose [Nature's many attempts to evolve a Nostr](https://substack.com/home/post/p-143032514)
 walks you through the various architectures, concluding with the Nostr approach, of which he’s clearly a fan: “_You sign messages with your key, then post them to one or more relays. Other users follow one or more relays. When they get a message, they use your key to verify you sent it_”.
@@ -240,8 +238,9 @@ AI4Communities is the social media equivalent of Brave’s approach to search. B
 This is one of this wiki's pages managed with the **permanent versions pattern** described in  [Two wiki authors and a blogger walk into a bar…](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e)  
 
 - changes in this version: 
+	- extracted out [[AI4Communities on the Fediverse]] as a subfile
+	- created [[AI4Communities on Bluesky]] subfile
 	- added "centaur services" section, reflecting [preceding newsletter](https://mathewlowry.medium.com/exploring-ai4communities-newsletter-6365b2716bb1)
-	- 
 - version control
     - this is version: 6
     - this is the current version: [[AI4Communities post]]

@@ -1,3 +1,4 @@
+# AI4Communities on the Fediverse
 
 **This is a subfile of the primary [[AI4Communities post]], and won't make any sense unless you read its parent first. It explores how the AI4communities idea would look within the  ActivityPub-powered Fediverse**.
 
@@ -23,7 +24,9 @@ The diversity of both funding schemes and AI plans means that one village may fo
 
 (caption) *Different Fediverse communities offering users different experiences, including AI services sourced from multiple AI marketplaces and individual suppliers.*
 
-What I don't know, however:
+## Known Unknowns
+
+What I don't know yet:
 
 * how effective will some of the AI services explored in  [[AI4Communities post]] be on the Fediverse? After all, a content discovery algorithm cannot discover content from an instance which isn't connected in some way to its home village
 * how much protocol development would be required?
@@ -36,7 +39,7 @@ What I don't know, however:
 This is one of this wiki's pages managed with the **permanent versions pattern** described in  [Two wiki authors and a blogger walk into a bar…](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e)  
 
 - changes in this version: 
-	- this is version 1, extracted from [[AI4Communities post]]
+	- this is version 1, extracted from [[AI4Communities post]] and lightly edited
 - version control
     - this is version: 1
     - this is the current version: [[AI4Communities on the Fediverse]]
