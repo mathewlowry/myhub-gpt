@@ -55,6 +55,8 @@ Ideally, the marketplaces would be able to serve all protocols seamlessly, helpi
 
 The key question is therefore: would 20–30 million users, using such superficial applications, create enough high-quality training data?
 
+#### AI4Communities per network
+
 How would this look on each of these networks? 
 
 --- 
@@ -67,9 +69,9 @@ How would this look on each of these networks?
 
 As I work on the above files, an idea is emerging in my mind:  AI4communities will look different on different protocols, and this is a feature, not a bug, as it might lead to "protocol competition" in much the same way that platform competition in the telecommunications industry helped accelerate the rollout of broadband.
 
-*Note: the rest of the post has **not** been rewritten to reflect  [[AI4Communities on Bluesky]], and so still reflects a Fediverse bias.*
-
 --- 
+
+*Note: the rest of the post has **not** been rewritten to reflect  [[AI4Communities on Bluesky]], and so still reflects a Fediverse bias.*
 
 ### Deeper apps, better data
 
@@ -126,6 +128,7 @@ Well-run large communities will therefore develop effective content moderator AI
 I think everyone is familiar with the idea of the concept of "centaurs" (myhub: [#centaur](https://myhub.ai/@mathewlowry/?tags=centaur&types=like&types=do&types=think&timeframe=anytime&quality=all)), but the key role of "centaur services" is to *avoid* us becoming "reverse centaurs" - human beings turned into[ "OK-button-mashing automatons"](https://doctorow.medium.com/what-kind-of-bubble-is-ai-d02040b5573a) by the requirement (often driven by regulation or marketing) to keep a human in the loop.
 
 Research in this field tends to result in prompt libraries and frameworks for using LLMs - for example:
+
 * [AI And The Decline Of Human Intelligence](https://medium.com/the-generator/ai-and-the-decline-of-human-intelligence-eca8d9e651d5) points out that “_Our brain is a muscle; it needs to be exercised_,” which is a problem given how easy it is to outsource our skills to AI. So it provides a number of useful-looking prompt frameworks (Socratic Method, Feynman Method, Debate Partner, etc.) to help you treat AI “_as a tutor or consultant, guiding us like a teacher_”. 
 * This echoes [ChatGPT as muse, not oracle](https://www.geoffreylitt.com/2023/02/26/llm-as-muse-not-oracle.html), from February 2023, but still well worth reading.
 * [AI as Extraherics: Fostering Higher-order Thinking Skills in Human-AI Interaction](https://arxiv.org/abs/2409.09218) is an academic paper with a similar goal, proposing an AI usage framework called “extraheric AI” which “_fosters users’ higher-order thinking … creativity, critical thinking, and problem-solving… by posing questions or providing alternative perspectives … promoting a balanced partnership between humans and AI_”.
@@ -146,13 +149,14 @@ I’m not sure why this is so. Work-oriented collaboration platforms offer reaso
 
 > A social ecosystem where users can seamlessly collaborate
 
-I explored one solution almost 4 years ago in [Thinking and writing in a decentralised collective intelligence ecosystem](https://mathewlowry.medium.com/thinking-and-writing-in-a-decentralised-collective-intelligence-ecosystem-16dd2b1893cc) which, as the title suggests, focuses on improving the collective intelligence of social groups online, while [this video](https://www.youtube.com/watch?v=qfYl3SiZJWU) introduces the idea of a social ecosystem where users can seamlessly collaborate before exploring massive.wiki, an early example of what the collaborative part of the overall technology stack might look like.
+I explored one solution almost 4 years ago in [Thinking and writing in a decentralised collective intelligence ecosystem](https://mathewlowry.medium.com/thinking-and-writing-in-a-decentralised-collective-intelligence-ecosystem-16dd2b1893cc) which, as the title suggests, focuses on improving the collective intelligence of social groups online, while [this video](https://www.youtube.com/watch?v=qfYl3SiZJWU) introduces the idea of a social ecosystem where users can seamlessly collaborate (and then explores massive.wiki, an early example of what the collaborative part of the overall technology stack might look like, and the tool I use to manage this post).
 
-If **a social ecosystem where users can seamlessly collaborate is a worthy goal in itself**, then how can AI help? Some ideas on how that would look can be found in [How to Use AI to Build Your Company’s Collective Intelligence](https://hbr.org/2024/10/how-to-use-ai-to-build-your-companys-collective-intelligence), which explores how AI can help “_increase the collective intelligence of the entire organization… through **boosting collective memory, collective attention, and collective reasoning_**”. 
+If **a social ecosystem where users can seamlessly collaborate is a worthy goal in itself**, then how can AI help? Some ideas on how that would look can be found in [How to Use AI to Build Your Company’s Collective Intelligence](https://hbr.org/2024/10/how-to-use-ai-to-build-your-companys-collective-intelligence), which explores how AI can help “increase the collective intelligence of the entire organization… through boosting collective memory, collective attention, and collective reasoning”. 
 
-However, this article also identifies some risks (in the process [contradicting itself](https://www.linkedin.com/posts/mathewlowry_how-to-use-ai-to-build-your-companys-collective-activity-7254411450264305664-eas9?utm_source=share&utm_medium=member_desktop) somewhat) - for example, bringing an AI voice assistant into a collaborative effort created **groupthink**: 
+However, this article also identifies some risks (in the process [contradicting itself](https://www.linkedin.com/posts/mathewlowry_how-to-use-ai-to-build-your-companys-collective-activity-7254411450264305664-eas9?utm_source=share&utm_medium=member_desktop) somewhat) - for example, bringing an AI voice assistant into a collaborative effort created **groupthink** (Hub: [#groupthink](https://myhub.ai/@mathewlowry/?tags=groupthink&types=like&types=do&types=think&timeframe=anytime&quality=all)): 
+
 * teams aligned their attention to the assistant’s and "even adopted the [assistant’s] specific terminology … which further shaped where groups directed their attention”
-* AI usage “caused a decrease in intellectual diversity … Through a form of algorithmic monoculture”.
+* AI usage “caused a decrease in intellectual diversity … Through a form of a**lgorithmic monoculture**”.
 
 The AI services marketed to cozyweb communities to support collaboration, in other words, must not only help the individual members boost their creativity (see above), but will also have to reinforce the positive and dampen the negative dynamics of groups. The most successful agents will probably have as many psychologists, facilitation and negotiation experts behind them as data scientists.
 

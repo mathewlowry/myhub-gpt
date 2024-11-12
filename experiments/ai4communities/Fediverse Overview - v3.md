@@ -86,5 +86,5 @@ I manage my Fediverse Overview using the **permanent versions pattern** describe
     - this is version: 3
     - the [current version ](https://myhub.ai/@mathewlowry/overview/16/?quality=all&types=like&types=do&types=think&timeframe=anytime)is always on my Hub
     - here is the previous version: unavailable ;( , but:
-        - version 1 emerged from the [_5th in a series of newsletters_](https://mathewlowry.medium.com/50-resources-and-five-editions-later-us2020-disinformation-news-ed-5-629f0a643bfe) focused on disinformation in the US2020 election
+        - version 1 emerged from the [5th in a series of newsletters](https://mathewlowry.medium.com/50-resources-and-five-editions-later-us2020-disinformation-news-ed-5-629f0a643bfe) focused on disinformation in the US2020 election
         - version 2: a major update in late 2022 followed [my #twittermigration to Mastodon](https://mathewlowry.medium.com/welcome-to-the-fediverse-starry-eyed-noob-twittermigration-day-3-57b99350414)
