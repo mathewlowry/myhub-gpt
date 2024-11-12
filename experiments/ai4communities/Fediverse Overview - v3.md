@@ -1,6 +1,6 @@
 # Overview: Fediverse
 
-_This topic emerged from the_ [_5th in a series of newsletters_](https://mathewlowry.medium.com/50-resources-and-five-editions-later-us2020-disinformation-news-ed-5-629f0a643bfe) _focused on #US2020 #disinformation. A major update in late 2022 followed_ [_my #twittermigration to Mastodon_](https://mathewlowry.medium.com/welcome-to-the-fediverse-starry-eyed-noob-twittermigration-day-3-57b99350414)_, and a smaller one a year later with the sudden deletion of my Mastodon server, followed by the arrival of Threads._
+*(Notes: This is a permanent version of my [Fediverse Overview](https://myhub.ai/@mathewlowry/overview/16/?quality=all&types=like&types=do&types=think&timeframe=anytime). More version control information in the footer.)*
 
 ## What?
 
@@ -72,6 +72,19 @@ As discussed during [a ZNLive chat](https://www.linkedin.com/feed/update/urn:li
 - the hope is that their openness (if it happens) stimulates innovation in the wider Fediverse, so we get new forms of social media rather than more Twitter clones: there are already plenty of other ActivityPub-compatible networks, as well as alternative protocols like [Nostr](https://nostr.com/).
 - all this could have huge implications for our own websites, where it might become both easier and more valuable to develop local communities of interest, networked into the wider Fediverse of decentralised social media, particularly with AI support.
 
+Highlighted Resources tagged OR(#fediverse, #open web, #bluesky, #mastodon, #threads, #nostr) follow below:
+
 ---
 
-Highlighted Resources tagged OR(#fediverse, #open web, #bluesky, #mastodon, #threads, #nostr) follow below:
+## Revision Notes
+
+I manage my Fediverse Overview using the **permanent versions pattern** described in  [Two wiki authors and a blogger walk into a bar…](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e)  
+
+- changes in this version: 
+	- December 2023: updated to reflect the sudden deletion of my Mastodon server and the arrival of Threads.
+- version control
+    - this is version: 3
+    - the [current version ](https://myhub.ai/@mathewlowry/overview/16/?quality=all&types=like&types=do&types=think&timeframe=anytime)is always on my Hub
+    - here is the previous version: unavailable ;( , but:
+        - version 1 emerged from the [_5th in a series of newsletters_](https://mathewlowry.medium.com/50-resources-and-five-editions-later-us2020-disinformation-news-ed-5-629f0a643bfe) focused on disinformation in the US2020 election
+        - version 2: a major update in late 2022 followed [my #twittermigration to Mastodon](https://mathewlowry.medium.com/welcome-to-the-fediverse-starry-eyed-noob-twittermigration-day-3-57b99350414)

@@ -5,4 +5,4 @@
 	* [[Bluesky feeds]]
 * myhub overviews
 	* [[Fediverse Overview]]
-	* [[Fediverse Overview - v3 December 2023]]
+	* [[Fediverse Overview - v3]]
