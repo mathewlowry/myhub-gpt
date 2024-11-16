@@ -8,6 +8,10 @@ My [manifesto posts of 1/1/23](https://mathewlowry.medium.com/a-minimum-viable-e
 
 In fact, I'm not sure I would have come up with these ideas if ActivityPub hadn't shown that decentralised social media was at least possible. Moreover, the whole cozyweb idea reflects the Fediverse architecture - it's very easy to map "cozyweb community" <-> "Fediverse instance".
 
+However, as I researched the more modern decentralised protocols for the [[AI4Communities post]] (see [[AI4Communities on Bluesky]], [[AI4Communities on Nostr]]), I came across an introduction to Nostr from one of my favourite thinkers in this space, Gordon Brander. While I'm not yet convinced that Nostr is the solution, [Nature's many attempts to evolve a Nostr](https://substack.com/home/post/p-143032514) provides an excellent explanation of why the ActivityHub-powered Fediverse is flawed: "*Federated networks become oligopolies at scale*", due to general forces seen everywhere: "*airline routes, power grids, trains, banks, Bitcoin mining, protein interactions, ecological food webs, neural networks*". It happened to email, and now it's happening with the Fediverse, where calls to defederate Threads (which was 10x the rest of the Fediverse when it arrived) were ineffective.
+
+Nevertheless, the Fediverse has something the more modern ecosystems (probably - tbc) lack: a diversity of apps working and communicating across a decentralised architecture. So despite my own bad experience (see [All my toots gone](https://mathewlowry.medium.com/all-my-toots-gone-e844f7c5f255)), it would be a mistake to not consider its suitability for supporting AI4Communities seriously.
+
 ## Business models
 
 In AI4Communities on the Fediverse, therefore:
@@ -51,7 +55,7 @@ The current draft of these services in the [[AI4Communities post]] is very Fediv
 * as the local feeds is composed of the community's authored content, this is also where these AI services would find a lot of their training data.
 
 ### Centaur services
-
+to be developed
 
 
 ## Known Unknowns
@@ -68,8 +72,9 @@ What I don't know yet:
 
 This is one of this wiki's pages managed with the **permanent versions pattern** described in  [Two wiki authors and a blogger walk into a bar…](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e)  
 
-- changes in this version: 
-	- 
+- changes in this version: mid-November: 
+	- introduction
+	- AI services begun
 - version control
     - this is version: 2
     - this is the current version: [[AI4Communities on the Fediverse]]
