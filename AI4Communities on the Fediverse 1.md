@@ -24,36 +24,6 @@ The diversity of both funding schemes and AI plans means that one village may fo
 
 (caption) *Different Fediverse communities offering users different experiences, including AI services sourced from multiple AI marketplaces and individual suppliers.*
 
-## AI Services
-
-**The main [[AI4Communities post]] summarises various categories of AI service within these ecosystems, so this section examines how the various categories would look in the Fediverse.**
-
-### Content discovery services
-
-These services could augment the Fediverse offering enormously, *if* the protocol supports it, as on the Fediverse you only get three reverse chronological feeds: 
-
-* from everyone you follow; 
-* from everyone in your village (*local feed*); 
-* from everyone followed by at least one person in your village. 
-
-None of these feeds include content from villages which your village does not federate with, which is a feature, not a bug (although it could limit the effectiveness of AI-supported content discovery).
-
-With AI4Communities, however, each instance could access AIs which proactively pull in and surface content from across the Fediverse (excluding un-federated servers) of collective interest to the village's inhabitants.
-
-Because that AI would be trained on the inhabitants' interests, it should be an interesting feed. And if your tastes don’t match the village’s, move to another village. Balancing an individual’s feed parameters with the village’s content moderation rulebook should be a fun problem to tackle, but far from insuperable, as each village can find its own balance. Which brings me to…
-
-### Content moderation and Governance services
-
-The current draft of these services in the [[AI4Communities post]] is very Fediverse-oriented, referring constantly to "the village's inhabitants", where village maps more or less perfectly to Fediverse instance, so there's not much to add here, beyond:
-
-* in the Fediverse, the above content discovery and moderation services are in a sense two sides of the same coin: while the above content discovery AI services would pull in useful content from across the Fediverse into the instance, they would probably work alongside *externally*-facing content moderation services to keep unwanted content out, thus helping reduce the instances' need to push the nuclear "defederate" button.
-* content moderation AI services *per se* would therefore operate within the instance, as described in [[AI4Communities post]]: improving the discussions and collaborations within the instance's local feed.
-* as the local feeds is composed of the community's authored content, this is also where these AI services would find a lot of their training data.
-
-### Centaur services
-
-
-
 ## Known Unknowns
 
 What I don't know yet:
@@ -69,8 +39,8 @@ What I don't know yet:
 This is one of this wiki's pages managed with the **permanent versions pattern** described in  [Two wiki authors and a blogger walk into a bar…](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e)  
 
 - changes in this version: 
-	- 
+	- this is version 1, extracted from [[AI4Communities post]] and lightly edited
 - version control
-    - this is version: 2
+    - this is version: 1
     - this is the current version: [[AI4Communities on the Fediverse]]
-    - here is the previous version: [[AI4Communities on the Fediverse 1]]
+    - here is the previous version: n/a
