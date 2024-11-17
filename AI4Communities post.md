@@ -78,10 +78,9 @@ Don’t want it to optimise your feed for enragement? Tell it not to. Don’t li
 
 This will of course vary from platform to platform:
 
-* This will probably require a lot of work on the Fediverse, but could offer that ecosystem just as much. Moreover, the collective knowledge shared by the village's inhabitants could make good training data for the collecting AI - see [[AI4Communities on the Fediverse]]
+* This will probably require a lot of work on the Fediverse, but could offer that ecosystem just as much. Moreover, the collective knowledge shared by the village's inhabitants could make good training data for the content discovery AI - see [[AI4Communities on the Fediverse]]
 * Bluesky already offers the possibility of 3rd party services to provide custom feeds to users, so there are interesting possibilities there, as yet underexploited - see [[AI4Communities on Bluesky]]
 * Nostr - tbd
-
 
 ### Content moderation and Governance services
 
@@ -105,18 +104,19 @@ Again, the details will vary according to the platform:
 * Bluesky already offers the possibility of 3rd party services to provide labellers, to which users can subscribe. Ideally, labellers could be AI-driven, and trainable by their subscriber - see [[AI4Communities on Bluesky]]
 * Nostr - tbd
 
-
 ### Centaur services for individuals...
 
-**Chatting with strangers and making friends on a social media platform is only a small part of collective intelligence. How should AI help members of a cozyweb community be more creative and productive, maximising their human potential?** 
+**Chatting with strangers and making friends on a social media platform is only a small part of collective intelligence. How should AI help members of a cozyweb community be more creative and productive, maximising their human potential?**
 
-I think everyone is familiar with the idea of the concept of "centaurs" (myhub: [#centaur](https://myhub.ai/@mathewlowry/?tags=centaur&types=like&types=do&types=think&timeframe=anytime&quality=all)), but the key role of "centaur services" is to *avoid* us humans becoming "reverse centaurs" - human beings turned into[ "OK-button-mashing automatons"](https://doctorow.medium.com/what-kind-of-bubble-is-ai-d02040b5573a) by the requirement (often driven by regulation or marketing) to keep a human in the loop.
+I think everyone is familiar with the idea of the concept of "centaurs", but the key role of "centaur services" is to *avoid* us humans becoming *reverse centaurs* - human beings turned into[ "OK-button-mashing automatons"](https://doctorow.medium.com/what-kind-of-bubble-is-ai-d02040b5573a) by the requirement (often driven by regulation or marketing) to keep a human in the loop.
 
 Research in this field tends to result in prompt libraries and frameworks for using LLMs - for example:
 
 * [AI And The Decline Of Human Intelligence](https://medium.com/the-generator/ai-and-the-decline-of-human-intelligence-eca8d9e651d5) points out that “_Our brain is a muscle; it needs to be exercised_,” which is a problem given how easy it is to outsource our skills to AI. So it provides a number of useful-looking prompt frameworks (Socratic Method, Feynman Method, Debate Partner, etc.) to help you treat AI “_as a tutor or consultant, guiding us like a teacher_”. 
-* This echoes [ChatGPT as muse, not oracle](https://www.geoffreylitt.com/2023/02/26/llm-as-muse-not-oracle.html), from February 2023, but still well worth reading.
+  Note: this echoes [ChatGPT as muse, not oracle](https://www.geoffreylitt.com/2023/02/26/llm-as-muse-not-oracle.html), from February 2023, but still well worth reading.
 * [AI as Extraherics: Fostering Higher-order Thinking Skills in Human-AI Interaction](https://arxiv.org/abs/2409.09218) is an academic paper with a similar goal, proposing an AI usage framework called “extraheric AI” which “_fosters users’ higher-order thinking … creativity, critical thinking, and problem-solving… by posing questions or providing alternative perspectives … promoting a balanced partnership between humans and AI_”.
+
+More on my hub: [#centaur](https://myhub.ai/@mathewlowry/?tags=centaur&types=like&types=do&types=think&timeframe=anytime&quality=all).
 
 So rather than provide a generic "send this to an LLM" system, as is currently the case on myhub.ai (see [How to chat with ChatGPT about your content](https://myhub.ai/items/how-to-chat-with-chatgpt-about-your-content-v1)) and dozens of other apps, AI services provided to cozyweb communities should provide AI-powered *process agents* which "lift up" our thinking and help us learn, rather than *product agents* which focus on turning us into reverse centaurs, mindlessly OKing whatever product the AI provides.
 
@@ -124,13 +124,17 @@ The content created with the support of these process agents should be a high-qu
 
 >the AI knows exactly what was created by AI, what was were created by human inspiration, and what the AI did to help. 
 
-How exactly these services would look, of course, would depend on the client application: an AI service supporting users exchanging short status updates will look very different from an integrated thinking and longform publishing tool like myhub.ai in the future.
+How exactly these services would look, of course, would depend on the client application: an AI service supporting users exchanging toots and skeets will look very different from an integrated thinking and longform publishing tool like (tomorrow's) myhub.ai. FWIW, as I launched myhub.ai in mid-2020 I [set out some ideas](https://mathewlowry.medium.com/imagining-new-myhub-ai-features-as-the-pilot-hubs-launch-8441b617cf0e), ranging from the commonplace (knowledge management assistance, auto-translation and summary, etc.) through to content credibility scores and filter bubble analysis.
 
-### ... and collective intelligence
+![[filterbubbleanalysis.jpg]]
+
+From [Imagining new MyHub.ai features as the pilot Hubs launch ](https://mathewlowry.medium.com/imagining-new-myhub-ai-features-as-the-pilot-hubs-launch-8441b617cf0e), June 2020
+
+### ... and to support collective intelligence
 
 **Things get even more interesting when you create agents to help a community collaborate and produce something together.**
 
-So the above point about client applications becomes central if you want to take things further and co-create something together with a group, Because you have a problem: hardly any social media platform offers integrated collaboration tools (exception: Reddit offers community wikis). So you need to agree, _as a group_, on a collaborative tool everyone is comfortable with (TL:DR; it doesn’t exist for groups larger than 4), and then co-create on one platform while chatting on the other (which, frankly, sucks).
+The above point about client applications becomes central if you want to take things further and co-create something together with a group, Because you have a problem: hardly any social media platform currently offers integrated collaboration tools (exception: Reddit offers community wikis). So you need to agree, _as a group_, on a collaborative tool everyone is comfortable with (TL:DR; it doesn’t exist for groups larger than 4), and then co-create on one platform while chatting on the other (which, frankly, sucks).
 
 I’m not sure why this is so. Work-oriented collaboration platforms offer reasonably seamless chat and collaboration environments. In the public realm, however, there seems to be a stubborn divide separating wikis and other groupware from blogging and social media.
 
@@ -187,6 +191,12 @@ Above I've set out a framework for categorising AI services in an AI4Communities
 * [[AI4Communities on Bluesky]] 
 * [[AI4Communities on Nostr]], *next.*
 
+See also: [AI4Communities & Bluesky (newsletter), November 2024](https://mathewlowry.medium.com/ai4communities-bluesky-newsletter-331a25909cc5)
+![[fediverse-bluesky.jpg]]
+
+
+
+
 ---
 ## Conclusions (todo)
 
@@ -202,6 +212,7 @@ This is one of this wiki's pages managed with the **permanent versions pattern**
 	- 2024-11-15: 
 		- moved more content into the subfiles, including a new one ([[Brave example]])
 		- reorganised structure: AI service framework
+		- added some content from some of my posts
 - version control
     - this is version: current
     - this is the current version: [[AI4Communities post]]
