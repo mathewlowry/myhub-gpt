@@ -4,29 +4,11 @@
 
 *(Notes: This is an early draft. As explained in [this newsletter edition](https://mathewlowry.medium.com/exploring-ai4communities-newsletter-6365b2716bb1), I am publishing these early versions as I develop my thoughts in the hope that constructive comments will help me finish the post. More version control in the footer.)*
 
-My [manifesto posts of 1/1/23](https://mathewlowry.medium.com/a-minimum-viable-ecosystem-for-collective-intelligence-7738848ce9c4) reflected *some* knowledge of the Fediverse, which I'd been tracking for a few years. My early versions of the [[AI4Communities post]], from which the following was extracted, reflected that bias. 
-
-In fact, I'm not sure I would have come up with these ideas if ActivityPub hadn't shown that decentralised social media was at least possible. Moreover, the whole cozyweb idea reflects the Fediverse architecture - it's very easy to map "cozyweb community" <-> "Fediverse instance".
+My [manifesto posts of 1/1/23](https://mathewlowry.medium.com/a-minimum-viable-ecosystem-for-collective-intelligence-7738848ce9c4) reflected *some* knowledge of the Fediverse, which I'd been tracking for a few years (see [my Hub's Fediverse overview](https://myhub.ai/@mathewlowry/overview/16/?quality=all&types=like&types=do&types=think&timeframe=anytime)). In fact, I'm not sure I would have come up with these ideas if ActivityPub hadn't shown that decentralised social media was at least possible.  My early versions of the [[AI4Communities post]],  also reflected that bias, which is why "cozyweb community" maps so easily to "Fediverse instance".
 
 However, as I researched the more modern decentralised protocols for the [[AI4Communities post]] (see [[AI4Communities on Bluesky]], [[AI4Communities on Nostr]]), I came across an introduction to Nostr from one of my favourite thinkers in this space, Gordon Brander. While I'm not yet convinced that Nostr is the solution, [Nature's many attempts to evolve a Nostr](https://substack.com/home/post/p-143032514) provides an excellent explanation of why the ActivityHub-powered Fediverse is flawed: "*Federated networks become oligopolies at scale*", due to general forces seen everywhere: "*airline routes, power grids, trains, banks, Bitcoin mining, protein interactions, ecological food webs, neural networks*". It happened to email, and now it's happening with the Fediverse, where calls to defederate Threads (which was 10x the rest of the Fediverse when it arrived) were ineffective.
 
-Nevertheless, the Fediverse has something the more modern ecosystems (probably - tbc) lack: a diversity of apps working and communicating across a decentralised architecture. So despite my own bad experience (see [All my toots gone](https://mathewlowry.medium.com/all-my-toots-gone-e844f7c5f255)), as well as the [mild toxicity Fedizens have towards other protocols](https://bsky.app/profile/mathewlowry.bsky.social/post/3lb4vximypc2d), it would be a mistake to not consider its suitability for supporting AI4Communities seriously.
-
-## Business models
-
-In AI4Communities on the Fediverse:
-
-* it's the community of users on a Fediverse instance that visits their “Friendly Neighborhood Algorithm Store” to choose some AI algorithms to support their community.  
-* those algorithms must access the instance's content, of course, but as the community *owns* the AI as well as their data, there should be no data issues. 
-* the AIs are trained both explicitly by its users and by their content implicitly. 
-
-The store will provide an array of products and pricing schemes, including lower-cost subscription plans where the village's data, suitably anonymised, is used to affray the costs. Other villages may select higher-cost plans where the village does not share its data. Some may charge some or all members, and/or display ads.
-
-The diversity of both funding schemes and AI plans means that one village may form a data union, while another sets up a for-profit instance and a third lets users choose between paying a subscription fee or seeing ads.
-
-![](https://cdn-images-1.medium.com/max/1600/1*3WBzTFfnFM1bgbiQsV3T3A.png)
-
-(caption) *Different Fediverse communities offering users different experiences, including AI services sourced from multiple AI marketplaces and individual suppliers.*
+Nevertheless, the Fediverse has something the more modern ecosystems (***probably - tbc***) lack: a diversity of apps working and communicating across a decentralised architecture. So despite my own bad experience (see [All my toots gone](https://mathewlowry.medium.com/all-my-toots-gone-e844f7c5f255)), as well as the [mild toxicity Fedizens have towards other protocols](https://bsky.app/profile/mathewlowry.bsky.social/post/3lb4vximypc2d), it would be a mistake to not seriously consider its suitability for supporting AI4Communities.
 
 ## AI Services in the Fediverse
 
@@ -64,6 +46,22 @@ The main problem is that an instance's content discovery algorithm cannot pull i
 to be developed
 
 
+## Business models
+
+In AI4Communities on the Fediverse:
+
+* it's the community of users on a Fediverse instance that visits their “Friendly Neighborhood Algorithm Store” to choose some AI algorithms to support their community.  
+* those algorithms must access the instance's content, of course, but as the community *owns* the AI as well as their data, there should be no data issues. 
+* the AIs are trained both explicitly by its users and by their content implicitly. 
+
+The store will provide an array of products and pricing schemes, including lower-cost subscription plans where the village's data, suitably anonymised, is used to affray the costs. Other villages may select higher-cost plans where the village does not share its data. Some may charge some or all members, and/or display ads.
+
+The diversity of both funding schemes and AI plans means that one village may form a data union, while another sets up a for-profit instance and a third lets users choose between paying a subscription fee or seeing ads.
+
+![](https://cdn-images-1.medium.com/max/1600/1*3WBzTFfnFM1bgbiQsV3T3A.png)
+
+(caption) *Different Fediverse communities offering users different experiences, including AI services sourced from multiple AI marketplaces and individual suppliers.*
+
 ## Known Unknowns
 
 What I don't know yet:
@@ -85,6 +83,6 @@ This is one of this wiki's pages managed with the **permanent versions pattern**
 	- introduction
 	- AI services begun
 - version control
-    - this is version: 2
+    - this is version: current
     - this is the current version: [[AI4Communities on the Fediverse]]
     - here is the previous version: [[AI4Communities on the Fediverse 1]]
