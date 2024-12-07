@@ -6,7 +6,7 @@
 
 I knew Bluesky existed but not much else when I published my [manifesto posts of 1/1/23](https://mathewlowry.medium.com/a-minimum-viable-ecosystem-for-collective-intelligence-7738848ce9c4), so early versions of the [[AI4Communities post]] was Fediverse-oriented. I created this post in early November 2024 to explore how AI4Communities would look in an ATProto-powered world. 
 
-By then I had annotated [11 resources tagged Bluesky](https://myhub.ai/@mathewlowry/?tags=bluesky) (there'll probably be more by the time you read this) which I then synthesised for [my November 2024 newsletter](https://mathewlowry.medium.com/ai4communities-bluesky-newsletter-331a25909cc5) . By then I had concluded that in many ways Bluesky *already* supports AI4communities, but not in the Fediverse-friendly "cozyweb village" paradigm I had been using until then.
+By then I had annotated [11 resources tagged Bluesky](https://myhub.ai/@mathewlowry/?tags=bluesky) (there'll probably be more by the time you read this) which I then synthesised for [my November 2024 newsletter](https://mathewlowry.medium.com/ai4communities-bluesky-newsletter-331a25909cc5)  (which contains a lot of content I need to summarise and add here, so check it out). By then I had concluded that in many ways Bluesky *already* supports AI4communities, but not in the Fediverse-friendly "cozyweb village" paradigm I had been using until then.
 
 ## Open marketplace
 
