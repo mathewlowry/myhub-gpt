@@ -49,6 +49,6 @@ This is one of this wiki's pages managed with the **permanent versions pattern**
 	- 2024-11-16: merged in more content from [[AI4Communities post]], given it some structure
 	- 2024-11-11: revised following [my November newsletter](https://mathewlowry.medium.com/ai4communities-bluesky-newsletter-331a25909cc5)
 - version control
-    - this is version: current
-    - this is the current version: [[AI4Communities on Bluesky]]
-    - here is the previous version: [[AI4Communities on Bluesky 1]]
+    - this is version: 2
+    - this is the current version: [[AI4Communities on the ATmosphere]]
+    - here is the previous version: [[AI4Communities on Bluesky 2]]

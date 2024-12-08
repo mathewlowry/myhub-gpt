@@ -79,7 +79,7 @@ Don’t want it to optimise your feed for enragement? Tell it not to. Don’t li
 This will of course vary from platform to platform:
 
 * This will probably require a lot of work on the Fediverse, but could offer that ecosystem just as much. Moreover, the collective knowledge shared by the village's inhabitants could make good training data for the content discovery AI - see [[AI4Communities on the Fediverse]]
-* Bluesky already offers the possibility of 3rd party services to provide custom feeds to users, so there are interesting possibilities there, as yet underexploited - see [[AI4Communities on Bluesky]]
+* Bluesky already offers the possibility of 3rd party services to provide custom feeds to users, so there are interesting possibilities there, as yet underexploited - see [[AI4Communities on the ATmosphere]]
 * Nostr - tbd
 
 ### Content moderation and Governance services
@@ -101,7 +101,7 @@ Well-run large communities will therefore develop effective content moderator AI
 Again, the details will vary according to the platform:
 
 * If the above content discovery services become possible on the Fediverse, they will almost certainly also provide *external* content moderation services, making sure bad content is not brought into the commuity's instance. *Internally* facing content moderation and governance AIs would focus their attention on the instance's Local feed, making it more valuable, interesting and safer - see  [[AI4Communities on the Fediverse]]
-* Bluesky already offers the possibility of 3rd party services to provide labellers, to which users can subscribe. Ideally, labellers could be AI-driven, and trainable by their subscriber - see [[AI4Communities on Bluesky]]
+* Bluesky already offers the possibility of 3rd party services to provide labellers, to which users can subscribe. Ideally, labellers could be AI-driven, and trainable by their subscriber - see [[AI4Communities on the ATmosphere]]
 * Nostr - tbd
 
 ### Centaur services for individuals...
@@ -152,13 +152,13 @@ Finally, if any collaborative work is to be supported by any group’s AI, the m
 
 **For AI4Communities to work we need social apps which people want to use _and_ which generate high-quality training data.** 
 
-One thing that bothers me is that almost everyone on Bluesky, as well as (I think!) most of the users on Nostr and the Fediverse, are using Twitter look-alike apps. 
-
-My gut feeling is that for AI4communities to work in **privacy-first** spaces like these, the apps people use will need to be less superficial to generate higher-quality training data. After all, there’s only so much value in short status updates, and noone's proposing following users around the web, siphoning up their data to sell to marketers as Facebook *et al* do. 
+One thing that bothers me is that almost everyone on Bluesky, as well as (I think!) most of the users on Nostr and the Fediverse, are using Twitter look-alike apps. My gut feeling is that for AI4communities to work in **privacy-first** spaces like these, the apps people use will need to be less superficial to generate higher-quality training data. After all, there’s only so much value in short status updates, and noone's proposing following users around the web, siphoning up their data to sell to marketers as Facebook *et al* do. 
 
 > there’s only so much value in short status updates
 
-This is perhaps why the only example of AI4communities I've come across to date is in the adjacent sector of search - see [[Brave example]]. AI4Communities is the social media equivalent of Brave’s approach to search. Both revolve around **authenticity-driven data quality:**
+This is perhaps why the only example of AI4communities I've come across to date is in the adjacent sector of search - see [[Brave example]]. 
+
+AI4Communities is the social media equivalent of Brave’s approach to search. Both revolve around **authenticity-driven data quality:**
 
 - People do not actually spend a lot of time browsing junk content, so Brave’s dataset doesn’t have any, and so is of higher quality
 - People in well-run communities do not curate, share and collaborate on rubbish content, so the data they create will be valuable, too.
@@ -177,6 +177,7 @@ Because then your AI will be able to can learn from:
 
 That’s a _lot_ of tightly interconnected knowledge, all reflecting your interests and expertise. Any AI sourcing that sort of knowledgebase will perform content discovery superbly well for you. And that AI is also being trained by everyone else in your village, with whom you presumably share some interests and values, and with whom you may also be collaborating (see below). Together, your community will generate extremely valuable AI training data, due to the **authentically human curation and creation** processes involved in making it.
 
+*(2024-12-08 update: I just updated [[AI4Communities on the ATmosphere]] after researching and testing some early non-Bluesky apps on the ATmosphere. I'm optimistic 2025 will see many more.)* 
 ## AI4Communities per protocol
 
 **How would this look on each decentralised social network?** 
@@ -188,12 +189,8 @@ Above I've set out a framework for categorising AI services in an AI4Communities
 *Subfiles to be developed:*
 
 * [[AI4Communities on the Fediverse]], 
-* [[AI4Communities on Bluesky]] 
-* [[AI4Communities on Nostr]], *next.*
-
-See also: [AI4Communities & Bluesky (newsletter), November 2024](https://mathewlowry.medium.com/ai4communities-bluesky-newsletter-331a25909cc5)
-![[fediverse-bluesky.jpg]]
-
+* [[AI4Communities on the ATmosphere]] (updated 2024-12-08)
+* [[AI4Communities on Nostr]] (tbd)
 
 
 

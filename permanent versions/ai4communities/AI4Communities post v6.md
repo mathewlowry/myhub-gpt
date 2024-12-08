@@ -64,14 +64,14 @@ How would this look on each of these networks?
 *Subfiles to be developed:*
 
 * [[AI4Communities on the Fediverse]], *extracted from the previous version of this post and lightly edited*
-* [[AI4Communities on Bluesky]] *created early November*
+* [[AI4Communities on the ATmosphere]] *created early November*
 * AI4Communities on Nostr, *next.*
 
 As I work on the above files, an idea is emerging in my mind:  AI4communities will look different on different protocols, and this is a feature, not a bug, as it might lead to "protocol competition" in much the same way that platform competition in the telecommunications industry helped accelerate the rollout of broadband.
 
 --- 
 
-*Note: the rest of the post has **not** been rewritten to reflect  [[AI4Communities on Bluesky]], and so still reflects a Fediverse bias.*
+*Note: the rest of the post has **not** been rewritten to reflect  [[AI4Communities on the ATmosphere]], and so still reflects a Fediverse bias.*
 
 ### Deeper apps, better data
 
@@ -243,7 +243,7 @@ This is one of this wiki's pages managed with the **permanent versions pattern**
 
 - changes in this version: 
 	- extracted out [[AI4Communities on the Fediverse]] as a subfile
-	- created [[AI4Communities on Bluesky]] subfile
+	- created [[AI4Communities on the ATmosphere]] subfile
 	- added "centaur services" section, reflecting [preceding newsletter](https://mathewlowry.medium.com/exploring-ai4communities-newsletter-6365b2716bb1)
 - version control
     - this is version: 6
