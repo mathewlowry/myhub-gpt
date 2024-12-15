@@ -156,9 +156,7 @@ One thing that bothers me is that almost everyone on Bluesky, as well as (I thin
 
 > there’s only so much value in short status updates
 
-This is perhaps why the only example of AI4communities I've come across to date is in the adjacent sector of search - see [[Brave example]]. 
-
-AI4Communities is the social media equivalent of Brave’s approach to search. Both revolve around **authenticity-driven data quality:**
+This is perhaps why the only example of AI4communities I've come across to date is in the adjacent sector of search - see [[Brave example]]. AI4Communities is the social media equivalent of Brave’s approach to search. Both revolve around **authenticity-driven data quality:**
 
 - People do not actually spend a lot of time browsing junk content, so Brave’s dataset doesn’t have any, and so is of higher quality
 - People in well-run communities do not curate, share and collaborate on rubbish content, so the data they create will be valuable, too.
@@ -177,7 +175,7 @@ Because then your AI will be able to can learn from:
 
 That’s a _lot_ of tightly interconnected knowledge, all reflecting your interests and expertise. Any AI sourcing that sort of knowledgebase will perform content discovery superbly well for you. And that AI is also being trained by everyone else in your village, with whom you presumably share some interests and values, and with whom you may also be collaborating (see below). Together, your community will generate extremely valuable AI training data, due to the **authentically human curation and creation** processes involved in making it.
 
-*(2024-12-08 update: I just updated [[AI4Communities on the ATmosphere]] after researching and testing some early non-Bluesky apps on the ATmosphere. I'm optimistic 2025 will see many more.)* 
+*(2024-12-08 update: I just updated [[AI4Communities on the ATmosphere]] after researching and testing some early non-Bluesky apps on the ATmosphere, the ecosystem underpinned by Bluesky's ATProto protocol. I'm optimistic 2025 will see many more such apps.)* 
 ## AI4Communities per protocol
 
 **How would this look on each decentralised social network?** 
@@ -192,7 +190,9 @@ Above I've set out a framework for categorising AI services in an AI4Communities
 * [[AI4Communities on the ATmosphere]] (updated 2024-12-08)
 * [[AI4Communities on Nostr]] (tbd)
 
+### TL:DR;
 
+*Summary of the above files to be developed.*
 
 ---
 ## Conclusions (todo)

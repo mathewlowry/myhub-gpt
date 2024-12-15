@@ -32,6 +32,8 @@ Although I'm pretty happy with Bluesky's direction of travel, concerns remain - 
 * although they assure us that they [won’t “enshittify” the Bluesky service](https://www.wired.com/story/bluesky-ceo-jay-graber-wont-enshittify-ads/), Cory Doctorow, who [coined the term](https://doctorow.medium.com/https-pluralistic-net-2024-10-14-pearl-clutching-this-toilet-has-no-central-nervous-system-266e69b4c8f9), is [not convinced](https://doctorow.medium.com/https-pluralistic-net-2024-11-02-ulysses-pact-tie-yourself-to-a-federated-mast-b2f89bb5b4d8);
 * unlike the older Fediverse, Bluesky is not currently proven: there's currently still really only one app, one "firehose" run by one company, etc.
 
+But see "Onto the ATmosphere", below.
+
 ### Porous communities, light AI4communities
 
 **While it's already easy to imagine how a community could form around their own AI-powered labellers and custom feeds,** these would be very porous communities - there is currently only one ATProto network, not a connected archipelago of servers, and it's very open: "*Anyone who knows how to code can write an app or tool that can read practically any data about anyone, without having to ask anyone for permission*" ([A complete guide to Bluesky](https://mackuba.eu/2024/02/21/bluesky-guide?utm_source=pocket_shared)). 
@@ -40,7 +42,7 @@ Is this a feature or a bug? Bluesky's openness, and the fact that the entire net
 
 My metaphor is therefore upended: we won't see a community collectively choosing some algorithms, sharing their data with them, and monetising the result, as in [[AI4Communities on the Fediverse]]. Instead, each member will go to the store individually, and anyone who subscribes to the same algorithm will automatically join the club.
 
-One possibility of making such a community less open: the store puts the algorithm out of reach of non-members, which would mean that the *store* becomes the community's gatehouse.
+One possibility of making such a community less open: the store puts the algorithm out of reach of non-members, which would mean that the *store* becomes the community's gatehouse. But at the end of the day, the content is still open to everyone - only the *curation* would "belong to the community".
 
 ## Onto the ATmosphere
 
@@ -48,13 +50,14 @@ As mentioned above (and [on Bluesky](https://bsky.app/profile/mathewlowry.bsky.s
 
 > "a platform for posting blogs onto the ATmosphere, with content stored on any ATProto Personal Data Server (PDS). So if you have a Bluesky account you just login and your posts will be stored on the PDS BlueSky gave you... but that content remains _yours_... [plus there's] seamless comments integration with BlueSky: a comment posted to the blog is shared on the commenter's Bluesky account, and whenever someone shares the post on Bluesky it also appears under the post." - [Thinking transparently in the ATmosphere](https://whtwnd.com/mathewlowry.bsky.social/3lcb22vzc3r2x)
 
-That post mainly focused on what Whitewind offered my personal "thinking transparently" process (of which the newsletter, blog post and this page are all integral parts), so if you're into personal content strategies and tools4thought, check it out in full.
+That post mainly focused on what Whitewind offered my personal "thinking transparently" process (of which the newsletter, blog post, this page and wiki are all integral parts), so if you're into personal content strategies and tools4thought, check it out in full.
 
 But the significance of Whitewind goes much deeper - it's a fully-fledged ATMosphere app, with its own longform content affordances, but totally integrated with Bluesky. This echoes the integration between different Fediverse apps (Mastodon, Plieroma, etc.), but the seamlessness and user-friendliness is on another level, to say nothing of the fact that the ATmosphere is one global conversation. 
 
-On the ATmosphere, therefore, AI4communities could take the form of many different apps, each providing their own community and collaboration features, yet part of the wider global conversation mediated by Bluesky. Schematically, it will look something like the right half of the image I ended the Thinking transparently blog post with: a bunch of personal ATmosphere apps for curating, writing, collaborating and more, calling on additional apps which use AI to help support better user experiences: 
+On the ATmosphere, therefore, AI4communities could take the form of many different apps, each providing their own community and collaboration features, yet part of the wider global conversation mediated by Bluesky. Schematically, it will look something like the right half of the image I ended the "Thinking transparently" blog post with: a bunch of personal ATmosphere apps for curating, writing, collaborating and more, calling on additional apps which use AI to remix and further add value to the content for communities and other users: 
 
 ![[atproto-ecosystem.png]]
+*Caption: seamless integration between one users' personal writing stack (left), collaboration with friends and publishing tools, and the wider ATmosphere.*
 
 Things get even more interesting, for me at least, when I consider what organisations could do with this: not only could they build online communities which are deeply integrated into the wider Bluesky conversations, they can also offer their staff both identity- and PDS-related services. But that will have to wait for the next version of this page, because I think I'm reaching the edge of my technical knowledge - I need to spend some time with protocol engineers.
 
