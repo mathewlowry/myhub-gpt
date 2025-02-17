@@ -1,6 +1,11 @@
+# MyHub.ai on the ATmosphere
+
+
 **How would MyHub.ai evolve to become part of the ATmosphere?**
 
 *(Notes: This is an early draft. As explained in [this newsletter edition](https://mathewlowry.medium.com/exploring-ai4communities-newsletter-6365b2716bb1), I am publishing these early versions as I develop my thoughts in the hope that constructive comments will help me finish the post. More version control in the footer.)*
+
+## Introduction
 
 In 2025, the ATmosphere is the right ecosystem to bet on for developing decentralised collective intelligence. As this is more than just exchanging 300-character status updates, the ATmosphere will need:
 
@@ -8,7 +13,7 @@ In 2025, the ATmosphere is the right ecosystem to bet on for developing decentra
 * a business model to sustain those apps
 * productive, trustable interconnections between them, so that growth in one app lifts many boats.
 
-How would moving MyHub.ai onto the ATmosphere help? My basic answer can be found in my January 2023 manifesto posts, but that was before I understood really anything about ATProtocol. I've therefore created this page to collect my evolving ideas for how those ideas would translate onto the ATmosphere.
+How would moving MyHub.ai onto the ATmosphere help? My basic answer can be found in my[ January 2023 manifesto posts](https://mathewlowry.medium.com/a-minimum-viable-ecosystem-for-collective-intelligence-7738848ce9c4), but that was before I understood really anything about ATProtocol. I've therefore created this page to collect my evolving ideas for how those ideas would translate onto the ATmosphere.
 
 ## Idea in a nutshell
 
@@ -33,22 +38,23 @@ As you'll see from my Hub (https://myhub.ai/@mathewlowry/):
 As a result, a Hub:
 
 * brings together a Hub Editor's content from across the web
-* plays an important role in a Editor's "thinking and writing stack"
+* plays an important role in each Editor's "thinking/writing stack"
 * "knows" an enormous amount of what interests the Editor, which can be leveraged by AI 
 
-But that's what a Hub is *today*. Having played with mine in one form or another since 2013, I have more than a few ideas about its future. Moreover, the toolkit I want to create will enable users to create a wide variety of ATmosphere-connected sites, not just Hubs.
+But that's what a Hub is *today*. Having played with mine in one form or another since 2013, I have more than a few ideas about its future. 
 
-### Dream outcome
+## Dream outcome: 3 connections
+
 **Cards are made to be shared, and Hubs - as their name implies - are designed to be connected. But why limit this to Hubs?**
 
-As set out in those [January 2023 manifesto posts](https://mathewlowry.medium.com/a-minimum-viable-ecosystem-for-collective-intelligence-7738848ce9c4), I want to connect Hubs in three different ways:
+The toolkit I want to create will enable users to create a wide variety of ATmosphere-connected sites, not just Hubs. As set out in those [January 2023 manifesto posts](https://mathewlowry.medium.com/a-minimum-viable-ecosystem-for-collective-intelligence-7738848ce9c4), that means connecting Hubs in three different ways:
 
 * connect a Hub to its Editor's thinking and writing tool
 * connect Hubs (and their Editors, and *their* thinking tools) to each other and other ATmosphere apps to create social communities on the ATmosphere
 * connect Hubs with AI services to improve creativity and open up new business models.
 
 These are explored in the next three sections. There are also a couple of other key features required for Hub monetisation, explored in "Business model", after that. Finally, the tools we will develop will allow users to create other sorts of ATmosphere-connected sites, not just Hubs.
-#### Connection 1: Thinking tool -> Hub
+### Connection 1: Thinking tool -> Hub
 
 **Goal: offer seamless interconnection between each Editors' private library of notes and their public Hub, ready for the ATmosphere.** 
 
@@ -66,35 +72,34 @@ Moreover, each site is the **public-facing edge of the user's private library** 
 !["This is my ideal workflow, abstracted from my earlier posts"](https://whtwnd.com/api/cache?did=did:plc:2zxlmj2dvub7smpul2lvwqfk&cid=bafkreidgciur5nbnpmjj2nydusx7jznn26hdaw3e2vbz3dn4x53lu27wei)
 *(from [Thinking transparently in the ATmosphere](https://whtwnd.com/mathewlowry.bsky.social/3lcb22vzc3r2x), December 2024)*
 
-**Results:**
+#### Results:
 
 * a more productive and creative "thinking and publishing stack" for individual Editors
 * more powerful collaboration possibilities for networked Editors (given ATmosphere connections, next).
 
 ***What's this got to do with the ATmosphere?*** In the next section we'll briefly describe how Hubs will be networked together via the ATmosphere, and with Bluesky and other ATmosphere apps. The above developments are therefore required to:
 
-* network, via the ATmosphere, integrated "thinking and publishing stacks", and their associated high-value, longform content, which is vital to the AI4communities business model;
+* network, via the ATmosphere, integrated "thinking and publishing stacks", and their associated high-value, longform content (vital to the AI4communities business model, below);
 * introduce collaboration-oriented communities into the ATmosphere, tackling the "too many blogs, not enough wikis" problem (see Whitewind post, below).
 
-**How:** 
+#### How:
 
 * create the markdown-based dynamic site builder, and the Hub template
 * either create connectors between popular Tools4Thought and the  dynamic site builder (eg plugins for Obsidian, etc.), or create the dynamic site builder CMS as a simple Tool4Thought, or both.
-* develop a "repost style flow" that allows for the organization of links in the Hub to lead to amplification by other authors.
 
-**More reading:**
+#### More reading:
 
 * (2023 manifesto post): [Thinking and writing in a decentralised collective intelligence ecosystem](https://mathewlowry.medium.com/thinking-and-writing-in-a-decentralised-collective-intelligence-ecosystem-16dd2b1893cc )
 * (December 2024 on Whitewind): [Thinking transparently in the ATmosphere](https://whtwnd.com/mathewlowry.bsky.social/3lcb22vzc3r2x) 
 
-#### Connection 2: Hub->ATmosphere->Hub
+### Connection 2: Hub->ATmosphere->Hub
 
 **Goal: Each Hub (and, behind it, the Editor's thinking tool) is networked with other Hubs and other apps on the ATmosphere** - essentially, both ends (Inbox and Outbox) of each integrated writing & thinking stack are connected to everyone via ATProto. 
 
 !["This is my ideal workflow, abstracted from my earlier posts"](https://whtwnd.com/api/cache?did=did:plc:2zxlmj2dvub7smpul2lvwqfk&cid=bafkreihmgjhhgvtlnvi3zdhnzh7kv6k7ppgbc6oomxpjmvqd7s3kmfjxci)
 *(from [Thinking transparently in the ATmosphere](https://whtwnd.com/mathewlowry.bsky.social/3lcb22vzc3r2x), December 2024, updating [Thinking and writing in a decentralised collective intelligence ecosystem](https://mathewlowry.medium.com/thinking-and-writing-in-a-decentralised-collective-intelligence-ecosystem-16dd2b1893cc), January 2023)*
 
-Results:
+#### Results:
 
 * an Editor's thinking tool's Inbox (or their Hub's integrated Bluesky client) includes content from ATmosphere accounts they Follow and feeds they subscribe to (and, eventually, content from RSS feeds, ActivityPub accounts and newsletters)
 * Hub editors can: 
@@ -107,24 +112,25 @@ Results:
 * comments to hosted Hub items can be shared via the commenter's Bluesky account, if a commenter wishes (as in Whitewind or MarkPub), widening conversation reach 
 * Hub Editors can invite Trusted friends into one or more notes in their thinking tool, allowing both to edit and publish something collaboratively (as in MarkPub).
 
-More reading:
+#### More reading:
+
 * (2023 manifesto post): [Social knowledge graphs for collective intelligence](https://mathewlowry.medium.com/social-knowledge-graphs-for-collective-intelligence-75c436889320) 
 * (video, April 2023) [Why I'm massively into massive.wiki](https://www.youtube.com/watch?v=qfYl3SiZJWU]) (MarkPub's old name)
 
-#### Connection 3: Hub <-> AI services
+### Connection 3: Hub <-> AI services
 
 **As set out under Business Model (next), one of the two revenue streams to explore is something I have come to call AI4communities.** It means that individuals or - ideally - communities of people in the ATmosphere can collectively lease or own a range of AI services to help them be more productive and/or creative online. 
 
 !["From 2023"](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*mrMrYtsN5b1XwlmkVXThrw.png)
 *(from [How Artificial Intelligence will finance Collective Intelligence](https://mathewlowry.medium.com/how-artificial-intelligence-will-finance-collective-intelligence-5d17adcce98b), January 2023, but currently being updated on my wiki - see below)*
 
-There could be a range of business models for providing these services, from pure subscription through to the community leasing or owning "their" model, and affraying the costs though data-sharing, as set out in my experimental wiki:
+There could be a range of business models for providing these services, from pure subscription through to the community leasing or owning "their" model, and affraying the costs though data-sharing, as set out elsewhere:
 
 
- > Moreover, as I pointed out in 2020 when I launched myhub.ai, each community could act as a **data union**: rather than just buying or renting an AI to support their community, they could monetise the resulting algorithm to at least help cover the costs of running the community. While I shelved this idea when ChatGPT appeared, the model collapse paper now suggests that the **training data** created by well-managed communities could be the new currency of collective intelligence" - [AI4Communities: a model for a self-sustaining, user-owned public sphere](https://experiments.myhub.ai/ai4communities_post) 
+ > *Moreover, as I pointed out in 2020 when I launched myhub.ai, each community could act as a **data union**: rather than just buying or renting an AI to support their community, they could monetise the resulting algorithm to at least help cover the costs of running the community. While I shelved this idea when ChatGPT appeared, the model collapse paper now suggests that the **training data** created by well-managed communities could be the new currency of collective intelligence"* - [AI4Communities: a model for a self-sustaining, user-owned public sphere](https://experiments.myhub.ai/ai4communities_post) 
 
 
-Many AI services will support individuals (cf Bluesky users subscribing to custom feeds and block lists) but other services could support communities, and can be configured and fine-tuned by the members to ensure they reflect their interests and preferences. 
+Many AI services will support individuals (cf Bluesky users subscribing to custom feeds and block lists) but other services could support entire communities, and can be configured and fine-tuned by the members to ensure they reflect their interests and preferences. 
 
 The post explores a range of possible AI services (content discovery, content moderation and governance, "centaur services" to support individual's and communities' creativity, etc.), and links to subfiles exploring how they would look on [the Fediverse](https://experiments.myhub.ai/ai4communities_on_the_fediverse) and [ATmosphere](https://experiments.myhub.ai/ai4communities_on_the_atmosphere) (one on Nostr is next). However, there are certainly many more. 
 
@@ -136,29 +142,30 @@ All of them, moreover, become more valuable to users when they have more content
 * everything else (blog posts and professional references, mainly) which you publish alongside them
 * and everything else in your private knowledge library you make accessible to it.
 
-Individual users and communities would access these services via what the Three Legged Stool manifesto calls a “**Friendly Neighborhood Algorithm Store**”, so this project needs to demonstrate:
+Individual users and communities would access these services via what the Three Legged Stool manifesto calls a “**Friendly Neighborhood Algorithm Store**”, so this project will explore and demonstrate:
 
 * how such a Store can provide AI services to both individuals and communities, using Hubs and other ATmosphere apps 
 * the value of some initial services - eg AI-curated custom ATmosphere feeds - to stimulate other suppliers to add their services to the Store, and/or launch more Stores.
 
-**More reading:**
+#### More reading:
 
 * (2023 manifesto post): the idea was first developed in [How Artificial Intelligence will finance Collective Intelligence](https://mathewlowry.medium.com/how-artificial-intelligence-will-finance-collective-intelligence-5d17adcce98b) 
-* the model collapse paper prompted me to redevelop it, which I'm currently doing in public via my experimental wiki:  [AI4Communities: a model for a self-sustaining, user-owned public sphere](https://experiments.myhub.ai/ai4communities_post)  
+* the model collapse paper prompted me to redevelop it, which I'm currently doing in public in  [AI4Communities: a model for a self-sustaining, user-owned public sphere](https://experiments.myhub.ai/ai4communities_post)  
 
 
 ## Business model  
 
 **The goal is both to develop a set of opensource tools which anyone can build on and with, *and* in the process explore two revenue streams.** 
 
-When I set out to create myhub.ai, I initially intended to simply develop a personal Hub for myself. My developer, however, suggested making it a platform to see if anyone else would want one. So we did, just as covid struck. It was a bad moment to market anything, so I simply explored the tool and developed my ideas, occasionally including a link to a Collection on my Hub in social conversations. Despite zero marketing, I have over 200 signups.
+When I set out to create myhub.ai, I initially intended to simply develop a personal Hub for myself. My developer, however, suggested making it a platform to see if anyone else would want one. So we did, and went live just as Covid struck. It was a bad moment to market anything, so I simply explored the tool and developed my ideas, occasionally including a link to a Collection on my Hub in social conversations. Despite zero marketing, I had around 250 signups (January 2025).
 
-With the emergence of the ATmosphere, however, I think Hubs are a good tool to break down the barriers between social and publishing, creating and curating. However, a business model is required if it is really going to make an impact. 
+With the emergence of the ATmosphere, however, I think Hubs are a good tool to break down the barriers between social and publishing, creating and curating. However, a business model is required if it is really make an impact. 
 
 To explore these new opportunities we therefore need to build the above tools so that we can explore and demonstrate the following revenue models:
 ### Premium subscriptions
 
 As mentioned above, with a few features added each Hub will become a "Substack on Steroids", allowing Editors to offer subscribers access to:
+
 * some or all of the Editor's finished posts (as in Substack, Ghost, etc.)
 * everything the Editor read, particularly the resources influencing those finished posts, with the Editor's notes
 * collaborative spaces and groups for the Editor and his/her subscribers
@@ -178,7 +185,7 @@ Moreover, the model collapse phenomenon may mean that a user's or communities' c
 
 Note that this is somewhat speculative, not least because the existence of the original model collapse phenomenon has been called into question since the original papers in [May](https://arxiv.org/abs/2305.17493) and [July](https://www.nature.com/articles/s41586-024-07566-y). I nevertheless believe that authentically human, high-value content created by communities may become valuable to future AI development, for example to [provide seeds for synthetic training data](https://simonwillison.net/2024/Dec/15/phi-4-technical-report/). 
 
-## Development programme
+## Development programme outline
 
 Currently I'd tackle the above developments in the following order:
 
@@ -197,7 +204,7 @@ Currently I'd tackle the above developments in the following order:
 
 ## Conclusion & Summary
 
-I thought I'd conclude with the final image from my latest Whitewind post, which takes one of the images from my January 2023 manifesto posts and updates it for the ATmosphere.
+I thought I'd conclude with the final image from one of my first Whitewind posts, which takes one of the images from my January 2023 manifesto posts and updates it for the ATmosphere.
 
 ![from "Thinking transparently in the ATmosphere"](https://whtwnd.com/api/cache?did=did:plc:2zxlmj2dvub7smpul2lvwqfk&cid=bafkreiex5a5pnc3qcw5s2wy5e33biyyrovams6sbigtpnj4tilvujwmfhy)
 
@@ -205,12 +212,11 @@ I thought I'd conclude with the final image from my latest Whitewind post, which
 
 It shows:
 
-* three key parts of an individual user's thinking tool
-* how it can Follow ATmosphere and other information sources (left) and be Followed by others (top right)
-* that the user can invite Trusted Friends into the thinking tool to collaborate (centre top), as I invited Peter and Aram to work on this proposal
-* that the user can publish selected notes from the thinking tool directly to a variety of ATmosphere personal publishing apps
-* how conversations about that post can appear both on the user's app (eg blog comments) and elsewhere (eg Bluesky posts about a Whitewind blogpost)
-* how that content is then "remixed" by other ATmosphere apps, the outputs of which can in turn be followed by the original user
+* Content Pipeline: the three principal components of an individual Editor's thinking tool
+* how a Hub can Follow ATmosphere and other information sources (*Who I Follow*, left) and be Followed by others (*Who Follows Me*, top right)
+* that the user can invite Trusted Friends into the thinking tool to collaborate (*My Friends*, centre top)
+* (*Personal ATProto apps*, centre right): that the user can publish selected notes from the thinking tool directly to a variety of ATmosphere apps, and how conversations about that content can spread across multiple apps (eg Bluesky conversations about a Whitewind blogpost)  
+* how that content is then "remixed" by other ATmosphere apps (*Community ATProto apps*,  right) , the outputs of which can in turn be followed by the original user
 
 It doesn't show AI services supporting users in their thinking tool, but no one image can capture all the possibilities, and no one project should attempt to build everything. 
 
