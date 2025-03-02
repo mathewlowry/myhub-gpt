@@ -19,7 +19,7 @@ How would moving MyHub.ai onto the ATmosphere help? My basic answer can be found
 
 **Transform the myhub.ai platform into a opensource, markdown-based, ATmosphere-enabled publishing toolkit interconnected with thinking and collaboration tools, and use it to explore how productive online communities can be made self-sustaining.** 
 
-I now have a pitchdeck:
+### I now have a pitchdeck
 
 ![[myhub-on-atmosphere-pitchdeck-2025-q1.pdf]]
 
