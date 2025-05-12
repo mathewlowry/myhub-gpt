@@ -6,7 +6,7 @@
 
 *Sidenotes like this will not appear, obviously.* 
 
-*Unfortunately I am one of those non-specialists, so - as explained [on Discord](https://discord.com/channels/1097580399187738645/1288609400432627816/1368126568810942526)  -  I will need help, and am sharing this proof-of-concept version here on my experimental wiki to see:*
+*Unfortunately I am one of those non-specialists, so - as explained in [the #wiki-discussion on Discord](https://discord.gg/UF7AhwKR)  -  I will need help, and am sharing this proof-of-concept version here on my experimental wiki to see:*
 
 * *if it will work*
 * *and if anyone else would like to help me develop it further.* 
