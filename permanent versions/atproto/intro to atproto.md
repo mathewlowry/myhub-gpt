@@ -2,18 +2,18 @@
 
 **Interested in understanding how Bluesky and the ATProtocol works? This explainer starts with a very simple diagram, and then progressively adds detail.**
 
-*(Sidenote Intro: This page explores an idea I had on how to explain Bluesky and ATProtocol to non-specialists. If this idea works, it will be republished and further developed into one of the [Explainers on the ATProtocol community wiki](https://atproto.wiki/en/wiki/explainers). 
+*(Sidenote Intro: This page explores an idea I had on how to explain Bluesky and ATProtocol to non-specialists. If this idea works, it will be republished and further developed into one of the [Explainers on the ATProtocol community wiki](https://atproto.wiki/en/wiki/explainers).* 
 
 *Sidenotes like this will not appear, obviously.* 
 
-*Unfortunately I am one of those non-specialists, so - as explained [on Discord](https://discord.com/channels/1097580399187738645/1288609400432627816/1368126568810942526)  -  I will need help, and am sharing this proof-of-concept version here on my experimental wiki to see:
+*Unfortunately I am one of those non-specialists, so - as explained [on Discord](https://discord.com/channels/1097580399187738645/1288609400432627816/1368126568810942526)  -  I will need help, and am sharing this proof-of-concept version here on my experimental wiki to see:*
 
 * *if it will work*
 * *and if anyone else would like to help me develop it further.* 
 
-*This is therefore version 1 (more version control info in the footer). 
+*This is therefore version 1 (more version control info in the footer).* 
 
-*If people think it has potential and want to help me get it right, I'll move it to the wiki for further development by a larger community. If you'd like to help me **before** then, ping me on Discord and I'll give you access via github to this file and [[atproto1.drawio]], from which all .pngs are currently derived (I'm currently exploring [tldraw](https://www.tldraw.com/)). 
+*If people think it has potential and want to help me get it right, I'll move it to the wiki for further development by a larger community. If you'd like to help me **before** then, ping me on Discord and I'll give you access via github to this file and [[atproto1.drawio]], from which all .pngs are currently derived (I'm currently exploring [tldraw](https://www.tldraw.com/)).*
 
 *Final note: the final version will need a more attractive graphic, obviously. But let's get the content right first).*
 
@@ -26,9 +26,9 @@
 
 They are:
 
-* PDS: Personal Data Servers - this is where your content lives. When you write something on Bluesky, or even Like someone else's post, that content goes on your PDS.
-* Relay: this grabs content from the PDSs to create a "firehose" of all of the content in all of the PDSs they've looked at (or "crawled", like a search engine)
-* Appviews: these are the *apps* with which you *view* the content of the Relay. Different apps therefore show different views of the same firehose. Bluesky is an appview. Others exist.
+* **PDS**: Personal Data Servers - this is where your content lives. When you write something on Bluesky, or even Like someone else's post, that content goes on your PDS.
+* **Relay**: this grabs content from the PDSs to create a "firehose" of all of the content in all of the PDSs they've looked at (or "crawled", like a search engine)
+* **Appviews**: these are the *apps* with which you *view* the content of the Relay. Different apps therefore show different views of the same firehose. Bluesky is an appview. Others exist.
 
 **2 More Things** about:
 
@@ -69,17 +69,17 @@ If you come a little closer and look at the left part of the image...
 
 *(sidenote PLC Directory: I am now at the very edge of my understanding. Please be tolerant and correct my mistakes gently :) )*
 
-The view from the stratosphere also shows us Search in action:
+The view from the stratosphere also shows us a new component, required for global search:
 
 ![[strato-did-all.drawio.png]]
 
-* the **PLC Directory** (technically "DID:PLC Directory") allows appviews to find users and their content. 
-* In the image, someone searching for the user via "user search" will find it thanks to the PLC Directory
+* the **PLC Directory** (technically "DID:PLC Directory") allows appviews to find users and their content;
+* In the image, someone using an Appview is searching for a user via "user search" - they'll find it thanks to the PLC Directory.
 
 **2 More Things about PLC Directory**:
 
-* The PLC Directory may be simple and low-cost tech, but it's absolutely central to allowing Bluesky and all other appviews to create a global conversation. 
-* I use the word "central" deliberately - it is currently (May 2025) run by Bluesky Social PBC (the Bluesky company), and so is frequently cited as evidence that Bluesky is not completely decentralised. Plans are therefore afoot to spin it off as a separate entity, perhaps managed by multiple organisations.
+* The PLC Directory may be simple and low-cost tech, but it's absolutely *central* to allowing Bluesky and all other appviews to create a global conversation. 
+* I use the word "central" deliberately - the PLC Directory is currently (May 2025) run by the Bluesky *company* (Bluesky Social PBC, which is frequently cited as evidence that Bluesky *the app* is not completely decentralised. Plans are afoot to spin it off as a separate entity, perhaps managed by multiple organisations as a public good. 
 * learn more about [PLC Directory](https://web.plc.directory/)
 
 ---
