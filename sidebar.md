@@ -12,7 +12,12 @@ Instead of bullet lists, use plain lines, with two space characters added to the
 
 [[README|Home]]  
 
-## Research
+## AI4Communities
+
+[[AI4Communities intro]]  
+[[AI4Communities on the ATmosphere]]  
+[[intro to atproto]]  
+## Integrating AI into MyHub
 
 [[experiment log]]  
 [[experimental methods]]  

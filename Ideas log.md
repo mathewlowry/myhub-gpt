@@ -13,7 +13,7 @@
 	* Asking twice: does asking twice get better results? See [[Experiment 1 analyses]]
 	* Build [[NetflixThis GPT]]
 * Blog post ideas
-	* [[AI4Communities post]]
+	* [[AI4Communities intro]]
 	* [[blowing hot and cold about AI]]
 	* 
 	* reversion to the mean 

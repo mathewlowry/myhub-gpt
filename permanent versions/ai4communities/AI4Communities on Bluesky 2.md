@@ -1,10 +1,10 @@
 # AI4Communities on Bluesky
 
-**This is a subfile of the primary [[AI4Communities post]], and won't make any sense unless you read its parent first. It explores how the AI4communities idea would look in decentralised social networks powered by ATProto, the Bluesky protocol**.
+**This is a subfile of the primary [[AI4Communities intro]], and won't make any sense unless you read its parent first. It explores how the AI4communities idea would look in decentralised social networks powered by ATProto, the Bluesky protocol**.
 
 *(Notes: This is an early draft. As explained in [this newsletter edition](https://mathewlowry.medium.com/exploring-ai4communities-newsletter-6365b2716bb1), I am publishing these early versions as I develop my thoughts in the hope that constructive comments will help me finish the post. More version control in the footer.)*
 
-I knew Bluesky existed but not much else when I published my [manifesto posts of 1/1/23](https://mathewlowry.medium.com/a-minimum-viable-ecosystem-for-collective-intelligence-7738848ce9c4), so early versions of the [[AI4Communities post]] was Fediverse-oriented. I created this post in early November 2024 to explore how AI4Communities would look in an ATProto-powered world. 
+I knew Bluesky existed but not much else when I published my [manifesto posts of 1/1/23](https://mathewlowry.medium.com/a-minimum-viable-ecosystem-for-collective-intelligence-7738848ce9c4), so early versions of the [[AI4Communities intro]] was Fediverse-oriented. I created this post in early November 2024 to explore how AI4Communities would look in an ATProto-powered world. 
 
 By then I had annotated [11 resources tagged Bluesky](https://myhub.ai/@mathewlowry/?tags=bluesky) (there'll probably be more by the time you read this) which I then synthesised for [my November 2024 newsletter](https://mathewlowry.medium.com/ai4communities-bluesky-newsletter-331a25909cc5)  (which contains a lot of content I need to summarise and add here, so check it out). By then I had concluded that in many ways Bluesky *already* supports AI4communities, but not in the Fediverse-friendly "cozyweb village" paradigm I had been using until then.
 
@@ -46,7 +46,7 @@ to be done
 This is one of this wiki's pages managed with the **permanent versions pattern** described in  [Two wiki authors and a blogger walk into a bar…](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e)  
 
 - changes in this version: 
-	- 2024-11-16: merged in more content from [[AI4Communities post]], given it some structure
+	- 2024-11-16: merged in more content from [[AI4Communities intro]], given it some structure
 	- 2024-11-11: revised following [my November newsletter](https://mathewlowry.medium.com/ai4communities-bluesky-newsletter-331a25909cc5)
 - version control
     - this is version: 2
