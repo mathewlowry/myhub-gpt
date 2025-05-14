@@ -9,9 +9,9 @@
 *If people think it has potential and want to help me get it right, I'll move it to the wiki for further development by a larger community. If you'd like to help me before then, ping me on Discord and I'll give you access via github to this file and [[atproto1.drawio]], from which all .pngs are currently derived).*
 
 ---
-## Geostationary Orbit view
+## Orbital view
 
-Looking at Bluesky from geostationary orbit, you can only distinguish three elements:
+Looking at Bluesky from orbit, you can only distinguish three elements:
 
 ![[atproto1.orbital-1.png]]
 
@@ -36,23 +36,21 @@ They are:
 
 ---
 
-## Thermosphere view
+## Stratosphere view
 
-**In the thermosphere you're still in orbit, but you're beginning to encounter some atmosphere. From this distance, a couple more details come into view:**
-
-### 1) Users and their accounts
+If you come a little closer, you'll see:
 
 ![[strato-did.drawio.png]]
-
 * **A user** typing a post into an appview and hitting Publish. This stores the content in his/her PDS, from which it will be scooped up by the relay and shared with the world 
-* **DID**: the user's account is a Decentralised Identifier (DID) - a file which *in this case* is stored on the user's PDS. Other options are possible,
+* **DID**: the user's account is a Decentralised Identifier (DID) - a file which *in this case* is stored on the user's PDS.
 
 **2 More Things** about:
 * DIDs are central to keeping the user in control of their digital life in ATproto. You can use the same account in all appviews, move it wherever you want, and change your handle (your user-friendly name) - you won't lose your friends
 * ATproto supports two methods for creating DIDs: "DID:PLC" (for Public Ledger of Credentials - see below) and "DID:web". Both are official standards, but the PLC method is more widely used 
 * learn more about [DID](https://atproto.wiki/en/wiki/reference/identifiers/did)
 
-### PLC Directory
+---
+## More stratosphere view
 
 *(sidenote PLC Directory: I am now at the very edge of my understanding. Please be tolerant and correct my mistakes gently :) )*
 
@@ -69,29 +67,6 @@ The view from the stratosphere also shows us Search in action:
 * learn more about [PLC Directory](https://web.plc.directory/)
 
 ---
-## Mesosphere: Feed generators and labellers
-
-**As you get deeper into the atmosphere, more details start appearing.**
-
-![[meso.drawio.png]]
-In the above diagram you see two tools taking content from the Relay and providing their outputs to appviews. Both put control of moderation in users' hands:
-
-* **feed generators**: as their name implies, these create **custom feeds**. Each is a subset of the Bluesky firehose, tuned to a particular community's interests and moderation preferences. They're infinite in number, as anyone can create one, and anyone can use any feed by simply “pinning” it.
-* **labellers**: as the name implies, these apply labels to posts and/or accounts. Like custom feeds, anyone can create one, using a variety of tools, and anyone can subscribe to one if they want to see the label.
-
-**2 More Things** about:
-
-* **feed generators:** 
-	* custom feeds are created using 3rd party tools (**custom feed builders**), and anyone can make one of _them_, too. Popular options so far include [Skyfeed](https://skyfeed.app/), [Bluesky Feed Creator](https://blueskyfeedcreator.com/) and [graze.social](http://graze.social/), which has a business model allowing feed editors to make money. The competition between builders means custom feeds themselves are only going to get more powerful.
-	* custom feeds can also be bundled in Starter Packs, helping create a porous community within the global Bluesky conversation.
-* **labellers**: 
-	* Like custom feeds, anyone can create a labeller, and anyone can subscribe to one if they want to see the label. And some custom feed generators then allow you to use labels to create a custom feed.
-	* Block/mute lists
-
-Principle source:  [Three things you probably didn't know about Bluesky](https://myhub.ai/items/three-things-you-probably-didnt-know-about-bluesky)"
-
-
----
 
 ## What should come next? (up to here)
 
@@ -106,6 +81,9 @@ Principle source:  [Three things you probably didn't know about Bluesky](https:/
 * Timestamp identifiers
 * Namespaced identifiers
 * opinionated services:
+	* feed generators
+	* labels
+	* labellers
 	* verifiers?
 * Ozone
 * from Bluesky to ATmosphere
@@ -121,9 +99,8 @@ Principle source:  [Three things you probably didn't know about Bluesky](https:/
 This is one of this wiki's pages managed with the **permanent versions pattern** described in  [Two wiki authors and a blogger walk into a bar…](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e)  
 
 - changes in this version: 
-	- rejigged the atmospheric layers, for the first time but surely not the last
-	- added the mesopshere: feed generators and labellers, following some useful inputs from [Boris and Fry69 on Discord](https://discord.com/channels/1097580399187738645/1288609400432627816/1371870302719443035) 
+	- none, as this is the first
 - version control
-    - this is version: 2
+    - this is version: 1
     - this is the current version: [[intro to atproto]]
-    - here is the previous version: [[intro to atproto 1]]
+    - here is the previous version: n/a
