@@ -90,16 +90,18 @@ The view from the stratosphere also shows us a new component, required for globa
 
 ![[meso.drawio.png]]
 
-In the above diagram, two tools take content from the Relay and provide their outputs to appviews. Both are designed to put control of moderation in users' hands, and are independent of Bluesky:
+In the above diagram, two tools take content from the Relay and provide their outputs to appviews*. Both are designed to put control of moderation in users' hands, and are independent of the Bluesky company or its technology:
 
 * **feed generators**: as their name implies, these create **custom feeds**. Each is a subset of the Bluesky firehose, tuned to a particular community's interests and moderation preferences. They're infinite in number, as anyone can create one, and anyone can use any feed by simply “pinning” it.
 * **labellers**: as the name implies, these apply labels to posts and/or accounts. Like custom feeds, anyone can create one, using a variety of tools, and anyone can subscribe to one if they want to see the label.
+
+`(*)` not shown to keep things simple: both also interact with the user's identity to know what the user wants to see.
 
 **2 More Things** about:
 
 * **feed generators:** 
 	* custom feeds are created using 3rd party tools (**custom feed builders**), and anyone can make one of _them_, too. Popular options so far include [Skyfeed](https://skyfeed.app/), [Bluesky Feed Creator](https://blueskyfeedcreator.com/) and [graze.social](http://graze.social/), which has a business model allowing feed editors to make money. The competition between builders means custom feeds themselves are only going to get more powerful.
-	* custom feeds can also be bundled in Starter Packs, helping create a porous community within the global Bluesky conversation.
+	* custom feeds can also be bundled in Starter Packs, and so help the Pack's creator form a porous community within the global Bluesky conversation
 	* more about Feed Generators
 * **labellers**: 
 	* Like custom feeds, anyone can create a labeller, and anyone can subscribe to one if they want to see the label. ***And some custom feed generators then allow you to use labels to create a custom feed.***
