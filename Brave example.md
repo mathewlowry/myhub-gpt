@@ -1,6 +1,6 @@
 # A Brave, early inspiration
 
-**This is a subfile of the primary [[AI4Communities post]], and won't make any sense unless you read its parent first. It explores how the AI4communities idea would look within the  ActivityPub-powered Fediverse**.
+**This is a subfile of the primary [[AI4Communities intro]], and won't make any sense unless you read its parent first. It explores how the AI4communities idea would look within the  ActivityPub-powered Fediverse**.
 
 In May 2023 Brave Software, creators of the privacy-first eponymous browser and search engine, released [Brave Search API](https://brave.com/ai/using-brave-search-api). Via this service, AI developers can access the training dataset Brave developed through both Brave Search and their [Web Discovery Project](https://support.brave.com/hc/en-us/articles/4409406835469-What-is-the-Web-Discovery-Project), which allows Brave browser users to contribute anonymous data about the pages they’re actually visiting.
 

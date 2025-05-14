@@ -186,6 +186,6 @@ This is one of this wiki's pages managed with the **permanent versions pattern**
 
 - version control
     - this is version: 1
-    - this is the current version: [[AI4Communities post]]
+    - this is the current version: [[AI4Communities intro]]
     - here is the previous version: n/a
 

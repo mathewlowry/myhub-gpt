@@ -1,9 +1,9 @@
 # AI4Communities on Nostra
 
-**This is a subfile of the primary [[AI4Communities post]], and won't make any sense unless you read its parent first. It explores how the AI4communities idea would look in decentralised social networks powered by Nostr**.
+**This is a subfile of the primary [[AI4Communities intro]], and won't make any sense unless you read its parent first. It explores how the AI4communities idea would look in decentralised social networks powered by Nostr**.
 
 *(Notes: This is an early draft. As explained in [this newsletter edition](https://mathewlowry.medium.com/exploring-ai4communities-newsletter-6365b2716bb1), I am publishing these early versions as I develop my thoughts in the hope that constructive comments will help me finish the post. More version control in the footer. 
-What follows are notes from an early version of the  [[AI4Communities post]] - this, in other words, is version 1)*.
+What follows are notes from an early version of the  [[AI4Communities intro]] - this, in other words, is version 1)*.
 
 ---
 

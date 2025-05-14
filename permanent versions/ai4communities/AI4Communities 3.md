@@ -212,6 +212,6 @@ This is one of this wiki's pages managed with the **permanent versions pattern**
 	- developed questions to be answered re: bluesky and nostr affordances
 - version control
     - this is version: 3
-    - this is the current version: [[AI4Communities post]]
+    - this is the current version: [[AI4Communities intro]]
     - here is the previous version: [[AI4Communities 2]]
 

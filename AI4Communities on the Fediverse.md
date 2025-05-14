@@ -1,22 +1,22 @@
 # AI4Communities on the Fediverse
 
-**This is a subfile of the primary [[AI4Communities post]], and won't make any sense unless you read its parent first. It explores how the AI4communities idea would look within the  ActivityPub-powered Fediverse**.
+**This is a subfile of the primary [[AI4Communities intro]], and won't make any sense unless you read its parent first. It explores how the AI4communities idea would look within the  ActivityPub-powered Fediverse**.
 
 *(Notes: This is an early draft. As explained in [this newsletter edition](https://mathewlowry.medium.com/exploring-ai4communities-newsletter-6365b2716bb1), I am publishing these early versions as I develop my thoughts in the hope that constructive comments will help me finish the post. More version control in the footer.)*
 
-My [manifesto posts of 1/1/23](https://mathewlowry.medium.com/a-minimum-viable-ecosystem-for-collective-intelligence-7738848ce9c4) reflected *some* knowledge of the Fediverse, which I'd been tracking for a few years (see [my Hub's Fediverse overview](https://myhub.ai/@mathewlowry/overview/16/?quality=all&types=like&types=do&types=think&timeframe=anytime)). In fact, I'm not sure I would have come up with these ideas if ActivityPub hadn't shown that decentralised social media was at least possible.  My early versions of the [[AI4Communities post]],  also reflected that bias, which is why "cozyweb community" maps so easily to "Fediverse instance".
+My [manifesto posts of 1/1/23](https://mathewlowry.medium.com/a-minimum-viable-ecosystem-for-collective-intelligence-7738848ce9c4) reflected *some* knowledge of the Fediverse, which I'd been tracking for a few years (see [my Hub's Fediverse overview](https://myhub.ai/@mathewlowry/overview/16/?quality=all&types=like&types=do&types=think&timeframe=anytime)). In fact, I'm not sure I would have come up with these ideas if ActivityPub hadn't shown that decentralised social media was at least possible.  My early versions of the [[AI4Communities intro]],  also reflected that bias, which is why "cozyweb community" maps so easily to "Fediverse instance".
 
-However, as I researched the more modern decentralised protocols for the [[AI4Communities post]] (see [[AI4Communities on the ATmosphere]], [[AI4Communities on Nostr]]), I came across an introduction to Nostr from one of my favourite thinkers in this space, Gordon Brander. While I'm not yet convinced that Nostr is the solution, [Nature's many attempts to evolve a Nostr](https://substack.com/home/post/p-143032514) provides an excellent explanation of why the ActivityHub-powered Fediverse is flawed: "*Federated networks become oligopolies at scale*", due to general forces seen everywhere: "*airline routes, power grids, trains, banks, Bitcoin mining, protein interactions, ecological food webs, neural networks*". It happened to email, and now it's happening with the Fediverse, where calls to defederate Threads (which was 10x the rest of the Fediverse when it arrived) were ineffective.
+However, as I researched the more modern decentralised protocols for the [[AI4Communities intro]] (see [[AI4Communities on the ATmosphere]], [[AI4Communities on Nostr]]), I came across an introduction to Nostr from one of my favourite thinkers in this space, Gordon Brander. While I'm not yet convinced that Nostr is the solution, [Nature's many attempts to evolve a Nostr](https://substack.com/home/post/p-143032514) provides an excellent explanation of why the ActivityHub-powered Fediverse is flawed: "*Federated networks become oligopolies at scale*", due to general forces seen everywhere: "*airline routes, power grids, trains, banks, Bitcoin mining, protein interactions, ecological food webs, neural networks*". It happened to email, and now it's happening with the Fediverse, where calls to defederate Threads (which was 10x the rest of the Fediverse when it arrived) were ineffective.
 
 Nevertheless, the Fediverse has something the more modern ecosystems (***probably - tbc***) lack: a diversity of apps working and communicating across a decentralised architecture. So despite my own bad experience (see [All my toots gone](https://mathewlowry.medium.com/all-my-toots-gone-e844f7c5f255)), as well as the [mild toxicity Fedizens have towards other protocols](https://bsky.app/profile/mathewlowry.bsky.social/post/3lb4vximypc2d), it would be a mistake to not seriously consider its suitability for supporting AI4Communities.
 
 ## AI Services in the Fediverse
 
-**The main [[AI4Communities post]] summarises various categories of AI service within these ecosystems, so this section examines how the various categories would look in the Fediverse.**
+**The main [[AI4Communities intro]] summarises various categories of AI service within these ecosystems, so this section examines how the various categories would look in the Fediverse.**
 
 ### Content discovery, moderation and governance services
 
-The current draft of these services in the [[AI4Communities post]] is very Fediverse-oriented, referring constantly to "the village's inhabitants", where *village* maps more or less perfectly to *Fediverse instance*. However, while these services could augment the Fediverse offering enormously, they might not be possible to implement.
+The current draft of these services in the [[AI4Communities intro]] is very Fediverse-oriented, referring constantly to "the village's inhabitants", where *village* maps more or less perfectly to *Fediverse instance*. However, while these services could augment the Fediverse offering enormously, they might not be possible to implement.
 
 #### Content discovery
 
@@ -36,7 +36,7 @@ And if your tastes don’t match the village’s, you can move to another villag
 
 Fediverse content discovery and moderation services are in a sense two sides of the same coin: while content discovery AI services pull in *useful* content from across the Fediverse, they would need also to keep unwanted content out.
 
-In addition, however, content moderation AI services would also operate *within* the instance, as described in [[AI4Communities post]]: improving the discussions and collaborations within the instance's local feed. As the local feeds is composed of the community's authored content, this is also where these AI services would find a lot of their training data, and where the community would discuss edge cases.
+In addition, however, content moderation AI services would also operate *within* the instance, as described in [[AI4Communities intro]]: improving the discussions and collaborations within the instance's local feed. As the local feeds is composed of the community's authored content, this is also where these AI services would find a lot of their training data, and where the community would discuss edge cases.
 
 #### Feasibility & implications
 

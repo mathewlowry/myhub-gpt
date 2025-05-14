@@ -208,6 +208,6 @@ This is one of this wiki's pages managed with the **permanent versions pattern**
 - changes in this version: added link to [audio discussion - v4](https://notebooklm.google.com/notebook/39e58e82-8235-45d0-bcfa-e378b3572b69/audio), a NotebookLLM podcast based on v4. Processing.
 - version control
     - this is version: 5
-    - this is the current version: [[AI4Communities post]]
+    - this is the current version: [[AI4Communities intro]]
     - here is the previous version: [[AI4Communities 4]]
 
