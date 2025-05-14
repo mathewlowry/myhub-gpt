@@ -104,8 +104,7 @@ In the above diagram, two tools take content from the Relay and provide their ou
 	* custom feeds can also be bundled in Starter Packs, and so help the Pack's creator form a porous community within the global Bluesky conversation
 	* more about Feed Generators
 * **labellers**: 
-	* Like custom feeds, anyone can create a labeller, and anyone can subscribe to one if they want to see the label. ***And some custom feed generators then allow you to use labels to create a custom feed.***
-		* [ ] to check!
+	* Like custom feeds, anyone can create a labeller, and anyone can subscribe to one if they want to see the label. And then custom feed generators can use labels to create a custom feed.
 	* **Block/mute lists** are a special type of labeller - subscribing to them means you trust the labeller's judgement that their list of people is composed of people you want to block or mute.
 	* learn more about [labellers](https://atproto.wiki/en/wiki/reference/opinionated-services/labelers) and [labels](https://atproto.wiki/en/wiki/reference/opinionated-services/labels); for more on block/mute lists, start with MacKuba's [Safety & moderation](https://mackuba.eu/2024/02/21/bluesky-guide?utm_source=pocket_shared#safety) 
 
