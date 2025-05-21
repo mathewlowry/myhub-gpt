@@ -20,6 +20,7 @@ With Groundmist:
 ## So could we have...
 
 So could the app:
+
 * have an **Inbox** which 
 	* is a bluesky client, so the user has bluesky integrated into the app
 	* reads RSS, so the user can follow many other information sources
@@ -36,3 +37,17 @@ So:
 
 * Where are the CMSs in this picture? I get that these sites pull their data from the PDS, but where is the software (Jekyll, Drupal) that organises it online?
 * Will each type of site need a different lexicon? Most sites need multiple content types, so does that mean multiple lexicons *per site*? 
+
+
+---
+
+## Revision Notes
+
+This is one of this wiki's pages managed with the **permanent versions pattern** described in  [Two wiki authors and a blogger walk into a bar…](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e)  
+
+- changes in this version: 
+	- none, as this is the first
+- version control
+    - this is version: 1
+    - this is the current version: [[groundmist first thoughts]]
+    - here is the previous version: n/a
