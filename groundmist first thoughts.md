@@ -30,6 +30,8 @@ So could the app:
 
 ![[Pasted image 20250521173348.png]]
 
+I ask because if this is possible, then it should be possible to build an ecosystem of [networked content pipelines](https://whtwnd.com/api/cache?did=did:plc:2zxlmj2dvub7smpul2lvwqfk&cid=bafkreihmgjhhgvtlnvi3zdhnzh7kv6k7ppgbc6oomxpjmvqd7s3kmfjxci) in the ATmosphere, as set out in the abovementioned post.
+
 ## Of CMSs and Lexicons
 One of the places PDS content is published in the above picture is "Personal site". This is a large category - there are blogs, newsletter sites, digital gardens, etc. 
 
@@ -37,6 +39,13 @@ So:
 
 * Where are the CMSs in this picture? I get that these sites pull their data from the PDS, but where is the software (Jekyll, Drupal) that organises it online?
 * Will each type of site need a different lexicon? Most sites need multiple content types, so does that mean multiple lexicons *per site*? 
+
+## Final (first) questions
+
+* Are these ideas interesting to you? 
+* What other ideas are there?
+* What is needed to make these ideas a reality? 
+* How can we work together to make that happen?
 
 
 ---
