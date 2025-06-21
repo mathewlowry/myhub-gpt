@@ -75,7 +75,7 @@ I have to say that while this disappoints me, maybe it's crazy to think another 
 
 ### Make the most of Bluesky
 
-Talking of crazy... how about launching a product which is almost identical with one from an incumbent competitor which: 
+Talking of crazy... how about launching a product which is almost identical to an incumbent competitor which: 
 
 * is massively entrenched, benefiting from insuperable social lock-in  
 * is superfinanced, owned by the world's richest man
@@ -86,23 +86,23 @@ I'm not criticising Bluesky Social's decision-making: it's precisely *because* t
 
 Moreover, there are plenty of novel things one can do on Bluesky that you cannot do on X. The problem is that most people don't make good use of them - many people don't even *see* them, or really understand what they are and how they can use them. 
 
-Partly this is because of its deliberate similarity to X: we're so used to microblogging as defined by X, it's difficult for many people to think of Bluesky as anything other than 'X with fewer Nazis'. I think it will take time for people to understand what you can and cannot do with features like custom feeds, labellers and verifiers, and that's if they stick around that long. 
+Partly this is because of its deliberate similarity to X: we're so used to microblogging as defined by X, it's difficult for many people to see Bluesky as it's own thing, rather than a left-leaning X. I think it will take time for people to understand what you can and cannot do with features like custom feeds, labellers and verifiers ...if they stick around long enough to scratch below the surface. 
 
 Fwiw, my sense is that you can do a lot in terms of open community building, notably by combining Bluesky with other ATmosphere-capable tools into entire ecosystems (see [Three things you probably didn't know about Bluesky](https://myhub.ai/items/three-things-you-probably-didnt-know-about-bluesky)). But to make those benefits accessible will take high-quality information, inspirational demonstrations and (perhaps most importantly) new management tools, as I explored in Ahoy!
 
-"*One way to encourage the transition from X to Bluesky is to help large organisations efficiently organise and manage their Bluesky presence. The better they use Bluesky, the quicker they can accelerate [their eXit Strategy](https://mathewlowry.medium.com/x-strategy-or-exit-strategy-a-cost-benefit-analysis-framework-024af4abd1a0)*" -  [Helping large organisations best use Bluesky](https://whtwnd.com/mathewlowry.bsky.social/3lmym62gvdg2w)(Ahoy! proposal). 
+"*One way to encourage the transition from X to Bluesky is to help large organisations efficiently organise and manage their Bluesky presence. The better they use Bluesky, the quicker they can accelerate [their eXit Strategy](https://mathewlowry.medium.com/x-strategy-or-exit-strategy-a-cost-benefit-analysis-framework-024af4abd1a0)*" -  [Helping large organisations best use Bluesky](https://whtwnd.com/mathewlowry.bsky.social/3lmym62gvdg2w) (Ahoy! proposal). 
 
 ### Value through innovation, not mimicry
 
-Most presentations at Ahoy!, however, introduced some of the apps currently under development. At least some appear to be offering "ATmosphere alternatives" of existing incumbents (Tiktok, Instagram, etc.) which are *also* massively entrenched, superfinanced, with friends at the very summit of political power and are advertising-financed, a proven business model which these new apps (I think!) deny themselves. Sound familiar?
+Most presentations at Ahoy!, however, introduced some of the apps currently under development. At least some appear to be offering "ATmosphere alternatives" of existing incumbents (Tiktok, Instagram, etc.) which are *also* massively entrenched and superfinanced, with friends at the very summit of political power and are advertising-financed, a proven business model which these new apps (I think!) deny themselves. Sound familiar?
 
-These similarities are probably superficial: just as scratching below the surface of Bluesky surfaces roll-your-own custom feeds and labellers, I'm sure these apps are improvements over the originals. But maybe we need to step back and ask whether every ATmosphere apps want to make a promise along the lines of *"we're just like X/Instagram/X, but with none of your friends, an unclear business plan and a few months of funding"?*
+These similarities are probably superficial: just as digging into Bluesky surfaces roll-your-own custom feeds and labellers, I'm sure these apps are improvements over the originals. But maybe we need to step back and ask whether every ATmosphere app wants to make a promise along the lines of *"we're just like X/Instagram/X, but with none of your friends, an unclear business plan and a few months of funding"?*
 
 Also, the incumbents they're competing with are designed as they are because they're built around the surveillance capitalism business model - they dropped features that weren't useful to that model, and chose features and designs that were. If we *don't* want to join the surveillance capitalism club, is even superficially mimicking those feature and design choices the best idea? 
 
 > maybe the best battlefield for competing with incumbents is by offering something they cannot?
 
-Instead, maybe the best battlefield for competing with incumbents is by offering something they cannot? I doubt most people will pay for social media which is identical to the free incumbents but lacks their audience. I can imagine some of them paying for something which delivers greater value than incumbent social media ever can. There are so many things you cannot do with X, Facebook and the rest. Can we have some apps that provide value people cannot get anywhere else?
+Instead, maybe the best battlefield for competing with incumbents is by offering something they cannot? I doubt most people will pay for social media which is identical to the free incumbents but lacks their audience. I can imagine some of them paying for something which delivers greater value than incumbent social media ever can. There are so many things you cannot do with X, Facebook and the rest. **Can we have some apps that provide value people cannot get anywhere else, and can we communicate the differences, not the similarities?**
 
 Maybe, at the end of the day, the social media we have today is the social media which can be supported by advertising, and X-style microblogging simply cannot provide enough value for most individuals and organisations to pay for it. But there are plenty of online content applications that some people *do* pay for, and to date they are either productivity software or longform publishing (enewsletter and website publishing). My goal is to combine them, but that's another story.
 
@@ -110,10 +110,14 @@ Maybe, at the end of the day, the social media we have today is the social media
 
 The adoption challenge sounds simple - let's get people to move from X to Bluesky! - but it's in fact a multi-layered challenge that needs to be tackled on several interrelated fronts:
 
-* differentiate Bluesky from X by demonstrating how people and organisations can create real-world value from it's unique features, and providing the management tools they need to exploit them
-* creating experiences which provide value the incumbents can't offer by creating unique apps and combining apps together in innovative ecosystems
-* encouraging all users to move to alternative infrastructure
-* education, education, education, particularly to win [SaveSocial](https://savesocial.eu/en/)'s argument that the public sector should post on the ATmosphere at least as much as they post on (and thus support) X and the other incumbents actively undermining democracy (is that so much to ask?). 
+* **differentiate Bluesky from X** by:
+	* demonstrating how people and organisations can create real-world value from it's unique features,
+	* providing the management tools they need to exploit them
+* **creating experiences which provide value the incumbents can't** 
+	* through creating unique apps
+	* and combining apps together in innovative ecosystems
+* encouraging all users to move to **alternative infrastructure**
+* **education, education, education**, particularly to win [SaveSocial](https://savesocial.eu/en/)'s argument that the public sector should post on the ATmosphere at least as much as they post on (and thus support) X and the other incumbents actively undermining democracy (is that so much to ask?). 
 
 These activities and goals are interrelated. To envision this I like frameworks. Unfortunately I'm not an artist:
 
