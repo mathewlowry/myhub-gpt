@@ -5,6 +5,7 @@
 *(This is published on my experimental wiki because I'm looking for comments, feedback and ideas, preferably on the Discord server, or just [ping me](https://bsky.app/profile/mathewlowry.bsky.social)).
 This is version 1 (more version control info in the footer).)* 
 
+![[adoptionchallenge.png]]
 As I mentioned in  [Feel the ATmosphere: it's 1995 all over again](https://myhub.ai/items/feel-the-atmosphere-its-1995-all-over-again), my Ahoy! workshop explored one aspect of what I've come to call "the Bluesky Adoption challenge": getting people to move away from X and the rest and onto Bluesky and the rest of the ATmosphere. 
 
 Back then I had a reasonably simplistic view of the problem:
@@ -119,9 +120,9 @@ The adoption challenge sounds simple - let's get people to move from X to Bluesk
 * encouraging all users to move to **alternative infrastructure**
 * **education, education, education**, particularly to win [SaveSocial](https://savesocial.eu/en/)'s argument that the public sector should post on the ATmosphere at least as much as they post on (and thus support) X and the other incumbents actively undermining democracy (is that so much to ask?). 
 
-These activities and goals are interrelated. To envision this I like frameworks. Unfortunately I'm not an artist:
+These activities and goals are interrelated. To envision this I like frameworks. Unfortunately I'm not an artist, but hopefully this shows that my Hamburg workshop tackled a small part of one part of meeting this challenge:
 
-![[adoptionchallenge.png]]
+![[adoption2.png]]
 
 Have I missed anything? Let me know*. 
 
