@@ -14,7 +14,7 @@ Back then I had a reasonably simplistic view of the problem:
 * many of those could easily kick Bluesky's tyres and lose interest if they can't quickly build a rewarding social graph, particularly as many won't make good use of its unique features, somewhat hidden behind Bluesky's superficial similarity to X (hence [3 things you may not know about Bluesky](https://myhub.ai/items/three-things-you-probably-didnt-know-about-bluesky)).
 * even if they want to move to Bluesky, many people and organisations on X will stay there because they're both trapped by their followers and trap those they follow in a classic vicious circle (hence [Do you need an eXit Strategy?](https://mailchi.mp/dc14cf1c690b/your-hub-is-ready-to-go-16531829)). 
 
-There's therefore a direct line between the above two posts and my Ahoy! conference session, which focused on developing software, services and content to help large organisations adopt Bluesky, the one way I thought a non-developer like me could help. 
+There's therefore a direct line between the above two posts and my Ahoy! conference session, which focused on developing software, services and content to help large organisations adopt Bluesky, the one way I thought a non-developer like me could help (see the [Ahoy! proposal](https://whtwnd.com/mathewlowry.bsky.social/3lmym62gvdg2w) and the current version: [[how could a large organisation best use bluesky]]).. 
 
 But at Ahoy! and since, amid wave after wave of *mostly* nonsensical "Bluesky is dying" hot-takes, I've discovered that the Adoption challenge is a little more multilayered. I'm following up with those who attended, so this post is me getting my thoughts in order before continuing those conversations.
 
@@ -91,7 +91,7 @@ Partly this is because of its deliberate similarity to X: we're so used to micro
 
 Fwiw, my sense is that you can do a lot in terms of open community building, notably by combining Bluesky with other ATmosphere-capable tools into entire ecosystems (see [Three things you probably didn't know about Bluesky](https://myhub.ai/items/three-things-you-probably-didnt-know-about-bluesky)). But to make those benefits accessible will take high-quality information, inspirational demonstrations and (perhaps most importantly) new management tools, as I explored in Ahoy!
 
-"*One way to encourage the transition from X to Bluesky is to help large organisations efficiently organise and manage their Bluesky presence. The better they use Bluesky, the quicker they can accelerate [their eXit Strategy](https://mathewlowry.medium.com/x-strategy-or-exit-strategy-a-cost-benefit-analysis-framework-024af4abd1a0)*" -  [Helping large organisations best use Bluesky](https://whtwnd.com/mathewlowry.bsky.social/3lmym62gvdg2w) (Ahoy! proposal). 
+"*One way to encourage the transition from X to Bluesky is to help large organisations efficiently organise and manage their Bluesky presence. The better they use Bluesky, the quicker they can accelerate [their eXit Strategy](https://mathewlowry.medium.com/x-strategy-or-exit-strategy-a-cost-benefit-analysis-framework-024af4abd1a0)*" - [[how could a large organisation best use bluesky]]).
 
 ### Value through innovation, not mimicry
 
@@ -113,7 +113,7 @@ The adoption challenge sounds simple - let's get people to move from X to Bluesk
 
 * **differentiate Bluesky from X** by:
 	* demonstrating how people and organisations can create real-world value from it's unique features,
-	* providing the management tools they need to exploit them
+	* providing the management tools they need to exploit them (see [[how could a large organisation best use bluesky]])
 * **creating experiences which provide value the incumbents can't** 
 	* through creating unique apps
 	* and combining apps together in innovative ecosystems
