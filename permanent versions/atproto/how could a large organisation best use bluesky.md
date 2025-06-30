@@ -2,7 +2,6 @@
 creation date: 2025-04-15 18:18
 modification date: 105 April 2025 18:18:45
 ---
-#bluesky/ahoy 
 # Helping large organisations best use Bluesky
 
 **Let's build a tool to help large organisations coordinate their Bluesky footprint, helping them get the most out of the platform and thus stimulate Bluesky adoption.**
@@ -97,8 +96,8 @@ If you're reading this then you almost certainly know the discord server (if you
 This is one of this wiki's pages managed with the **permanent versions pattern** described in  [Two wiki authors and a blogger walk into a bar…](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e)  
 
 - changes in this version: 
-	- v2 idea was accepted and the workshop held, mentioned here: https://myhub.ai/items/feel-the-atmosphere-its-1995-all-over-again 
-	- added slides to underpin followup
+	- v2 idea was accepted and the workshop held ([see newsletter](https://myhub.ai/items/feel-the-atmosphere-its-1995-all-over-again)) 
+	- developed text and added slides 
 - version control
     - this is version: 3
     - this is the current version: [[how could a large organisation best use bluesky]]
