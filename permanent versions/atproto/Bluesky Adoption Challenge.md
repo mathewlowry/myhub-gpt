@@ -128,6 +128,10 @@ Have I missed anything? Let me know*.
 
 `*` Unless it's "solve the Bluesky Purity Spiral" argument, which I deliberately left out because (a) I want to tackle problems that can be solved, and (b) I'm totally chicken.
 
+## More reading
+
+- I'm following up on my Hamburg workshop here: [[how could a large organisation best use bluesky]]
+- There's a [Bluesky/ATmosphere overview](https://myhub.ai/@mathewlowry/overview/46/?quality=all&types=like&types=do&types=think&timeframe=anytime) on my Hub, where you'll also find [everything tagged Ahoy](https://myhub.ai/@mathewlowry/?tags=ahoy2025).
 
 ---
 

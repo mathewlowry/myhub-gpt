@@ -23,7 +23,7 @@ Consider the plight of a social media manager (SMM) of any large organisation. A
 The SMMs don't care: they control the "official" accounts of the institution itself and probably some of their celebrity bosses'. It is through these accounts, collectively known as the Crown Jewels, that they manage their organisation's official voice on X. 
 
 ![[fig1-x.png]]
-Fig 1: Typical large organisation's X presence, a social media manager ghost-posts, broadcast-mode, from a few "Crown Jewels" accounts, and pays no attention to their colleagues' content or networks, or indeed to replies to the Crown Jewels accounts.
+**Fig 1:** *Typical large organisation's X presence, a social media manager ghost-posts, broadcast-mode, from a few "Crown Jewels" accounts, and pays no attention to their colleagues' content or networks, or indeed to replies to the Crown Jewels accounts.*
 
 In almost every case, that means treating X as a broadcast medium. Lots of people follow the Crown Jewels accounts because they're the organisation's official voice. So the SMM publishes the official news on X, but never replies, and never reTweet anything remotely interesting, because they're under a constant barrage of bad faith and trolls. So they broadcast, preferably without links.  
 
@@ -35,42 +35,42 @@ I guess when you've been immersed in X since forever, it can be hard to see that
 
 ![[fig2-bsky.png]]
 
-Fig 2: This SMM manages two Starter Packs, each including selected colleagues, some of whom are labelled as official spokespersons. Each Pack has a few custom feeds (2 shown), each sourcing content from selected colleagues *and* external, trusted accounts, using a variety of tools and algorithms. Other custom feeds exist outside of starter packs (not shown).
+**Fig 2:** *This SMM manages two Starter Packs, each including selected colleagues, some of whom are labelled as official spokespersons. Each Pack has a few custom feeds (2 shown), each sourcing content from selected colleagues **and** external, trusted accounts, according to a variety of algorithms and moderation processes. Other custom feeds exist outside of starter packs (not shown).*
 
 Building these communities, however, will require some coordination by SMMs, who will need to evolve into **online community managers**. Without coordination, each colleague on Bluesky will create My Own Personal Ultimate Starter Pack and several custom feeds, resulting in the same 300 accounts repackaged 6000 different ways. 
 
 ![[fig3-chaos.png]]
-Fig 3: Each colleague promotes his/her own Starter Pack and custom feeds. It's fun, but it doesn't help build real community. 
+**Fig 3:** *Each colleague promotes his/her own Starter Pack and custom feeds. It's fun, but the noise risks drowning out community.* 
 
-You can argue that the above chaos is good - it's creative, flexible, and even competitive (although less popular feeds stay in place rather than being retired). But users could easily get lost in the noise, undermining the development of productive communities. Worse, the social media managers will feel out of control, and so could simply put a stop to everything. 
+You can argue that the above chaos is good - it's creative, flexible, and even competitive (although less popular feeds stay in place, rather than being retired). But users could easily get lost in the noise, undermining the development of productive communities. Worse, the social media managers will feel out of control, and so could simply put a stop to everything. 
 
 ## Tool use cases
 
-The building blocks of a good Bluesky presence for large organisations are to have, for each "thematic area", a Starter Pack highlighting the most relevant custom feeds (other custom feeds can exist outside of a starter pack, of course). 
+The building blocks of a good Bluesky presence for large organisations are to have, for each "thematic area", a Starter Pack highlighting the most relevant custom feeds (other custom feeds can exist outside of starter packs, of course - noone's being censored here). 
 
 ![[fig4-bblocks.png]]
-Fig 4: A Starter Packs shouldn't just curate up to 150 accounts, they can also curate the most relevant custom feeds, which can be built and managed using a variety of tools in a variety of ways.
+**Fig 4:** *Starter Packs shouldn't just curate up to 150 accounts - they can also curate the most relevant custom feeds, which can be built and managed using a variety of tools in a variety of ways*.
 
-These feeds, in turn, are built using a variety of 3rd party feed generators, which in turn are driven by a combination of tags, lists, labels and algorithms (and probably verifications), and may or may not be moderated pre- and/or post-publication. 
+These feeds, in turn, are built using a variety of 3rd party feed generators, which in turn use a combination of tags, lists, labels and algorithms (and probably verifications), and may be moderated (pre- and/or post-publication). 
 
-In short, there are quire a few tools and factors to be kept track of, particularly as different people throughout the organisation will probably manage different feeds, packs, lists, labels, etc. Moreover, such a system requires workflows where people are added and removed from packs, lists, feeds, labellers etc., often at the suggestion or request of *other* people.
+In short, there are quite a few tools and factors to be kept track of. Moreover, different people throughout the organisation will probably manage different feeds, packs, lists, labels, etc. And finally, such a system also requires workflows where people are added and removed from packs, lists, feeds, labellers etc., usually at the suggestion or command of *other* people.
 
 How's a SMM to cope? 
 
 ![[fig5-tool.png]]
-fig 5. Outline of the key elements of the required tool 
+**fig 5**. *Outlining the key elements of the required tool* 
 
 They will need tools to support a variety of tasks:
 
 - track all official starter packs, lists, custom feeds and labellers: 
-	- who manages each? 
 	- which person and which feed is in which pack? 
-	- how is each feed built: what lists, tags, labels etc are used, and who manages those? Is there pre- or post-publication moderation, and who does that? etc.
-- allow authenticated users to request/suggest/upvote account inclusion and exclusion for various starter packs, lists, custom feeds and labellers, and at least forward those requests to the appropriate manager
+	- who manages pack, and who manages each feed? 
+	- how is each feed built: what lists, tags, labels etc are used? And who manages *those*? Is there pre- or post-publication moderation, and who does *that*? etc.
+- allow authenticated users to request/suggest/upvote account inclusion and exclusion for each starter pack, list, custom feed and labeller, with requests forwarded to the appropriate managers according to organisationally-defined workflows
 	- (what "authenticated" means will depend on the organisation.)
-- help manage the community conversations
+- help manage the community conversations: this is actually where things get interesting (and is tied closely to the next point), so this is something I'd love to explore in greater depth in another post
 - provide organisation-grade analytics
-- and much more.
+- and much more...?
 
 ## What's next
 
