@@ -6,6 +6,7 @@ modification date: 224 August 2023 18:55:51
 
 (and the occasional newsletter or blog post published elsewhere)
 
+* [[experiment 11]] with new models, September 2025
 * foretaste: should I develop [[NetflixThis GPT]]?
 * [[experiment 10]]: throwing most of the prompts developed below at a small collection of recent resources about AI (see also: [ChatGPT integration free trial, Bullshit, Botshit and Bubbles (newsletter 3)](https://myhub.ai/items/chatgpt-integration-free-trial-bullshit-botshit-and-bubbles-newsletter-3))
 * [[experiment 9]]: riffing off yet another excerpt from the LinkedIn chat, this time on the opportunities missed, and perhaps becoming available again, from on-site communities and newsletters (see also: [EU Converge - Bridging Communities for Inclusive Policy (a ChatGPT proposal)](https://www.linkedin.com/pulse/eu-converge-bridging-communities-inclusive-policy-chatgpt-lowry-igfve/))
