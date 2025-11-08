@@ -7,12 +7,14 @@ Switch to a different picture: "Resilient social networks". This is a set of int
 Inside each circle are multiple lexicons, and for each lexicon, multiple apps. Some lexicons lie in the overlap between two or even three circles. Moreover, different apps seamlessly interoperate with others, forming a network of apps working together to carry conversations across different forms. 
 
 And around the outside of these circles are:
+
 * data stores, where users can store their content.
 * the users themselves, with their identities. Each user has one identity, which they control, and which they can use to access all of the apps
 * Users can also move their content from one data store  to another, without losing any content or connections. 
 * Moreover users can access multiple algorithms for each app, and use multiple moderation systems which work across all the apps - these are provided by other companies, allowing  the user to flip between them depending on their needs interests and tastes.
 
 This is what resilience looks like: 
+
 * no single point of failure, noone too large to fail, or too integrated to regulate, 
 * healthy, innovation-based competition between companies who must serve their audiences well or lose them, because users are free to go where they please.
 
