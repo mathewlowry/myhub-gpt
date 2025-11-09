@@ -1,21 +1,14 @@
 # Building resilient social media
 
-**Next week I'll be speaking in Berlin at the launch of [eurosky.social](eurosky.social), at a satellite event of the "Summit on European Digital Sovereignty".**
+**Next week I'll be speaking in Berlin at the launch event of eurosky.social, a satellite event of the high-level "Summit on European Digital Sovereignty".**
 
 *The version you're reading now is an early draft: I am publishing this using the [permanent versions pattern](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e) - where I publish a string of versions as I develop my thoughts - because I'm hoping constructive reactions to early drafts like these will help me answer my questions and so finish the post. Links to the latest and previous versions, if any, are in the footer.*
 
-I'll post the video (if they record one) as part of my post-event followup, but today I want to publish some first notes on one of the themes emerging as I and the others prepare for the event: what does sovereignty look like in the social media space?
+I'll post the video (if they record one) as part of my post-event followup, but today I want to publish some first notes on one of the themes emerging as I and the others prepare for the event: what resilience looks like in the social media space.
 
-Unfortunately, noone in Europe seems able to even define what digital sovereignty means. As Caroline de Cock [pointed out recently](https://www.linkedin.com/pulse/digital-sovereignty-europes-favourite-empty-buzzword-xh2me/), the term has so many meanings it has become meaningless, serving as "*a substitute for thinking and precision... used by anarchist collectives to describe self-managed infrastructure and by governments to justify firewalls*".
+## Resilience
 
-Applied to social media, digital sovereignty could therefore mean anything from relying on regulating Twitter or Facebook through to trying to create European equivalents.
-
-Neither will work - as de Cock quotes others to point out, **"Referees don't win”** the game... [Europe] can discipline the digital economy but not drive it. Strategic autonomy ... can easily slide into techno-nationalism... echoing the very protectionist instincts Europe criticizes in others... Europe should focus on managing interdependence rather than chasing the mirage of autonomy."
-## Starting point: resilience
-
-My personal starting point is that European digital sovereignty in social media can only occur in **resilient, global social media ecosystems**, which allow Europeans to have personal sovereignty online. So let's start by defining resilience. 
-
-Any dictionary will tell you that something is resilient if it can withstand and bounce back from shocks, rather than fissuring and collapsing. It's one of those ideas that's better communicated graphically, and by comparison to its opposite:
+Firstly, what is resilience? Any dictionary will tell you that something is resilient if it can withstand and bounce back from shocks, rather than fissuring and collapsing. It's one of those ideas that's better communicated graphically, and by comparison to its opposite:
 
 ![[Pasted image 20251109111654.png]]
 The resilient approach to organising our society's resources, right, is actually the norm. As David Bollier, author of “Think Like a Commoner" and Creative Commons co-creator, explained to Rabble in [a recent Revolution.Social podcast](https://www.youtube.com/watch?v=Z5nZU5cHhC4), "the commons is as old as humanity. It's kind of the default setting for coordination and governance... an estimated 2 billion people [still] depend upon commons of forest, fisheries, irrigation water, wild game... as part of their everyday existence".
@@ -57,8 +50,6 @@ Right now, for example, multiple apps based on the AT protocol are being develop
 
 ![[Pasted image 20251109122442.png]]
 *Original image by Gemini, post-edited.*
-
-
 
 The AT protocol was created by Bluesky for microblogging. Put it and all the other ATproto apps together and you get the **ATmosphere**, which currently looks something like this:
 
@@ -129,6 +120,10 @@ Eurosky.social's is launching at a satellite event surrounding the [Franco-Germa
 
 Everything positive flows from these four characteristics. Miss one of them, and the commons you want to create will be inevitably enclosed.
 
+Unfortunately, noone in Europe seems able to even define what digital sovereignty means. As Caroline de Cock [pointed out recently](https://www.linkedin.com/pulse/digital-sovereignty-europes-favourite-empty-buzzword-xh2me/), the term has so many meanings it has become meaningless, serving as "*a substitute for thinking and precision... used by anarchist collectives to describe self-managed infrastructure and by governments to justify firewalls*".
+
+Applied to social media, digital sovereignty could therefore mean anything from encouraging the global growth of protocol-based social media through to launching protectionist Europrojects designed to create a European Twitter or Facebook.
+
 *"Resilient systems are not made, they grow"*
 
 I fear a real risk of the latter, simply because it's the sort of project which bureaucracies are designed to launch. Unfortunately, truly resilient systems, by definition, cannot be designed and created top-down by committees operating within hierarchies. Resilient systems are not made, they grow - we need to think like gardeners rather than architects, and focus on creating the right conditions for innovative startups to invent the future, rather than pouring public funds into replicating winners from the past.
@@ -144,7 +139,7 @@ I fear a real risk of the latter, simply because it's the sort of project which 
 This is one of this wiki's pages managed with the **permanent versions pattern** described in  [Two wiki authors and a blogger walk into a bar…](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e)  
 
 - version control
-    - this is version: 3
+    - this is version: 2
     - this is the current version: [[Building resilient social media]]
-    - here is the previous version: [[Building resilient social media 1]]
+    - here is the previous version: [[resilience-imagery]]
 

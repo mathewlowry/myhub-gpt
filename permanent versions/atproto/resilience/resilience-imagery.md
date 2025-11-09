@@ -1,4 +1,9 @@
-## video input
+# Resilient social media post
+**Notes towards a blog post.** 
+
+*This is an early draft: I am publishing this using the [permanent versions pattern](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e) - where I publish a string of versions as I develop my thoughts - because I'm hoping constructive reactions to early drafts like these will help me answer my questions and so finish the post. Links to the latest and previous versions, if any, are in the footer.*
+
+## prompt brainstorm
 
 In frame 1, we see a picture entitled "Today's social media: trapped with trolls". A small number of gigantic monoliths stand separately in a barren desert. Within these monoliths are trapped users, trolls, bots and lunatics. The whole thing is toxic and foul smelling. 
 
@@ -67,6 +72,12 @@ And now show that each app interoperates with several others, in different circl
 
 ![[Pasted image 20251108140337.png]]
 
+---
+### Revision Notes
 
+This is one of this wiki's pages managed with the **permanent versions pattern** described in  [Two wiki authors and a blogger walk into a bar…](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e)  
 
-
+- version control
+    - this is version: 1
+    - this is the current version: [[Building resilient social media]]
+    - here is the previous version: n/a
