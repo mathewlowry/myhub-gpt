@@ -2,6 +2,8 @@
 
 **Next week I'll be speaking in Berlin at the launch event of eurosky.social, a satellite event of the high-level "Summit on European Digital Sovereignty".**
 
+*The version you're reading now is an early draft: I am publishing this using the [permanent versions pattern](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e) - where I publish a string of versions as I develop my thoughts - because I'm hoping constructive reactions to early drafts like these will help me answer my questions and so finish the post. Links to the latest and previous versions, if any, are in the footer.*
+
 I'll post the video (if they record one) as part of my post-event followup, but today I want to publish some first notes on one of the themes emerging as I and the others prepare for the event: what resilience looks like in the social media space.
 
 ## Resilience
@@ -31,9 +33,12 @@ It's not hard to see that we have a problem.
 **The answer is not new, it just needs to be rediscovered.** 
 
 Whenever I mention the p-word ("protocol") in Brussels I risk losing half my audience, so let me just point out that the blogosphere, above, thrived because:
+
 * blogs are websites, built on http (**h**yper**t**ext **t**ransfer **p**rotocol)
 * they communicate with each other and subscribers using Really Simple Syndication (RSS), the protocol still underpinning podcasting today
 * subscribers could also get blog content using email, based on smtp (**s**imple **m**ail **t**ransfer **p**rotocol)
+
+ *"if I use protocols I don't need permission"*
 
 Why is this important? Because if I use protocols I don't need another p-word: "permission". I can build and manage a website and publish it to the world using my phone, and **noone can stop me:** I don't need permission to publish, you don't need permission to read, and there's nothing California billionaires can do about it if I create something new and interesting. 
 ### Diverse forms, even more diverse apps
@@ -52,6 +57,7 @@ The AT protocol was created by Bluesky for microblogging. Put it and all the oth
 *Original image by Gemini, post-edited.*
 
 Notice that: 
+
 * for some categories there are **multiple "families" (aka "lexicons")** - there are multiple lexicons for longform blogging, for example, each with their own strengths and weaknesses
 * each family has **multiple apps** - most people microblog on the ATmosphere using the Bluesky client, for example, but you can use Tweetdeck-inspired deck.blue, the utterly amazing "slow social" Anisota, plus Skywalker and many others
 * some lexicon families sit **across boundaries** - after all, anyone can build anything, so there's no reason to pay any attention to the artificial categories I've drawn above
@@ -67,26 +73,28 @@ To show this I need to go back to Gemini and ask it to draw in three dimensions:
 *Image by Gemini, lightly post-edited*
 
 In the above image:
+
 * users exist independently of the various apps
 * each user has one identity, which works on all ATmosphere apps
 * users store their data in Personal Data Servers, which are also independent of the apps.
 
 There's much, much more`*1`, but the key point is that social lock-in is impossible.
-## This is resilient social media
+## This is what resilient social media looks like
 **Making social lock-in impossible ensures the resilience of protocol-based social media.**
 
 People think advertising is the root cause of social media's problems, but they're wrong: advertising, after all, funded the news industry for decades. **Social lock-in is the original sin of platform-based social media**, trapping users and advertisers in toxic, hate-filled, bot-infested platforms, unable to move away for fear of losing access to their audiences. 
 
-any ATmosphere app which mistreats its users will see them simply move on to a better one, 
+*"any ATmosphere app which mistreats its users will see them simply move on to a better one"* 
 
-On the ATmosphere `*2`, apps do not store "user accounts" or their users' content - instead, users manage these themselves, and can move their content wherever they want without losing friends, followers or posts. 
+On the ATmosphere`*2`, apps do not store "user accounts" or their users' content - instead, users manage these themselves, and can move their content wherever they want without losing friends, followers or posts. 
 
 And that means that **any ATmosphere app which mistreats its users will see them simply move to a better one**, taking their social connections and content with them. 
 
-## This is innovative social media
+## This is where innovation thrives
 **With permissionlessness comes innovation, and with innovation comes growth.**
 
 The ATmosphere has a virtuous growth cycle built into its DNA:
+
 * Just as I can build any website I like, I can build any app on the ATmosphere I want
 * I will have immediate access to all 40m-and-counting users already there
 * My app can interoperate with other apps, helping all of them grow 
@@ -94,7 +102,7 @@ The ATmosphere has a virtuous growth cycle built into its DNA:
 
 Contrast that to the monoliths of social media today. Everything you do on X or Meta's various sites is contingent on them letting you - they decide if you can stay, they decide what you see, and whether your friends see you. Moreover, you're utterly limited to the features they give you, because those are the features which make them the most money and ensure you remain trapped. Finally, if you try building on top of their technology, they'll pull the rug out from under your feet.
 
-That fear has given the platforms' owners a terrible sense of impunity, and stifled innovation for over ten years. This impunity must end, both for society's sake and to unleash a new wave of innovative startups.
+That fear has given the platforms' owners a terrible sense of impunity, and stifled online innovation for over ten years. This impunity must end, both for society's sake and to unleash a new wave of innovative startups.
 
 ## Sound too good to be true?
 **There's nothing inevitable about protocol-based social media.**
@@ -103,7 +111,8 @@ It's easy to be cynical about the prospects. After all, ActivityPub is almost a 
 
 While there's nothing inevitable about protocol-based social media going mainstream, it is a future worth fighting for. The question is How.
 
-Eurosky.social's is launching at a satellite event surrounding the Franco-German "Summit on European Digital Sovereignty". If you want European sovereignty in the social media space, you need:
+Eurosky.social's is launching at a satellite event surrounding the [Franco-German "Summit on European Digital Sovereignty"](https://bmds.bund.de/aktuelles/eu-summit). If you want European sovereignty in the social media space, you need:
+
 * a global, resilient social media ecosystem where social lock-in is impossible
 * and where there can be no single points of failure or control
 * where all users can create their own spaces, algorithms and moderation regimes, and can launch companies to provide these to others
@@ -115,6 +124,22 @@ Unfortunately, noone in Europe seems able to even define what digital sovereignt
 
 Applied to social media, digital sovereignty could therefore mean anything from encouraging the global growth of protocol-based social media through to launching protectionist Europrojects designed to create a European Twitter or Facebook.
 
-Resilient systems are not made, they grow
+*"Resilient systems are not made, they grow"*
 
 I fear a real risk of the latter, simply because it's the sort of project which bureaucracies are designed to launch. Unfortunately, truly resilient systems, by definition, cannot be designed and created top-down by committees operating within hierarchies. Resilient systems are not made, they grow - we need to think like gardeners rather than architects, and focus on creating the right conditions for innovative startups to invent the future, rather than pouring public funds into replicating winners from the past.
+
+---
+### Endnotes
+
+(1) For example, each user can access tens of thousands of "custom feed" algorithms and moderation tools, and can also develop and share their own. These possibilities are incredibly useful to helping each user create the social media experience they want, and also offer real opportunities to create communities, which I'll be exploring in Berlin.
+
+(2) This works a little less effectively on the Fediverse, where the underlying ActivityPub protocol means users can take their connections with them, but leave their content behind.
+### Revision Notes
+
+This is one of this wiki's pages managed with the **permanent versions pattern** described in  [Two wiki authors and a blogger walk into a bar…](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e)  
+
+- version control
+    - this is version: 1
+    - this is the current version: [[Building resilient social media]]
+    - here is the previous version: n/a
+
