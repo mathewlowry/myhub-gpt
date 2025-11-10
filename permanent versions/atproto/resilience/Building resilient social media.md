@@ -70,7 +70,7 @@ This year, for example, has seen the release of a flood of new apps developed on
 Notice that: 
 
 * the large circles are different **formats**, or categories, of social media, and some have multiple **"families" (aka "lexicons")** - there are multiple lexicons for longform blogging, for example, each with their own strengths and weaknesses
-* moreover, each family has **multiple apps** - most people microblog on the ATmosphere using the Bluesky client, for example, but you can use Tweetdeck-inspired [deck.blue](deck.blue), the utterly amazing "slow social" [Anisota](https://anisota.net/), [Skywalker](bskyinfo.com/tools/skywalker/) and many others
+* moreover, each family has **multiple apps** - most people microblog on the ATmosphere using the Bluesky client, for example, but you can use Tweetdeck-inspired [deck.blue](deck.blue), the utterly amazing "slow social" [Anisota](https://anisota.net/), [Skywalker](http://bskyinfo.com/tools/skywalker/) and many others
 * some families **straddle boundaries** - after all, anyone can build anything, so there's no reason to pay any attention to the artificial categories I've drawn above
 * **apps can easily interoperate** - for example, if you share a Whitewind blog post in Bluesky, your Bluesky post will appear as a comment on the blogpost, neatly integrating short- and long-form conversations.
 
