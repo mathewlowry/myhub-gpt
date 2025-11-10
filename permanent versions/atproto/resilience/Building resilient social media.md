@@ -12,9 +12,9 @@ Unfortunately, noone in Europe seems able to even define what digital sovereignt
 
 Applied to social media, digital sovereignty could therefore mean anything from relying on regulating Twitter or Facebook through to trying to create European equivalents. 
 
-Neither will work - as de Cock quotes others to point out, ***"Referees don't win”** the game... [while] Strategic autonomy ... can easily slide into techno-nationalism... echoing the very protectionist instincts Europe criticizes in others... **Europe should focus on managing interdependence rather than chasing the mirage of autonomy.**"*
+Neither will work - as de Cock quotes others to point out, *"Referees don't win the game... [while] Strategic autonomy ... can easily slide into techno-nationalism... **Europe should focus on managing interdependence** rather than chasing the mirage of autonomy."*
 
-So what does **managing interdependence** look like? My personal starting point is that European digital sovereignty in social media can only occur in social media ecosystems which are:
+So what does managing interdependence look like? My personal starting point is that European digital sovereignty in social media can only occur in social media ecosystems which are:
 
 * **global**, as anything less will cut Europeans off from global conversations
 * **resilient**, so Europeans have *personal* sovereignty on social media, because at the end of the day social media is about people, not governments.
@@ -24,7 +24,7 @@ So what does **managing interdependence** look like? My personal starting point 
 Any dictionary will tell you that something is resilient if it can withstand and bounce back from shocks, rather than fissuring and collapsing. It's one of those ideas that's better communicated graphically, and by comparison to its opposite:
 
 ![[Pasted image 20251109111654.png]]
-The resilient approach to organising our society's resources, right, is actually the norm, and it's known as "the commons". As David Bollier, author of “Think Like a Commoner" and Creative Commons co-creator, explained to Rabble in [a recent Revolution.Social podcast](https://www.youtube.com/watch?v=Z5nZU5cHhC4), *"the commons is as old as humanity. It's kind of the default setting for coordination and governance... an estimated 2 billion people [still] depend upon commons of forest, fisheries, irrigation water, wild game... as part of their everyday existence".*
+The resilient approach to organising our society's resources, right, is actually the norm, and it's known as "the commons". As David Bollier, author of “Think Like a Commoner" and Creative Commons co-creator, explained to Rabble in [a recent Revolution.Social podcast](https://www.youtube.com/watch?v=Z5nZU5cHhC4), *"the commons is as old as humanity. It's kind of the default setting for coordination and governance... an estimated 2 billion people still depend upon commons of forest, fisheries, irrigation water, wild game... as part of their everyday existence".*
 
 Unfortunately, commons can be captured, a process also known as enclosure of the commons. It takes significant resources - a monopolist's or venture capital's deep pockets, or a State's heavy hand - but it's happened so much in the Western world these last two centuries that we seem to have almost forgotten that alternatives exist. Which is ironic, given that you're reading this thanks to open-source software, a brilliant example of how noncapitalist methods can create enduringly valuable stuff.
 
@@ -50,26 +50,29 @@ Whenever I mention the p-word ("protocol") in Brussels I risk losing half my aud
 * they communicate with each other and subscribers using Really Simple Syndication (RSS), the protocol still underpinning podcasting
 * subscribers could also get blog content using email, based on smtp (**s**imple **m**ail **t**ransfer **p**rotocol)
 
- *"if I use protocols I don't need permission"*
 
-Why is this important? Because if I use protocols I don't need another p-word: "permission". I can build and manage a website and publish it to the world using my phone, and **noone can stop me:** I don't need permission to publish, you don't need permission to read, and there's nothing California billionaires can do about it if I create something new and interesting. 
+Why is this important? Because if I use protocols I don't need another p-word: "permission". 
+
+ > *"if I use protocols I don't need permission"*
+
+The Web is a commons, guaranteed by its protocol. I can build and manage a website and publish it to the world, and **noone can stop me** *(as long as I don't break the law, obviously)*: I don't need permission to publish, you don't need permission to read, and there's nothing billionaires or governments can do about it if I create something new and interesting. 
+
 ### Diverse forms, even more diverse apps
 **None of the above protocols were designed for social media.**
 
 There are actually hundreds of social media protocols, but only a handful have much traction: ActivityPub, AT protocol ("ATproto")  and Nostr. The same thing has happened on all three, with a hugely diverse array of social media forms emerging as people experiment and try stuff out.
 
-This year, for example, has seen the release of a flood of new apps developed on ATproto, created by Bluesky for microblogging, but it's the categories which noone's yet thought of that have me really excited:
+This year, for example, has seen the release of a flood of new apps developed on ATproto, created by Bluesky for microblogging. It's the categories which noone's yet thought of, however, that excite me the most:
 
 ![[Pasted image 20251110103359.png]]
 *Original image by Gemini, post-edited.*
 
 Notice that: 
 
-* the large circles are different categories of social media
-* some categories have multiple **"families" (aka "lexicons")** - there are multiple lexicons for longform blogging, for example, each with their own strengths and weaknesses
-* and each family has **multiple apps** - most people microblog on the ATmosphere using the Bluesky client, for example, but you can use Tweetdeck-inspired deck.blue, the utterly amazing "slow social" Anisota, Skywalker and many others
-* some families sit **across boundaries** - after all, anyone can build anything, so there's no reason to pay any attention to the artificial categories I've drawn above
-* **apps can interoperate** - for example, if you share a Whitewind blog post in Bluesky, your Bluesky post will appear as a comment on the blogpost, neatly integrating short- and long-form conversations.
+* the large circles are different **formats**, or categories, of social media, and some have multiple **"families" (aka "lexicons")** - there are multiple lexicons for longform blogging, for example, each with their own strengths and weaknesses
+* moreover, each family has **multiple apps** - most people microblog on the ATmosphere using the Bluesky client, for example, but you can use Tweetdeck-inspired [deck.blue](deck.blue), the utterly amazing "slow social" [Anisota](https://anisota.net/), [Skywalker](bskyinfo.com/tools/skywalker/) and many others
+* some families **straddle boundaries** - after all, anyone can build anything, so there's no reason to pay any attention to the artificial categories I've drawn above
+* **apps can easily interoperate** - for example, if you share a Whitewind blog post in Bluesky, your Bluesky post will appear as a comment on the blogpost, neatly integrating short- and long-form conversations.
 
 But the most important thing about the above picture is what is *not* shown....
 
@@ -84,9 +87,9 @@ In the above image:
 
 * users exist independently of the various apps
 * each user has one identity, which works on all ATmosphere apps
-* users store their data in Personal Data Servers, which are also independent of the apps.
+* users store their data in Personal Data Servers (PDS), which are *also* independent of the apps.
 
-There's much, much more`*1`, but the key point is that social lock-in is impossible.
+There's much, much more`*1`, but the key point is that **this makes social lock-in impossible.**
 ## This is what resilient social media looks like
 **Making social lock-in impossible ensures the resilience of protocol-based social media.**
 
