@@ -9,7 +9,7 @@ It was quite a bombshell from [Sarah Kendzior](https://en.wikipedia.org/wiki/Sar
 
 > "*I have been blocked by Bluesky*" - [Sarah Kendzior on X](https://x.com/sarahkendzior/status/1988697241205514491)
 
-What on earth could she have done? It was pretty easy to find out, explained Sebastian Vogelsang, creator of the [Flashes app](https://www.flashes.blue/): "*you can still see her allegedly offending posts on Blacksky*". 
+What on earth could she have done? It was pretty easy to find out, explained Sebastian Vogelsang, creator of the [Flashes app](https://www.flashes.blue/): "*you can still see her post on Blacksky*". 
 
 And sure enough, [there it is](https://staging.blacksky.community/profile/did:plc:wv5mhfadfpt6wmvoxedgqzyw/post/3m2spdvjots2n):
 
