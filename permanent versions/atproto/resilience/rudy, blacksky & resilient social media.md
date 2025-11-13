@@ -9,7 +9,7 @@ It was quite a bombshell from [Sarah Kendzior](https://en.wikipedia.org/wiki/Sar
 
 > "*I have been blocked by Bluesky*" - [Sarah Kendzior on X](https://x.com/sarahkendzior/status/1988697241205514491)
 
-What on earth could she have done? It was pretty easy to find out, explained Sebastian Vogelsang, creator of the [Flashes app](https://www.flashes.blue/): "*you can still see her allegedly offending posts on **Blacksky***". 
+What on earth could she have done? It was pretty easy to find out, explained Sebastian Vogelsang, creator of the [Flashes app](https://www.flashes.blue/): "*you can still see her allegedly offending posts on Blacksky*". 
 
 And sure enough, [there it is](https://staging.blacksky.community/profile/did:plc:wv5mhfadfpt6wmvoxedgqzyw/post/3m2spdvjots2n):
 
@@ -72,7 +72,8 @@ The challenge now is to develop what Bluesky and Blacksky have built so that no 
 1. Note that Sarah Kendzior's *content* is still stored on a personal data server (PDS) hosted by the Bluesky Company - hosting data and displaying it in an app are two entirely different services. I suspect she'd now move her content somewhere else if she got the chance.
 2. FWIW, Sarah Kendzior's post was unequivocally against the letter of the Bluesky Company's Terms and Conditions, which [they take very seriously](https://bsky.app/profile/safety.bsky.app/post/3m5hcx4n2hc2z), particularly the bit about posting death threads. But it was also clearly *not* a death threat: she "*referenced the “I shot a man in Reno just to watch him die” lyric of “Folsom Prison Blues” in response to a terrible Wall Street Journal article saying that Johnny Cash was uncool. I quote-tweeted the article and everyone understood the reference. There was no outcry*" ([Sarah Kendzior's Substack](https://substack.com/@sarahkendzior/note/c-176537092)).
 
-**Revision Notes:** This is one of this wiki's pages managed with the **permanent versions pattern** described in  [Two wiki authors and a blogger walk into a bar…](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e)  . Version control
+**Revision Notes:** This is one of this wiki's pages managed with the **permanent versions pattern** described in  [Two wiki authors and a blogger walk into a bar…](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e)  . Version control:
+
 - this is version: 1
 - this is the current version: [[rudy, blacksky & resilient social media]]
 - here is the previous version: N/A
