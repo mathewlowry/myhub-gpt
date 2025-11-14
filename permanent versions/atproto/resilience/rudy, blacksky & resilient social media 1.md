@@ -59,18 +59,11 @@ The resulting ATmosphere would be composed of:
 * different apps developed by different companies in different countries, all interoperating freely in a global conversation
 * but each offering something unique: maybe a "slow social" interface like Anisota or the Instagram-inspired interface of Flashes; perhaps a different approach to moderation, reflecting the needs of the apps' community; or reflecting a particular legal environment; or all three
 * each app is responsible for the content it displays, and answers to the laws of the country it is run from - there's no such thing as a social media company which is "too big to regulate" 
-* power would be distributed, not concentrated in a handful of US and Chinese companies, so there's no such thing as a company which can "ban someone from social media".
+* there's also no such thing as a company which can "ban someone from social media" - although any app run from an EU country will need to respect EU legislation (hence the upcoming "Eurosky Covenant").
 
- The only reason Sarah Kendzior's suspension(2) really matters, after all, is because 99% of the people using a Bluesky app currently use *the* Bluesky Company's app, giving them outsized power in the ATmosphere. 
- 
- This does not seem to be what they want - they did, after all, design the technology with "the organisation as future adversary" in mind, to render the company and the ATmosphere ["billionaire-proof"](https://www.cnbc.com/2024/11/21/bluesky-ceo-jay-graber-says-x-rival-is-billionaire-proof.html). But billionaires aren't the only threat, as the US Congress [recently made clear](https://clayhiggins.house.gov/2025/09/15/higgins-calls-upon-social-media-ceos-to-condemn-the-celebration-of-charlie-kirks-assassination/):
- 
- > *"remove all posts that have celebrated the political assassination of Charlie Kirk... My Committee will be a leading force in the righteous endeavor... the vigilant maintenance of appropriate behaviors within our publicly accessed social media"* - Congressman Clay Higgins (R-LA), Chairman, Federal Law Enforcement Subcommittee
+Power would also be distributed, not concentrated in a handful of US and Chinese companies. The only reason Sarah Kendzior's suspension(2) really matters is because 99% of the people using a Bluesky app currently use *the* Bluesky app, giving the Bluesky Company outsized power in the ATmosphere. 
 
-We now have the technology to ensure that no one company has a stranglehold on our collective conversation, wherever in the world they are based. But it is actually impossible for the Bluesky Company to make that a reality by themselves, short of actively driving their users away users to alternatives like Blacksky. 
-
-It's up to us to take what Bluesky and Blacksky have built, and build further. Which is why I'm looking forward to what Sebastian has to show us in Berlin next week.
-
+The challenge now is to develop what Bluesky and Blacksky have built so that no one company has such a hold on our collective conversation.
 
 ---
 
@@ -81,7 +74,7 @@ It's up to us to take what Bluesky and Blacksky have built, and build further. W
 
 **Revision Notes:** This is one of this wiki's pages managed with the **permanent versions pattern** described in  [Two wiki authors and a blogger walk into a bar…](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e)  . Version control:
 
-- this is version: 2
+- this is version: 1
 - this is the current version: [[rudy, blacksky & resilient social media]]
-- here is the previous version: [[rudy, blacksky & resilient social media 1]]
+- here is the previous version: N/A
 
