@@ -2,10 +2,11 @@
 
 **The more you look at the challenge of getting people off X and onto Bluesky, the more multilayered it becomes.**
 
-*(This is version 2, published on my experimental wiki because I'm looking for comments, feedback and ideas ([ping me](https://bsky.app/profile/mathewlowry.bsky.social)). Version control in the footer)* 
+*(This is published on my experimental wiki because I'm looking for comments, feedback and ideas, preferably on the Discord server, or just [ping me](https://bsky.app/profile/mathewlowry.bsky.social)).
+This is version 1 (more version control info in the footer).)* 
 
 ![[adoptionchallenge.png]]
-As I mentioned in  [Feel the ATmosphere: it's 1995 all over again](https://myhub.ai/items/feel-the-atmosphere-its-1995-all-over-again), my Ahoy! workshop in April 2025 explored one aspect of what I've come to call "the Bluesky Adoption challenge": getting people to move away from X and the rest and onto Bluesky and the rest of the ATmosphere. 
+As I mentioned in  [Feel the ATmosphere: it's 1995 all over again](https://myhub.ai/items/feel-the-atmosphere-its-1995-all-over-again), my Ahoy! workshop explored one aspect of what I've come to call "the Bluesky Adoption challenge": getting people to move away from X and the rest and onto Bluesky and the rest of the ATmosphere. 
 
 Back then I had a reasonably simplistic view of the problem:
 
@@ -53,7 +54,7 @@ These examples show that while almost everyone on Bluesky uses one company's inf
 
 This undermines one of Bluesky's differentiators against its better-funded, walled garden incumbent competitors.  Getting people to migrate to Bluesky is therefore only part of the challenge - **getting them onto alternative infrastructure may be almost as important.**
 
-I'm embarrassed to admit that I for one still haven’t: like 99% of the population, I don’t have the skills to self-host. Setting up easy-to-use hosting services, in my view, should therefore be a priority for Europe in general, and in particular [eurosky.social](eurosky.social), which is launching in a few days' time (see [Building resilient social media](https://medium.com/@mathewlowry/building-resilient-social-media-9f7568a501a6))
+I'm embarrassed to admit that I for one still haven’t: like 99% of the population, I don’t have the skills to self-host. Setting up easy-to-use hosting services, in my view, should therefore be a priority for Europe in general, and in particular [Indiesky Europe](https://atprotocol.dev/notes-from-ahoy-indiesky-europe/).
 
 ## Create value worth paying for
 
@@ -82,7 +83,7 @@ Talking of crazy... how about launching a product which is almost identical to a
 * has big (albeit orange and fickle) friends at the very summit of political power
 * is advertising-financed, a proven business model which you deny yourself?
 
-I'm not criticising Bluesky Social's decision-making: it's precisely *because* they launched a product similar to X that we have 40m people with ATmosphere accounts, all able to kick the tyres of every other ATmosphere app under development. 
+I'm not criticising Bluesky Social's decision-making: it's precisely *because* they launched a product similar to X that we have ~35m people with ATmosphere accounts, all able to kick the tyres of every other ATmosphere app under development. 
 
 Moreover, there are plenty of novel things one can do on Bluesky that you cannot do on X. The problem is that most people don't make good use of them - many people don't even *see* them, or really understand what they are and how they can use them. 
 
@@ -90,7 +91,7 @@ Partly this is because of its deliberate similarity to X: we're so used to micro
 
 Fwiw, my sense is that you can do a lot in terms of open community building, notably by combining Bluesky with other ATmosphere-capable tools into entire ecosystems (see [Three things you probably didn't know about Bluesky](https://myhub.ai/items/three-things-you-probably-didnt-know-about-bluesky)). But to make those benefits accessible will take high-quality information, inspirational demonstrations and (perhaps most importantly) new management tools, as I explored in Ahoy!
 
-> "*One way to encourage the transition from X to Bluesky is to help large organisations efficiently organise and manage their Bluesky presence. The better they use Bluesky, the quicker they can accelerate [their eXit Strategy](https://mathewlowry.medium.com/x-strategy-or-exit-strategy-a-cost-benefit-analysis-framework-024af4abd1a0)*" - [[how could a large organisation best use bluesky]]).
+"*One way to encourage the transition from X to Bluesky is to help large organisations efficiently organise and manage their Bluesky presence. The better they use Bluesky, the quicker they can accelerate [their eXit Strategy](https://mathewlowry.medium.com/x-strategy-or-exit-strategy-a-cost-benefit-analysis-framework-024af4abd1a0)*" - [[how could a large organisation best use bluesky]]).
 
 ### Value through innovation, not mimicry
 
@@ -129,8 +130,7 @@ Have I missed anything? Let me know*.
 
 ## More reading
 
-- I followed up on my Hamburg workshop with [[how could a large organisation best use bluesky]], which led to the creation of [ATConnect](https://www.atconnect.eu/)
-- And I'm back in Germany for the launch of eurosky.social - see [Building resilient social media](https://medium.com/@mathewlowry/building-resilient-social-media-9f7568a501a6)
+- I'm following up on my Hamburg workshop here: [[how could a large organisation best use bluesky]]
 - There's a [Bluesky/ATmosphere overview](https://myhub.ai/@mathewlowry/overview/46/?quality=all&types=like&types=do&types=think&timeframe=anytime) on my Hub, where you'll also find [everything tagged Ahoy](https://myhub.ai/@mathewlowry/?tags=ahoy2025).
 
 ---
@@ -142,6 +142,6 @@ This is one of this wiki's pages managed with the **permanent versions pattern**
 - changes in this version: 
 	- none
 - version control
-    - this is version: 2
+    - this is version: 1
     - this is the current version: [[Bluesky Adoption Challenge]]
-    - here is the previous version: [[Bluesky Adoption Challenge 1]]
+    - here is the previous version: n/a
