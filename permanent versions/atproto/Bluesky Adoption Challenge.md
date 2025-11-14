@@ -139,9 +139,9 @@ Have I missed anything? Let me know*.
 
 This is one of this wiki's pages managed with the **permanent versions pattern** described in  [Two wiki authors and a blogger walk into a bar…](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e)  
 
-- changes in this version: 
-	- none
+- changes in this version (*updated 2025-11-14*): 
+	- minor tweaks, pre eurosky.social's Berlin event
 - version control
-    - this is version: 2
+    - this is version: 2 
     - this is the current version: [[Bluesky Adoption Challenge]]
     - here is the previous version: [[Bluesky Adoption Challenge 1]]
