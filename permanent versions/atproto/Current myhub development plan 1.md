@@ -66,25 +66,13 @@ https://www.youtube.com/watch?v=OfX1-T96QXA
 		* In essence myhub could generate revenue simply by helping content creators uh do what they need to do uh more productively and by helping some of them actually create revenue for themselves and being a partner with them on that.
 	* (10:21) These business models have already been proven elsewhere and I believe we can prove them on the atmosphere as well whilst maintaining the atmosphere's emphasis on credible exit and avoiding user locking.
 
-## See also
-MyHub was launched in March 2020 (not exactly great timing!), after I spent 7 years playing with my first Hub on Tumblr. Since launch I've written a few ideas up into blog posts, and have much  more in my private library. Here's a selection of [All the Stuff I Do or Think about Everything tagged myhub,  Anytime](https://myhub.ai/@mathewlowry/?quality=all&types=do&types=think&tags=myhub&timeframe=anytime): 
-
-* [Imagining new MyHub.ai features as the pilot Hubs launch](https://mathewlowry.medium.com/imagining-new-myhub-ai-features-as-the-pilot-hubs-launch-8441b617cf0e) (2020)
-* Zettelkasten (2020): [Simplifying Zettelkasten by working out loud](https://mathewlowry.medium.com/simplifying-zettelkasten-by-working-out-loud-eedffa023ae9)
-	* all [the Stuff I Think about Everything tagged myhub & zettelkasten](https://myhub.ai/@mathewlowry/?quality=all&types=think&tags=myhub&tags=zettelkasten&timeframe=anytime)
-* [March 2023 upgrade](https://myhub.ai/items/myhubai-march-2023-upgrade) 
-* AI integration (2024):
-	* [How to chat with ChatGPT about your content](https://myhub.ai/items/how-to-chat-with-chatgpt-about-your-content-v1)
-	* pilot post-mortem:  ChatGPT integration free trial, Bullshit, Botshit and Bubbles (newsletter 3)](https://myhub.ai/items/chatgpt-integration-free-trial-bullshit-botshit-and-bubbles-newsletter-3)
-	* all [the Stuff I Do or Think about Everything tagged myhub & chatgpt,  Anytime](https://myhub.ai/@mathewlowry/?tags=chatgpt&types=do&types=think&timeframe=anytime&quality=all&tags=myhub)
 
 ----
-
 ### Revision Notes
 
 This is one of this wiki's pages managed with the **permanent versions pattern** described in  [Two wiki authors and a blogger walk into a bar…](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e)  
 
-- this is version: 2
-    - added "See also"
-- this is the current version:  [[Current myhub development plan]]
-- here is the previous version: [[Current myhub development plan 1]]
+- version control
+    - this is version: 1
+    - this is the current version:  [[Current myhub development plan]]
+    - here is the previous version: 
