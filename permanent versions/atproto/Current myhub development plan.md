@@ -75,7 +75,7 @@ MyHub was launched in March 2020 (not exactly great timing!), after I spent 7 ye
 * [March 2023 upgrade](https://myhub.ai/items/myhubai-march-2023-upgrade) 
 * AI integration (2024):
 	* [How to chat with ChatGPT about your content](https://myhub.ai/items/how-to-chat-with-chatgpt-about-your-content-v1)
-	* pilot post-mortem:  ChatGPT integration free trial, Bullshit, Botshit and Bubbles (newsletter 3)](https://myhub.ai/items/chatgpt-integration-free-trial-bullshit-botshit-and-bubbles-newsletter-3)
+	* pilot post-mortem:  [ChatGPT integration free trial, Bullshit, Botshit and Bubbles (newsletter)](https://myhub.ai/items/chatgpt-integration-free-trial-bullshit-botshit-and-bubbles-newsletter-3)
 	* all [the Stuff I Do or Think about Everything tagged myhub & chatgpt,  Anytime](https://myhub.ai/@mathewlowry/?tags=chatgpt&types=do&types=think&timeframe=anytime&quality=all&tags=myhub)
 
 ----

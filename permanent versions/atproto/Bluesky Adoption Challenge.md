@@ -130,7 +130,10 @@ Have I missed anything? Let me know*.
 ## More reading
 
 - I followed up on my Hamburg workshop with [[how could a large organisation best use bluesky]], which led to the creation of [ATConnect](https://www.atconnect.eu/)
-- And I'm back in Germany for the launch of eurosky.social - see [Building resilient social media](https://medium.com/@mathewlowry/building-resilient-social-media-9f7568a501a6)
+- In November I'm back in Germany at a Digital Sovereignty Summit satellite event to launch  [eurosky.social](eurosky.social) to present ATConnect as one solution to some of the above problems. 
+- In the runup I've been thinking about resilient social media and the EU's drive for "digital sovereignty" - see;
+	- [Building resilient social media](https://medium.com/@mathewlowry/building-resilient-social-media-9f7568a501a6)
+	- [The Blacksky path towards resilient social media](https://mathewlowry.medium.com/the-blacksky-path-towards-resilient-social-media-9b973d1a2239)
 - There's a [Bluesky/ATmosphere overview](https://myhub.ai/@mathewlowry/overview/46/?quality=all&types=like&types=do&types=think&timeframe=anytime) on my Hub, where you'll also find [everything tagged Ahoy](https://myhub.ai/@mathewlowry/?tags=ahoy2025).
 
 ---
