@@ -10,10 +10,10 @@ modification date: 105 April 2025 18:18:45
 
 v1 of this post was a proposal for a workshop at the [Ahoy conference](https://ahoy.eu/) (the 2nd ATproto conference) in late April, 2025. The workshop was accepted and went well, so I developed the ideas, created a [startup with Bart-Jan](https://www.atconnect.eu/) and presented the concepts at EuroskyLive in November 2025 (see [Politics meets protocols in Berlin](https://mathewlowry.medium.com/politics-meets-protocols-in-berlin-9bc8f62353a3)) :
 
-!https://vimeo.com/1140579873?fl=pl&fe=vl
-(see [[Berlin 2025 transcript]] - AI generated)
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1140579873?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="ATProto Communities for Newsrooms, Scientific Institutions and Governments"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+[ATProto Communities for Newsrooms, Scientific Institutions and Governments](https://vimeo.com/1140579873?fl=pl&fe=vl) (see also: AI-generated [[Berlin 2025 transcript]])
 
-This version of this post therefore explains what I explained in Berlin, without animated slides. But firstly...
+This version of this post therefore explains what I explained in Berlin, just without the animated slides. But firstly...
 
 ## Why am I focusing on this?
 
