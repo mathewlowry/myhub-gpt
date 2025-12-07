@@ -52,7 +52,7 @@ When that's your social media paradigm, moving to Bluesky makes little sense: af
 I guess when you've been immersed in X since forever, it can be hard to see that X is not the only way social media can work. Perhaps therefore it's not surprising that few if any SMMs see that Bluesky offers something different. But it does. 
 ## Science and Media already love Bluesky
 
-**It's not a coincidence that my Berlin talk focused on newsrooms, scientific institutions and governments** - not only are these the sectors I know, but two of them have already discovered that they can get more value out of their Bluesky network than they can from their larger follower networks on X - see all the stuff on my Hub tagged [**media** & bluesky](https://myhub.ai/@mathewlowry/?tags=media&types=like&types=do&types=think&timeframe=anytime&quality=all&tags=bluesky), and [tagged **science** & bluesky](https://myhub.ai/@mathewlowry/?tags=science&types=like&types=do&types=think&timeframe=anytime&quality=all&tags=bluesky).
+**It's not a coincidence that my Berlin talk focused on newsrooms, scientific institutions and governments** - not only are these the sectors I know, but two of them have already discovered that they can get more value out of their Bluesky network than they can from their larger follower networks on X - see all the stuff on my Hub [tagged **media** & bluesky](https://myhub.ai/@mathewlowry/?tags=media&types=like&types=do&types=think&timeframe=anytime&quality=all&tags=bluesky), and [tagged **science** & bluesky](https://myhub.ai/@mathewlowry/?tags=science&types=like&types=do&types=think&timeframe=anytime&quality=all&tags=bluesky).
 
 >both sectors are full of terminally online people who've been trained to not publish content they can't back up with evidence
 
@@ -125,29 +125,33 @@ So they're easy to set up. The challenge is to maintain them as people in your o
 I saw my first hint of this in 2024, when I logged into Whitewind (the first ATproto-based blogging app), using my "Bluesky account", published a post, and saw Jerry Michalski share it on Bluesky:
 
 ![[Pasted image 20251207132620.png]]
-**Fig 3a:** *Jerry's Bluesky post about my Whitewind blog post appears as a comment on my Whitewind blog post.*
+**Fig 3a:** *Jerry's Bluesky post **about** my Whitewind blog post appears as a comment **on** my Whitewind blog post.*
 
 And then, when I commented on my Whitewind blog, a little checkbox appeared. I clicked it, and hit Publish:
 
 ![[Pasted image 20251207132915.png]]
-**Fig 3b:** *Any Bluesky user can one-click share their blog post comment to their Bluesky followers.*
+**Fig 3b:** *Bluesky users can one-click share their blog  comment to their Bluesky followers.*
 
 **This is seamless integration between different forms of social media.** This particular example shows close integration between micro- and longform-blogging, but the principle holds for any ATproto-compatible website, including website-based online communities. 
 ### Magnify your online community with custom feeds
 
-**This matters because it means social media can support, not undermine, online communities.**
+**This matters because it means social media can support, not undermine, online communities, which have been struggling since the conversation moved to Meta and X around 15 years ago.**
 
-Online communities have been struggling since the conversation moved to Meta and X around 15 years ago. The problem is that Meta and X don't share.
+The problem is that Meta and X don't share. But protocol-based social media simply can't *not* share - everything is public. 
 
 > protocol-based social media simply can't not share - everything is public
 
-But protocol-based social media simply can't *not* share - everything is public. Which means that you can build a website-based online community for any number of purposes, using any number of content forms, and use Bluesky custom feeds to magnify its impact (the next two slides are really best explained [from 11m41s - 14m12s in the video](https://vimeo.com/1140579873?share=copy&fl=cl&fe=ci#t=701.48), but here goes):
+Which means that you can build a website-based online community for any number of purposes, using any number of content forms, and use Bluesky custom feeds to magnify its impact. 
+
+The next two slides are really best explained [from 11m41s - 14m12s in the video](https://vimeo.com/1140579873?share=copy&fl=cl&fe=ci#t=701.48), but here goes:
 
 ![[Pasted image 20251206200522.png]]
 **Fig 4:** *Bluesky custom feeds can act like a lens, magnifying the impact of an online community and make it more valuable to join.*
 
 ![[Pasted image 20251206200535.png]]
-**Fig 5:** *Online community members can one-click their content to their Bluesky networks. Because they're also included in the community's custom feed, their posts appear there, reaching wider audiences, who through the feed discover, and join, the community.*
+**Fig 5:** *Online community members can one-click their content to their Bluesky networks. These posts also appear in the community's custom feed, and so reach wider audiences.*
+
+The custom feed therefore drives  community discovery and membership, not least because community membership also brings inclusion in the custom feed. The two systems therefore reinforce each other.
 
 ## The catch
 
