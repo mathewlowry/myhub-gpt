@@ -2,9 +2,9 @@
 creation date: 2025-04-15 18:18
 modification date: 105 April 2025 18:18:45
 ---
-# Helping large organisations best use Bluesky
+# How newsrooms, scientific institutions & governments can best use Bluesky
 
-**Let's build a tool to help large organisations coordinate their Bluesky footprint, helping them get the most out of ATproto and thus stimulate Bluesky adoption.**
+**Large organisations need dedicated tools and processes to manage their Bluesky presence and get the most out of ATproto.**
 
 *This is version 4 - more version control info in the footer.* 
 
@@ -220,7 +220,31 @@ When someone joins your organisation, you already give them an email address. Wi
 * create and manage simple custom feeds, and assign individual feed management to subject matter experts throughout your organisation
 * access 3rd party feed generators and analytics providers.
 
-The goal is to make it much less expensive for organisations to reap the huge benefits from developing a well-structured presence on Bluesky. 
+
+**ATConnect, in other words, will make it much less expensive for organisations to reap the huge benefits from developing a well-structured presence on Bluesky.** That will encourage them to transition themselves and their followers away from X, which is something they probably want to do but currently cannot — see [X Strategy or eXit Strategy? A cost-benefit analysis framework](https://mathewlowry.medium.com/x-strategy-or-exit-strategy-a-cost-benefit-analysis-framework-024af4abd1a0).
+
+## Extending the model further
+
+Finally, the next stage in these organisation's presence on Bluesky may be more collaborative:
+
+![[Pasted image 20251208092003.png]]
+**Fig 9**. *Multiple organisations collaborate to create a shared custom feed and - perhaps - even a shared community site*
+
+The above figure shows several partners convening a shared custom feed together. They could be: 
+
+* several universities' physics departments - after all, many Unis across Europe have been collaborating via the EU's research programmes for decades.
+* different newsrooms in the 12-country [EurActiv network](https://www.euractiv.com/), bringing together journalists and the sources they trust in a series of thematic custom feeds (EurActiv's founder, Christophe Leclerq, for whom I've worked twice, followed me onto the stage in Berlin)
+* governmental departments and agencies from multiple countries, discussing common policy priorities.
+
+Or many other types of organisation from civil society, business or industry. Whatever they are, this is what the [European online public sphere](
+https://myhub.ai/@mathewlowry/?quality=all&types=do&types=think&tags=publicsphere&timeframe=anytime) looks like - people and organizations across Europe collaborating on high quality conversations about the issues they care about.
+
+> people and organizations across Europe collaborating on a high quality conversation about the issues they care about.
+
+This is not an optional extra for Europe - like every democracy, the EU needs a *demos*. And as I concluded in Berlin, this is not something we can build on infrastructure owned and abused by the workd's richest nazi, or any infrastructure [in the crosshairs of the current US administration](https://clayhiggins.house.gov/2025/09/15/higgins-calls-upon-social-media-ceos-to-condemn-the-celebration-of-charlie-kirks-assassination/).
+
+Fortunately, with the ATProtocol, we can just build it.
+
 
 ---
 
