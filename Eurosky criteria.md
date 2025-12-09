@@ -1,10 +1,12 @@
 These criteria underpin most decisions:
+
 - which Eurosky commons component to support?
 - which consultancy project to offer?
 - what public content to create?
 - which project to support financially?
 
 A first list:
+
 - **startup support**: some projects will support the development of individual startups by providing development support, help accessing finance, mentoring, etc. Note that only startups signed up to the Covenant will be considered
 - **support multiple startups:** any project or development which lifts multiple startups at once will have higher priority. Note:
     - this will include most if not all **cross-protocol** and **protocol interoperability** projects, as they support startups in both Fediverse and ATmosphere by growing both ecosystems
