@@ -63,9 +63,9 @@ Apart from attending our [[events]], we:
 * submit content to this website's [[People]] and [[projects]] pages
 * subscribe to our newsletter.
 
-Alternatively, simply contact us.
+Alternatively, simply contact us (FAQ: How can I contact you?).
 
-Read more: [[FAQs|General FAQs]]  | [[event-atmosphere2026|Vancouver 2026: FAQs]]
+**Read more**: [[FAQs|General FAQs]]  | [[event-atmosphere2026|Vancouver 2026: FAQs]]
 
 
 

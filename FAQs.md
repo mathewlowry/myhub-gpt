@@ -51,7 +51,7 @@ Apart from at our [[events]], we:
 
 * hang out on Bluesky - check out the atproto.science Starter Pack, and the custom feeds we're developing there
 * have more indepth discussions on [this ATproto Discourse thread](https://discourse.atprotocol.community/t/intros-and-kickoff-thread-for-atproto-x-science/156/3?u=mathewlowry.bsky.social)
-
+* We also manage a newsletter to keep you informed.
 ## How can I contact you?
 
 Apart from engaging with the community on Bluesky and Discourse (above), you can reach out to the organisers directly at [hello@atproto.science](mailto:hello@atproto.science)

@@ -56,6 +56,6 @@ atproto.science
 [[index|Home]] | [[events|Events]] | [[projects|Projects]] | [[People]]
 # Projects
 
----
+**We're curating all the projects we feel relevant to atproto.science. If you have one, submit it via [our form](https://tally.so/r/Zj8K0o).**
 
-Discover innovative tools and platforms built on ATProto for the scientific community. From social knowledge networks and research feeds to AI-powered discovery tools and note-taking integrations, these products are transforming how researchers share, discover, and collaborate on scientific work in the decentralized web.
+From social knowledge networks and research feeds to AI-powered discovery tools and note-taking integrations, these products are transforming how researchers share, discover, and collaborate on scientific work in the decentralized web.

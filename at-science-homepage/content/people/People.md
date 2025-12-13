@@ -56,10 +56,11 @@ atproto.science
 [[index|Home]] | [[events|Events]] | [[projects|Projects]] | [[People]]
 # People
 
----
-
 Although this page highlights the organisers, we're happy to list everyone we know interested in the field. If you'd like to appear here, and/or in the [ATproto.science Starter Pack](#), use [this form](https://tally.so/r/Zj8K0o).
 
+[Organisers](#) | [See also](#)
+
+---
 ## Organisers
 
 ATProto.Science is led by:
@@ -79,6 +80,7 @@ ATProto.Science is led by:
 - @renderg.host
 - [Lanyards.app](https://lanyards.app/)
 
+---
 ## See also
 
 ### Mathew Lowry

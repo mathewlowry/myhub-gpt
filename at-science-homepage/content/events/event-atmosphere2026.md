@@ -47,7 +47,7 @@ Taking place as a side event to [AtmosphereConf 2026](https://ti.to/atmosphereco
 The event will feature keynote presentations, lightning talks, panel discussions, and demos showcasing projects across the AT Science ecosystem. From academic researchers using Bluesky in innovative ways to new infrastructure for collaborative research, we'll explore how ATProto can support transformative new science applications, and map the future of this fast-moving field.
 
 > [!NOTE!]
-> In addition to [registering for this event,](https://tally.so/r/Zj8K0o) a ticket for the main AtmosphereConf event is required if you are attending ATScience in-person.
+> In addition to [registering for this event,](https://tally.so/r/Zj8K0o) a ticket for the main AtmosphereConf event is required ***if* you are attending ATScience in-person**.
 > 
 [Purchase AtmosphereConf ticket ->](#)
 
@@ -59,7 +59,9 @@ We are developing the conference programme - propose your idea using the form be
 
 ## Key Info
 
-The event is a side event to [AtmosphereConf 2026](https://ti.to/atmosphereconf/atmosphereconf2026) in Vancouver (March 26-29, 2026). A ticket to AtmosphereConf 2026 is therefore required, as is [registration to the event itself](https://tally.so/r/Zj8K0o).
+Register to the event using the above form.
+
+The event is a side event to [AtmosphereConf 2026](https://ti.to/atmosphereconf/atmosphereconf2026) in Vancouver (March 26-29, 2026), so if you're attending in person [a ticket to AtmosphereConf 2026](#) is also required.
 
 **Location:**
 AMS Student Nest
@@ -69,12 +71,28 @@ Canada
 
 View on [Google Maps](https://maps.app.goo.gl/E9aHGnjVzs8rgfLL6) | [Apple Maps](https://maps.apple.com/place?address=3500%20%E2%80%93%206133%20University%20Blvd%0AVancouver%20BC%20V6T%201Z1%0ACanada&coordinate=49.266600,-123.249961&name=AMS%20Student%20Nest&place-id=IF05EC233BAAAD1D0&map=explore)
 
+---
 ## Vancouver 2026 FAQs
-### Can I attend online?
-Yes, but registration is still required for planning purposes. 
 
-### How much does it cost?
-Remote attendance will be free of charge, but if you want to attend in person you'll need to[ buy a ticket to the main ATmosphereConf event](#).
+<details class="govuk-details">
+<summary class="govuk-details__summary">
+<span class="govuk-details__summary-text">Can I attend online?</span>
+</summary>
+
+<div class="govuk-details__text">
+Yes, but registration is still required for planning purposes. 
+</div>
+</details>
+
+<details class="govuk-details">
+<summary class="govuk-details__summary">
+<span class="govuk-details__summary-text">How much does it cost?</span>
+</summary>
+
+<div class="govuk-details__text">
+Remote attendance will be free of charge, but if you want to attend in person you'll need to [buy a ticket to the main ATmosphereConf event](#).
+</div>
+</details>
 
 <details class="govuk-details">
 <summary class="govuk-details__summary">
@@ -83,6 +101,7 @@ Remote attendance will be free of charge, but if you want to attend in person yo
 
 <div class="govuk-details__text">
 We'll explore a wide range of science applications on ATProto, including:
+
 - Academic research and scholarly communication on Bluesky
 - Infrastructure for collaborative research and peer review
 - Credentialing and reputation systems for researchers
@@ -98,7 +117,9 @@ We'll explore a wide range of science applications on ATProto, including:
 </summary>
 
 <div class="govuk-details__text">
-Absolutely! We're planning lightning talks, demos, and panel discussions. If you're working on science-related applications using ATProto, we'd love to hear from you. Include your proposals when you register, or simply contact us (FAQ; How can I contact you?).
+Absolutely! We're planning lightning talks, demos, and panel discussions. If you're working on science-related applications using ATProto, we'd love to hear from you. 
+
+Include your proposals when you register, or simply contact us (FAQ: How can I contact you?).
 </div>
 </details>
 
@@ -108,7 +129,9 @@ Absolutely! We're planning lightning talks, demos, and panel discussions. If you
 </summary>
 
 <div class="govuk-details__text">
-Yes! We interpret "science" broadly to include citizen scientists, independent researchers, tool builders, and anyone engaged in systematic inquiry. Whether you're developing infrastructure, building apps, or just curious about the intersection of research and decentralized protocols, you're welcome.
+Yes! We interpret "science" broadly to include citizen scientists, independent researchers, tool builders, and anyone engaged in systematic inquiry. 
+
+Whether you're developing infrastructure, building apps, or just curious about the intersection of research and decentralized protocols, you're welcome.
 </div>
 </details>
 
@@ -128,9 +151,8 @@ We plan to record sessions and make them available to the community after the ev
 </summary>
 
 <div class="govuk-details__text">
-Follow [@atproto.science](http://bsky.app/profile/atproto.science) on Bluesky, subscribe to our [ATProto Science feed](https://bsky.app/profile/atproto.science/feed/ATProto-Science), or join the discussion on our [Discourse forum](https://discourse.atprotocol.community/c/atproto-science/22/none).
+See FAQ: where are you discussing this?
 
-Newsletter?
 </div>
 </details>
 
