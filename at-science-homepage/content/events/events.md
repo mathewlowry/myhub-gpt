@@ -33,8 +33,8 @@ atproto.science
 [[index|Home]] | [[events|Events]] | [[projects|Projects]] | [[People]]
 # Events
 
----
+**Stay connected with the ATProto Science community through our workshops, conferences, and gatherings.** 
 
-Stay connected with the ATProto Science community through our workshops, conferences, and gatherings. We bring together researchers, developers, and independent scholars to explore new possibilities for science on ATProto.
+We bring together researchers, developers, and independent scholars to explore new possibilities for science on ATProto.
 
-
+Right now we're preparing for [[event-atmosphere2026|ATproto.science at ATmosphereConf - March 2026]].

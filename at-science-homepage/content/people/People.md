@@ -58,7 +58,7 @@ atproto.science
 
 ---
 
-Although this page highlights the organisers, we're happy to list everyone we know interested in the field. If you'd like to appear here, and/or in the [ATproto.science Starter Pack](#), [contact us](https://tally.so/r/Zj8K0o).
+Although this page highlights the organisers, we're happy to list everyone we know interested in the field. If you'd like to appear here, and/or in the [ATproto.science Starter Pack](#), use [this form](https://tally.so/r/Zj8K0o).
 
 ## Organisers
 
