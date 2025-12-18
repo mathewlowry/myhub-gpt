@@ -33,7 +33,7 @@ Information architect and communication strategist with 30 years' experience in 
 
 **Consultant**: 30 years’ experience in developing and implementing communication and digital transformation strategies for organisations as diverse as EU Institutions, venture capital management companies, international research projects and online media start-ups.
 
-More: [(About, get in touch)](https://myhub.ai/@mathewlowry/about/) 
+More: [About, get in touch.](https://myhub.ai/@mathewlowry/about/) 
 
 ## Relevant content
 
@@ -45,4 +45,4 @@ More: [(About, get in touch)](https://myhub.ai/@mathewlowry/about/)
 	* [Building resilient social media](https://mathewlowry.medium.com/building-resilient-social-media-9f7568a501a6)
 * [Feel the ATmosphere: it's 1995 all over again](https://myhub.ai/items/feel-the-atmosphere-its-1995-all-over-again): report from the first ATproto conference in Europe (Hamburg, April 2025).
 
-More: [Search, filter and browse everything I think, like and do.](https://myhub.ai/@mathewlowry/)
+More: search, filter and browse [everything I think, like and do](https://myhub.ai/@mathewlowry/), or just the stuff [tagged #atprotocol.](https://myhub.ai/@mathewlowry/?tags=atprotocol&types=like&types=do&types=think&timeframe=anytime&quality=all)
