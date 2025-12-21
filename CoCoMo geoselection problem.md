@@ -1,3 +1,8 @@
+
+# CoCoMo geoselection problem
+
+*(You're reading a draft, published using the [permanent versions pattern](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e), where I publish a string of versions as I develop my thoughts in the hope of collecting constructive criticism and ideas along the way. Links to the latest and previous versions, if any, are in the footer.)*
+
 This technical issue is only relevant if you are an organisation who wants to fund [[CoCoMo]] to support startups in a certain geographic area - eg, the French government supporting French startups by shouldering the legal content moderation burden for 12 months per startup.
 
 ## Problem in a nutshell
@@ -27,3 +32,9 @@ The only public conversation about CoCoMo cost sharing is [How should we fairly 
 ---
 
 This is part of [[A Eurosky project workprogramme]].
+
+**Revision Notes:** This is one of this wiki's pages managed with the **permanent versions pattern** described in  [Two wiki authors and a blogger walk into a bar…](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e)  . Version control:
+
+- this is version: 1, 2025-12-21
+- this is the current version: [[CoCoMo geoselection problem]]
+- here is the previous version: N/A
