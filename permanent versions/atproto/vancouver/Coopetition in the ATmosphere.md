@@ -42,19 +42,21 @@ Note that credible exit it guaranteed *precisely* because it is built from open,
 
 **I have developed a model which I would recommend funding organisations consider if they want to cost-effectively support the development of a portfolio of ATmosphere start-ups.** 
 
-As it's actually the centrepiece of the funding proposal I'm putting together for the European Commission, I cannot share a detailed description before Vancouver. However I have already presented it at least to some of the people considering this proposal, so they know what it looks like. 
-
-But, briefly, the model **focuses funding on developing components useful to multiple start-ups** - the component required by Sill and MyHub, for example, would be prioritised because it serves (at least!) two startups. 
+Briefly, the model **focuses funding on developing components useful to multiple start-ups** - the component required by Sill and MyHub, for example, would be prioritised because it serves (at least!) two startups. 
 
 But components need not be limited to code: it could also include shared infrastructure. The obvious example is the CoCoMo content moderation service, relays and PDSs being developed by Eurosky in Europe. There may be many more, but - crucially - *only a conversation amongst startups can identify them.* 
 
 In Vancouver, I'd like to explore this with the atproto.science community.
 ## Conclusion
 
-This model has two results:
+It can be more complex for developers in different start-ups to cooperate together, so the default state is competition. 
+
+This will probably not grow the ATmosphere as a whole. *Iff* startups wish to cooperate on underlying technologies like lexicons, supporting this collaboration will help grow the entire ecosystem. 
+
+This model therefore has two results:
 
 * Incredibly cost-effective: you literally support multiple start-ups with a single grant
-* Build cooperation between startup teams, benefiting both those teams *and* the ATmosphere as a whole. 
+* Build cooperation between startup teams, to mutual benefit.
 
-It can be more complex for developers in different start-ups to cooperate together, so the default state is competition, which will probably not grow the ATmosphere as a whole. *Iff* startups wish to cooperate on underlying technologies like lexicons, supporting this collaboration will help grow the entire ecosystem, lifting *all* the startups.
+As an added bonus, both results will grow the ATmosphere as a whole, which in turn will lift *all* startups.
 
