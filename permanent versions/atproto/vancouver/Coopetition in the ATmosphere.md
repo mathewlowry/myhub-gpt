@@ -1,5 +1,7 @@
 # Coopetition in the ATmosphere
 
+*(This is my proposal to the atproto.science conference in March 2026 in Vancouver, published on my experimental wiki using the [permanent versions pattern](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e), where I publish a string of versions as I develop my thoughts in the hope of collecting constructive criticism and ideas along the way. Version control and links to the latest and previous versions are in the footer.)*
+
 **I'm interested in exploring how we can manage competition and cooperation in the atmosphere.**
 
 > *Coopetition is a business strategy blending cooperation and competition, where rival companies collaborate for mutual benefit, such as developing new tech or expanding markets, while still competing fiercely in other areas like pricing or features, creating a paradoxical yet strategic interdependence.*
@@ -60,3 +62,16 @@ This model therefore has two results:
 
 As an added bonus, both results will grow the ATmosphere as a whole, which in turn will lift *all* startups.
 
+
+---
+
+## Revision Notes
+
+This is one of this wiki's pages managed with the **permanent versions pattern** described in  [Two wiki authors and a blogger walk into a bar…](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e)  
+
+- changes in this version: 
+	- none
+- version control
+    - this is version: 1
+    - this is the current version: [[Coopetition in the ATmosphere]]
+    - here is the previous version: n/a
