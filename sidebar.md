@@ -11,7 +11,6 @@ Instead of bullet lists, use plain lines, with two space characters added to the
 #
 
 [[README|Home]]  
-
 ## AI4Communities
 
 [[AI4Communities intro]]  
