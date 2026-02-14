@@ -3,11 +3,11 @@
 
 **How would MyHub.ai evolve to become part of the ATmosphere?**
 
-*(Notes: This is an early draft. As explained in [this newsletter edition](https://mathewlowry.medium.com/exploring-ai4communities-newsletter-6365b2716bb1), I am publishing these early versions as I develop my thoughts in the hope that constructive comments will help me finish the post. More version control in the footer.)*
+*(Notes: This is an early draft. As explained in [this newsletter edition](https://mathewlowry.medium.com/exploring-ai4communities-newsletter-6365b2716bb1), I am publishing these early versions as I develop my thoughts in the hope that constructive comments will help me finish the post. More version control information in the footer.)*
 
 ## Introduction
 
-In 2025, the ATmosphere is the right ecosystem to bet on for developing decentralised collective intelligence. As this is more than just exchanging 300-character status updates, the ATmosphere will need:
+In 2025, the ATmosphere is the right ecosystem to bet on for developing decentralised collective intelligence. As this requires  more than just exchanging 300-character status updates, the ATmosphere will need:
 
 * more apps, offering deeper and more valuable content and collaboration 
 * a business model to sustain those apps
@@ -19,6 +19,13 @@ How would moving MyHub.ai onto the ATmosphere help? My basic answer can be found
 
 **Transform the myhub.ai platform into a opensource, markdown-based, ATmosphere-enabled publishing toolkit interconnected with thinking and collaboration tools, and use it to explore how productive online communities can be made self-sustaining.** 
 
+### I now have a pitchdeck
+
+![[myhub-on-atmosphere-pitchdeck-2025-q1.pdf]]
+
+... and even [a video](https://www.youtube.com/watch?v=OfX1-T96QXA).
+
+---
 ## So what's a Hub? 
 
 Today, a Hub is just a personal site combining social bookmarking ("Stuff I Like"), blogging ("Stuff I Think"), and a personal portfolio ("Stuff I Do"). It is published on the myhub.ai platform, which I launched in March 2020. 
@@ -230,8 +237,8 @@ Instead, everything that is to be built must be built to work with everything el
 This is one of this wiki's pages managed with the **permanent versions pattern** described in  [Two wiki authors and a blogger walk into a bar…](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e)  
 
 - changes in this version: 
-	- none, as this is the first, originally circulated to some friends in December 2024
+	- pitchdeck q1 added
 - version control
-    - this is version: 1
+    - this is version: 2
     - this is the current version: [[MyHub on the ATmosphere]]
-    - here is the previous version: n/a
+    - here is the previous version: [[MyHub on the ATmosphere 1]]

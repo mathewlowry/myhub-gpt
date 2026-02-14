@@ -37,7 +37,7 @@ I'd like this workshop to explore two questions:
 Last year I realised that I may be able to rebuild MyHub.ai by combining components from multiple teams, creating a user-friendly "onramp" platform for new users that nevertheless maintains credible exit:
 
 ![[myhub-atproto.png]]
-*(from [[MyHub on the ATmosphere]])*
+*(from [[MyHub on the ATmosphere]] or watch the [video version](https://www.youtube.com/watch?v=OfX1-T96QXA))*
 
 The above *"reading/thinking/writing/publishing stack"* is built from multiple components, upon which various teams are already working for their own purposes:
 
@@ -60,7 +60,6 @@ Note that credible exit it guaranteed *precisely* because it is built from open,
 Briefly, the model **focuses funding on developing components useful to multiple start-ups** - the Inbox component required by Sill and MyHub, for example, would be prioritised because it serves (at least!) two startups. 
 
 But components need not be limited to code: it could also include shared infrastructure. The obvious example is the CoCoMo content moderation service, relays and PDSs being developed by [Eurosky Social](https://www.eurosky.tech/). There may be many more, but - crucially - *only a conversation amongst startups can identify them.* 
-
 Of course those conversations, and the resulting cooperation, are already underway on Bluesky, at meetups, in Signal groups ... 
 
 I'd like to explore this with the atproto.science community in Vancouver because I think this model could give that cooperation a boost, as it:
