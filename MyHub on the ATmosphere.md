@@ -26,7 +26,7 @@ As I summarised in [this video](https://www.youtube.com/watch?v=OfX1-T96QXA), th
 
 Today, a Hub is just a personal site combining social bookmarking ("Stuff I Like"), blogging ("Stuff I Think"), and a personal portfolio ("Stuff I Do"). It is published on the myhub.ai platform, which I launched in March 2020. 
 
-As you'll see from *my* Hub (https://myhub.ai/@mathewlowry/):
+As you'll see from *my* Hub ([https://myhub.ai/@mathewlowry/](https://myhub.ai/@mathewlowry/)):
 
 * it contains a searchable, filterable set of **cards**: resources ("Stuff") I Like, Think or Do. Each card is either:
 	* **hosted**: the card points to a full longform piece of content hosted on the Hub 
