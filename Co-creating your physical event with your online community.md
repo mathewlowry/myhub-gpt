@@ -47,21 +47,20 @@ Of course you don't need to follow those dates exactly, but it is important that
 * And when we finalised that programme we opened a second event co-creation phase: the networking session. The people who didn't "make the cut" for the conference programme were encouraged to present ideas for a programme of networking events, which took place in and around the exhibition. 
 
 The last time I was involved we had over 8,000 comments on the provisional networking programme in the month of August, 2026.
-### Benefits
+### Co-creation benefits
 
 This does much more than help you identify the most interesting Submissions - **it is where Members discover other Members with similar interests, and encourages them to network before they meet face to face**. 
 
 This makes the event more valuable to each Member, and also turns each member into an ambassador. Being selected for the provisional programme, after all, is a very good reason to promote the event to all of your friends so they can upvote it.
 
 In this way by the time people actually meet face-to-face, they will have been discussing the event content for the preceding months - **they will know exactly Who they want to meet, and What they're going to talk about** (as well as When and Where, thanks to the messaging system we also built into the site).
-
-## How does this look in the Atmosphere?
+## Why look to the Atmosphere?
 
 I've built websites with event co-creation built in several times since 2002, but in every case all of the interactivity was built into the website's content management system, which was as a result pretty complex.
 
 Today I'm exploring if and how the website could integrate atproto to both simplify the CMS and integrate event co-creation into the global social media conversation, ensuring better engagement. 
 
-But wouldn't this also restricts that conversation to people who have an **ATProto digital identity (DID)**. In most cases this will be a Bluesky account ... or will it? 
+But wouldn't this also restrict that conversation to people who have an **ATProto digital identity (DID**; in most cases a Bluesky account)? 
 ### Identity crisis?
 
 **What if, when somebody joins your community and doesn't have a DID, you simply gave them one as part of their account creation process?** 
@@ -69,13 +68,37 @@ But wouldn't this also restricts that conversation to people who have an **ATPro
 From their perspective, they're creating an account on your website so that they can get involved in your event. But you're actually giving them a digital identity they can use on your website *and every other ATProto app on the Atmosphere*, from BlueSky through to Stream.Place. 
 
 Essentially this means that you provide a PDS for any members who don't already have a DID. This is therefore for organisations who have decided to integrate their online operations - both website and social media - with the Atmosphere.
-### Benefit 1: personal sovereignty
+### Benefits 
 
-You're storing their content on the Personal Data Server (PDS) you're providing them, but they can move their content to another PDS whenever they want.
+The first, obvious benefit is **personal sovereignty** - your users store their content on their Personal Data Server (PDS; either the one they already had, or the one you're providing them), which means they maintain ownership over it. You don't own them, so treat them well.
 
-### Benefit 2: 
+The other main benefit, of course, is **engagement reach**: your event content can become an integral part of the Atmosphere, a social network of over 40 million people. We'll explore this in a little more detail later, but essentially I'm hoping to find the following benefits:
+
+* ?
+## How?
+
+### Meet the standard
+
+Firstly, note that you probably won't need to publish every single page of your website onto the Atmosphere - you simply decide which content types are stored on your users' PDS and published onto your website with a little extra code, called a lexicon.
+
+And that lexicon already exists: **standard.site**. As a developer who discovered it less than 2 weeks before writing this put it:
+
+> "Within a week, my site had actually turned ATProto into a CMS. I could make posts, update them, or delete them, and all the while these updates are broadcasted to a network that anyone could index. It was like an RSS feed that because it met a standard could be aggregated with a single tool." - [Standard.site: the Publishing Gateway](https://stevedylan.dev/posts/standard-site-the-publishing-gateway/) (Steve Dylan)
+
+Steve shows how flexible and extensible the basic standard.site architecture is by adding a new lexicon for comments, so standard.site already allows us to publish content onto the Atmosphere and allow users to comment on it.
+
+So what? A first glimpse of the potential benefits can be seen on sites built using standard.site. One of the creators, for example, is leaflet.pub. It's evolving every day, but as I write this in February 2026:
+
+*  ??*
+
+---
+
+As a result, this content can be both presented on your website and shared and interacted with by people across the Atmosphere. Every member of your site will therefore bring whatever content they contribute to your site to their audiences, so you're turning every member into an ambassador for your event, and by extension your organisation.
 
 
+### Public data
+
+But this is also where we have to tackle the fact that **everything on the ATmosphere is public**. 
 
 
 
