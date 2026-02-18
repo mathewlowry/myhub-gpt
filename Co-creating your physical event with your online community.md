@@ -30,7 +30,7 @@ What we discovered back in 2002 was that **most conference attendees were very k
 	* means you're **helping set the agenda** of the event 
 	*  increases your **visibility.** 
 * the online discussions before the event
-	* also increase your visibility
+	* also raises your visibility and develops your network
 	* help you discover the people you should meet in the limited time you have available on the day, and make them want to meet you.
 
 ### Benefits for Organisers
@@ -40,20 +40,21 @@ The most obvious benefits for the organisers are that this approach:
 * ensures the event actually reflects the interests of the attendees, 
 * is more valuable to each Member in terms of networking.
 
-**But it also turns each member into an ambassador**: being selected for the provisional programme, after all, is a very good reason to promote the event to all of your friends so they can upvote it.
+**But it also turns each member into an ambassador**: being selected for the provisional programme, after all, is a very good reason to promote the event to all of your friends, so they can support it.
 
-Finally, it provides a huge injection of **energy into your online community,** which can support your organisation's work throughout the year. It's therefore vital that the community built around the event is an integral part of your organisation's community strategy.
-
+Finally, it **injects massive energy into your online community,** which can support your organisation's work throughout the year. It's therefore really useful to see event co-creation as an integral part of your community strategy - using event co-creation for your annual event, for example, means the community you assemble for this year's event can come back to take part in the discussion about next year's event, and so on.
 ## How: Key milestones
 
-**The trick is to get started early.** A good process for an event held at T=0 looks something like this: 
+**The trick is to get started early.** 
+
+A good process for an event held at T=0 looks something like this: 
 
 * T-6 months: launch your event website with the simple "save the date," follow us on social, and subscribe to the newsletter messages, so that you can then follow up with your followers and subscribers for...
 * T-5 months: launch your open call - in a traditional event co-creation process, users describe themselves as they join your community so that they can propose ideas for the event programme (workshops, speeches, papers, presentations, networking sessions, etc. - it's up to you)
 	* If you already have a community then your existing members should be able to simply compose and submit the proposal.
 	* while those who have not yet joined your community now have a very good reason to do so.
 	* In both cases it helps enormously if your members are submitting ideas directly into your website content management system, not some separate system (online polling tools,  Google Sheets, etc.)
-* T - 4 months. Close the call and read the proposals:
+* T - 4 months. Close the call, and read the proposals:
 	* Mark the bad ones as rejected and inform their authors.
 	* Mark the others as provisional. Importantly, there should be more provisional ideas than you actually have room and time for.
 * T-minus 3.5 months: publish the Provisional Programme, thus opening the **event co-creation discussion phase**
@@ -64,10 +65,10 @@ Finally, it provides a huge injection of **energy into your online community,** 
 	* Changing the status of the others from provisional to final.
 * T-2 - event: continue to encourage the conversation around the final programme.
 
-Of course you don't need to follow those dates exactly, but it is important that people know what the final programme is one or two months before the event so they can make the logistics arrangements. For the original events I helped organise 25 years ago, in fact, we launched the event website 8-9 months before the event because we had several phases of discussion:
+Of course you don't need to follow those dates exactly, but it is important that people know what the final programme is one or two months before the event so they can make logistics arrangements. For those first co-created events 25 years ago, in fact, we launched the event website 8-9 months before the event because we had several phases of discussion:
 
-* a first call asked people to submit ideas for workshops or individual presentations for the Conference Programme (which was a mix of science and policy)
-* when we finalised the Conference programme we opened a second co-creation phase, for the Networking Programme, which focused on networking scientists together across Europe and took place in and around the exhibition. The people who didn't "make the cut" for the conference were encouraged to present networking event proposals, which most of them found them more valuable for their purposes.
+* a first call at T-6 asked people to submit ideas for workshops or individual presentations for the Conference Programme (which was a mix of science and policy)
+* when we finalised the Conference programme we opened a second co-creation phase in T-3, for the Networking Programme, which focused on networking scientists together across Europe and took place in and around the exhibition. The people who didn't "make the cut" for the conference were encouraged to present networking event proposals, which most of them found them more valuable for their purposes.
 
 The last time I was involved we had over 8,000 comments on the provisional networking programme in the month of August, 2026.
 ## Why look to the Atmosphere?
@@ -79,7 +80,7 @@ Today I'm exploring if and how the website could integrate atproto to both simpl
 
 But wouldn't this also restrict that conversation to people who have an ATProto digital identity (DID; in most cases a Bluesky account)? 
 
-Not necessarily: what if, when somebody joins your community and doesn't have a DID or a Personal Data Server (PDS), **you simply gave them one as part of their account creation process?**
+Yes... unless, when somebody joins your community and doesn't have a DID or a Personal Data Server (PDS), **you simply gave them one as part of their account creation process.**
 
 From their perspective, they're creating an account on your website so that they can get involved in your event. But you're actually giving them: 
 
@@ -102,16 +103,17 @@ And that lexicon already exists: **standard.site**. As a developer who discovere
 
 > "Within a week, my site had actually turned ATProto into a CMS. I could make posts, update them, or delete them, and all the while these updates are broadcasted to a network that anyone could index" - [Standard.site: the Publishing Gateway](https://stevedylan.dev/posts/standard-site-the-publishing-gateway/) (Steve Dylan)
 
-Steve shows how flexible and extensible the basic standard.site architecture is by adding a new lexicon for comments. Other developers have done something similar (eg [First thoughts on integrating with standard.site](https://isaaccorbrey.com/ramblings/first-thoughts-on-integrating-with-standard-site)), while on [leaflet.pub](https://leaflet.pub/) - one of the three originators of standard.site users can both comment *and* share quotes to Bluesky:
+Steve shows how flexible and extensible the basic standard.site architecture is by adding a new lexicon for comments. Other developers have done something similar (eg [First thoughts on integrating with standard.site](https://isaaccorbrey.com/ramblings/first-thoughts-on-integrating-with-standard-site)), while on [leaflet.pub](https://leaflet.pub/) - one of the three originators of standard.site - users can both comment on posts *and* share quotes to their followers on Bluesky:
 
 * comments appear in a dedicated comment stream
 * all Bluesky mentions of the post (including the quote-posts) appear in a dedicated Mentions feed on the page.
 
 * image
 
-Note that if you have a D.I.D. you can subscribe to any Leaflet publication. This is where Leaflet gets very clever, as they have two dedicated custom feeds on Bluesky:
+Note that if you have a DID you can subscribe to any Leaflet publication, which is where Leaflet gets very clever, as they have two dedicated custom feeds on Bluesky:
 
-* 
+* [Leaflet Reader](https://bsky.app/profile/did:plc:btxrwcaeyodrap5mnjw2fvmz/feed/subscribedPublications): shows you all the posts from the Leaflet publications you're subscribed to - ie, an enewsletter, but in social form (it's not clear to me whether those Bluesky posts appear as mentions on the Leaflet publications' posts themselves?)
+* [Leaflet Quotes](https://bsky.app/profile/did:plc:btxrwcaeyodrap5mnjw2fvmz/feed/bsky-leaflet-quotes) not clear if this shows quote-posts only from publications you've subscribed to, or all of the quote-posts on all of the publications, whether you've subscribed to them or not? 
 
 ### Public data
 
@@ -125,12 +127,15 @@ The following diagram uses colour coding to show where the content resides:
 
 It shows 
 
-* a community member using a form to submit an event item which is only accessible to organisers using the CMS 
-* And when an organiser changes the status to provisional, the record appears on the website, but with the actual content stored on the user's PDS
-* This publication step also triggers an automatic share to the users' followers
-* From this point onwards validated community members can comment on the event item. 
-* If the member has a DID they can opt to automatically share that comment to their followers on Bluesky.
-* Members with a DID can also quote-post text from the event item to their Bluesky followers in the same way as with Leaflet, above. These posts also appear on the event item. However, I would prefer to not have two streams as on Leaflet. Instead, a single unified stream of comments and bluesky mentions would be preferable.
+* someone joins the community, and is added to its custom feed
+* the community member uses a form to submit an event item as a proposal to the conference programme - this record is only accessible to organisers using the CMS 
+* an organiser reads it and changes the record's status to provisional
+	* the record appears on the website, with the actual content stored on the user's PDS
+	* triggering an automatic share to the users' followers
+* from this point onwards validated community members can comment on the event item, and  can opt to auto-share that comment to their followers on Bluesky.
+* anyone with a DID can also quote-post text from the event item to their Bluesky followers in the same way as with Leaflet, above. These posts also appear on the event item. 
+
+However, I would prefer to not have two streams as on Leaflet. Instead, a single unified stream of comments and bluesky mentions would be preferable.
 
 ---
 
