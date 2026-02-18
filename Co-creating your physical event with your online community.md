@@ -139,9 +139,9 @@ This second badly drawn diagram shows:
 
 And once I quote-posted my pithy comment to Bluesky, above, the page got a **Mentions feed** showing all mentions on Bluesky of any (sub)page:
 
-![[leaflet-mentions2.png]]
+![[leaflet-mentions3.png]]
 
-So anyone visiting the page can quickly jump to the Bluesky conversations, if they wish.
+Anyone visiting the page can thus quickly jump to the Bluesky conversations.
 #### Subscribing and discussing
 
 Finally, anyone with a DID can subscribe to any Leaflet publication, and *any app can see that subscription*. This enables all standard.site apps to do all sorts of interesting things, for example:
