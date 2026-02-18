@@ -101,30 +101,68 @@ And the required lexicons already exists: **standard.site**. As a developer who 
 
 > "Within a week, my site had actually turned ATProto into a CMS. I could make posts, update them, or delete them, and all the while these updates are broadcasted to a network that anyone could index" - [Standard.site: the Publishing Gateway](https://stevedylan.dev/posts/standard-site-the-publishing-gateway/) (Steve Dylan)
 
-Steve shows how flexible and extensible the basic standard.site architecture is by adding a new lexicon for comments. Other developers have done something similar (eg [First thoughts on integrating with standard.site](https://isaaccorbrey.com/ramblings/first-thoughts-on-integrating-with-standard-site)), while on [leaflet.pub](https://leaflet.pub/) - one of the three originators of standard.site - users can both comment on posts *and* share quotes to their followers on Bluesky:
+Steve shows how flexible and extensible the basic standard.site architecture is by adding a new lexicon for comments. Other developers have done something similar (eg [First thoughts on integrating with standard.site](https://isaaccorbrey.com/ramblings/first-thoughts-on-integrating-with-standard-site)).
+### Getting my head around leaflet
 
-* image
+Meanwhile, on [leaflet.pub](https://leaflet.pub/) - one of the three originators of standard.site - users can both comment on posts *and* share image-quotes to their followers on Bluesky.
 
-* comments appear in a dedicated comment stream
+To be honest it took me a little while to get my head around Leaflet, and [there's still a chance that I've got something wrong](https://bsky.app/profile/mathewlowry.eurosky.social/post/3mf5iro2v5s2g). 
+
+#### Basic leaflet components
+
+But as far as I can work out, you can do everything from simply publishing a page as a standalone, right through to creating a Publications within which there are Pages, within which you can embed subpages, which appear to the right of the page:
+
+![[leaflet-components-1.png]]
+
+The above badly drawn diagram shows (top-left to bottom-right):
+* a publication ("ATProto.science") listing one Page: the agenda
+* The Agenda Page (with a large chunk cut for length reasons) largely composed of embedded Subpages
+* One of those subpages, open to the right
+
+#### Interaction and sharing options
+
+Things get really interesting when you want to interact with this content:
+
+![[leaflet-components-2.png]]
+
+This second badly drawn diagram shows:
+* A traditional comment button at the bottom which opens a standard comment field to the right (top right)
+* a small pop-up when the user selects some text, giving additional options: 
+	* comment on the selection (the selected text appears above the user's comment)
+	* share the link to the exact location selected ([try it](https://atproto2026.leaflet.pub/3mevfbw7r522w/l-quote/019c60e7-6d9d-7773-a1b3-6521afff8f21~31_4-31_87#019c60e7-6d9d-7773-a1b3-6521afff8f21~31_4))
+	* post to Bluesky your thoughts about the selected text - Leaflet creates an *image* of the selected text, and its immediate neighbourhood
 * all Bluesky mentions of the post (including the quote-posts) appear in a dedicated Mentions feed on the page.
 
-Note that with a DID you can subscribe to any Leaflet publication, and any app can see that subscription, which enables Leaflet to give you all sorts of reading options:
+#### Subscribing and discussing
 
-* a dedicated **Leaflet reader**, which also displays posts from pckt.blog, another standard.site app 
+Finally, with a DID you can subscribe to any Leaflet publication. Moreover, *any app can see that subscription*, which enables Leaflet to give you all sorts of reading options:
+
+* a dedicated [**Leaflet reader**](https://leaflet.pub/reader), which can also displays posts from anything you subscribe to on [pckt.blog](https://pckt.blog/read), *another* standard.site app 
 * The [**Leaflet Reader Bluesky custom feed**](https://bsky.app/profile/did:plc:btxrwcaeyodrap5mnjw2fvmz/feed/subscribedPublications), so you can keep up with your standard.site subscriptions via *any* Bluesky app (Bluesky, Blacksky, Anisota, Deck.Blue...)
-* there's even the [**Leaflet *Quotes* Bluesky custom feed**](https://bsky.app/profile/did:plc:btxrwcaeyodrap5mnjw2fvmz/feed/bsky-leaflet-quotes) which shows quote-posts *only from publications you've subscribed to, or all of the quote-posts on all of the publications, whether you've subscribed to them or not?* 
+* there's even a [**Leaflet *Quotes* Bluesky custom feed**](https://bsky.app/profile/did:plc:btxrwcaeyodrap5mnjw2fvmz/feed/bsky-leaflet-quotes) which shows quote-posts from all Leaflet Publications (unlike the "Reader" custom feed, this one's not customised to you... I think).
 
-So what? Well, imagine you publish every provisional event item using standard.site. Yourusers  can subscribe to only those that interest them, and join in those conversations using their Bluesky app, or their Leaflet reader, or even a dedicated app you embed on your site or add to their phones. It certainly beats flooding their inboxes with every notification from across the entire event programme.
+It also means [your leaflet posts can appear in your personal blog](https://www.pfrazee.com/leaflets/3mbnbdt4bas2a), if you build the latter on the Atmosphere - i.e., you can blog on Leaflet to get the reach, and still show your posts on your own blog. Because it all resides on your PDS - the content's *yours*.
 
+### So what? 
+
+Imagine you publish every provisional event item using standard.site within your event website. Your audience can: 
+
+* subscribe to only those event items that interest them,
+* comment on them within leaflet
+* and/or share interesting selections to their Bluesky apps
+* see all the comments and all the Bluesky conversations on te leaflet page
+* follow those conversations using their Bluesky app, or their Leaflet reader, or even a dedicated app you embed on your site or add to their phones.
+
+Not only does this beat flooding your users' inboxes with every notification from across the entire event programme, *you don't have to build any of this.* Your event website can become a pretty simple affair - you're effectively farming out almost the entirety of the interactive features to the Atmosphere.
 ### Public data
 
 **But we also must tackle the fact that everything on the Atmosphere is public (for now).** 
 
-In Vancouver I look forward to hearing about the development of permissioned data, but for this version of this post I'm operating on the assumption that submitted event items need to be stored in the website CMS *only*, and are pushed onto users' PDSs and displayed to anonymous website users only when they have reached at least provisional status.
+In Vancouver I look forward to hearing about the development of permissioned data, but for this version of this post I'm operating on the assumption that *submitted* event items must only be stored in the website CMS, and are pushed onto users' PDSs and displayed to anonymous website users when they have been given provisional status.
 
 The following diagram uses colour coding to show where the content resides:
 
-* image
+* image to do
 
 It shows 
 
