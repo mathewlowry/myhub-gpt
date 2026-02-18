@@ -136,29 +136,36 @@ This second badly drawn diagram shows:
 	* comment on the selection (the selected text appears above the user's comment)
 	* share the link to the exact location selected ([try it](https://atproto2026.leaflet.pub/3mevfbw7r522w/l-quote/019c60e7-6d9d-7773-a1b3-6521afff8f21~31_4-31_87#019c60e7-6d9d-7773-a1b3-6521afff8f21~31_4))
 	* post to Bluesky your thoughts about the selected text - Leaflet creates an *image* of the selected text, and its immediate neighbourhood
-* all Bluesky mentions of the post (including the quote-posts) appear in a dedicated Mentions feed on the page.
 
+And once I quote-posted my pithy comment to Bluesky, above, the page got a **Mentions feed** showing all mentions on Bluesky of any (sub)page:
+
+![[leaflet-mentions2.png]]
+
+So anyone visiting the page can quickly jump to the Bluesky conversations, if they wish.
 #### Subscribing and discussing
 
-Finally, with a DID you can subscribe to any Leaflet publication. Moreover, *any app can see that subscription*, which enables Leaflet to give you all sorts of reading options:
+Finally, anyone with a DID can subscribe to any Leaflet publication, and *any app can see that subscription*. This enables all standard.site apps to do all sorts of interesting things, for example:
 
-* a dedicated [**Leaflet reader**](https://leaflet.pub/reader), which can also displays posts from anything you subscribe to on [pckt.blog](https://pckt.blog/read), *another* standard.site app 
-* The [**Leaflet Reader Bluesky custom feed**](https://bsky.app/profile/did:plc:btxrwcaeyodrap5mnjw2fvmz/feed/subscribedPublications), so you can keep up with your standard.site subscriptions via *any* Bluesky app (Bluesky, Blacksky, Anisota, Deck.Blue...)
+* the dedicated [**Leaflet reader**](https://leaflet.pub/reader) not only shows you posts from Leaflet publications you subscribe to but also from anything you subscribe to on [pckt.blog](https://pckt.blog/read), *another* standard.site app 
+* the [**Leaflet Reader Bluesky custom feed**](https://bsky.app/profile/did:plc:btxrwcaeyodrap5mnjw2fvmz/feed/subscribedPublications) meansyou can keep up with your standard.site subscriptions via *any* Bluesky app (Bluesky, Blacksky, Anisota, Deck.Blue...)
 * there's even a [**Leaflet *Quotes* Bluesky custom feed**](https://bsky.app/profile/did:plc:btxrwcaeyodrap5mnjw2fvmz/feed/bsky-leaflet-quotes) which shows quote-posts from all Leaflet Publications (unlike the "Reader" custom feed, this one's not customised to you... I think).
-
-It also means [your leaflet posts can appear in your personal blog](https://www.pfrazee.com/leaflets/3mbnbdt4bas2a), if you build the latter on the Atmosphere - i.e., you can blog on Leaflet to get the reach, and still show your posts on your own blog. Because it all resides on your PDS - the content's *yours*.
+* and [your leaflet posts can appear in your personal blog](https://www.pfrazee.com/leaflets/3mbnbdt4bas2a), if you build the latter on the Atmosphere - i.e., you can blog on Leaflet to get the reach, and still show your posts on your own blog. Because it all resides on your PDS - the content's *yours*.
 
 ### So what? 
 
-Imagine you publish every provisional event item using standard.site within your event website. Your audience can: 
+Imagine you publish every provisional or final event item using standard.site within your event website. Your audience can: 
 
 * subscribe to only those event items that interest them,
 * comment on them within leaflet
-* and/or share interesting selections to their Bluesky apps
-* see all the comments and all the Bluesky conversations on te leaflet page
-* follow those conversations using their Bluesky app, or their Leaflet reader, or even a dedicated app you embed on your site or add to their phones.
+* and/or share interesting selections to their Bluesky audiences
+* see all the comments and all the Bluesky conversations on the leaflet page
+* follow those conversations using their Bluesky app, or their Leaflet reader, or even a dedicated app you embed on your site or provide to them for their phones.
 
-Not only does this beat flooding your users' inboxes with every notification from across the entire event programme, *you don't have to build any of this.* Your event website can become a pretty simple affair - you're effectively farming out almost the entirety of the interactive features to the Atmosphere.
+Not only does this beat flooding your users' inboxes with every notification from across the entire event programme, it means *you don't have to build any of this.* 
+
+>  you're farming out most of the interactive features to the Atmosphere, *and* getting a huge reach bonus
+
+Your event website becomes pretty simple, because you're farming out most of the interactive features to the Atmosphere, *and* getting a huge reach bonus.
 ### Public data
 
 **But we also must tackle the fact that everything on the Atmosphere is public (for now).** 
