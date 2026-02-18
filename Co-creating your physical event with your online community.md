@@ -1,3 +1,6 @@
+
+# Co-creating your physical event with your online community
+
 **Revisiting some of the basic techniques for building online communities I've developed over the years in the light of the Atmosphere's potential.**
 
 *(Notes: This is an early draft. As explained in [this newsletter edition](https://mathewlowry.medium.com/exploring-ai4communities-newsletter-6365b2716bb1), I am publishing these early versions as I develop my thoughts in the hope that constructive comments will help me finish the post. More version control in the footer.)*
@@ -115,6 +118,7 @@ But as far as I can work out, you can do everything from simply publishing a pag
 ![[leaflet-components-1.png]]
 
 The above badly drawn diagram shows (top-left to bottom-right):
+
 * a publication ("ATProto.science") listing one Page: the agenda
 * The Agenda Page (with a large chunk cut for length reasons) largely composed of embedded Subpages
 * One of those subpages, open to the right
@@ -126,6 +130,7 @@ Things get really interesting when you want to interact with this content:
 ![[leaflet-components-2.png]]
 
 This second badly drawn diagram shows:
+
 * A traditional comment button at the bottom which opens a standard comment field to the right (top right)
 * a small pop-up when the user selects some text, giving additional options: 
 	* comment on the selection (the selected text appears above the user's comment)
