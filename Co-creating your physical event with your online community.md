@@ -78,16 +78,14 @@ I've built websites with event co-creation several times since 2002. Each time, 
 Today I'm exploring if and how the website could integrate atproto to both simplify the CMS and integrate event co-creation into the global social media conversation, ensuring better engagement. 
 ### Identity crisis?
 
-But wouldn't this also restrict that conversation to people who have an ATProto digital identity (DID; in most cases a Bluesky account)? 
+But wouldn't this also restrict that conversation to people who have an ATProto digital identity (DID; in most cases their Bluesky account)? 
 
-Yes... unless, when somebody joins your community and doesn't have a DID or a Personal Data Server (PDS), **you simply gave them one as part of their account creation process.**
-
-From their perspective, they're creating an account on your website so that they can get involved in your event. But you're actually giving them: 
+The short answer is yes... unless you simply **gave new users a DID and a Personal Data Server (PDS, if they don't already have one) as part of their account creation process.** From their perspective, they're creating an account on your website so that they can get involved in your event. But you're actually giving them: 
 
 * a digital identity they can use on your website *and every other ATProto app on the Atmosphere*, from BlueSky through to Stream.Place
 * and a PDS to store their content, which they can move elsewhere whenever they want.
 
-This is therefore for organisations who have decided to integrate their online operations - both website and social media - with the Atmosphere.
+This is therefore best for organisations who have decided to integrate ATproto into both their website and social media presence. They should never have been separated.
 ### Benefits 
 
 The first, obvious benefit is **personal sovereignty** - your users store their content on their PDS (either the one they already had, or the one you're providing them), which means they maintain ownership over it. You don't own them, so treat them well.
@@ -99,25 +97,28 @@ The other main benefit, of course, is **engagement reach**: your event content c
 
 Firstly, note that you probably won't need to publish every single page of your website onto the Atmosphere - you simply decide which content types are stored on your users' PDSs and published onto your website with a little extra code, called a lexicon.
 
-And that lexicon already exists: **standard.site**. As a developer who discovered it less than 2 weeks before writing this put it:
+And the required lexicons already exists: **standard.site**. As a developer who discovered it less than 2 weeks before writing this put it:
 
 > "Within a week, my site had actually turned ATProto into a CMS. I could make posts, update them, or delete them, and all the while these updates are broadcasted to a network that anyone could index" - [Standard.site: the Publishing Gateway](https://stevedylan.dev/posts/standard-site-the-publishing-gateway/) (Steve Dylan)
 
 Steve shows how flexible and extensible the basic standard.site architecture is by adding a new lexicon for comments. Other developers have done something similar (eg [First thoughts on integrating with standard.site](https://isaaccorbrey.com/ramblings/first-thoughts-on-integrating-with-standard-site)), while on [leaflet.pub](https://leaflet.pub/) - one of the three originators of standard.site - users can both comment on posts *and* share quotes to their followers on Bluesky:
 
+* image
+
 * comments appear in a dedicated comment stream
 * all Bluesky mentions of the post (including the quote-posts) appear in a dedicated Mentions feed on the page.
 
-* image
+Note that with a DID you can subscribe to any Leaflet publication, and any app can see that subscription, which enables Leaflet to give you all sorts of reading options:
 
-Note that if you have a DID you can subscribe to any Leaflet publication, which is where Leaflet gets very clever, as they have two dedicated custom feeds on Bluesky:
+* a dedicated **Leaflet reader**, which also displays posts from pckt.blog, another standard.site app 
+* The [**Leaflet Reader Bluesky custom feed**](https://bsky.app/profile/did:plc:btxrwcaeyodrap5mnjw2fvmz/feed/subscribedPublications), so you can keep up with your standard.site subscriptions via *any* Bluesky app (Bluesky, Blacksky, Anisota, Deck.Blue...)
+* there's even the [**Leaflet *Quotes* Bluesky custom feed**](https://bsky.app/profile/did:plc:btxrwcaeyodrap5mnjw2fvmz/feed/bsky-leaflet-quotes) which shows quote-posts *only from publications you've subscribed to, or all of the quote-posts on all of the publications, whether you've subscribed to them or not?* 
 
-* [Leaflet Reader](https://bsky.app/profile/did:plc:btxrwcaeyodrap5mnjw2fvmz/feed/subscribedPublications): shows you all the posts from the Leaflet publications you're subscribed to - ie, an enewsletter, but in social form (it's not clear to me whether those Bluesky posts appear as mentions on the Leaflet publications' posts themselves?)
-* [Leaflet Quotes](https://bsky.app/profile/did:plc:btxrwcaeyodrap5mnjw2fvmz/feed/bsky-leaflet-quotes) not clear if this shows quote-posts only from publications you've subscribed to, or all of the quote-posts on all of the publications, whether you've subscribed to them or not? 
+So what? Well, imagine you publish every provisional event item using standard.site. Yourusers  can subscribe to only those that interest them, and join in those conversations using their Bluesky app, or their Leaflet reader, or even a dedicated app you embed on your site or add to their phones. It certainly beats flooding their inboxes with every notification from across the entire event programme.
 
 ### Public data
 
-But this is also where we have to tackle the fact that **everything on the ATmosphere is public**. 
+**But we also must tackle the fact that everything on the Atmosphere is public (for now).** 
 
 In Vancouver I look forward to hearing about the development of permissioned data, but for this version of this post I'm operating on the assumption that submitted event items need to be stored in the website CMS *only*, and are pushed onto users' PDSs and displayed to anonymous website users only when they have reached at least provisional status.
 
@@ -127,15 +128,36 @@ The following diagram uses colour coding to show where the content resides:
 
 It shows 
 
-* someone joins the community, and is added to its custom feed
-* the community member uses a form to submit an event item as a proposal to the conference programme - this record is only accessible to organisers using the CMS 
+* someone joins the community (and is added to its custom feed, as set out in Berlin)
+* the community member proposes an event item to the conference programme (this record is only accessible to organisers using the CMS)
 * an organiser reads it and changes the record's status to provisional
-	* the record appears on the website, with the actual content stored on the user's PDS
-	* triggering an automatic share to the users' followers
-* from this point onwards validated community members can comment on the event item, and  can opt to auto-share that comment to their followers on Bluesky.
-* anyone with a DID can also quote-post text from the event item to their Bluesky followers in the same way as with Leaflet, above. These posts also appear on the event item. 
+	* the main content is published to the user's PDS
+	* the record containing that content appears on the website
+	* an automatic share to the users' followers is triggered (if they opted in)
+* from this point onwards, validated community members can comment on the event item, and  can opt to auto-share that comment to their followers on Bluesky
+* anyone with a DID can also mention or quote-post the event item to their Bluesky followers, with these posts also appearing on the event item. 
 
 However, I would prefer to not have two streams as on Leaflet. Instead, a single unified stream of comments and bluesky mentions would be preferable.
+
+## First experiment
+
+To figure this out I need to understand standard.site better, so I thought I'd run a little experiment in the run up to ATProto.science (Vancouver, March 2026). 
+
+The atproto.science organisers had already asked participants to submit event items (presentations, demos, lightning talks), selected the most interesting ones, and organised them into a conference programme (workshops composed of 3-4 event items). 
+
+While the scope for event co-creation is limited (the selection, after all, has already been made) I thought it could be interesting to see whether we could use Leaflet and Bluesky to support conversations about the event programmein the run-up to the event. 
+
+So in mid-late February [I published the selected proposals into a Leaflet publication](https://atproto2026.leaflet.pub/3mevfbw7r522w) - one subpage per workshop - and invited the authors to:
+
+* further flesh out their ideas (we provide them the edit link for their subpage)
+* provoke a conversation - on Leaflet and/on Bluesky - with participants interested in their event item, 
+
+In a perfect world, the speakers in each workshop would also work together to find the threads connecting their respective event items and elaborate a full workshop description.
+
+Will that happen? As I write this I have no idea - that's why it's an experiment, which is appropriate enough, given that it's atproto.science. But at the very least I will learn a little bit about how Leaflet and standard.site works, which is directly relevant to my atproto.science workshop: [Coopetition in the ATmosphere](https://leaflet.pub/7c7be6b7-1dbc-4aae-8f32-f5314aa99f90?page=019c60e7-6d9d-7773-a1b3-6521afff8f21).
+
+So if you can't make it to my workshop, let's chat about it online. And if you can, let me know what you'd like to bring to the discussion when we meet face2face,
+
 
 ---
 
@@ -143,7 +165,7 @@ However, I would prefer to not have two streams as on Leaflet. Instead, a single
 
 This is one of this wiki's pages managed with the **permanent versions pattern** described in  [Two wiki authors and a blogger walk into a bar…](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e)  
 
-- changes in this version: 
+- changes in this version: (2026-02-02)
 	- none, as this is the first 
 - version control
     - this is version: 1
