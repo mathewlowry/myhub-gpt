@@ -197,16 +197,22 @@ The atproto.science organisers had already asked participants to submit event it
 
 While the scope for event co-creation is limited (the selection, after all, has already been made) I thought it could be interesting to see whether we could use Leaflet and Bluesky to support conversations about the event programmein the run-up to the event. 
 
-So in mid-late February [I published the selected proposals into a Leaflet publication](https://atproto2026.leaflet.pub/3mevfbw7r522w) - one subpage per workshop - and invited the authors to:
+So in mid February [I started publishing the selected proposals into a Leaflet publication](https://atproto2026.leaflet.pub/3mevfbw7r522w) - one subpage per workshop - and will invite the authors to:
 
 * further flesh out their ideas (we provide them the edit link for their subpage)
-* provoke a conversation - on Leaflet and/on Bluesky - with participants interested in their event item, 
+* provoke a conversation - on Leaflet and/on Bluesky - with participants interested in their event item.
 
-In a perfect world, the speakers in each workshop would also work together to find the threads connecting their respective event items and elaborate a full workshop description.
+Hopefully some of the speakers will have some interesting conversations in the run-up to their workshop, which will enrich the workshop for all concerned.
 
-Will that happen? As I write this I have no idea - that's why it's an experiment, which is appropriate enough, given that it's atproto.science. But at the very least I will learn a little bit about how Leaflet and standard.site works, which is directly relevant to my atproto.science workshop: [Coopetition in the ATmosphere](https://leaflet.pub/7c7be6b7-1dbc-4aae-8f32-f5314aa99f90?page=019c60e7-6d9d-7773-a1b3-6521afff8f21).
+And, in a perfect world, the speakers in each workshop would also work together to find the threads connecting their respective event items and elaborate a full workshop description.
 
-So if you can't make it to my workshop, let's chat about it online. And if you can, let me know what you'd like to bring to the discussion when we meet face2face,
+Will that happen? As I write this I have no idea - that's why it's an experiment, which is appropriate enough, given that it's atproto.science. I already know that it won't be perfect - for example, as I'm the author of all the subpages, I - not the actual speaker - will get all the notifications of comments. And there aren't *any* notifications when a Leaflet is mentioned on Bluesky. 
+
+So the speakers will have to visit their Leaflet page to stay on top of comments and Bluesky conversations about their event item (although if they subscribe to their page, they'll see the latter via their Leaflet Reader custom feed). A good implementation of standard.site within an event website would steer all these notifications to the appropriate DID.
+
+But even if there is very little interaction, at the very least I will have learnt a little bit about how Leaflet and standard.site works, which is directly relevant to my atproto.science workshop: [Coopetition in the ATmosphere](https://leaflet.pub/7c7be6b7-1dbc-4aae-8f32-f5314aa99f90?page=019c60e7-6d9d-7773-a1b3-6521afff8f21).
+
+So if you can't make it to my workshop, let's chat about it online. And if you can, let me know what you'd like to bring to the discussion when we meet face2face.
 
 
 ---
