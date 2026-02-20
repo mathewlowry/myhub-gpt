@@ -155,10 +155,11 @@ Finally, anyone with a DID can subscribe to any Leaflet publication, and *any ap
 
 Imagine you publish every provisional or final event item using standard.site within your event website. Your audience can: 
 
-* subscribe to only those event items that interest them,
-* comment on them within leaflet and/or share interesting selections to their Bluesky audiences
-* discover all the comments and Bluesky conversations about the leaflet page *from* the leaflet page
-* follow those conversations using their Bluesky app, or their Leaflet reader, or even a dedicated app you embed on your site or provide for their phones.
+	* subscribe to only those event items that interest them,
+	* comment on them within leaflet
+	* and/or share interesting selections to their Bluesky audiences
+* see all the comments and all the Bluesky conversations on the leaflet page
+* follow those conversations using their Bluesky app, or their Leaflet reader, or even a dedicated app you embed on your site or provide to them for their phones.
 
 Not only does this beat flooding your users' inboxes with every notification from across the entire event programme, it means *you don't have to build any of this.* 
 
@@ -169,30 +170,24 @@ Your event website becomes pretty simple, because you're farming out most of the
 
 **But we also must tackle the fact that everything on the Atmosphere is public (for now).** 
 
-In Vancouver I look forward to hearing about the development of [permissioned data](https://myhub.ai/@mathewlowry/?tags=permissioned+data), but for this version of this post I'm operating on the assumption that *submitted* event items must be stored only in the website CMS. When they have been given provisional status by the Organisers, however: 
+In Vancouver I look forward to hearing about the development of permissioned data, but for this version of this post I'm operating on the assumption that *submitted* event items must only be stored in the website CMS, and are pushed onto users' PDSs and displayed to anonymous website users when they have been given provisional status.
 
-* they are displayed to anonymous website users
-* standard.site records are pushed to the users' PDS to ensure the event item is on the Atmosphere.
+The following diagram uses colour coding to show where the content resides:
 
-The following diagram shows this, and then what can happen by connecting the discussion about the event item with the Atmosphere:
+* image to do
 
-![[event-cocreation-atmosphere.png]]
+It shows 
 
-It shows:
+* someone joins the community (and is added to its custom feed, as set out in Berlin)
+* the community member proposes an event item to the conference programme (this record is only accessible to organisers using the CMS)
+* an organiser reads it and changes the record's status to provisional
+	* the main content is published to the user's PDS
+	* the record containing that content appears on the website
+	* an automatic share to the users' followers is triggered (if they opted in)
+* from this point onwards, validated community members can comment on the event item, and  can opt to auto-share that comment to their followers on Bluesky
+* anyone with a DID can also mention or quote-post the event item to their Bluesky followers, with these posts also appearing on the event item. 
 
-* a user joins the community, becoming **Member 1**. If s/he has a DID (or if opt in for getting one)
-	* the DID's included in their public profile and the site CMS
-	* they are auto-added to the event's custom feed (another opt in, [as set out in Berlin](https://mathewlowry.medium.com/how-newsrooms-scientific-institutions-governments-can-best-use-bluesky-ee97d840a058))
-* Member 1 **proposes an event item** - for now, this is only accessible to Organisers via the CMS. The Organisers' Jury assesses it, likes it, and changes the item's status to Provisional.
-* This makes the event item visible to anonymous website visitors
-* standard.site records are also auto-published to the user's PDS, so the event item appears in standard.site indexers, and event subscribers' feeds on both standard.site apps *and* Bluesky
-* an automatic Bluesky post is published to Member 1's followers  (if s/he opted in); this also appears in the event's Bluesky custom feed
-* any Visitor with a DID can **mention or quote-post** the event item to their Bluesky followers. Their post appears
-	* in the event's Bluesky custom feed (unless they manually delete the automatically placed hashtag)
-	* on the event item itself, where others can follow it to Bluesky to join the conversation there
-*  community Member 2 **comments** on the event item. If they have a DID, they can opt to auto-share that comment to their Bluesky followers; this post also appears in the the event's custom feed.
-
-Personally I would prefer a single unified stream of comments & mentions, rather than Leaflet's two separate streams, but It's possible that there are good reasons for Leaflet's approach.
+However, I would prefer to not have two streams as on Leaflet. Instead, a single unified stream of comments and bluesky mentions would be preferable.
 
 ## First experiment
 
@@ -202,9 +197,7 @@ The atproto.science organisers had already asked participants to submit event it
 
 While the scope for event co-creation is limited (the selection, after all, has already been made) I thought it could be interesting to see whether we could use Leaflet and Bluesky to support conversations about the event programmein the run-up to the event. 
 
-So in mid February [I started publishing the selected proposals into a Leaflet publication](https://atproto2026.leaflet.pub/3mevfbw7r522w), with one subpage per workshop. My first attempt wasn't great, so Ariel Lighty joined in to improve the presentation.
-
-Pretty soon we will invite the authors to:
+So in mid February [I started publishing the selected proposals into a Leaflet publication](https://atproto2026.leaflet.pub/3mevfbw7r522w) - one subpage per workshop - and will invite the authors to:
 
 * further flesh out their ideas (we provide them the edit link for their subpage)
 * provoke a conversation - on Leaflet and/on Bluesky - with participants interested in their event item.
@@ -213,13 +206,13 @@ Hopefully some of the speakers will have some interesting conversations in the r
 
 And, in a perfect world, the speakers in each workshop would also work together to find the threads connecting their respective event items and elaborate a full workshop description.
 
-Will that happen? As I write this I have no idea - that's why it's an experiment, which is appropriate enough, given that it's atproto.science. I already know that it won't be perfect - for example, as I'm the author of all the subpages, I'll be getting all the notifications of comments, not the speakers. And there aren't (yet) any notifications when a Leaflet is mentioned on Bluesky, or when your Bluesky address is mentioned on Leaflet. 
+Will that happen? As I write this I have no idea - that's why it's an experiment, which is appropriate enough, given that it's atproto.science. I already know that it won't be perfect - for example, as I'm the author of all the subpages, I - not the actual speaker - will get all the notifications of comments. And there aren't *any* notifications when a Leaflet is mentioned on Bluesky. 
 
-All of which means the speakers will have to visit their Leaflet subpage to stay on top of comments and Bluesky conversations about their event item (although if they subscribe to their page, they'll see the latter via their Leaflet Reader custom feed). A good implementation of standard.site within an event website would steer all these notifications to the appropriate DID.
+So the speakers will have to visit their Leaflet page to stay on top of comments and Bluesky conversations about their event item (although if they subscribe to their page, they'll see the latter via their Leaflet Reader custom feed). A good implementation of standard.site within an event website would steer all these notifications to the appropriate DID.
 
 But even if there is very little interaction, at the very least I will have learnt a little bit about how Leaflet and standard.site works, which is directly relevant to my atproto.science workshop: [Coopetition in the ATmosphere](https://leaflet.pub/7c7be6b7-1dbc-4aae-8f32-f5314aa99f90?page=019c60e7-6d9d-7773-a1b3-6521afff8f21).
 
-So if you can't make it to my workshop, let's chat about it online via the above subpage. And if you can, let me know what you'd like to bring to the discussion when we meet face2face.
+So if you can't make it to my workshop, let's chat about it online. And if you can, let me know what you'd like to bring to the discussion when we meet face2face.
 
 
 ---
@@ -229,8 +222,8 @@ So if you can't make it to my workshop, let's chat about it online via the above
 This is one of this wiki's pages managed with the **permanent versions pattern** described in  [Two wiki authors and a blogger walk into a bar…](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e)  
 
 - changes in this version: (2026-02-02)
-	- added remaining diagram
+	- none, as this is the first 
 - version control
-    - this is version: 2
+    - this is version: 1
     - this is the current version: [[Co-creating your physical event with your online community]]
-    - here is the previous version: [[Co-creating your physical event with your online community 1]]
+    - here is the previous version: n/a
