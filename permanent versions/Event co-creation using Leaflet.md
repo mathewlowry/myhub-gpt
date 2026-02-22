@@ -36,7 +36,7 @@ Once I quote-posted my pithy comment to Bluesky, above, the page got a **Mention
 
 ![[leaflet-mentions3.png]]
 
-Anyone visiting the page can thus quickly jump to the Bluesky conversations.
+Anyone visiting the page can thus quickly get involved via the comments feature or jump straight to the relevant conversations on Bluesky.
 
 Note: personally I would prefer a single unified stream of comments & mentions, rather than Leaflet's two separate streams, but it's possible that there are good reasons for Leaflet's approach.
 
@@ -55,13 +55,17 @@ This enables all standard.site apps to do all sorts of interesting things, for e
 
 ## So what does this mean for event co-creation?
 
-Imagine you publish every provisional or final event item using standard.site within your event website. As far as I can see, your audience we'll be able to:
+**Imagine you publish every provisional or final event item using standard.site within your event website. I see the following benefits:**
+
+### More interactive features
+
+As far as I can see, your audience we'll be able to:
 
 * comment on the event item after logging in with their DID 
 * share selections from the page to their Bluesky audiences without having to log in at all
 * discover all the comments and Bluesky conversations from the event item
-* subscribe to only those event items that interest them, rather than flooding your users' inboxes with every notification from across the entire event programme
-* and they can follow those conversations, and be alerted to new posts, using their Bluesky app, or their Leaflet reader, or even a dedicated app you embed on your site or provide for their phones.
+* subscribe to only those event items that interest them, spo you're not flooding your users' inboxes with every notification from across the entire event programme
+* follow those conversations, and be alerted to new posts, using their Bluesky app, or their Leaflet reader, or even a dedicated app you embed on your site and/or provide for their phones.
 
 ### A simpler CMS
 
@@ -76,21 +80,21 @@ The following diagram shows how an event item in your website's provisional prog
 
 ![[event-cocreation-leflet.png]]
 
-It shows:
+It shows a lot, so let's start with the account creation and event item submission workflow:
 
-* a user joins the community, becoming **Member 1** (top left). If s/he has a DID (or if opt in for getting one)
+* a user joins the community, becoming **Member 1** (top left). If s/he has a DID (or opts in for getting one)
 	* the DID's included in their public profile and the site CMS
-	*  s/he is auto-added to the event's custom feed (another opt in, [as set out in Berlin](https://mathewlowry.medium.com/how-newsrooms-scientific-institutions-governments-can-best-use-bluesky-ee97d840a058)), and so can reach the custom feeds audience by including the right hashtag (left)
-* Member 1 **proposes an event item** (top centre) - for now, this is only accessible to Organisers via the CMS. The Organisers' Jury assesses it, likes it, and changes the item's status to Provisional.
-* This makes the event item visible to anonymous website visitors (centre).
+	*  s/he is auto-added to the event's custom feed (another opt in, [as set out in Berlin](https://mathewlowry.medium.com/how-newsrooms-scientific-institutions-governments-can-best-use-bluesky-ee97d840a058)), and so can reach the custom feed's audience by including the right hashtag (left)
+* Member 1 **proposes an event item** (top centre): for now, this proposal is only accessible to Organisers via the CMS. 
+* The Organisers' Jury assesses it, likes it, and changes the item's status to Provisional, making the event item visible to anonymous website visitors (centre).
 
-And under the REACH heading:
+And that gives the event item REACH (bottom-right):
 
-* standard.site records are auto-published to the user's PDS, so the event item appears in standard.site indexers, and event subscribers' feeds on both standard.site apps *and* Bluesky 
-* an automatic Bluesky post is published to Member 1's followers (if s/he opted in); this also appears in the event's Bluesky custom feed
-* any Visitor with a DID can **mention or quote-post** the event item to their Bluesky followers. Their post appears
-	* in the event's Bluesky custom feed (unless they manually delete the automatically placed hashtag)
+* the event item appears in standard.site indexers, and event subscribers' feeds on across both standard.site *and* Bluesky apps
+* an automatic Bluesky post is published to Member 1's followers (if s/he opted in); this also appears in the event's Bluesky custom feed, reaching that audience
+* any Visitor with a DID can **mention or quote-post** the event item to their Bluesky followers. Their post appears:
 	* on the event item itself, where others can follow it to Bluesky to join the conversation there
+	* in the event's Bluesky custom feed (unless they manually delete the automatically placed hashtag).
 * community Member 2 **comments** on the event item. If they have a DID, they can opt to auto-share that comment to their Bluesky followers; this post also appears in the the event's custom feed.
 
 
