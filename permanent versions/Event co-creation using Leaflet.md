@@ -33,25 +33,25 @@ This second diagram shows:
 * a small pop-up when the user selects some text, giving additional options:
 	* comment on the selection (the selected text appears above the user's comment)
 	* share the link to the exact location selected ([try it](https://atproto2026.leaflet.pub/3mevfbw7r522w/l-quote/019c60e7-6d9d-7773-a1b3-6521afff8f21~31_4-31_87#019c60e7-6d9d-7773-a1b3-6521afff8f21~31_4))
-	* post to Bluesky your thoughts about the selected text - Leaflet creates a Bluesky post featuring a link to the (sub)page and an *auto-generated image* of the selected text and its immediate neighbourhood.
+	* image-quote-post: Leaflet creates a Bluesky post for you featuring a link to the (sub)page and an *auto-generated image* of the selected text and its immediate neighbourhood.
 
-Below, you cna see that once I quote-posted my pithy comment to Bluesky, the page got a **Mentions feed** showing all mentions on Bluesky of any (sub)page:
+Below, you can see that after I image-quote-posted my pithy comment to Bluesky, the page got a **Mentions feed** showing all Bluesky conversations about the page:
 
 ![[leaflet-mentions3.png]]
 
-**Anyone visiting any Leaflet page can thus quickly get involved via the comments feature and/or jump straight to the relevant conversations on Bluesky.**
+**Anyone visiting any Leaflet page can thus engage via the comments or jump to the relevant conversations on Bluesky.**
 
 Note: personally I would prefer a single unified stream of comments & mentions, rather than Leaflet's two separate streams, but it's possible that there are good reasons for Leaflet's approach.
 
+And as a quick aside: 
+
+* The image-quote-post feature reminds me of early integration between the Medium blogging platform and Twitter. However, that was one app choosing to inter-operate with another, and it only lasted a year or two. When that feature was removed there was absolutely nothing anyone could do about it. 
+* But if Leaflet removed image-quote-post, someone else could simply create another app which has it, and which can work with all existing standard.site content. **The inter-operability is guaranteed by the protocol.**
 ### Subscribing and Discussing
 
-In many ways this reminds me a little of early integration between the Medium blogging platform and Twitter. However, that was one app choosing to inter-operate with another, and it only lasted a year or two. When that feature was removed there was absolutely nothing any user could do about it. 
+**That same interoperability is why anyone with a DID can subscribe to any Leaflet publication, and *any other app can see that subscription*.** 
 
-If something like that was to happen on any Atmosphere app, on the other hand, someone could simply create another app with the feature they like, as it would be able to work with all of the content. The inter-operability is guaranteed by the protocol. 
-
-> The inter-operability is guaranteed by the protocol. 
-
-This is why anyone with a DID can subscribe to any Leaflet publication, and *any **other** app can see that subscription*, which enables all standard.site apps to do all sorts of interesting things, for example:
+And that enables all standard.site apps to do all sorts of interesting things - for example:
 
 * the dedicated [**Leaflet reader**](https://leaflet.pub/reader) not only shows you posts from Leaflet publications you subscribe to but also from anything you subscribe to on [pckt.blog](https://pckt.blog/read), *another* standard.site app
 * the [**Leaflet Reader Bluesky custom feed**](https://bsky.app/profile/did:plc:btxrwcaeyodrap5mnjw2fvmz/feed/subscribedPublications) means you can keep up with your standard.site subscriptions via *any* Bluesky app (Bluesky, Blacksky, Anisota, Deck.Blue...)
@@ -60,7 +60,7 @@ This is why anyone with a DID can subscribe to any Leaflet publication, and *any
 
 ## So what does this mean for event co-creation?
 
-**Imagine you publish every provisional or final event item using standard.site within your event website. I see the following benefits:**
+**Publishing provisional and final event items in this way brings greater interactivity and reach, while simplifying your CMS.**
 
 ### More interactive features
 
@@ -91,18 +91,18 @@ The following diagram shows how an event item in your website's provisional prog
 
 It shows user account creation and event item submission workflows:
 
-* a user joins the community, becoming **Member 1** (*top left*). If s/he has a DID (or opts in for getting one)
-	* the DID's included in their public profile and the site CMS
-	* s/he is given a label, so that anyone subscribing to the Labeller knows that she is a member of this community
-* Member 1 uses a site form to **propose an event item** (*top centre*): the content is published *on Member 1's PDS* as an event item with the label "**`event/proposed`**". Note: 
+* a user joins the community, becoming **Member 1** (*top left*). If s/he already has a DID, or opts in for getting one:
+	* the DID is included in their public profile and the site CMS
+	* s/he is given a label, so that anyone subscribing to the Labeller knows that she is a member of this community (the label is also used in the custom feed, below)
+* Member 1 uses a site form (*top*) to **propose an event item**: a record is created in the CMS, but the content itself is published on Member 1's PDS (*centre*) as an event item with the label "**`event/proposed`**". Note: 
 	* the website does not show this content to anyone, although it is all publicly visible via the user's PDS. 
-	* the Organising Jury, on the other hand, *can* view this content via a dedicated CMS page which allows them to change the label.
-* The Organisers' Jury assesses Member 1's proposal, likes it, and changes the item's label: to "**`event/provisional`**",  making the event item visible to anonymous website visitors (*centre*).
+	* the Organising Jury *can* view this content via a dedicated CMS-driven page which allows them to change the label
+* The Organisers' Jury assesses Member 1's proposal, likes it, and changes the item's label: to "**`event/provisional`**". This makes the event item appear in the Provisional programme, visible to anonymous website visitors (*bottom right*).
 
 Some final notes (not shown in image):
 
-* Rejected proposals simply have their label negated, removing them from all public views without deleting content from the proposer's PDS.
-* Any edit of an event item (it is, after all, on their PDS) can be used to trigger a Jury review using something called a strong reference.
+* Rejected proposals simply have their label negated, removing them from public views without deleting content from the member's PDS.
+* Any edit of an event item can trigger a Jury review using something called a strong reference.
 ### Better reach
 
 **Moreover, you're also getting a huge reach bonus.**
@@ -113,14 +113,18 @@ The following diagram shows what can happen next, now that the event item is vis
 
 Under "REACH" (*bottom-right*):
 
-* the event item appears in standard.site indexers, and event subscribers' feeds on across both standard.site *and* Bluesky apps
-* an automatic Bluesky post is published to Member 1's followers (if s/he opted in); this also appears in the event's Bluesky custom feed, reaching that audience
+* as soon as the event item appears in in the Provisional programme:
+	* it also appears in standard.site indexers, as well as event subscribers' feeds on across both standard.site *and* Bluesky apps
+	* an automatic Bluesky post is published to Member 1's followers (if s/he opted in, [as explored in Berlin](https://mathewlowry.medium.com/how-newsrooms-scientific-institutions-governments-can-best-use-bluesky-ee97d840a058)); 
+	* this post in turn appears in the event's Bluesky custom feed, reaching that audience.
 * any Visitor with a DID can **mention or quote-post** the event item to their Bluesky followers. Their post appears:
 	* on the event item itself, where others can follow it to Bluesky to join the conversation there
 	* in the event's Bluesky custom feed (unless they manually delete the automatically placed hashtag).
-* community Member 2 **comments** on the event item. If they have a DID, they can opt to auto-share that comment to their Bluesky followers; this post also appears in the the event's custom feed.
+* when community Member 2 **comments** on the event item:
+	* if they have a DID, they can opt to auto-share that comment to their Bluesky followers; 
+	* this post *also* appears in the event's custom feed.
 
-"REACH" also appears *left*: because Member 1 is labelled as a community member, any Bluesky post from her (if s/he opts in, [as explored in Berlin](https://mathewlowry.medium.com/how-newsrooms-scientific-institutions-governments-can-best-use-bluesky-ee97d840a058)) including the event hashtag also appears in the event's custom feed.
+There's a bit "REACH" to the *left*: because Members are labelled as community members, any of their Bluesky posts appear in the event's custom feed if they *also* includes the event hashtag (and the member opted in).
 
 **Up to:** [[Co-creating your physical event with your online community|Event co-creation on the Atmosphere]]
 

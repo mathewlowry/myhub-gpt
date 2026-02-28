@@ -21,9 +21,14 @@ I'm also running a "light" event co-creation experiment for [atproto.science 202
 
 **Involve your community in defining your event's content.** 
 
-There are many ways of doing this, but the classic method involves asking your community to submit proposals for "event items" (speeches, workshops, etc.); and then comment on "provisional" event items (published for community discussion, not yet in the final programme) and work with others to combine good ideas into better ones. 
+There are many ways of doing this, but the classic method involves 
 
-At the very least the resulting event programme matches the needs and interests of the community. But the real magic is that by discussing the event programme beforehand, attendees discover others with similar interests and network online *before* they meet face-to-face. They then arrive at the event knowing exactly *who* they want to meet and *what* they're going to talk about.
+* asking your community to submit proposals for "event items" (speeches, workshops, etc.),
+* publishing some as "provisional" event items (OK'd by a Jury and published for community discussion, not yet in the final programme); 
+* stimulating a community conversation on these provisional event items to develop and combine good ideas into better ones
+* using these discussions to help select which events make it into the Final programme (ie,. get a room and a time).
+
+At the very least, the event programme matches the needs and interests of the community. But the real magic is that by discussing the event programme beforehand, attendees discover others with similar interests and network online *before* they meet face-to-face. They then arrive at the event knowing exactly *who* they want to meet and *what* they're going to talk about.
 
 > Attendees know exactly *who* they want to meet and *what* they're going to talk about
 
@@ -78,6 +83,7 @@ It was [Emelia](https://bsky.app/profile/thisismissem.social) who suggested a fa
 * the event website runs a **labeller** — a lightweight ATProto service — that publishes status changes as protocol-level labels attached to each event item. 
 * the website displays only event items with provisional or approved labels.
 
+In fact, according to Emelia, a CMS is really not needed at all: event co-creation could simply be supported purely by an Atmosphere app. But event co-creation is best embedded within a much larger community strategy, and besides I have to leave something for version 5 of this post ;)
 ## Benefits: better reach with a simpler website 
 
 **In this version of this post, I've only explored how this could look using the features offered by the [leaflet.pub ](http://leaflet.pub/)implementation of standard.site. They are considerable.** 
@@ -115,7 +121,7 @@ Limitations are already clear - notably around notification routing and cross-pl
 This is one of this wiki's pages managed with the **permanent versions pattern** described in  [Two wiki authors and a blogger walk into a bar…](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e)  
 
 - changes in this version: (2026-02-21)
-	- 
+	- introduction of labeller
 - version control
     - this is version: 4
     - this is the current version: [[Co-creating your physical event with your online community]]
