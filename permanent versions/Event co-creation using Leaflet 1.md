@@ -4,15 +4,12 @@
 
 It was written in support of [[Co-creating your physical event with your online community|Event co-creation on the Atmosphere]], and uses as an example a short experiment I'm doing in the run up to the [ATProto.science conference](https://atproto.science/events/atmosphere2026/),
 so if you landed on this page directly, you might want to check out the parent post for the wider context.
-
-*(Note: This is version 2 of this sub-page. Version control in footer.)*
-
 ## Getting My Head Around Leaflet
 
 [Leaflet.pub](https://leaflet.pub/) is one of the three originators of standard.site. To be honest it took me a little while to get my head around Leaflet, and [there's still a chance that I've got something wrong](https://bsky.app/profile/mathewlowry.eurosky.social/post/3mf5iro2v5s2g), which is one reason why this is one of my experimental, multiple-version posts.
 ### Basic Leaflet Components
 
-You can do everything from simply publishing a standalone page (aka "looseleaf") right through to creating a Leaflet Publication, within which there are Pages, within which you can embed subpages, which appear to the right of the page:
+You can do everything from simply publishing a standalone page right through to creating a Leaflet Publication, within which there are Pages, within which you can embed subpages, which appear to the right of the page:
 
 ![[leaflet-components-1.png]]
 
@@ -33,25 +30,23 @@ This second diagram shows:
 * a small pop-up when the user selects some text, giving additional options:
 	* comment on the selection (the selected text appears above the user's comment)
 	* share the link to the exact location selected ([try it](https://atproto2026.leaflet.pub/3mevfbw7r522w/l-quote/019c60e7-6d9d-7773-a1b3-6521afff8f21~31_4-31_87#019c60e7-6d9d-7773-a1b3-6521afff8f21~31_4))
-	* post to Bluesky your thoughts about the selected text - Leaflet creates a Bluesky post featuring a link to the (sub)page and an *auto-generated image* of the selected text and its immediate neighbourhood.
+	* post to Bluesky your thoughts about the selected text - Leaflet creates an *image* of the selected text, and its immediate neighbourhood, to include in the Bluesky post.
 
-Below, you cna see that once I quote-posted my pithy comment to Bluesky, the page got a **Mentions feed** showing all mentions on Bluesky of any (sub)page:
+Once I quote-posted my pithy comment to Bluesky, above, the page got a **Mentions feed** showing all mentions on Bluesky of any (sub)page:
 
 ![[leaflet-mentions3.png]]
 
-**Anyone visiting any Leaflet page can thus quickly get involved via the comments feature and/or jump straight to the relevant conversations on Bluesky.**
+Anyone visiting the page can thus quickly get involved via the comments feature or jump straight to the relevant conversations on Bluesky.
 
 Note: personally I would prefer a single unified stream of comments & mentions, rather than Leaflet's two separate streams, but it's possible that there are good reasons for Leaflet's approach.
 
 ### Subscribing and Discussing
 
-In many ways this reminds me a little of early integration between the Medium blogging platform and Twitter. However, that was one app choosing to inter-operate with another, and it only lasted a year or two. When that feature was removed there was absolutely nothing any user could do about it. 
+In many ways this reminds me a little of early integration between the Medium blogging platform and Twitter. However, that was one app choosing to inter-operate with another, and it only lasted a year or two. 
 
-If something like that was to happen on any Atmosphere app, on the other hand, someone could simply create another app with the feature they like, as it would be able to work with all of the content. The inter-operability is guaranteed by the protocol. 
+With Leaflet and Bluesky, on the other hand, the inter-operability is guaranteed by the protocol. Which is why anyone with a DID can subscribe to any Leaflet publication, and *any **other** app can see that subscription*. 
 
-> The inter-operability is guaranteed by the protocol. 
-
-This is why anyone with a DID can subscribe to any Leaflet publication, and *any **other** app can see that subscription*, which enables all standard.site apps to do all sorts of interesting things, for example:
+This enables all standard.site apps to do all sorts of interesting things, for example:
 
 * the dedicated [**Leaflet reader**](https://leaflet.pub/reader) not only shows you posts from Leaflet publications you subscribe to but also from anything you subscribe to on [pckt.blog](https://pckt.blog/read), *another* standard.site app
 * the [**Leaflet Reader Bluesky custom feed**](https://bsky.app/profile/did:plc:btxrwcaeyodrap5mnjw2fvmz/feed/subscribedPublications) means you can keep up with your standard.site subscriptions via *any* Bluesky app (Bluesky, Blacksky, Anisota, Deck.Blue...)
@@ -68,50 +63,32 @@ As far as I can see, your audience we'll be able to:
 
 * comment on the event item after logging in with their DID 
 * share selections from the page to their Bluesky audiences without having to log in at all
-* discover all comments and Bluesky conversations from the event item
-* subscribe to only those event items that interest them, so you're not flooding your users' inboxes with every notification from across the entire event programme
+* discover all the comments and Bluesky conversations from the event item
+* subscribe to only those event items that interest them, spo you're not flooding your users' inboxes with every notification from across the entire event programme
 * follow those conversations, and be alerted to new posts, using their Bluesky app, or their Leaflet reader, or even a dedicated app you embed on your site and/or provide for their phones.
 
 ### A simpler CMS
 
-**And you don't have to build much yourself.**
+**And you don't have to build any of this yourself.**
 
-Despite offering additional features I've never seen on an event co-creation website, the actual CMS becomes pretty simple, because you're farming out most of the interactive features to the Atmosphere. But you will need:
-
-* a CMS which can publish using standard.site 
-* a labeller: a lightweight ATProto service that attaches signed status labels to event items. 
-
-**The labeller is the key change between this and the previous version of this post.** The previous approach reflected the CMS-oriented paradigm I picked up from building websites for over 30 years, and involved storing submitted proposals in the website CMS, pushing them to the user's PDS only when organisers promoted it to provisional status. 
-
-But this is incompatible with the core ATProtocol principle of content sovereignty, so instead we put the event items onto the proposer's PDS from the outset. What changes is the label attached to it by the Jury, with the event website's CMS reading that label to decide what to display, where and to whom.
-
-The following diagram shows how an event item in your website's provisional programme is created, labelled and published using standard.site and an event labeller:
-
-![[event-cocreation-stdsite-v4.png]]
-
-It shows user account creation and event item submission workflows:
-
-* a user joins the community, becoming **Member 1** (*top left*). If s/he has a DID (or opts in for getting one)
-	* the DID's included in their public profile and the site CMS
-	* s/he is given a label, so that anyone subscribing to the Labeller knows that she is a member of this community
-* Member 1 uses a site form to **propose an event item** (*top centre*): the content is published *on Member 1's PDS* as an event item with the label "**`event/proposed`**". Note: 
-	* the website does not show this content to anyone, although it is all publicly visible via the user's PDS. 
-	* the Organising Jury, on the other hand, *can* view this content via a dedicated CMS page which allows them to change the label.
-* The Organisers' Jury assesses Member 1's proposal, likes it, and changes the item's label: to "**`event/provisional`**",  making the event item visible to anonymous website visitors (*centre*).
-
-Some final notes (not shown in image):
-
-* Rejected proposals simply have their label negated, removing them from all public views without deleting content from the proposer's PDS.
-* Any edit of an event item (it is, after all, on their PDS) can be used to trigger a Jury review using something called a strong reference.
+Despite offering additional features I've never seen on an event co-creation website, the actual CMS becomes pretty simple, because you're farming out most of the interactive features to the Atmosphere.
 ### Better reach
 
 **Moreover, you're also getting a huge reach bonus.**
 
-The following diagram shows what can happen next, now that the event item is visible on the site in the events Provisional programme:
+The following diagram shows how an event item in your website's provisional programme is created and published using standard.site, and connected to users across the Atmosphere:
 
-![[event-cocreation-leaflet-reach-v4.png]]
+![[event-cocreation-leaflet-v3.png]]
 
-Under "REACH" (*bottom-right*):
+It shows a lot, so let's start with the account creation and event item submission workflow:
+
+* a user joins the community, becoming **Member 1** (top left). If s/he has a DID (or opts in for getting one)
+	* the DID's included in their public profile and the site CMS
+	*  s/he is auto-added to the event's custom feed (another opt in, [as set out in Berlin](https://mathewlowry.medium.com/how-newsrooms-scientific-institutions-governments-can-best-use-bluesky-ee97d840a058)), and so can reach the custom feed's audience by including the right hashtag (left)
+* Member 1 **proposes an event item** (top centre): for now, this proposal is only accessible to Organisers via the CMS. 
+* The Organisers' Jury assesses it, likes it, and changes the item's status to Provisional, making the event item visible to anonymous website visitors (centre).
+
+And that gives the event item REACH (bottom-right):
 
 * the event item appears in standard.site indexers, and event subscribers' feeds on across both standard.site *and* Bluesky apps
 * an automatic Bluesky post is published to Member 1's followers (if s/he opted in); this also appears in the event's Bluesky custom feed, reaching that audience
@@ -120,7 +97,6 @@ Under "REACH" (*bottom-right*):
 	* in the event's Bluesky custom feed (unless they manually delete the automatically placed hashtag).
 * community Member 2 **comments** on the event item. If they have a DID, they can opt to auto-share that comment to their Bluesky followers; this post also appears in the the event's custom feed.
 
-"REACH" also appears *left*: because Member 1 is labelled as a community member, any Bluesky post from her (if s/he opts in, [as explored in Berlin](https://mathewlowry.medium.com/how-newsrooms-scientific-institutions-governments-can-best-use-bluesky-ee97d840a058)) including the event hashtag also appears in the event's custom feed.
 
 **Up to:** [[Co-creating your physical event with your online community|Event co-creation on the Atmosphere]]
 
@@ -131,8 +107,8 @@ Under "REACH" (*bottom-right*):
 This is one of this wiki's pages managed with the **permanent versions pattern** described in  [Two wiki authors and a blogger walk into a bar…](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e)  
 
 - changes in this version: (2026-02-21)
-	- added labeller, thanks to [Emelia](https://bsky.app/profile/thisismissem.social) 
+	- created as I split v2 of the main post into 4 interlined files
 - version control
-    - this is version: 2
+    - this is version: 1
     - this is the current version: [[Event co-creation using Leaflet]]
-    - here is the previous version: [[Event co-creation using Leaflet 1]]
+    - here is the previous version: n/a

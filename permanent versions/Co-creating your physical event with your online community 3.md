@@ -3,7 +3,7 @@
 
 **Exploring what the ATmosphere offers event co-creation, focusing on what [standard.site](https://standard.site/) offers.**
 
-*(Notes: This is version 4 of this post. As [explained here,](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e) I sometimes publish multiple, evolving versions of "experimental" posts in the hope that constructive comments will help me develop them further. More details and version control in the footer.)*
+*(Notes: This is version 3 of this post. As [explained here,](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e) I sometimes publish evolving versions of posts on this wiki in the hope that constructive comments will help me develop them further. More details and version control in the footer.)*
 
 I built the very first online community of practice for the European Commission in 2002 (and [blogged about it in 2009](https://myhub.ai/items/building-communities-with-event-in-a-box)). I discovered, almost by accident, that **online event co-creation** helps you leverage your event to boost your online community, and use your online community to run a more successful event.
 
@@ -15,7 +15,7 @@ But the situation is now changing, as I argued last November in Berlin: the ATPr
 
 Where my Berlin presentation focused on magnifying online communities with custom feeds, however, I now want to explore what the ATmosphere can contribute to event co-creation. Specifically, I'm looking at [standard.site](https://standard.site/) - an emerging longform publishing ATProtocol lexicon - and (in this version) through the lens of [Leaflet](https://leaflet.pub/), one of the main implementations. Other standard.site implementations may be explored in future versions.
 
-I'm also running a "light" event co-creation experiment for [atproto.science 2026](https://atproto.science/events/atmosphere2026/) - a side event to AtmosphereConf2026 - at the end of March, although mainly so I could get my head around Leaflet, and by extension standard.site.
+To ground this exploration, I'm running an experiment for [atproto.science 2026](https://atproto.science/events/atmosphere2026/) - a side event to AtmosphereConf2026 - at the end of March.
 
 ## What is Event Co-creation?
 
@@ -71,12 +71,10 @@ Steve shows how flexible and extensible the basic standard.site architecture is 
 
 Yes, although in Vancouver I look forward to hearing a lot more about [permissioned data](https://myhub.ai/@mathewlowry/?tags=permissioned+data), which should unlock massive new opportunities for communities within the Atmosphere.
 
-In the previous version of this post, I assumed that *submitted* event items must be stored only in the website CMS, where the event jury can see them. When they give one provisional status, it would be pushed to the users' PDS and published from there onto the website for the community to discuss.
+For this version of this post, however, I'm operating on the assumption that *submitted* event items must be stored only in the website CMS. When they have been given provisional status by the Organisers, however:
 
-It was [Emelia](https://bsky.app/profile/thisismissem.social) who suggested a far cleaner approach: 
-
-* the event website runs a **labeller** — a lightweight ATProto service — that publishes status changes as protocol-level labels attached to each event item. 
-* the website displays only event items with provisional or approved labels.
+* they are displayed to anonymous website users
+* standard.site records are pushed to the users' PDS to put the event item onto the Atmosphere.
 
 ## Benefits: better reach with a simpler website 
 
@@ -84,9 +82,9 @@ It was [Emelia](https://bsky.app/profile/thisismissem.social) who suggested a fa
 
 Sub-pages covering other implementations will follow if/when I find the time, but for now check out [[Event co-creation using Leaflet]] to better understand this image:
 
-![[event-cocreation-leaflet-reach-v4.png]]
+![[event-cocreation-leaflet-v3.png]]
 
-Briefly, the above image shows how an event item in your website's provisional programme is created, labelled and published using standard.site, and connected to users across the Atmosphere via:
+Briefly, the above image shows how an event item in your website's provisional programme is created and published using standard.site, and connected to users across the Atmosphere via:
 
 - multiple standard.site and Bluesky apps
 - the social graph of the event items' original author 
@@ -101,9 +99,9 @@ So getting better reach for the conversations on your website becomes easier whi
 
 ## First tests
 
-To ground this exploration, I'm running an experiment for [ATProto.science 2026](https://atproto.science/events/atmosphere2026/) (Vancouver, March 2026), testing whether Leaflet and Bluesky can support pre-event conversations about the programme. [Ariel Lighty](https://www.linkedin.com/in/ariel-lighty/) and I have published the successful proposals as Leaflet subpages, and speakers are now invited to flesh out their ideas and provoke conversations using leaflet's features.
+To ground this exploration, I'm running an experiment for [ATProto.science 2026](https://atproto2026.leaflet.pub/3mevfbw7r522w) (Vancouver, March 2026), testing whether Leaflet and Bluesky can support pre-event conversations about the programme. With help from [Ariel Lighty](https://www.linkedin.com/in/ariel-lighty/), we've published the successful proposals as Leaflet subpages, and will invite speakers to flesh out their ideas and provoke conversations.
 
-Limitations are already clear - notably around notification routing and cross-platform mentions - but even minimal interaction will teach me how Leaflet and standard.site work in practice, directly relevant to my workshop: **Your research institution in the Atmosphere**.
+Limitations are already clear - notably around notification routing and cross-platform mentions - but even minimal interaction will teach me how Leaflet and standard.site work in practice, directly relevant to my workshop: [Coopetition in the ATmosphere](https://leaflet.pub/7c7be6b7-1dbc-4aae-8f32-f5314aa99f90?page=019c60e7-6d9d-7773-a1b3-6521afff8f21).
 
 **→ Dig deeper:** [[Exploring event co-creation at atroto.science 2026]]
 
@@ -115,8 +113,8 @@ Limitations are already clear - notably around notification routing and cross-pl
 This is one of this wiki's pages managed with the **permanent versions pattern** described in  [Two wiki authors and a blogger walk into a bar…](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e)  
 
 - changes in this version: (2026-02-21)
-	- 
+	- Assisted by Claude Code (see [[v3 revision notes]]), I took the very long version 2 (below) and split it into four files
 - version control
-    - this is version: 4
+    - this is version: 3
     - this is the current version: [[Co-creating your physical event with your online community]]
-    - here is the previous version: [[Co-creating your physical event with your online community 3]]
+    - here is the previous version: [[Co-creating your physical event with your online community 2]]

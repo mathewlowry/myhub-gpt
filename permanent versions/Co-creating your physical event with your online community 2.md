@@ -176,7 +176,7 @@ In Vancouver I look forward to hearing about the development of [permissioned da
 
 The following diagram shows this, and then what can happen by connecting the discussion about the event item with the Atmosphere:
 
-![[event-cocreation-leflet.png]]
+![[event-cocreation-leaflet-v3.png]]
 
 It shows:
 
@@ -233,4 +233,4 @@ This is one of this wiki's pages managed with the **permanent versions pattern**
 - version control
     - this is version: 2
     - this is the current version: [[Co-creating your physical event with your online community]]
-    - here is the previous version: [[Co-creating your physical event with your online community 1]]
+    - here is the previous version: [[Co-creating your physical event with your online community 3]]
