@@ -81,22 +81,21 @@ Despite offering additional features I've never seen on an event co-creation web
 * a CMS which can publish using standard.site 
 * a labeller: a lightweight ATProto service that attaches signed status labels to event items. 
 
-**The labeller is the key change between this and the previous version of this post.** The previous approach reflected the CMS-oriented paradigm I picked up from building websites for over 30 years, and involved storing submitted proposals in the website CMS, pushing them to the user's PDS only when organisers promoted it to provisional status. 
+**The labeller is the key change between this and the previous version of this post.** That previous approach, reflected over 30 years' experience in building increasingly complex websites with increasingly powerful CMSs, involved first storing Submitted proposals in the CMS, and pushing them to the user's PDS only when organisers gave it Provisional status. 
 
-But this is incompatible with the core ATProtocol principle of content sovereignty, so instead we put the event items onto the proposer's PDS from the outset. What changes is the label attached to it by the Jury, with the event website's CMS reading that label to decide what to display, where and to whom.
+But this is incompatible with the core ATProtocol principle of content sovereignty, so now we put the event items onto the proposer's PDS from the outset. What changes is the label attached to it by the Jury, with the event website's CMS reading that label to decide what to display, where and to whom.
 
 The following diagram shows how an event item in your website's provisional programme is created, labelled and published using standard.site and an event labeller:
 
 ![[event-cocreation-stdsite-v4.png]]
-
 It shows user account creation and event item submission workflows:
 
 * a user joins the community, becoming **Member 1** (*top left*). If s/he already has a DID, or opts in for getting one:
 	* the DID is included in their public profile and the site CMS
 	* s/he is given a label, so that anyone subscribing to the Labeller knows that she is a member of this community (the label is also used in the custom feed, below)
-* Member 1 uses a site form (*top*) to **propose an event item**: a record is created in the CMS, but the content itself is published on Member 1's PDS (*centre*) as an event item with the label "**`event/proposed`**". Note: 
-	* the website does not show this content to anyone, although it is all publicly visible via the user's PDS. 
-	* the Organising Jury *can* view this content via a dedicated CMS-driven page which allows them to change the label
+* Member 1 uses a site form to **propose an event item**: a record is created in the CMS, but the content itself is published on Member 1's PDS (*centre*) as an event item with the label "**`event/proposed`**". Note: 
+	* the website does not show this content to anyone, although it is accessible visible on the user's PDS
+	* the Organising Jury *can* view this content via a dedicated CMS-driven page which allows them to change the label (*top right*)
 * The Organisers' Jury assesses Member 1's proposal, likes it, and changes the item's label: to "**`event/provisional`**". This makes the event item appear in the Provisional programme, visible to anonymous website visitors (*bottom right*).
 
 Some final notes (not shown in image):
@@ -111,7 +110,7 @@ The following diagram shows what can happen next, now that the event item is vis
 
 ![[event-cocreation-leaflet-reach-v4.png]]
 
-Under "REACH" (*bottom-right*):
+Under "Atmospheric Reach" (*right*):
 
 * as soon as the event item appears in in the Provisional programme:
 	* it also appears in standard.site indexers, as well as event subscribers' feeds on across both standard.site *and* Bluesky apps
@@ -124,7 +123,7 @@ Under "REACH" (*bottom-right*):
 	* if they have a DID, they can opt to auto-share that comment to their Bluesky followers; 
 	* this post *also* appears in the event's custom feed.
 
-There's a bit "REACH" to the *left*: because Members are labelled as community members, any of their Bluesky posts appear in the event's custom feed if they *also* includes the event hashtag (and the member opted in).
+There's a bit more Atmospheric Reach to the *left*: because Members are labelled as community members, any of their Bluesky posts appear in the event's custom feed if they *also* includes the event hashtag (and the member opted in).
 
 **Up to:** [[Co-creating your physical event with your online community|Event co-creation on the Atmosphere]]
 

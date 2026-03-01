@@ -1,7 +1,7 @@
-![[event-cocreation-leaflet-reach-v3.png]]
+![[focus-reach-v4.png]]
 # Event co-creation on the Atmosphere
 
-**Exploring what the ATmosphere offers event co-creation, focusing on what [standard.site](https://standard.site/) offers.**
+**Integrating your event co-creation community with the Atmosphere brings you increased engagement and improved reach with a substantially simpler website.**
 
 *(Notes: This is version 4 of this post. As [explained here,](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e) I sometimes publish multiple, evolving versions of "experimental" posts in the hope that constructive comments will help me develop them further. More details and version control in the footer.)*
 
@@ -38,11 +38,11 @@ As set out in the following sub page, this approach can work extremely well - fo
 
 ## Into the Atmosphere: key challenges
 
-**Simplify your CMS *and* amplify community engagement *and* content visibility?** 
+**How to simplify your CMS *and* amplify community engagement *and* content visibility.** 
 
 I've built websites with event co-creation several times since 2002. Each time, all of the interactivity was built into the website's content management system, which was as a result pretty complex.
 
-Today I'm exploring if and how the website could integrate ATProto to both simplify the CMS and integrate event co-creation into the global social media conversation, amplifying engagement. And that means meeting two challenges.
+Today I'm exploring how integrating ATProto could both simplify the CMS and integrate your community activity into the global social media conversation on the Atmosphere, amplifying engagement and reach. It means meeting three challenges.
 ### Identity Crisis?
 
 **What about users who don't have a ATProto identity?**
@@ -64,44 +64,41 @@ This is therefore best for organisations who have decided to integrate ATproto i
 
 Moreover, you *won't* need to publish every single page of your website onto the Atmosphere - you simply decide which content is published using an ATproto lexicon.
 
-That sounds challenging, until you realise that the technology already exists and is in use on multiple sites: **standard.site**. As a developer who discovered it less than 2 weeks before writing this put it:
+That sounds challenging, until you realise that the technology already exists and is in widespread use: **standard.site**. As Steve Dylan put it:
 
 > "Within a week, my site had actually turned ATProto into a CMS. I could make posts, update them, or delete them, and all the while these updates are broadcasted to a network that anyone could index" - [Standard.site: the Publishing Gateway](https://stevedylan.dev/posts/standard-site-the-publishing-gateway/) (Steve Dylan)
 
-Steve shows how flexible and extensible the basic standard.site architecture is by adding a new lexicon for comments. Other developers have done something similar (eg [First thoughts on integrating with standard.site](https://isaaccorbrey.com/ramblings/first-thoughts-on-integrating-with-standard-site)).
-
+Steve shows how flexible and extensible the basic standard.site architecture is by adding a new lexicon for comments. Other developers have done something similar (eg [First thoughts on integrating with standard.site](https://isaaccorbrey.com/ramblings/first-thoughts-on-integrating-with-standard-site), # Isaac Corbrey).
 ### Handling Public Data
 
 **But isn't everything on the Atmosphere public?**
 
-Yes, although in Vancouver I look forward to hearing a lot more about [permissioned data](https://myhub.ai/@mathewlowry/?tags=permissioned+data), which should unlock massive new opportunities for communities within the Atmosphere.
+Yes, although in Vancouver I look forward to hearing a lot more about [permissioned data](https://myhub.ai/@mathewlowry/?tags=permissioned+data), which should unlock massive new opportunities for communities within the Atmosphere. But is it needed?
 
-In the previous version of this post, I assumed that *submitted* event items must be stored only in the website CMS, where the event jury can see them. When they give one provisional status, it would be pushed to the users' PDS and published from there onto the website for the community to discuss.
+In the previous version of this post, I assumed that *submitted* event items must be stored only in the website CMS, where only the event jury can see them. When they give an event item provisional or final status, it would then be pushed to the users' PDS and published from there onto the website for the community to discuss.
 
-It was [Emelia](https://bsky.app/profile/thisismissem.social) who suggested a far cleaner approach: 
-
-* the event website runs a **labeller** — a lightweight ATProto service — that publishes status changes as protocol-level labels attached to each event item. 
-* the website displays only event items with provisional or approved labels.
+It was [Emelia](https://bsky.app/profile/thisismissem.social) who suggested a far cleaner approach, with all event items stored on the users' PDSs, a labeller used to manage the status
+of the event items, and the website CMS displaying only event items with provisional or approved labels to website visitors.
 
 In fact, according to Emelia, a CMS is really not needed at all: event co-creation could simply be supported purely by an Atmosphere app. But event co-creation is best embedded within a much larger community strategy, and besides I have to leave something for version 5 of this post ;)
-## Benefits: better reach with a simpler website 
+## Results: better reach & engagement with a simpler website 
 
-**In this version of this post, I've only explored how this could look using the features offered by the [leaflet.pub ](http://leaflet.pub/)implementation of standard.site. They are considerable.** 
-
-Sub-pages covering other implementations will follow if/when I find the time, but for now check out [[Event co-creation using Leaflet]] to better understand this image:
+In this version of this post, I've only explored how this could look using the features offered by the [leaflet.pub ](http://leaflet.pub/)implementation of standard.site. Sub-pages covering other implementations will follow if/when I find the time, but for now check out [[Event co-creation using Leaflet]] to better understand this image:
 
 ![[event-cocreation-leaflet-reach-v4.png]]
 
-Briefly, the above image shows how an event item in your website's provisional programme is created, labelled and published using standard.site, and connected to users across the Atmosphere via:
+Briefly, the above image shows:
 
-- multiple standard.site and Bluesky apps
-- the social graph of the event items' original author 
-- the social graph of anyone who comments on it on the website, or shares it to Bluesky
-- the event's custom feed.
+* (*centre*) how an event item in your website's provisional programme is created, labelled and published using a CMS, standard.site, your users' PDSs and a labeller. 
+* (*left* and *right*) how the event item is connected to users across the Atmosphere via:
+	- multiple standard.site and Bluesky apps
+	- the social graph of the event items' original author 
+	- the social graph of anyone who comments on it on the website, or shares it to Bluesky
+	- the event's custom feed(s).
 
-Moreover, your audience can easily subscribe to only those event items that interest them, following them via either Bluesky or any standard.site app.
+This improved "Atmospheric Reach" is despite the fact that your website has become massively simpler than typical event co-creation websites, because you're farming out most of the interactive features to the Atmosphere.
 
-So getting better reach for the conversations on your website becomes easier while your website itself becomes massively simpler. All because you're farming out most of the interactive features to the Atmosphere.
+Your audience, for example, can easily subscribe to only those event items that interest them, following them via either Bluesky or any standard.site app, without you having to build sophisticated site- and email-based notification systems. And the site-based commenting system is now purely optional.
 
 **→ Dig deeper:** [[Event co-creation using Leaflet]].
 
