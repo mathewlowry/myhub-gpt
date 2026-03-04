@@ -10,13 +10,13 @@ tags:
 
 # Powerful communities from simple ATmosphere sites
 
-**Integrating ATProtocol with your website:
+**Integrating ATProtocol with your website:**
 
 * **lets you build powerful, interactive online communities with very simple code** 
 * **while giving you in-built reach to 40+m users across the Atmosphere** 
 * **and allowing your members to own and manage their own data.** 
 
-It's a triple-win, it sounds too good to be true, but it just might be the future.
+This triple-win may sound too good to be true, but might just be the future.
 
 *(Note: This is an early draft. As explained in [this newsletter edition](https://mathewlowry.medium.com/exploring-ai4communities-newsletter-6365b2716bb1), I publish versions of certain posts as I develop my thoughts. More version control in the footer.)*
 
