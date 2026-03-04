@@ -17,7 +17,7 @@ tags:
 
 It's a triple-win, it sounds too good to be true, but it just might be the future.
 
-*(Note: This is an early draft. As explained in [this newsletter edition](https://mathewlowry.medium.com/exploring-ai4communities-newsletter-6365b2716bb1), I am publishing these early versions as I develop my thoughts in the hope that constructive comments will help me finish the post. More version control in the footer.)*
+*(Note: This is an early draft. As explained in [this newsletter edition](https://mathewlowry.medium.com/exploring-ai4communities-newsletter-6365b2716bb1), I publish versions of certain posts as I develop my thoughts. More version control in the footer.)*
 
 ## Problem statement
 
