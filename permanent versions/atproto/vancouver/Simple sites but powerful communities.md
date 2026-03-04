@@ -11,6 +11,7 @@ tags:
 # Powerful communities from simple ATmosphere sites
 
 **Integrating ATProtocol with your website:
+
 * **lets you build powerful, interactive online communities with very simple code** 
 * **while giving you in-built reach to 40+m users across the Atmosphere** 
 * **and allowing your members to own and manage their own data.** 
@@ -69,7 +70,8 @@ Because Leaflet is deeply integrated into Bluesky, the features and reach genera
 
 ![[https://experiments.myhub.ai/permanent_versions/focus-reach-v4.png]]
 
-Not shown: members can 
+Not shown: members can:
+
 * comment on the workshop idea without you building a commenting systems
 * discover all Bluesky conversations without you needing a tracking system
 - subscribe to only those event items and conversations that interest them without you buiding a notification system or enewsletter.
@@ -98,5 +100,5 @@ This is one of this wiki's pages managed with the **permanent versions pattern**
 	- none, as this is the first 
 - version control
     - this is version: 1
-    - this is the current version: [[Simple sites powerful communities - the ATmosphere pattern]]
+    - this is the current version: [[Simple sites but powerful communities]]
     - here is the previous version: n/a
