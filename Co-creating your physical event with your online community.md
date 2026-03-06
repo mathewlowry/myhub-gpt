@@ -3,7 +3,7 @@
 
 **Integrating your event co-creation community with the Atmosphere brings you increased engagement and improved reach with a substantially simpler website.**
 
-*(Notes: This is version 4 of this post. As [explained here,](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e) I sometimes publish multiple, evolving versions of "experimental" posts in the hope that constructive comments will help me develop them further. More details and version control in the footer.)*
+*(Notes: This is version 4 of this post; more details and version control in the footer. I generalised the lessons I developed here in [[Simple sites but powerful communities]])*
 
 I built the very first online community of practice for the European Commission in 2002 (and [blogged about it in 2009](https://myhub.ai/items/building-communities-with-event-in-a-box)). I discovered, almost by accident, that **online event co-creation** helps you leverage your event to boost your online community, and use your online community to run a more successful event.
 
