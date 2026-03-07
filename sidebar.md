@@ -13,9 +13,9 @@ Instead of bullet lists, use plain lines, with two space characters added to the
 [[README]]
 ## Atmosphere
 
-[[Simple sites but powerful communities|Powerful communities, simple sites]]
-[[Co-creating your physical event with your online community|Event co-creation use case]]
-[[MyHub on the ATmosphere]]
+[[Simple sites but powerful communities|Powerful communities, simple sites]]  
+[[Co-creating your physical event with your online community|Event co-creation use case]]  
+[[MyHub on the ATmosphere]]  
 [[intro to atproto]]  
 
 ## AI/MyHub experiments
