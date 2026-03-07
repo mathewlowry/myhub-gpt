@@ -24,16 +24,11 @@ Instead of bullet lists, use plain lines, with two space characters added to the
 [[experimental methods]]  
 [[agent prompts and gpts]]  
 [[summarisers in summary]]  
-[[Ideas log]]   
-## About
+[[Ideas log]]     
+## General 
 
 [[about this massive wiki]]  
-MyHub.ai / ChatGPT integration:
- - [[pilot MyHub ChatGPT integration|today's pilot]]   
- - [[LLM integration plans]]  
-  
 [About me / Contact](https://myhub.ai/@mathewlowry/about/)   
-## General Navigation
 
  <! **-- [Search](/search.html) -->
 [All Pages](/all-pages.html)  
