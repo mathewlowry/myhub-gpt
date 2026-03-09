@@ -36,5 +36,5 @@ This is one of this wiki's pages managed with the **permanent versions pattern**
 	- none
 - version control
     - this is version: 1, knocked together and reposted to LinkedIn as an experiment to see whether LinkedIn's articles do better than posts.
-    - this is the current version: [[Coopetition in the ATmosphere]]
+    - this is the current version: [[Your research institution in the Atmosphere]]
     - here is the previous version: n/a

@@ -41,13 +41,13 @@ Last year I realised that I may be able to rebuild MyHub.ai by combining compone
 
 The above *"reading/thinking/writing/publishing stack"* is built from multiple components, upon which various teams are already working for their own purposes:
 
-| Relevant Component    | What It Does                                                                   | Being developed by (among others)                      |
-| --------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------ |
-| **Inbox**             | Present potentially interesting content                                        | [Sill.social](https://sill.social/)                    |
-| **Thinking Tool**     | Permissioned data with community boundaries                                    | [NorthSky](https://northskysocial.com/)                |
-| **Thinking Tool**     | push local files to PDS, providing credible exit from myhub thinking tool      | [grjte](https://bsky.app/profile/grjte.sh)             |
-| **Thinking Tool**     | Obsidian-AT Protocol integration with bookmarking and standard.site publishing | [treethought.xyz](https://tangled.org/treethought.xyz) |
-| **Publishing Engine** | Publish Hubs and other site types to web via PDS                               | [standard.site](https://standard.site/)                |
+| Relevant Component    | What It Does                                                                   | Being developed by (among others)                      |     |
+| --------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------ | --- |
+| **Inbox**             | Present potentially interesting content                                        | [Sill.social](https://sill.social/)                    |     |
+| **Thinking Tool**     | Permissioned data with community boundaries                                    | [NorthSky](https://northskysocial.com/)                |     |
+| **Thinking Tool**     | push local files to PDS, providing credible exit from myhub thinking tool      | [grjte](https://bsky.app/profile/grjte.sh)             |     |
+| **Thinking Tool**     | Obsidian-AT Protocol integration with bookmarking and standard.site publishing | [treethought.xyz](https://tangled.org/treethought.xyz) |     |
+| **Publishing Engine** | Publish Hubs and other site types to web via PDS                               | [standard.site](https://standard.site/)                |     |
 
 (This table is incomplete - I would hope to add more before and after Vancouver.)
 
@@ -79,5 +79,5 @@ This is one of this wiki's pages managed with the **permanent versions pattern**
 	- developed, add links, shortened
 - version control
     - this is version: 2
-    - this is the current version: [[Coopetition in the ATmosphere]]
+    - this is the current version: [[Your research institution in the Atmosphere]]
     - here is the previous version: [[Coopetition in the ATmosphere 1]]

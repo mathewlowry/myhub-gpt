@@ -50,5 +50,5 @@ This is one of this wiki's pages managed with the **permanent versions pattern**
 	- fleshed out some detail, added other excellent recent relevant posts
 - version control
     - this is version: 2 
-    - this is the current version: [[Coopetition in the ATmosphere]]
+    - this is the current version: [[Your research institution in the Atmosphere]]
     - here is the previous version: [[There is no do everything app 1]]
