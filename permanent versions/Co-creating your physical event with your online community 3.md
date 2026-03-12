@@ -103,7 +103,7 @@ To ground this exploration, I'm running an experiment for [ATProto.science 2026]
 
 Limitations are already clear - notably around notification routing and cross-platform mentions - but even minimal interaction will teach me how Leaflet and standard.site work in practice, directly relevant to my workshop: [Coopetition in the ATmosphere](https://leaflet.pub/7c7be6b7-1dbc-4aae-8f32-f5314aa99f90?page=019c60e7-6d9d-7773-a1b3-6521afff8f21).
 
-**→ Dig deeper:** [[Exploring event co-creation at atroto.science 2026]]
+**→ Dig deeper:** [[Exploring event co-creation at atproto.science 2026]]
 
 
 ---

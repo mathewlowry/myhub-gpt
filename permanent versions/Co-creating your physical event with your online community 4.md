@@ -3,7 +3,7 @@
 
 **Integrating your event co-creation community with the Atmosphere brings you increased engagement and improved reach with a substantially simpler website.**
 
-*(Notes: This is version 5 of this post; more details and version control in the footer. I generalised the lessons I developed here in [[Simple sites but powerful communities]])*
+*(Notes: This is version 4 of this post; more details and version control in the footer. I generalised the lessons I developed here in [[Simple sites but powerful communities]])*
 
 I built the very first online community of practice for the European Commission in 2002 (and [blogged about it in 2009](https://myhub.ai/items/building-communities-with-event-in-a-box)). I discovered, almost by accident, that **online event co-creation** helps you leverage your event to boost your online community, and use your online community to run a more successful event.
 
@@ -104,32 +104,11 @@ Your audience, for example, can easily subscribe to only those event items that 
 
 ## First tests
 
-I'm running an experiment for [ATProto.science 2026](https://atproto.science/events/atmosphere2026/) (Vancouver, March 2026), testing whether Leaflet and Bluesky can support pre-event conversations about the programme. [Ariel Lighty](https://www.linkedin.com/in/ariel-lighty/) and I have published the successful proposals as Leaflet subpages, and speakers are now invited to flesh out their ideas and provoke conversations using leaflet's features.
+To ground this exploration, I'm running an experiment for [ATProto.science 2026](https://atproto.science/events/atmosphere2026/) (Vancouver, March 2026), testing whether Leaflet and Bluesky can support pre-event conversations about the programme. [Ariel Lighty](https://www.linkedin.com/in/ariel-lighty/) and I have published the successful proposals as Leaflet subpages, and speakers are now invited to flesh out their ideas and provoke conversations using leaflet's features.
 
-Limitations are already clear - notably around notification routing and cross-platform mentions - but even minimal interaction will teach me how Leaflet and standard.site work in practice, which should be useful for my workshop: **[Your research institution in the Atmosphere](https://atscience.leaflet.pub/3mfz526irfs2y/l-quote/019ca0e7-89cc-7dd5-a093-b7415af8cd28~4_0-4_113#019ca0e7-89cc-7dd5-a093-b7415af8cd28~4_0)**.
+Limitations are already clear - notably around notification routing and cross-platform mentions - but even minimal interaction will teach me how Leaflet and standard.site work in practice, directly relevant to my workshop: **Your research institution in the Atmosphere**.
 
 **→ Dig deeper:** [[Exploring event co-creation at atproto.science 2026]]
-
-## Last thoughts, next ideas
-
-**Typically, while I was exploring the above ideas in theory, the team behind AtmosphereConf were implementing it in practise.**
-
-### Co-creating features
-
-For example: they implemented co-creation, but on the event website's *features*:
-
-> "We're happy to accept pull requests for design, features, integration with other atproto lexicons..." - [Contributing to the AtmosphereConf website](https://news.atmosphereconf.org/3mggmm2c3w22g)
-
-(*If you're a non-developer like me:* a "pull request" is something developers do probably multiple times every day using version control systems like [Git](https://git-scm.com/). It allows them to submit improvements to a site's functionality directly to the site code, which is hosted online ([here's AtmosphereConf's](https://github.com/ATProtocol-Community/atmosphereconf)). It's a *request* because the developer is submitting the upgrade - the person responsible for the site gets to decide whether they include it or not.) 
-### Content via Git?
-
-The same process also allows people to suggest changes to the site content. This opens intriguing possibilities to simplify the site code itself even further - it wouldn't need *any* of the Submit Content forms or workflows I described in [[Event co-creation using Leaflet]]. 
-
-On the other hand, community members *would* have to learn Git - something I've barely managed to do. So I guess the route you'd take depends on the nature of your conference.
-
-### Site login via atproto
-
-Finally you can log in to the website using your ATProto identity, allowing you to access additional website features, including browsing the profiles of all attendees and creating your own profile from your Bluesky bio- mine is https://atmosphereconf.org/profile/mathewlowry.eurosky.social. 
 
 
 ---
@@ -139,8 +118,8 @@ Finally you can log in to the website using your ATProto identity, allowing you 
 This is one of this wiki's pages managed with the **permanent versions pattern** described in  [Two wiki authors and a blogger walk into a bar…](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e)  
 
 - changes in this version: (2026-02-21)
-	- added "Last thoughts, next ideas"
+	- introduction of labeller
 - version control
-    - this is version: 5
+    - this is version: 4
     - this is the current version: [[Co-creating your physical event with your online community]]
-    - here is the previous version: [[Co-creating your physical event with your online community 4]]
+    - here is the previous version: [[Co-creating your physical event with your online community 3]]

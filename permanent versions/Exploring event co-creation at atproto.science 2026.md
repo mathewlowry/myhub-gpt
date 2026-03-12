@@ -1,4 +1,4 @@
-# Exploring event co-creation at atroto.science 2026
+# Exploring event co-creation at atproto.science 2026
 
 **Experimenting with event co-creation on the ATmosphere using [leaflet.pub](https://leaflet.pub/) in the lead-up to [ATProto.science 2026](https://atproto.science/events/atmosphere2026/) (Vancouver, March 2026).**
 
