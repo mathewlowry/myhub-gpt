@@ -1,8 +1,11 @@
 created 2026-03-18
 
-## 1-10 scale
-
+# atproto understanding scale
 **Where do you belong?**
+
+*Where do I belong?*
+
+## 1-10 scale
 
 *This is Claude output. I've added some thoughts in italics - ML*
 
