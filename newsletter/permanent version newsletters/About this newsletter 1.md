@@ -22,9 +22,9 @@ So if you'd like to accelerate that transition, please subscribe and share!
 
 This is one of this wiki's pages managed with the **permanent versions pattern** described in  [Two wiki authors and a blogger walk into a bar…](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e)  
 
-- changes in this version: (2026-02-21)
+- changes in this version: (2026-03-21)
 	- n/a 
 - version control
     - this is version: 1
-    - this is the current version: [[Permanent version template]]
+    - this is the current version: [[About this newsletter]]
     - here is the previous version: n/a
