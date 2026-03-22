@@ -1,4 +1,6 @@
 
+# About this newsletter
+
 *(Notes: This is version 1 of this post; more details and version control in the footer.)
 
 As I write this I'm preparing to fly to Vancouver for AtmosphereConf 2026. It just doesn't seem right that I [run a workshop at the atproto.science event](https://atscience.leaflet.pub/3mfz526irfs2y/l-quote/019ca0e7-89cc-7dd5-a093-83968184e2bf~0_0-0_43#019ca0e7-89cc-7dd5-a093-83968184e2bf~0_0), whilst only publishing longform content using sites (my [experimental wiki](https://experiments.myhub.ai/), [my hub](https://myhub.ai/@mathewlowry/), [Medium](https://medium.com/@mathewlowry), [LinkedIn](https://www.linkedin.com/in/mathewlowry/), [Mailchimp](https://myhub.ai/@mathewlowry/about/#contact)) which are not on the Atmosphere, particularly as I played a reasonable role in putting [the entire ATProtocol Science agenda on leaflet](https://atscience.leaflet.pub/3mfz526irfs2y).

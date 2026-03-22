@@ -1,5 +1,7 @@
+# About this newsletter
 
-*(Notes: This is version 2 of this post; more details and version control in the footer.)
+
+*(Notes: This is version 2 of this post; more details and version control in the footer.)*
 
 As I write this I'm preparing to fly to Vancouver for AtmosphereConf 2026. It just doesn't seem right that I [run a workshop at the atproto.science event](https://atscience.leaflet.pub/3mfz526irfs2y/l-quote/019ca0e7-89cc-7dd5-a093-83968184e2bf~0_0-0_43#019ca0e7-89cc-7dd5-a093-83968184e2bf~0_0), whilst only publishing longform content using sites (my [experimental wiki](https://experiments.myhub.ai/), [my hub](https://myhub.ai/@mathewlowry/), [Medium](https://medium.com/@mathewlowry), [LinkedIn](https://www.linkedin.com/in/mathewlowry/), [Mailchimp](https://myhub.ai/@mathewlowry/about/#contact)) which are not on the Atmosphere, particularly as I played a reasonable role in putting [the entire ATProtocol Science agenda on leaflet](https://atscience.leaflet.pub/3mfz526irfs2y).
 
@@ -18,13 +20,14 @@ So I'm tweaking my online architecture just a little:
 
 So if you'd like to accelerate that transition, please subscribe and share! 
 
+
 ---
 
 ## Revision Notes
 
 This is one of this wiki's pages managed with the **permanent versions pattern** described in  [Two wiki authors and a blogger walk into a bar…](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e)  
 
-- changes in this version: (2026-02-21)
+- changes in this version: (2026-02-22)
 	- developed and described online architecture, having created my leaflet newsletter in the meantime
 - version control
     - this is version: 2
