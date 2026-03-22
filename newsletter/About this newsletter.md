@@ -16,7 +16,7 @@ So I'm tweaking my online architecture just a little:
 
 * Thinking in Obsidian, as before, and publishing to my experimental wiki. This will host the canonical version (often versioned), and will hopefully one day be published directly onto the Atmosphere via standard.site
 * As it is not currently, I'll repost it to [my leaflet](https://mathewlowry.leaflet.pub/), which is where people will be able to interact with it. I'll curate this version on my hub
-* I'll also repost the content via the other platforms from leaflet, asking followers & subscribers to get a DID and use it to subscribe and discuss, (if and) until I start seeing Leaflet subscribers. At that point I'll start transitioning my followers and subscribers on other platforms to here, using [the same techniques I originally developed for migrating away from X](https://myhub.ai/items/x-strategy-or-exit-strategy-a-cost-benefit-analysis-framework).
+* I'll also repost the content to the other platforms, pointing to the leaflet version and asking followers & subscribers to get a DID to use it to subscribe and discuss. If and when I start seeing Leaflet subscribers, I'll start transitioning those followers and subscribers to leaflet, using [the same techniques I originally developed for migrating away from X](https://myhub.ai/items/x-strategy-or-exit-strategy-a-cost-benefit-analysis-framework).
 
 So if you'd like to accelerate that transition, please subscribe and share! 
 
