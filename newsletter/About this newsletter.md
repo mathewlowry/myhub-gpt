@@ -18,7 +18,6 @@ So I'm tweaking my online architecture just a little:
 
 So if you'd like to accelerate that transition, please subscribe and share! 
 
-
 ---
 
 ## Revision Notes
