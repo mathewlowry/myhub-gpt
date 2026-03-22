@@ -233,4 +233,4 @@ This is one of this wiki's pages managed with the **permanent versions pattern**
 - version control
     - this is version: 2
     - this is the current version: [[Co-creating your physical event with your online community]]
-    - here is the previous version: [[Co-creating your physical event with your online community 3]]
+    - here is the previous version: [[Co-creating your physical event with your online community 1]]
