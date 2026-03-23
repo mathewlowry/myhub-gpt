@@ -6,14 +6,14 @@ modification date: 081 March 2026 15:07:25
 
 **The founders of Semble, one of the most interesting apps on the Atmosphere, are flying me to Vancouver this week for [ATmosphereConf 2026](https://ti.to/atmosphereconf/atmosphereconf2026).**   
   
-*(Notes: This is version 1 of this post; more details and version control in the footer. Subscribe and comment via [my leaflet version](https://mathewlowry.leaflet.pub/).)*
+*(Notes: This is version 1 of this post; more details and version control in the footer. Subscribe and comment via [my leaflet version](https://mathewlowry.leaflet.pub/3mhpmna56pk2b).)*
 
 They and the founders of three other apps will speak in my workshop, along with representatives of a couple of European Universities. But it's not what _I'm_ bringing to Vancouver which excites me the most.
 ## Your research institute on the Atmosphere
 
-As its title indicates, my workshop is part of the [ATProto.science day](https://atproto.science/) preceding the main conference. It will explore how Universities and other research organisations can bridge the:
+As its title indicates, my workshop is part of the [ATProto.science day](https://atproto.science/events/atmosphere2026/) preceding the main conference. It will explore how Universities and other research organisations can bridge the:
 
-> _"structural gap between institutional knowledge (formal, slow, siloed) and the personal knowledge networks (informal, fast, distributed) of their faculty and students. The Atmosphere can bridge this gap because both layers can speak the same protocol" - [Your research institution in the Atmosphere](https://atscience.leaflet.pub/3mfz526irfs2y/l-quote/019ca0e7-89cc-7dd5-a093-b7415af8cd28~4_0-4_113?page=019ca0e7-89cc-7dd5-a093-b7415af8cd28#your-research-institution-in-the-atmosphere)_
+> _"structural gap between institutional knowledge (formal, slow, siloed) and the personal knowledge networks (informal, fast, distributed) of their faculty and students. The Atmosphere can bridge this gap because both layers can speak the same protocol" - [Your research institution in the Atmosphere](https://atscience.leaflet.pub/3mfz526irfs2y/l-quote/019ca0e7-89cc-7dd5-a093-83968184e2bf~0_0-0_43#019ca0e7-89cc-7dd5-a093-83968184e2bf~0_0)_
 
 It's one of the event's last sessions, so I'm hoping to draw together ideas explored throughout the day to develop shared visions of how these institutions can create win-wins for themselves and the researchers working within them. So I'm very fortunate to have contributions from the founders of:
 
@@ -41,7 +41,7 @@ Inevitably, the weeks before the annual conference of this entire ecosystem have
 
 ## Three good explainers
 
-If you're still getting up to speed, you might enjoy:
+Talking of explainers - if you're still getting up to speed, you might enjoy:
 
 - [Share Where?](https://connectedplaces.online/reports/fr156-share-where/) Laurens Hof uses Mastodon's new Share button to explore protocol ownership, showing how "_The fediverse built its federation layer on an open standard, but left the client layer to be captured by its dominant provider"_. That dominant provider is Mastodon, and "_The more tools and integrations that get built on top ... the deeper the lock-in becomes._"
 - [Practical Decentralization](https://www.pfrazee.com/blog/practical-decentralization), where Bluesky CTO Paul Frazee clears up confusion surrounding Atproto, ActivityPub and Nostr. I particularly like how he introduces [Information Civics](https://github.com/pfrazee/infocivics), the practice of balancing ideological aims with the need to produce usable software: "_Good protocol design requires balancing the tensions of ideology and practicality."_
