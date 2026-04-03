@@ -33,7 +33,9 @@ The following video is a hastily thrown-together combination of:
 * a slidecast of the workshop's first, "scene-setter" presentation, which I shared with the other speakers *before* the event so they'd understand the framing ([0:40](https://youtu.be/3D4lbDZE_c4?si=XskTBOLbvMsIZhPS&t=40)-6:10)
 * an explanation of the other contributions to the workshop from myself and the three founders who joined m: [Brendan](https://bsky.app/profile/schlage.town) of [Leaflet.pub](https://leaflet.pub/), [Tyler](https://bsky.app/profile/tylerjfisher.com) of [Sill.social](https://sill.social/), and [Wesley](https://bsky.app/profile/wesleyfinck.org) of [Semble.so](https://semble.so/).
 
-![](https://www.youtube.com/watch?v=3D4lbDZE_c4)
+
+https://www.youtube.com/watch?v=3D4lbDZE_c4
+
 
 Below you'll find links to explore the background further.
 ### Win-Win One: Starter packs & custom feeds (me, [6:10](https://youtu.be/3D4lbDZE_c4?si=iYBg1Df1FzgcqrXA&t=370)–7:12)
