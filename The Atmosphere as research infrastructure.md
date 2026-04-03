@@ -35,8 +35,6 @@ As an added bonus, we collectively **transform the Web into the largest recruitm
 
 [![[vancouver-screenshot.png]]](https://www.youtube.com/watch?v=3D4lbDZE_c4)
 
-[Watch the video](c[]())
-
 Below you'll find links to explore the background further.
 ### Win-Win One: Starter packs & custom feeds (me, [6:10](https://youtu.be/3D4lbDZE_c4?si=iYBg1Df1FzgcqrXA&t=370)–7:12)
 
