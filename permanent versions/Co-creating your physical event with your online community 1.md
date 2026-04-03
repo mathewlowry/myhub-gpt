@@ -3,7 +3,7 @@
 
 **Revisiting some of the basic techniques for building online communities I've developed over the years in the light of the Atmosphere's potential.**
 
-*(Notes: This is an early draft. As explained in [this newsletter edition](https://mathewlowry.medium.com/exploring-ai4communities-newsletter-6365b2716bb1), I am publishing these early versions as I develop my thoughts in the hope that constructive comments will help me finish the post. More version control in the footer.)*
+*(Notes: This is an early draft - I publish these early versions as I develop my thoughts in the hope that constructive comments will help me finish the post. More information and version control in the footer.)*
 
 I built the very first online community of practice for the European Commission in 2002 (and [blogged about it in 2009](https://myhub.ai/items/building-communities-with-event-in-a-box)). I discovered, almost by accident, that **online event co-creation** helps you leverage your event to boost your online community, and use your online community to run a more successful event.
 
