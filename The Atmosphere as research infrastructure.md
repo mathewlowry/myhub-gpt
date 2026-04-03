@@ -28,14 +28,14 @@ It's worth noting that this is not limited to research teams: any organisation i
 As an added bonus, we collectively **transform the Web into the largest recruitment surface for the Atmosphere**. Like many of the applications discussed throughout  ATScience Day, this idea seemed to resonate throughout the rest of the Atmosphere conference, particularly after attendees realised that the Atmosphere would not grow in the way many of us had previously thought (more on that in a later post).
 ## Video & background
 
-The following video is a hastily thrown-together combination of: 
+[This video](https://www.youtube.com/watch?v=3D4lbDZE_c4) is a hastily thrown-together combination of: 
 
 * a slidecast of the workshop's first, "scene-setter" presentation, which I shared with the other speakers *before* the event so they'd understand the framing ([0:40](https://youtu.be/3D4lbDZE_c4?si=XskTBOLbvMsIZhPS&t=40)-6:10)
 * an explanation of the other contributions to the workshop from myself and the three founders who joined m: [Brendan](https://bsky.app/profile/schlage.town) of [Leaflet.pub](https://leaflet.pub/), [Tyler](https://bsky.app/profile/tylerjfisher.com) of [Sill.social](https://sill.social/), and [Wesley](https://bsky.app/profile/wesleyfinck.org) of [Semble.so](https://semble.so/).
 
+[![[vancouver-screenshot.png]]](https://www.youtube.com/watch?v=3D4lbDZE_c4)
 
-https://www.youtube.com/watch?v=3D4lbDZE_c4
-
+[Watch the video](c[]())
 
 Below you'll find links to explore the background further.
 ### Win-Win One: Starter packs & custom feeds (me, [6:10](https://youtu.be/3D4lbDZE_c4?si=iYBg1Df1FzgcqrXA&t=370)–7:12)
