@@ -2,7 +2,7 @@
 creation date: 2026-04-05 09:30
 modification date: 095 April 2026 09:30:55
 ---
-0# "We can just do things": five days in Vancouver
+# "We can just do things": five days in Vancouver
 
 **Key topics from AtmosphereConf 2026: making the web social; streams, gardens and communities; science, AI, news and more.**
 
