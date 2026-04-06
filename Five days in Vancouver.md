@@ -2,11 +2,11 @@
 creation date: 2026-04-05 09:30
 modification date: 095 April 2026 09:30:55
 ---
-# "We can just do things": five days in Vancouver
+0# "We can just do things": five days in Vancouver
 
 **Key topics from AtmosphereConf 2026: making the web social; streams, gardens and communities; science, AI, news and more.**
 
-The two months before [AtmosphereConf](https://atmosphereconf.org/) were an overwhelming blur of announcements, launches, and new ideas arriving faster than I could read them. The normal pre-conference acceleration, perhaps, but more intense than anything I'd seen. 
+The months preceding [AtmosphereConf](https://atmosphereconf.org/) (25-30 March) were an overwhelming blur of announcements, launches, and new ideas arriving faster than I could read them. The normal pre-conference acceleration, perhaps, but more intense than anything I'd seen. 
 
 When I got to Vancouver, I found plenty of people who felt the same way. But we didn't know what we were in for. In retrospect, the preceding months had been a slow-paced appetiser. 
 
@@ -31,12 +31,16 @@ So what? Anyone who's embedded a YouTube video knows that it's not unusual for a
 ## "We can just build things"
 
 Moreover, according to many people I met in Vancouver, these sort of integrations are simple: atproto is easy to work with. 
+### Online tools for better events
+
+And nowhere was that more obvious than in the online tools developed by the community to make the physical event more effective, something [dear to my heart since 2002.](https://experiments.myhub.ai/co-creating_your_physical_event_with_your_online_community)
 
 A few days before the event, for example, [Brookie](https://bsky.app/profile/did:plc:v46ojbiop5ebs5h7gaomixcc) unveiled "[You and Me](https://youandme.at/)" - a simple QRcode-based web app which allows two Atmospherians meeting face to face to connect online. 
 
 ![[youandme1.jpg]]
+*Scan, connect, collect*
 
-Apparently put together in one day, it was [for many people](https://bsky.app/profile/did:plc:2zxlmj2dvub7smpul2lvwqfk/post/3mime2eg6ms26) the most popular app at the conference. Pretty soon [Business Goose](https://bsky.app/profile/goose.art) launched [Superconnectors](https://superconnectors.wisp.place/) (below) to visualise the connections and create a leaderboard...
+Apparently created *in one day*, YouandMe was [for many people](https://bsky.app/profile/did:plc:2zxlmj2dvub7smpul2lvwqfk/post/3mime2eg6ms26) the most popular app at the conference. Pretty soon [Business Goose](https://bsky.app/profile/goose.art) launched [Superconnectors](https://superconnectors.wisp.place/) (below) to visualise the connections and create a leaderboard...
 
 ![[youandme2.png]]
 
@@ -44,26 +48,28 @@ Apparently put together in one day, it was [for many people](https://bsky.app/pr
 
 > collaboration just emerges
 
+As the developer of a similar service put it, [collaboration just emerges](https://bsky.app/profile/7hird.dev/post/3mhtxurc3ls2r).
+
 *More:* Two things I didn't see were Bailey's [badger badger badge](https://retrobailey.leaflet.pub/3mikpzhs5y224) (*below left*), a tiny computer hanging from his conference lanyard, displaying a guest book showing all who connected with him via youandme.at; and [Jim's version](https://bsky.app/profile/did:plc:lysqukqdu6hsrhet5v2brjgo/post/3mi5fioeygk2n) (*below right*), which also "creates a unique image based on your connection".
 
 ![[hardware-badges.png]]
 
-As the developer of a similar service put it, [collaboration just emerges](https://bsky.app/profile/7hird.dev/post/3mhtxurc3ls2r).
+### Creative freedom, malleable software
 
 **This creative freedom wasn't discovered in Vancouver:** the community's tagline, after all, is "We can just do things", reflecting the ecosystem's permissionless nature. 
 
-For me, however, the event was also a first glimpse of "malleable software", where people can use AI to build their own app and pull in Atmosphere data as required. This makes the dream of **ridiculously easy group formation**, [first posed in 2002](https://radio-weblogs.com/0110772/2002/10/09.html), a little closer: any community can now create the space it needs, and then iteratively improve it as the community's needs evolve.
+For me, however, the event was also a first glimpse of "malleable software", where people can vibe code their own app, pull in Atmosphere data as required and use the cross-app integration I mentioned earlier. This makes the dream of **ridiculously easy group formation**, [first posed in 2002](https://radio-weblogs.com/0110772/2002/10/09.html), a little closer: any community can now create the space it needs, and then iteratively improve it as the community's needs evolve.
 ## From streams to gardens
 
 This freedom to innovate unlocked a lot of ideas during the [What futures can we build together?](https://atmosphereconf.org/event/Bzy111e) workshop on Thursday, where we workshopped new ways social media could look and behave. I found myself in a group headed by Habitat (see Communities, next), where I suggested we integrate [flow and stock content (2010)](https://snarkmarket.com/2010/4890/), allowing communities to seamlessly extract and accrete a body of slow-moving wisdom (stock) from its fast-moving chatter (flow).
 
-This is not a new idea: FAQs, after all, were invented specifically for this purpose in Usenet forms, years before the first web browser. But somehow, in the rush to mobile-first microblogging, we've lost that connection between flow and stock.
+This is not a new idea: FAQs, after all, were invented specifically for this purpose in Usenet forums, years before the first web browser. But somehow, in the rush to mobile-first microblogging, we've lost that connection between flow and stock.
 
 And then literally a few minutes after the workshop, [Adam Schwab showed me a demo](https://bsky.app/profile/andyschwab.link/post/3mhsuhiealc2g) of exactly what I was looking for:
 
-https://youtu.be/L81kK6zs26E?si=z6vAvPCEOW-za0Sp&t=15 
+[Koi Demo, 15 seconds in](https://youtu.be/L81kK6zs26E?si=z6vAvPCEOW-za0Sp&t=15 )
 
-This is very relevant to web/atproto integration because stock content is generally published on websites, while flow generally streams past in social media apps. But these two forms of knowledge should complement each other and make each other more valuable, so the quicker communities can transform their flow into stock, the faster we will develop better collective intelligence.
+This is very relevant to web/atproto integration because stock content is generally published on websites, while flow generally streams past in social media apps. But **these two forms of knowledge should be complementary**, making each other more valuable, so the quicker communities can transform their flow into stock, the faster we will develop better collective intelligence.
 
 > these two forms of knowledge make each other more valuable
 
@@ -77,18 +83,18 @@ This is very relevant to web/atproto integration because stock content is genera
 *Also related*: Alex Garcia-Joyner's [presentation](https://atmosphereconf.org/event/ats26-viewsift) (above) of [Viewsift](https://viewsift.com/), an evidence-based social platform designed to foster understanding and reduce hostility on controversial topics, interoperating with other [#atscience](https://bsky.app/hashtag/atscience) apps ([more shots here](https://bsky.app/profile/mathewlowry.eurosky.social/post/3mi2syqsdj22o)).
 ## Community and permissioned data
 
-**The above three topics all point towards the development of community in the Atmosphere**. 
+**The above three topics all point towards powerful communities emerging in the Atmosphere over the next few years**. 
 
-It was no surprise to see **permissioned data** - which allows a group to share content without publishing it to the world - the subject of much conversation throughout the event. BlueSky Social had already indicated this would be a major theme of their work in 2026, but they are far from alone in developing solutions. 
+It was no surprise to see *permissioned data* - which allows a group to share content without publishing it to the world - the subject of much conversation throughout the event. BlueSky Social had already indicated this would be a major theme of their work in 2026, but they are far from alone in developing solutions. 
 
-The two workshops I managed to attend were [Who owns the group chat? Building collaborative spaces on ATProto](https://atmosphereconf.org/event/obaP26x) and [Community privacy in a decentralized network](https://atmosphereconf.org/event/q4qlVLY), although I greatly regretted missing [Rewilding the internet with ATProto](https://atmosphereconf.org/event/PdNOkAP), run by one of the leaders of [Habitat](https://habitat.network/), another advanced player in this space.
+The two relevant workshops I managed to attend were [Who owns the group chat? Building collaborative spaces on ATProto](https://atmosphereconf.org/event/obaP26x) and [Community privacy in a decentralized network](https://atmosphereconf.org/event/q4qlVLY), although I greatly regretted missing [Rewilding the internet with ATProto](https://atmosphereconf.org/event/PdNOkAP), run by one of the leaders of [Habitat](https://habitat.network/), another advanced player in this space.
 
 I'm not a developer, so it's almost impossible for me to evaluate which of the approaches being developed are better. I suspect there's no simple answer, with different approaches being more or less suitable for different sorts of communities. I did express the fear that we would end up with several competing methodologies, and that the appearance of something analogous to [standard.site](https://standard.site/) (developed by multiple players in the long-form publishing space) could be useful. But with the in-built interoperability inherent to the Atmosphere, I was told that this is probably unnecessary.
 
 Given my focus on online communities for almost 25 years, you can expect to see more on this from me this year.
 ## Science is cool now
 
-Making the Friday [ATScience Day](https://atscience.leaflet.pub/3mfz526irfs2y) was a smart move. Throughout the main conference over the following two days, people frequently referenced the extraordinary range of innovations demo'd during ATScience to help the scientific world exploit the possibilities of the Atmosphere, from the aforementioned Semble to [Lea, a Social App for Researchers](https://atmosphereconf.org/event/ats26-lea) and [Chive, a decentralized preprint service](https://atmosphereconf.org/event/ats26-chive).
+Making the Friday [ATScience Day](https://atscience.leaflet.pub/3mfz526irfs2y) was a smart move. Throughout the main conference over the following two days, people frequently referenced the extraordinary range of ATScience innovations demo'd to help the scientific world exploit the possibilities of the Atmosphere, from the aforementioned Semble to [Lea, a Social App for Researchers](https://atmosphereconf.org/event/ats26-lea) and [Chive, a decentralized preprint service](https://atmosphereconf.org/event/ats26-chive).
 
 For me the most eye-opening presentation, however, was the [Towards Modular Open Science](https://atmosphereconf.org/event/ats26-keynote) keynote, which focused more on the *content* that should find its way onto the Atmosphere, and how the ATProtocol could make science more productive. 
 
@@ -105,7 +111,7 @@ Whether you have any idea how scientific publishing works, I urge you to watch t
 * Rowen's blog (with video): [Towards Modular Open Science](https://articles.continuousfoundation.org/articles/towards-modular-science)
 * [ATScience agenda article](https://atscience.leaflet.pub/3mfz526irfs2y?page=019cda33-03aa-7224-a0c6-7c8e82f98861#keynote-towards-modular-open-science-auditorium)
 
-My only regret was that I was unable to reflect these ideas into my workshop, held a few hours later, as their insights would have made my model far more interesting.
+My only regret was that I was unable to reflect these ideas into [my workshop](https://experiments.myhub.ai/the_atmosphere_as_research_infrastructure), held a few hours later, as these insights would have made my model more interesting.
 ## Data is everywhere now
 
 Matt Akamatsu's presentation also mentioned something I heard many times in Vancouver: as ATProto data is easy to access and published using public lexicons, it is perfect for decentralised data management and sharing.
