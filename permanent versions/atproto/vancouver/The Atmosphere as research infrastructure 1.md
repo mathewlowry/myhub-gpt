@@ -4,15 +4,12 @@ modification date: 093 April 2026 15:10:12
 ---
 # The Atmosphere as research infrastructure: ATScience workshop recap
 
-![[ecosystem-map.png]]
 **The ATprotocol offers us a social web of scientific knowledge, carried *and* created by the scientists themselves, supported by research institutions.**
 
+*(This is version 1, published on my experimental wiki using the [permanent versions pattern](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e) in the hope of collecting constructive criticism and ideas. Version control is in the footer.)*
+
 As [my ATScience workshop in Vancouver](https://atscience.leaflet.pub/3mfz526irfs2y/l-quote/019ca0e7-89cc-7dd5-a093-83968184e2bf~4_0-4_8#019ca0e7-89cc-7dd5-a093-83968184e2bf~4_0) wasn't streamed, I thought I'd throw together a quick video and publish some first thoughts and supporting notes, just to get a record of the content online before I turn to the rest of what was probably the best conference I've ever attended. 
-
-*(This is version 2, published on my experimental wiki using the [permanent versions pattern](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e) in the hope of collecting constructive criticism and ideas. Version control is in the footer.)*
 ## TL:DW;
-
-*Too long, didn't watch?*
 
 I think the workshop went pretty well, but only after [Ariel](https://bsky.app/profile/byarielm.fyi) and [Ted](https://bsky.app/profile/knowtheory.net) carved out some space in the lounge to allow us to hold it, and because [Cosmik Network](https://bsky.app/profile/cosmik.network) shelled out for a monitor to present from (thanks everyone!). 
 
@@ -119,8 +116,8 @@ And that is something worth fighting for.
 This is one of this wiki's pages managed with the **permanent versions pattern** described in  [Two wiki authors and a blogger walk into a bar…](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e)  
 
 - changes in this version: 
-	- main image added for repost to Medium
+	- none
 - version control
-    - this is version: 2 
+    - this is version: 1, knocked together and shared with the ATScience organisers to get useful criticism
     - this is the current version: [[The Atmosphere as research infrastructure]]
-    - here is the previous version: [[The Atmosphere as research infrastructure 1]]
+    - here is the previous version: n/a

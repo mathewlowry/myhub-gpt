@@ -4,9 +4,7 @@ modification date: 095 April 2026 09:30:55
 ---
 # "We can just do things": five days in Vancouver
 
-![[5days.png]]
-
-**My personal path through AtmosphereConf 2026 was all about making the web social; streams, gardens and communities; and science, AI & news. Welcome to the linkfest**
+**Key topics from AtmosphereConf 2026: making the web social; streams, gardens and communities; science, AI, news and more.**
 
 The months preceding [AtmosphereConf](https://atmosphereconf.org/) (25-30 March) were an overwhelming blur of announcements, launches, and new ideas arriving faster than I could read them. The normal pre-conference acceleration, perhaps, but more intense than anything I'd seen. 
 
@@ -20,7 +18,7 @@ And by the time I published [my workshop recap](https://experiments.myhub.ai/the
 
 So this is *not* an exhaustive overview of a five-day conference. Instead, it's a quick recap of my path through it, organised by the themes I perceived, with some links to help you discover more. I hope you'll find it useful.
 
-*(Note: This is version 2 - I'll add more details as I plough through my reading queue. Version control and more details in the footer.)*
+*(Note: This is version 1 - I'll add more as I plough through my reading queue. Version control and more details in the footer.)*
 ## Web, meet Atmosphere: let's save the world
 
 Before Vancouver I published [a couple](https://experiments.myhub.ai/permanent_versions/atproto/vancouver/simple_sites_but_powerful_communities) of [blog posts](https://experiments.myhub.ai/co-creating_your_physical_event_with_your_online_community) exploring how integrating the Atmosphere with your website allows you to create better online communities with simpler code, in the process **making the Web social again** *and* turning it into the largest Atmosphere recruitment surface one could possibly hope for. 
@@ -185,9 +183,9 @@ And there was of course much, much more in the programme. The above is only an e
 
 This is one of this wiki's pages managed with the **permanent versions pattern** described in  [Two wiki authors and a blogger walk into a bar…](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e)  
 
-- changes in this version: (2026-03-07)
-	- added main image, tweaked the intro
+- changes in this version: (2026-03-06)
+	- none, as this is the first 
 - version control
-    - this is version: 2
+    - this is version: 1
     - this is the current version: [[Five days in Vancouver]]
-    - here is the previous version: [[Five days in Vancouver 1]]
+    - here is the previous version: n/a
