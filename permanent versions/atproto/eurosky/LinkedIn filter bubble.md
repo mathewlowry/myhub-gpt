@@ -34,11 +34,11 @@ I've been on LinkedIn for almost 20 years and have thousands of connections and 
 
 There are two possible explanations, and if you like conspiracy theories you've probably already decided Microsoft is actively suppressing posts covering the Atmosphere.
 
-But the truth is that the Atmosphere is so new that relatively few people in my LinkedIn network have ever interacted with content about it, so LinkedIn's algorithm just assumes they're not interested.
+But the truth is that the Atmosphere is so new that relatively few people in my LinkedIn network have ever interacted with content about it, so LinkedIn's algorithm assumes they're not interested.
 
-It's not malevolent, it's blind, bit that's not OK: **algorithms look at your past to predict what you'll want to see; they do *not* look at your future to predict what you *need* to see.**
+It's not malevolent, it's blind. But that's *not* OK: **algorithms look at your past to predict what you'll want to see; they do *not* look at your future to predict what you *need* to see.**
 
-You're no longer seeing content from people you trust because LinkedIn is no longer social media, it's [para-social media](https://journals.sagepub.com/doi/10.1177/20563051261437487). So ask yourself this: *what else are you not seeing because you live inside LinkedIn's filter bubble?* 
+You no longer see content from people you trust because LinkedIn is no longer social media, it's [para-social media](https://journals.sagepub.com/doi/10.1177/20563051261437487). So ask yourself this: *what else are you not seeing because you live inside LinkedIn's filter bubble?* 
 
 **More**: here's the [Best Stuff I Like or Do or Think about Everything tagged ***filter bubble***](https://myhub.ai/@mathewlowry/?quality=best&types=like&types=do&types=think&tags=filter+bubble&timeframe=anytime)
 
