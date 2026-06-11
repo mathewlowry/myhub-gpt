@@ -4,11 +4,11 @@ modification date: 162 June 2026 11:57:26
 ---
 # What is LinkedIn's filter bubble not showing you?
 
-**Eurosky.Social launched some really significant developments to support European social media sovereignty this week, but you almost certainly learn that from me if you rely on LinkedIn.**
+**Eurosky.Social launched some really significant developments to support European social media sovereignty this week, but you almost certainly didn't hear about it from me if you rely on LinkedIn.**
 
 *(Note: This is an early draft. Details and version control in the footer.)*
 
-This week was not the first time I've noticed that whenever I mention anything to do with BlueSky or the Atmosphere on LinkedIn, fewer people than average see my posts. I'm aware this sounds a bit whiny, and that many people who rely on LinkedIn ([which I don't,](https://myhub.ai/items/where-is-social-media-taking-you-in-2016) thank God) are whining because of LinkedIn's recent algorithm change, But this week the suppression was flagrant. 
+This week was not the first time I've noticed that whenever I mention anything to do with BlueSky or the Atmosphere on LinkedIn, fewer people than average see my posts. I'm aware this sounds a bit whiny, and that many people who rely on LinkedIn ([which I don't,](https://myhub.ai/items/where-is-social-media-taking-you-in-2016) thank God) are whining because of LinkedIn's recent algorithm change. But this week the suppression was flagrant. 
 
 Given that the Atmosphere looks set to eat LinkedIn for breakfast (here's [my Sifa profile](https://sifa.id/p/mathewlowry.eurosky.social) on the Open Social Web), the key question is whether this is a conscious malevolent choice by LinkedIn's algorithm masters, or just an excellent example of a filter bubble.
 
@@ -32,17 +32,15 @@ I've been on LinkedIn for almost 20 years and have thousands of connections and 
 
 ## Algorithmic guilt or innocence?
 
-There are two possible explanations.
+There are two possible explanations, and if you like conspiracy theories you've probably already decided Microsoft is actively suppressing posts covering the Atmosphere.
 
-If you like conspiracy theories, it's easy to imagine Microsoft deciding to suppress posts covering the Atmosphere.
+But the truth is that the Atmosphere is so new that relatively few people in my LinkedIn network have ever interacted with content about it, so LinkedIn's algorithm just assumes they're not interested.
 
-But if you understand how algorithms actually work, it's even easier: the Atmosphere is so new that relatively few people in my LinkedIn network have ever interacted with content about it, so LinkedIn's algorithm just assumes they're not interested.
+It's not malevolent, it's blind, bit that's not OK: **algorithms look at your past to predict what you'll want to see; they do *not* look at your future to predict what you *need* to see.**
 
-This is the basic problem: **algorithms look at your past to predict what you'll want to see; they do *not* look at your future to predict what you *need* to see.**
+You're no longer seeing content from people you trust because LinkedIn is no longer social media, it's [para-social media](https://journals.sagepub.com/doi/10.1177/20563051261437487). So ask yourself this: *what else are you not seeing because you live inside LinkedIn's filter bubble?* 
 
-It's no longer a question of seeing posts from people you trust because it's no longer social media, it's [para-social media](https://journals.sagepub.com/doi/10.1177/20563051261437487). So ask yourself this: *what else are you not seeing because you live inside LinkedIn's filter bubble?* 
-
-**More**: here's the [Best Stuff I Like or Do or Think about Everything tagged filter bubble,  Anytime](https://myhub.ai/@mathewlowry/?quality=best&types=like&types=do&types=think&tags=filter+bubble&timeframe=anytime)
+**More**: here's the [Best Stuff I Like or Do or Think about Everything tagged ***filter bubble***](https://myhub.ai/@mathewlowry/?quality=best&types=like&types=do&types=think&tags=filter+bubble&timeframe=anytime)
 
 ---
 
