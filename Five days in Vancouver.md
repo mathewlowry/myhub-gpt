@@ -6,7 +6,7 @@ modification date: 095 April 2026 09:30:55
 
 ![[5days.png]]
 
-**My personal path through AtmosphereConf 2026 was all about making the web social; streams, gardens and communities; and science, AI & news. Welcome to the linkfest**
+**My personal path through AtmosphereConf 2026 was all about making the web social; streams, gardens and communities; and science, AI & news. Welcome to the linkfest.**
 
 The months preceding [AtmosphereConf](https://atmosphereconf.org/) (25-30 March) were an overwhelming blur of announcements, launches, and new ideas arriving faster than I could read them. The normal pre-conference acceleration, perhaps, but more intense than anything I'd seen. 
 
