@@ -39,4 +39,5 @@ This is one of this wiki's pages managed with the **permanent versions pattern**
     - this is version: 1
     - this is the current version: [[Three days that changed European social media]]
     - here is the previous version: n/a
+- Subscribe via my leaflet: https://mathewlowry.leaflet.pub/
 
