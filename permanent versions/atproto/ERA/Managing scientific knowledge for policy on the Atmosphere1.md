@@ -20,15 +20,22 @@ In my AtmosphereConf workshop last March in Vancouver (see [[The Atmosphere as r
 * pooling each individual research team members' ATmosphere activity: Bluesky discussions, content discovered via Sill, collections curated in Semble and/or commented using Margin
 * using Standard.site to publish that knowledge as a living-but-searchable feed of knowledge, rather than a static list of PDFs and team members. 
 
-The core argument was a win-win: institutions build the structures, researchers benefit from using them, and the knowledge they generate together becomes visible and useful to a wider audience. In practical terms each feature chain could be provided with what I call a "Project Atmosphere Toolkit", to customise and configure as they like.
+The core argument was a win-win: institutions build the structures, and both they and the researchers benefit from using them.  In practical terms, each project could be provided with what I call a "Project Atmosphere Toolkit", to customise and configure as they like.
 
 fig 1  "Project Atmosphere Toolkit",
 
-This post zooms out to ask what happens at a higher scale - when several projects in the same research field all use some variation of the above toolkit. This question is informed by the work I've done for Knowledge4Policy, the science for policy platform of the European Commission's Joint Research Centre, so I'm focused on the benefits to policy, but the same ideas also apply to communicating science to the wider public and transferring scientific results to industry.
+This post zooms out to ask what happens at a higher scale - when several projects in the same research field all use some variation of the above toolkit. 
 
-But let's start with the knowledge broker, whose job is to get scientific evidence in front of policymakers who need it, and synthesise it into a form they can understand.
+## Collective knowledge for knowledge brokers
+
+I suspect I asked this question because of the work I've done for Knowledge4Policy, the science for policy platform of the European Commission's Joint Research Centre. As a result I'm focusing on the benefits to policymaking, but these ideas also apply to communicating science to the wider public and transferring scientific results to industry.
+
+But let's start with the knowledge broker, whose job is to get scientific evidence in front of policymakers who need it, synthesised it into forms they can understand.
 
 That job is harder than it sounds.
+
+___
+
 
 ## What changes when research projects use the ATmosphere
 
