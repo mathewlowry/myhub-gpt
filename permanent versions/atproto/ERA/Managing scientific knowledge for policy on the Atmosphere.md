@@ -11,7 +11,7 @@ tags:
 
 # Managing scientific knowledge for policy on the ATmosphere
 
-**The ATScience movement is mainly focused on how the Atmosphere can help science do science better. But its impact on  communicating science to the world of policy could be just as significant.**
+**Two types of Atmosphere toolkit are needed if ATScience is to help scientists do science and communicate to other audiences> one focused on the researchers and their teams, the other focused on aggregation, synthesis and interpretation.**
 
 *(This is an early draft, written using the [permanent versions pattern](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e). Details and version control in the footer.)*
 
@@ -20,44 +20,42 @@ In my AtmosphereConf workshop last March in Vancouver (see [[The Atmosphere as r
 * pooling each individual research team members' ATmosphere activity: Bluesky discussions, content discovered via Sill, collections curated in Semble and/or commented using Margin
 * using Standard.site to publish that knowledge as a living-but-searchable feed of knowledge, rather than a static list of PDFs and team members. 
 
-The core argument was a win-win: institutions build the structures, researchers benefit from using them, and the knowledge they generate together becomes visible and useful to a wider audience. In practical terms each feature chain could be provided with what I call a "Project Atmosphere Toolkit", to customise and configure as they like.
+The core argument was a win-win: institutions build the structures, researchers benefit from using them, and the knowledge they generate together becomes visible and useful to a wider audience. 
+
+This post zooms out to ask what happens at a higher scale - when several projects in the same research field all use some variation of the above toolkit. This question is informed by the work I've done for Knowledge4Policy, the science for policy platform of the European Commission's Joint Research Centre, so I'm focused on the benefits to policy, but the same ideas also apply to communicating science to the wider public, and transferring scientific results to industry.
+## Project Atmosphere Toolkit
+
+Let's start at the scale of an individual University research team or Horizon Europe consortium, that adopts, configures and customises what I'll call a "Project Atmosphere Toolkit":
 
 fig 1  "Project Atmosphere Toolkit",
 
-This post zooms out to ask what happens at a higher scale - when several projects in the same research field all use some variation of the above toolkit. This question is informed by the work I've done for Knowledge4Policy, the science for policy platform of the European Commission's Joint Research Centre, so I'm focused on the benefits to policy, but the same ideas also apply to communicating science to the wider public and transferring scientific results to industry.
+That toolkit features:
 
-But let's start with the knowledge broker, whose job is to get scientific evidence in front of policymakers who need it, and synthesise it into a form they can understand.
+- **Conversations**:
+	- The researchers in the project discussing their work on Bluesky, curated into a **project team feed**. This is a simple Bluesky custom feed created by combining a list of the researchers and a hashtag - "*here's what the research team is saying about their work in this field*"
+	- a **"high-value community feed"** — a second custom feed driven by the same hashtag coupled to a larger list: the project's researchers PLUS scientists they trust - "*here's what the research team and scientists they respect from around the world are saying about their work in this field*" (more: [How newsrooms, scientific institutions & governments can best use Bluesky](https://mathewlowry.medium.com/how-newsrooms-scientific-institutions-governments-can-best-use-bluesky-ee97d840a058))
+- **Content discovery and curation**: all of these researchers (project team and the scientists they trust) use
+	- apps like **Sill** to surface interesting content from their social graphs
+	- apps like **Semble** and/or **Margin** to organise what they find into collections.
 
-That job is harder than it sounds.
+The key point: all these conversations, bookmarks, curated collections and more are stored in each researcher's **Personal Data Server (PDS)**. So it becomes easy for the project website to aggregate and share that content, transforming it from a static *"here's our team and our outputs"* page into a window onto the project's living knowledge: the conversations researchers are having, the content they're finding and organising across the web, the emerging consensus and open questions in their field.
 
-## What changes when research projects use the ATmosphere
+> that content is public and its locations are known
 
-Imagine a research project — a Horizon Europe consortium, a university lab — that adopts an "ATmosphere research project toolkit". Here's what that looks like in practice:
-
-- The researchers in the project discuss their work on Bluesky, curated into a **project team feed**
-- They also build a **high-value community feed** — a curated stream including  trusted peers from outside the project: scientists the research team follows, and whose judgment they respect (more: [How newsrooms, scientific institutions & governments can best use Bluesky](https://mathewlowry.medium.com/how-newsrooms-scientific-institutions-governments-can-best-use-bluesky-ee97d840a058))
-- Researchers use apps like **Sill** to surface interesting content from their social graphs, and **Semble** or **Margin** to organise what they find into collections.
-
-The key point: 
-
-* all of this content — the posts, the bookmarks, the curated collections — is stored in each researcher's **Personal Data Server (PDS)**, which are public. 
-* moreover, the project has already created lists of team members and trusted peers to build the above feeds, so we know where to find everything they've been discovering and organising.
-
-The project website stops being a static "here's our team, here are our outputs" page. It becomes a window onto the project's living knowledge: the conversations researchers are having right now, the content they're finding and organising across the web, the emerging consensus and open questions in the field.
-
+And it's just as easy for anyone else: that content is public and its locations are known, as the team members and their trusted peers are in the Lists used to build the custom feeds.
 ## From projects to clusters
 
-When multiple projects in the same field do this, their knowledge becomes aggregatable — because it's all public and structured. We can go further than spontaneous sharing with a cluster toolkit.
+**So what happens when multiple projects in the same field do this?**
 
-A project cluster is a layer above the individual projects. It:
+A "project cluster toolkit" is used to create a layer above these individual projects:
 
-- Aggregates feeds across all projects, surfacing the best posts by engagement
-- Builds a **ranked knowledge base**: every URL any researcher in the cluster has bookmarked or shared, ranked by how many researchers across how many projects engaged with it — and filterable by researcher, project, or topic
-- Auto-tags that knowledge base by theme, making it browsable
-- Surfaces an **expert-finding layer**: because the cluster knows who is in each project and what they've been working with, connecting a policymaker to the right scientist becomes a lookup, not a phone tree
+- Aggregating the projects' feeds and surfacing the best posts - *"here are the top posts from all the researchers in these projects and the scientists they trust*"
+- Building a **ranked knowledge base**: every URL any researcher in the cluster has shared, bookmarked or curated, ranked by how many researchers across how many projects engaged with it — and filterable by researcher, project, or topic
+- Auto-tags each URL by topic to improve search
+- provides an **expert-finding layer**, because the cluster knows who is in each project and who they trust.
 
 The result is the **collective intelligence of a cluster of projects** — not a curated database maintained by a project coordinator, but the actual ongoing intellectual activity of a research community, made legible.
-
+  
 ## What this means for policymakers — and others
 
 When the policymaker asks "what does the science say?", the knowledge broker now has somewhere to go. Not a list of PDFs, but a living, searchable knowledge layer: the conversations, the curated content, the emerging findings, and the experts behind them.
@@ -85,3 +83,10 @@ This is one of this wiki's pages managed with the **permanent versions pattern**
     - this is version: 1
     - this is the current version: [[Building the European Research Area as a social network]]
     - here is the previous version: n/a
+
+---
+
+## snippets
+But let's start with the knowledge broker, whose job is to get scientific evidence in front of policymakers who need it, and synthesise it into a form they can understand.
+
+That job is harder than it sounds.
