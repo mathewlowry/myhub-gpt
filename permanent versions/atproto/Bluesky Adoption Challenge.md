@@ -2,10 +2,10 @@
 
 **The more you look at the challenge of getting people off X and onto Bluesky, the more multilayered it becomes.**
 
-*(This is version 2, published on my experimental wiki because I'm looking for comments, feedback and ideas ([ping me](https://bsky.app/profile/mathewlowry.bsky.social)). Version control in the footer)* 
+*(This is version 3, published on my experimental wiki because I'm looking for comments, feedback and ideas ([ping me](https://bsky.app/profile/mathewlowry.bsky.social)). Version control in the footer)* 
 
 ![[adoptionchallenge.png]]
-As I mentioned in  [Feel the ATmosphere: it's 1995 all over again](https://myhub.ai/items/feel-the-atmosphere-its-1995-all-over-again), my Ahoy! workshop in April 2025 explored one aspect of what I've come to call "the Bluesky Adoption challenge": getting people to move away from X and the rest and onto Bluesky and the rest of the ATmosphere. 
+As I mentioned in  [Feel the ATmosphere: it's 1995 all over again](https://myhub.ai/items/feel-the-atmosphere-its-1995-all-over-again), my Ahoy! workshop in April 2025 explored one aspect of what I've come to call "the Bluesky Adoption challenge": getting people to move away from X and the rest and onto Bluesky and the rest of the ATmosphere. 
 
 Back then I had a reasonably simplistic view of the problem:
 
@@ -17,43 +17,45 @@ There's therefore a direct line between the above two posts and my Ahoy! confere
 
 But at Ahoy! and since, amid wave after wave of *mostly* nonsensical "Bluesky is dying" hot-takes, I've discovered that the Adoption challenge is a little more multilayered. I'm following up with those who attended, so this post is me getting my thoughts in order before continuing those conversations.
 
-## Decentralisation: theory vs. practice
+## Decentralisation: theory vs. practice
 
-**It’s not enough to have decentralised technology: people have to _use_ it for true decentralisation (and I don't).**
+**It's not enough to have decentralised technology: people have to _use_ it for true decentralisation.**
 
-### “Wait, a decentralised network *crashed*?”
+### "Wait, a decentralised network *crashed*?"
 
-Top of mind for everyone throughout the conference was that on day one [Bluesky apparently “went down](https://techcrunch.com/2025/04/24/wait-how-did-a-decentralized-service-like-bluesky-go-down/)”, leading to a predictable flurry of snark from Mastodon users across the Fediverse (and also, strangely, on Bluesky).
+Top of mind for everyone throughout the conference was that on day one [Bluesky apparently "went down](https://techcrunch.com/2025/04/24/wait-how-did-a-decentralized-service-like-bluesky-go-down/)", leading to a predictable flurry of snark from Mastodon users across the Fediverse (and also, strangely, on Bluesky).
 
 Of course, the truth was far more nuanced:
 
-- there was a highly targeted denial of service attack on Bluesky Social PBC’s servers
-- that’s where most people host their Personal Data Services (PDSs) because Bluesky Social PBC provides them free of charge — those users were affected
+- there was a highly targeted denial of service attack on Bluesky Social PBC's servers
+- that's where most people host their Personal Data Services (PDSs) because Bluesky Social PBC provides them free of charge — those users were affected
 - users who host their PDS elsewhere were _not_ affected.
 
-As one of Bluesky’s engineers mentioned in [a testy exchange](https://bsky.app/profile/dustyweb.bsky.social/post/3lnmvff5c322s) with ActivityPub co-author Christine Lemmer Webber, the same sort of attack would have taken down a Mastodon server just as quickly. The attack had high impact because although Bluesky’s *architecture* is decentralised, currently “[things are still pretty operationally centralized on bluesky infrastructure](https://social.coop/@bnewbold/114441655585484859)”. Or, as another person put it, the headline could equally have been ["Bluesky Hit with Massive, Targeted DDoS Attack, Some Users Didn't Even Notice"](https://bsky.app/profile/goose.art/post/3lnnn6gmnws2t).
+As one of Bluesky's engineers mentioned in [a testy exchange](https://bsky.app/profile/dustyweb.bsky.social/post/3lnmvff5c322s) with ActivityPub co-author Christine Lemmer Webber, the same sort of attack would have taken down a Mastodon server just as quickly. The attack had high impact because although Bluesky's *architecture* is decentralised, currently "[things are still pretty operationally centralized on bluesky infrastructure](https://social.coop/@bnewbold/114441655585484859)". Or, as another person put it, the headline could equally have been ["Bluesky Hit with Massive, Targeted DDoS Attack, Some Users Didn't Even Notice"](https://bsky.app/profile/goose.art/post/3lnnn6gmnws2t).
 
-### “Wait, a decentralised network *censored* people?”
+### "Wait, a decentralised network *censored* people?"
 
-The above attack came days after another, equally misunderstood episode, when [Bluesky restricted access to 72 accounts in Turkey at the request of the Turkish government](https://techcrunch.com/2025/04/23/government-censorship-comes-to-bluesky-but-not-its-third-party-apps-yet). This inevitably leading to [claims](https://bsky.app/profile/aliskorkut.com/post/3lmuztdhwk22g) that Bluesky is “just like Twitter”, from which many Turkish users had fled to Bluesky [earlier that month](https://bsky.app/profile/mackuba.eu/post/3lm34ddbhjc2y), fearing government censorship.
+The above attack came days after another, equally misunderstood episode, when [Bluesky restricted access to 72 accounts in Turkey at the request of the Turkish government](https://techcrunch.com/2025/04/23/government-censorship-comes-to-bluesky-but-not-its-third-party-apps-yet). This inevitably leading to [claims](https://bsky.app/profile/aliskorkut.com/post/3lmuztdhwk22g) that Bluesky is "just like Twitter", from which many Turkish users had fled to Bluesky [earlier that month](https://bsky.app/profile/mackuba.eu/post/3lm34ddbhjc2y), fearing government censorship.
 
-Except it’s _not_ “just like Twitter”… but again this is hard to follow for those who simply see Bluesky as “Twitter minus Nazis”. As Ahoy! co-organiser [Laurens Hof](https://bsky.app/profile/laurenshof.online) explains in [Bluesky, censorship and country-based moderation](https://fediversereport.com/bluesky-censorship-and-country-based-moderation), the blocked content was visible to not only everyone outside Turkey and anyone in Turkey using a VPN, but _also_ to anyone in Turkey using a 3rd party Bluesky client, which are **free to ignore Bluesky PBC’s geographic moderation** labeller.
+Except it's _not_ "just like Twitter"… but again this is hard to follow for those who simply see Bluesky as "Twitter minus Nazis". As Ahoy! co-organiser [Laurens Hof](https://bsky.app/profile/laurenshof.online) explains in [Bluesky, censorship and country-based moderation](https://fediversereport.com/bluesky-censorship-and-country-based-moderation), the blocked content was visible to not only everyone outside Turkey and anyone in Turkey using a VPN, but _also_ to anyone in Turkey using a 3rd party Bluesky client, which are **free to ignore Bluesky PBC's geographic moderation** labeller.
 
-This is therefore a second example of a **technically decentralised network looking centralised** in practice because most people still use Bluesky Social PBC’s apps and/or infrastructure, creating “_a single chokepoint where governments can apply pressure_”.
+This is therefore a second example of a **technically decentralised network looking centralised** in practice because most people still use Bluesky Social PBC's apps and/or infrastructure, creating "_a single chokepoint where governments can apply pressure_".
 
-Moreover, as Laurens points out “_The output of the geographic moderation labelers is easily and publicly accessible”_, so custom feeds can easily highlight the content various governments don’t want their citizens to see.
+Moreover, as Laurens points out "_The output of the geographic moderation labelers is easily and publicly accessible"_, so custom feeds can easily highlight the content various governments don't want their citizens to see.
 
-> governments trying to censor Bluesky would just embarrass themselves and highlight the content they’re trying to suppress
+> governments trying to censor Bluesky would just embarrass themselves and highlight the content they're trying to suppress
 
-If people made real use of the ATmosphere’s decentralised nature, therefore, these chokepoints would disappear: governments trying to censor Bluesky would simply embarrass themselves *and* highlight the content they’re trying to suppress.
+If people made real use of the ATmosphere's decentralised nature, therefore, these chokepoints would disappear: governments trying to censor Bluesky would simply embarrass themselves *and* highlight the content they're trying to suppress.
 
 ### Undermining Bluesky's key argument
 
 These examples show that while almost everyone on Bluesky uses one company's infrastructure, the network will *look* centralised, even when built with decentralis*able* technology. 
 
-This undermines one of Bluesky's differentiators against its better-funded, walled garden incumbent competitors.  Getting people to migrate to Bluesky is therefore only part of the challenge - **getting them onto alternative infrastructure may be almost as important.**
+> getting users onto alternative infrastructure may be almost as important
 
-I'm embarrassed to admit that I for one still haven’t: like 99% of the population, I don’t have the skills to self-host. Setting up easy-to-use hosting services, in my view, should therefore be a priority for Europe in general, and in particular [eurosky.social](eurosky.social), which is launching in a few days' time (see [Building resilient social media](https://medium.com/@mathewlowry/building-resilient-social-media-9f7568a501a6))
+This undermines one of Bluesky's differentiators against its better-funded, walled garden incumbent competitors.  Getting people to migrate to Bluesky is therefore only part of the challenge - getting users onto alternative infrastructure may be almost as important.
+
+I'm embarrassed to admit that I didn't until [Eurosky Social made it easy](https://eurosky.tech/accounts/migrate/), as like 99% of the population I don't have the skills to self-host (see [Building resilient social media](https://medium.com/@mathewlowry/building-resilient-social-media-9f7568a501a6)).
 
 ## Create value worth paying for
 
@@ -73,6 +75,8 @@ We all know why. X has massive **social lock-in:** it's where its users' friends
 
 I have to say that while this disappoints me, maybe it's crazy to think another outcome was possible.
 
+Update (*January 2026*): apparently even releasing [an AI which generates child porn on demand](https://www.bbc.com/news/articles/cvg1mzlryxeo) was not enough. Words fail me.
+
 ### Make the most of Bluesky
 
 Talking of crazy... how about launching a product which is almost identical to an incumbent competitor which: 
@@ -82,15 +86,32 @@ Talking of crazy... how about launching a product which is almost identical to a
 * has big (albeit orange and fickle) friends at the very summit of political power
 * is advertising-financed, a proven business model which you deny yourself?
 
-I'm not criticising Bluesky Social's decision-making: it's precisely *because* they launched a product similar to X that we have 40m people with ATmosphere accounts, all able to kick the tyres of every other ATmosphere app under development. 
+I'm not criticising Bluesky Social's decision-making: it's precisely *because* they launched a product similar to X that we have 43+m people with ATmosphere accounts, all able to kick the tyres of every other ATmosphere app under development (if they knew what an ATmosphere account actually is).
 
-Moreover, there are plenty of novel things one can do on Bluesky that you cannot do on X. The problem is that most people don't make good use of them - many people don't even *see* them, or really understand what they are and how they can use them. 
+Moreover, there are plenty of novel things one can do on Bluesky that you cannot do on X. The problem is that most people don't even *see* them, or really understand what they are and how they can use them. 
 
-Partly this is because of its deliberate similarity to X: we're so used to microblogging as defined by X, it's difficult for many people to see Bluesky as it's own thing, rather than a left-leaning X. I think it will take time for people to understand what you can and cannot do with features like custom feeds, labellers and verifiers ...if they stick around long enough to scratch below the surface. 
+Partly this is because of its deliberate similarity to X: we're so used to microblogging as defined by X, it's difficult for many people to see Bluesky as it's own thing, rather than a left-leaning X. It will take time for people to understand what you can and cannot do with features like custom feeds, labellers and verifiers ...if they stick around long enough to scratch below the surface. 
 
-Fwiw, my sense is that you can do a lot in terms of open community building, notably by combining Bluesky with other ATmosphere-capable tools into entire ecosystems (see [Three things you probably didn't know about Bluesky](https://myhub.ai/items/three-things-you-probably-didnt-know-about-bluesky)). But to make those benefits accessible will take high-quality information, inspirational demonstrations and (perhaps most importantly) new management tools, as I explored in Ahoy!
+That speaks to the tension at the heart of Bluesky's onboarding challenge:
 
-> "*One way to encourage the transition from X to Bluesky is to help large organisations efficiently organise and manage their Bluesky presence. The better they use Bluesky, the quicker they can accelerate [their eXit Strategy](https://mathewlowry.medium.com/x-strategy-or-exit-strategy-a-cost-benefit-analysis-framework-024af4abd1a0)*" - [[how could a large organisation best use bluesky]]).
+> feeds, lists and labellers are too much for most users. It's confusing, there are so many of them. Overwhelming with choice situation. When someone joins new we should have good straightforward curated experiences from the get go rather than throw the kitchen sink at them - *[Sherif](https://bsky.app/profile/sherif.eurosky.social/post/3mpsoj4ri7224) , 4 July 2026*
+
+If new users arrive expecting X, in other words, the features that make Bluesky genuinely different are exactly those ones that can overwhelm them. 
+
+That leaves Bluesky's only pitch as "we're like Twitter but without Nazis (or your friends)", which means there's no *positive* reason to migrate. We've already attracted most of those motivated by negative reasons, but I'm not sure Elon Musk can get any worse (although, as shown above, I've been wrong about that before).
+### Power users and power communities
+
+**So do we hide the power features to smooth the onboarding experience? That seems like a mistake, because custom feeds and labellers are precisely what allows communities to form, creating value impossible to replicate on X.**
+
+The resolution, I think, is to separate the two audiences: **feeds are for power users, but power communities are for everyone.** Power users build the feeds, starter packs and labellers that create communities worth joining — and those communities become the on-ramps for everyone else. 
+
+> Power users build the feeds, starter packs and labellers that create communities worth joining ... the on-ramps for everyone else.
+
+So power users create power communities which then attract normal users, because the hard work of curation, integration and community-building has already been done. 
+
+Because you can do a lot in terms of open community building, notably by combining Bluesky with other ATmosphere-capable tools into entire ecosystems (see [Three things you probably didn't know about Bluesky](https://myhub.ai/items/three-things-you-probably-didnt-know-about-bluesky)). But to make those benefits accessible will take high-quality information, inspirational demonstrations and (perhaps most importantly) new management tools, as I explored in Ahoy!
+
+> "*One way to encourage the transition from X to Bluesky is to help large organisations efficiently organise and manage their Bluesky presence. The better they use Bluesky, the quicker they can accelerate [their eXit Strategy](https://mathewlowry.medium.com/x-strategy-or-exit-strategy-a-cost-benefit-analysis-framework-024af4abd1a0)*" - [[how could a large organisation best use bluesky]]).
 
 ### Value through innovation, not mimicry
 
@@ -106,16 +127,34 @@ Instead, maybe the best battlefield for competing with incumbents is by offering
 
 Maybe, at the end of the day, the social media we have today is the social media which can be supported by advertising, and X-style microblogging simply cannot provide enough value for most individuals and organisations to pay for it. But there are plenty of online content applications that some people *do* pay for, and to date they are either productivity software or longform publishing (enewsletter and website publishing). My goal is to combine them, but that's another story.
 
+## Start with ATScience
+
+There's a prior question lurking beneath the whole adoption challenge: *which* users, and in which order?
+
+If you want epistemologically sound information online — on social networks, and indeed anywhere else — you need to create spaces where high quality information is valued. And that means prioritising three sectors to adopt the ATmosphere: **news, science, and the public sector**. All three are supposed to publish information they can back up with evidence - after all, that's why we have the scientific method, the journalistic method, and public sector accountability, even if they are regularly honoured in the breach.
+
+It's therefore no accident that my presentation at the EuroSky launch was entitled *"[How newsrooms, science and public organizations can get the most out of Bluesky](https://mathewlowry.medium.com/how-newsrooms-scientific-institutions-governments-can-best-use-bluesky-ee97d840a058)"*.  And it's also no surprise that science showed the most interest:
+
+* Newsrooms are desperately short of cash. Their shrinking revenues depend on reaching as many people as possible, while the ATmosphere is still a fraction of the size of legacy social media. Even accounting for the huge number of X bots and its diminishing reach for links, it's a lot to ask of cash-strapped news organisations to invest in rebuilding their audiences elsewhere.
+* The public sector, of course, is slow to do anything.
+* Science is different. Its revenue base includes the public purse, and doesn't require massive audiences to secure funding. It's also full of people who are comfortable with technology, and therefore more open to innovation than average. It's no coincidence scientists were early Bluesky adopters.
+
+That's why my current focus is **[ATscience](https://atproto.science/)**: helping the science sector adopt the ATmosphere, explore innovative solutions, and demonstrate the cost-effectiveness of the ecosystem for both science-to-science and science-to-society communications.
+
+Beyond improving the quality of epistemologically sound information online, success here has a second purpose: it increases the value of the ATmosphere for everyone else, and creates demonstrated models that newsrooms and the public sector can eventually point to and adopt. Science isn't just the easiest starting point — it's the beachhead.
+
 ## In summary
 
 The adoption challenge sounds simple - let's get people to move from X to Bluesky! - but it's in fact a multi-layered challenge that needs to be tackled on several interrelated fronts:
 
 * **differentiate Bluesky from X** by:
-	* demonstrating how people and organisations can create real-world value from it's unique features,
-	* providing the management tools they need to exploit them (see [[how could a large organisation best use bluesky]])
+	* demonstrating how people and organisations can create real-world value from its unique features,
+	* providing the management tools they need to exploit them  
+	* using **power users to build power communities** that serve as on-ramps for the majority who'll never configure a feed or labeller themselves
 * **creating experiences which provide value the incumbents can't** 
 	* through creating unique apps
 	* and combining apps together in innovative ecosystems
+* **start with the sectors most likely to succeed** — focus on science as the beachhead, build demonstrated models, and let news and public sector follow when the path is proven
 * encouraging all users to move to **alternative infrastructure**
 * **education, education, education**, particularly to win [SaveSocial](https://savesocial.eu/en/)'s argument that the public sector should post on the ATmosphere at least as much as they post on (and thus support) X and the other incumbents actively undermining democracy (is that so much to ask?). 
 
@@ -127,24 +166,18 @@ Have I missed anything? Let me know*.
 
 `*` Unless it's "solve the Bluesky Purity Spiral" argument, which I deliberately left out because (a) I want to tackle problems that can be solved, and (b) I'm totally chicken.
 
-## More reading
-
-- I followed up on my Hamburg workshop with [[how could a large organisation best use bluesky]], which led to the creation of [ATConnect](https://www.atconnect.eu/)
-- In November I'm back in Germany at a Digital Sovereignty Summit satellite event to launch  [eurosky.social](eurosky.social) to present ATConnect as one solution to some of the above problems. 
-- In the runup I've been thinking about resilient social media and the EU's drive for "digital sovereignty" - see;
-	- [Building resilient social media](https://medium.com/@mathewlowry/building-resilient-social-media-9f7568a501a6)
-	- [The Blacksky path towards resilient social media](https://mathewlowry.medium.com/the-blacksky-path-towards-resilient-social-media-9b973d1a2239)
-- There's a [Bluesky/ATmosphere overview](https://myhub.ai/@mathewlowry/overview/46/?quality=all&types=like&types=do&types=think&timeframe=anytime) on my Hub, where you'll also find [everything tagged Ahoy](https://myhub.ai/@mathewlowry/?tags=ahoy2025).
 
 ---
 
 ## Revision Notes
 
-This is one of this wiki's pages managed with the **permanent versions pattern** described in  [Two wiki authors and a blogger walk into a bar…](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e)  
+This is one of this wiki's pages managed with the **permanent versions pattern** described in  [Two wiki authors and a blogger walk into a bar…](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e)  
 
-- changes in this version (*updated 2025-11-14*): 
-	- minor tweaks, pre eurosky.social's Berlin event
+- changes in this version (*updated 2026-07-06*): 
+	- developed the idea of power users and power communities
+	- added "Start with ATScience" 
 - version control
-    - this is version: 2 
+    - this is version: 3 
     - this is the current version: [[Bluesky Adoption Challenge]]
-    - here is the previous version: [[Bluesky Adoption Challenge 1]]
+    - here is the previous version: [[Bluesky Adoption Challenge 2]]
+
