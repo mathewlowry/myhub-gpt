@@ -66,20 +66,21 @@ Both ends (Inbox and Public Site) of each thinking/writing stack can be connecte
 
 !["This is my ideal workflow, abstracted from my earlier posts"](https://whtwnd.com/api/cache?did=did:plc:2zxlmj2dvub7smpul2lvwqfk&cid=bafkreihmgjhhgvtlnvi3zdhnzh7kv6k7ppgbc6oomxpjmvqd7s3kmfjxci)
 
-The above figure introduces
+The above figure shows:
 
 * **an Editor's Inboxes**: presents content from email, ATmosphere accounts they Follow, Bluesky Custom Feeds & RSS feeds, ActivityPub accounts, ...
 * Hub editors: 
-    * feeding it into their thinking tool for further added-value processing... 
-    * resulting (hopefully!) in something unique emerging onto their public site & newsletter... 
-    * and from there into their *Followers'* Inboxes.
-* anyone with an ATmosphere account Following: 
+    * Scan their inboxes, adding useful content to their Reading Queue
+    * read it, take notes in their thinking tool, integrate it into their personal knowledge
+    * resulting (hopefully!) in something unique emerging onto their public site & newsletter...
+    * and from there into their *Followers'* Inboxes (next)
+* anyone with an ATmosphere account can Follow: 
 	* the entirety of a Hub's output, or to a subscriber-defined Collection, 
 	* multi-Hub custom feeds 
 	* premium subscriptions (e.g., "*get everything I Think, plus everything I read developing it*", or even "*Platinum subscribers can also access part of my private Library and hang out with me on Wednesdays*")
-* Hub Editors inviting **Trusted friends** into one or more notes in their thinking tool, allowing both to edit and publish something collaboratively
-* comments to hosted Hub items can be shared via the commenter's Bluesky account, widening conversation reach.
+* Hub Editors inviting **Trusted friends** into selected notes in their thinking tool, allowing both to edit and publish collaboratively
 
+There's plenty which is not shown: comments to hosted Hub items, for example, can be shared via the commenter's Bluesky account, widening conversation reach.
 ## Two development paths
 
 I want to both develop the myhub.ai platform to support this *and* provide credible exit to local-first alternatives, so two development paths are required.
@@ -90,7 +91,7 @@ myhub.ai already provides the basic public-facing end of the pipeline, but needs
 
 * *(optionally, top left)* integrated inboxes for protocols (email, RSS; etc.), although stand-alone tools already exist 
 * *(top centre)* the rest of the private content pipeline (reading queue, thinking tool), built into the MyHub Editor
-	* note: we'll use private atproto data spaces, as this allows Friends-only collaboration
+	* note: we'll use [private atproto spaces](https://atproto.com/blog/atproto-spaces-alpha), as this allows Friends-only collaboration
 * *(top right)* a marketplace where users can choose a variety of site types (Hubs, blogs, newsletters, wikis, etc.), and through which developers and designers can sell site types and designs.
 * *(bottom right)* to source the content from, and write to, the user's PDS, and so publish content onto the Atmosphere using [standard.site](https://standard.site/) - an Atmosphere lexicon for longform content
 	* note: in this way these sites can be interconnected with other sites and other ATProto apps (see Connection 2, below). 
@@ -101,17 +102,18 @@ This path is already well-served, as:
 
 * there are plenty of stand-alone inboxes out there
 * Obsidian and others like it already provide excellent thinking tools based on markdown files, and are easily extensible (eg see my [[ReadingQ]] Obsidian plugin)
-* Groundmist allows a user to push local files onto their PDS, from where they can be published by any CMS using the PDS for storage.
+* [Groundmist](https://myhub.ai/@mathewlowry/?types=like&types=do&types=think&timeframe=anytime&quality=all&tags=groundmist) allows users to push local files to their PDS, from where they can be published by any CMS using the PDS for storage.
 
 **This provides credible exit:** any user can get started on MyHub in the knowledge that at any point they can export their content from the platform into markdown files on their hard drive, and start playing with Obsidian (or its alternatives) and Groundmist. 
 
-It can also be partial credible exit - there's nothing stopping somebody managing their content using Obsidian but using the MyHub platform for the public-facing site, for example.
+Note that users can **exit *partially*** - there's nothing stopping somebody managing their content using Obsidian, for example, but using the MyHub platform for the public-facing site.
 
-## Business model
+## Business model: where's the revenue?
 
+**The single most important development the Atmosphere needs to grow is for someone to create something some people are prepared to pay for.**
 ### Fremium plans
 
-While some people may enjoy fine-tuning Obsidian and configuring Groundmist, their PDS and CMS, I'm betting that many will be happy to pay a couple of euros a month to have myhub take care of all of that for them, safe in the knowledge that if the platform goes in a direction they don't like they can always take the local-first path.
+Some people enjoy fine-tuning Obsidian and configuring Groundmist, their PDS and CMS, but I'm betting many others will pay a couple of euros a month to have myhub take care of it for them, safe in the knowledge that if the platform does go in a direction they don't like they can always take the local-first path.
 
 ### Substack on Steroids
 
@@ -126,11 +128,9 @@ Moreover, the fully-featured Hub you'd get for your subscription will be a Subst
 As a result we will support creators for not just creating, but also *curating*, high-value content, and integrate this content into social and collaborative networks.
 
 **b) Better content productivity:** then there's the productivity bonus the Editor gets from the integration between the inbox, the reading queue and thinking tool with their public and subscriber-only publishing engine.
-### Innovation
+### Open innovation
 
 Finally, the marketplace will be open - designers and developers will be free to develop and market new site types and designs.
-
-
 
 ---
 ## Revision Notes
