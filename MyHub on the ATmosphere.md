@@ -83,9 +83,9 @@ The above figure shows:
 There's plenty which is not shown: comments to hosted Hub items, for example, can be shared via the commenter's Bluesky account, widening conversation reach.
 ## Two development paths
 
-I want to both develop the myhub.ai platform to support this *and* provide credible exit to local-first alternatives, so two development paths are required.
+**I want to both develop the myhub.ai platform to support this *and* provide credible exit to local-first alternatives, so two development paths are required:**
 
-![[Pasted image 20260824171349.png]]
+![[Pasted image 20260824180704.png]]
 ### Developing MyHub.ai
 myhub.ai already provides the basic public-facing end of the pipeline, but needs:
 
@@ -107,14 +107,14 @@ This path is already well-served, as:
 
 **The single most important development the Atmosphere needs to grow is for someone to create something some people are prepared to pay for.**
 
-The aoove local-first development path provides **credible exit:** any user can get started on MyHub in the knowledge that at any point they can export their content from the platform into markdown files on their hard drive, and start playing with Obsidian (or its alternatives) and Groundmist. 
+The above local-first development path provides **credible exit:** any user can get started on MyHub in the knowledge that at any point they can export their content from the platform into markdown files on their hard drive, and use Obsidian (or its alternatives), Groundmist and their own CMS and web server. 
 
-Moreover, they can even **exit *partially*** - there's nothing stopping somebody managing their content using Obsidian, for example, but using the MyHub platform for the public-facing site.
+They can even **exit *partially*** - there's nothing stopping somebody managing their content using Obsidian, for example, but using the MyHub platform for the public-facing site.
 
 But if anyone on myhub can jump ship for free alternatives at any time, how will it pay for itself?
 ### Fremium plans
 
-Some people enjoy fine-tuning Obsidian and configuring Groundmist, their PDS and CMS, but I'm betting many others will pay a couple of euros a month to have myhub take care of it for them, safe in the knowledge that if the platform does go in a direction they don't like they can always take the local-first path.
+Some people enjoy fine-tuning Obsidian and configuring Groundmist, their PDS, CMS and servers, but I'm betting many others will pay a couple of euros a month to have myhub take care of it for them, safe in the knowledge that if it goes in a direction they don't like they can always take the local-first path.
 ### Substack on Steroids
 
 Moreover, the fully-featured Hub you'd get for your subscription will be a Substack on steroids:
