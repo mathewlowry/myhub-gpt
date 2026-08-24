@@ -1,32 +1,52 @@
 # MyHub.ai on the ATmosphere
 
+**An onramp to cross-platform decentralised collective intelligence, with credible exit throughout.**
 
-**How would MyHub.ai evolve to become part of the ATmosphere?**
-
-*(This is version 3 of this post, published on my experimental wiki using the [permanent versions pattern](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e). Version control in the footer.)*
+*(This is version 4 of this post, published on my experimental wiki using the [permanent versions pattern](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e). Version control in the footer.)*
 
 The ATmosphere is the right ecosystem to bet on for developing decentralised collective intelligence, but it requires more than just exchanging 300-character status updates. We need:
 
 * more apps, offering deeper and more valuable content and collaboration 
 * a business model to sustain those apps
-* productive, trustable interconnections between them, so that growth in one app lifts many boats.
+* productive, trustable interconnections between them, so that growth in each app lifts many other boats.
 
 *(more: [[Bluesky Adoption Challenge]])*
 
 How would moving MyHub.ai onto the ATmosphere help? My basic answer can be found in my[ January 2023 manifesto posts](https://mathewlowry.medium.com/a-minimum-viable-ecosystem-for-collective-intelligence-7738848ce9c4), but that was before I understood really anything about ATProtocol. I've therefore created this page to collect my evolving ideas for how those ideas would translate onto the ATmosphere.
 ## Idea in a nutshell
 
-As I summarised in [this video](https://www.youtube.com/watch?v=OfX1-T96QXA), the basic idea is to: 
+The basic idea is to: 
 
-* transform the myhub.ai platform into a opensource, markdown-based, ATmosphere-enabled publishing toolkit 
-* interconnected with a multi-protocol inbox, thinking and collaboration tools, 
-* and use it to explore how productive online communities and decentralised collective intelligence can be made self-sustaining.
+* **develop the myhub.ai platform** to provide the key parts of a content pipeline: reading queue, a private thinking tool with "Friends only" collaboration spaces, and a public-facing site (Hubs to begin with, but also blogs, newsletters, wikis, etc.)
+* provide **credible exit** at each stage of the content pipeline, so users can later swap in alternative tools, self-host, innovate, etc
 
-## So what's a Hub? 
+The platform therefore acts as an **on-ramp**—a simple starting point for newcomers - which doesn't lock them in, as users: 
 
-Today, a Hub is just a personal site combining social bookmarking ("Stuff I Like"), blogging ("Stuff I Think"), and a personal portfolio ("Stuff I Do"). It is published on the myhub.ai platform, which I launched in March 2020. 
+* store their own content on their own Personal Data Servers and manage their own identity
+* can export their myhub content to local-first solutions whenever they like.
+## What's a Content Pipeline?
 
-As you'll see from *my* Hub ([https://myhub.ai/@mathewlowry/](https://myhub.ai/@mathewlowry/)):
+I developed my content pipeline to help tackle the firehose of content coming at me. 
+
+![[pipeline.png]]
+*(from [Thinking transparently in the ATmosphere](https://whtwnd.com/mathewlowry.eurosky.social/3lcb22vzc3r2x), December 2024)*
+
+In its simplest form, it's:
+
+* your *curated Inboxes*, which contain stuff which might be interesting
+* your reading, thinking and writing stack: a reading queue and private library where the Editor makes notes, thinks, drafts and ...
+* optionally, hits Publish, pushing the content to a public site.
+
+Editors should also be able to invite Trusted Friends to collaborate within their Library, but I'll leave that for later.
+## What's a Hub?  
+
+Today, a Hub is one of these personal public sites - it's the  public facing edge of my thinking and writing stack, combining:
+
+* social bookmarking ("Stuff I Like"), 
+* blogging ("Stuff I Think"), 
+* and a personal portfolio ("Stuff I Do"). 
+
+It is published on the myhub.ai platform, which I launched in March 2020. As you'll see from my Hub ([https://myhub.ai/@mathewlowry/](https://myhub.ai/@mathewlowry/)):
 
 * it contains a searchable, filterable set of **cards**: resources ("Stuff") I Like, Think or Do. Each card is either:
 	* **hosted**: the card points to a full longform piece of content hosted on the Hub 
@@ -38,107 +58,66 @@ As you'll see from *my* Hub ([https://myhub.ai/@mathewlowry/](https://myhub.ai/@
 	* [what I **Think** tagged ATprotocol *and* Collective Intelligence](https://myhub.ai/@mathewlowry/?tags=collective+intelligence&types=like&types=do&types=think&timeframe=anytime&quality=all&tags=atprotocol)
 *  each Hub's Collection has its own RSS feed ([here's the feed for the above Collection](https://myhub.ai/rss/@mathewlowry/?tags=collective+intelligence&types=like&types=do&types=think&timeframe=anytime&quality=all&tags=atprotocol)).
 
-**As a result, a Hub:**
+Note that a Hub not only brings together a Hub Editor's content from across the web, it "knows" an enormous amount of what interests the Editor, which is handy for any personal AI assistant.
 
-* brings together a Hub Editor's content from across the web
-* plays an important role in each Editor's "thinking/writing stack"
-* "knows" an enormous amount of what interests the Editor, which could be leveraged by a (user-owned) AI 
+## Why connect this to the Atmosphere?
 
-But that's what a Hub is *today*. Having played with mine in one form or another since 2013, I have more than a few ideas about its future. 
-
-## 3 connections
-
-**Cards are made to be shared, and Hubs - as their name implies - are designed to be connected. But why limit this to Hubs?**
-
-The toolkit I want to create will enable users to create a wide variety of ATmosphere-connected sites, not just Hubs. As set out in those [January 2023 manifesto posts](https://mathewlowry.medium.com/a-minimum-viable-ecosystem-for-collective-intelligence-7738848ce9c4), that means connecting these sites in three different ways:
-
-* connect each site to its Editor's **thinking and writing tool**
-* connect all sites (and their Editors, and *their* thinking tools) **to each other and other ATmosphere apps** 
-* (possibly - speculative) connect these sites *and* thinking tools to AI services to improve creativity and improve discovery.
-
-These are explored in the next three sections. There are also a couple of other key features required for Hub monetisation, explored in "Business model", after that.  
-## Connection 1: Thinking tool -> Site
-
-**Goal: offer seamless interconnection between each Editors' private library of notes and their public site.** 
-
-In practice, this means creating:
-### Site publishing toolkit
-
-An opensource dynamic site publishing toolkit for sites on the Atmosphere, using a range of themes (Hubs, newsletters, etc.).
-
-This toolkit will allow users to: 
-
-* create and publish their own site on their own domain, with content stored on their own PDS 
-* monetise their content, as set out in "Business models"
-* create their own theme, and share and monetise it.
-
-Because these sites are published on the ATmosphere, they can be interconnected with other sites and other ATProto apps, as explored in Connection 2, below. 
-
-*(late 2025 update)*: the fundamental work has been done, and it's called [standard.site](https://standard.site/) . 
-### Thinking tool -> site integration
-
-Each site is also connected to thinking tools, making it the **public-facing edge of the user's private library** of notes and drafts, stored in markdown format either on the cloud or on their own machine.
-
-The thinking tool basically spans the "Reading Queue -> My Library" stages in the middle of the user's *"reading, thinking, writing & publishing stack"*:
-
-![[pipeline.png]]
-*(from [Thinking transparently in the ATmosphere](https://whtwnd.com/mathewlowry.eurosky.social/3lcb22vzc3r2x), December 2024)*
-
-The Library is where the Editor makes notes, thinks, drafts and then hits a Publish button, pushing the content out the door to the Public site. Editors can also invite Trusted Friends to collaborate within their Library (not shown, explored later).
-## Connection 2: Hub->Atmosphere->Hub
-
-**Goal: Each Hub (and, behind it, the Editor's thinking tool) is networked with other Hubs and other apps on the ATmosphere.**
-
-Essentially, both ends (Inbox and Public Site) of each thinking/writing stack are connected to everyone else via ATproto and other protocols (RSS, ActivityPub, SMTP):
+Both ends (Inbox and Public Site) of each thinking/writing stack can be connected to everyone elses' via ATproto and other protocols (RSS, ActivityPub, SMTP):
 
 !["This is my ideal workflow, abstracted from my earlier posts"](https://whtwnd.com/api/cache?did=did:plc:2zxlmj2dvub7smpul2lvwqfk&cid=bafkreihmgjhhgvtlnvi3zdhnzh7kv6k7ppgbc6oomxpjmvqd7s3kmfjxci)
 
 The above figure introduces
 
-* **an Editor's Inbox**: presents content from ATmosphere accounts they Follow, Custom Feeds they subscribe to, RSS feeds, ActivityPub accounts, newsletters...
+* **an Editor's Inboxes**: presents content from email, ATmosphere accounts they Follow, Bluesky Custom Feeds & RSS feeds, ActivityPub accounts, ...
 * Hub editors: 
-    * interacting directly with a post in their Inbox (eg reply to a Bluesky post, reHub a Hubbed card) 
-    * and/or feeding it into their thinking tool for further added-value processing... 
+    * feeding it into their thinking tool for further added-value processing... 
     * resulting (hopefully!) in something unique emerging onto their public site & newsletter... 
     * and from there into their *Followers'* Inboxes.
 * anyone with an ATmosphere account Following: 
 	* the entirety of a Hub's output, or to a subscriber-defined Collection, 
 	* multi-Hub custom feeds 
-	* premium subscriptions (e.g., "*get everything I Think, plus everything I read developing it*", or even "*Platinum subscribers can also access part of my private Library and hang out with me on Wednesdays*", etc. - see Business Model, below)
-* Hub Editors inviting **Trusted friends** into one or more notes in their thinking tool, allowing both to edit and publish something collaboratively (as in tools like [MarkPub](https://markpub.org/), used in this wiki).
-* comments to hosted Hub items can be shared via the commenter's Bluesky account, if a commenter wishes (as in Whitewind, Leaflet.pub, etc), widening conversation reach 
+	* premium subscriptions (e.g., "*get everything I Think, plus everything I read developing it*", or even "*Platinum subscribers can also access part of my private Library and hang out with me on Wednesdays*")
+* Hub Editors inviting **Trusted friends** into one or more notes in their thinking tool, allowing both to edit and publish something collaboratively
+* comments to hosted Hub items can be shared via the commenter's Bluesky account, widening conversation reach.
 
-## Connection 3: Hub <-> AI services
+## Two development paths
 
-**As set out under Business Model (next), one of the two revenue streams to explore is something I have come to call AI4communities.** 
+I want to both develop the myhub.ai platform to support this *and* provide credible exit to local-first alternatives, so two development paths are required.
 
-*Warning: you've entered this project's speculative edge, originally explored in 2022 and not validated since.*
+![[Pasted image 20260824171349.png]]
+### Developing MyHub.ai
+myhub.ai already provides the basic public-facing end of the pipeline, but needs:
 
-AI4communities means that individuals or - ideally - communities of people can collectively lease or own a range of AI services to help them be more productive and/or creative online. 
+* *(optionally, top left)* integrated inboxes for protocols (email, RSS; etc.), although stand-alone tools already exist 
+* *(top centre)* the rest of the private content pipeline (reading queue, thinking tool), built into the MyHub Editor
+	* note: we'll use private atproto data spaces, as this allows Friends-only collaboration
+* *(top right)* a marketplace where users can choose a variety of site types (Hubs, blogs, newsletters, wikis, etc.), and through which developers and designers can sell site types and designs.
+* *(bottom right)* to source the content from, and write to, the user's PDS, and so publish content onto the Atmosphere using [standard.site](https://standard.site/) - an Atmosphere lexicon for longform content
+	* note: in this way these sites can be interconnected with other sites and other ATProto apps (see Connection 2, below). 
+* *(right)* to integrate enewsletter and Fediverse publication services with the public site.
+### Local-first path
 
-!["From 2023"](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*mrMrYtsN5b1XwlmkVXThrw.png)
-*(from [How Artificial Intelligence will finance Collective Intelligence](https://mathewlowry.medium.com/how-artificial-intelligence-will-finance-collective-intelligence-5d17adcce98b), January 2023)*
+This path is already well-served, as: 
 
-There could be a range of business models for providing these services, from pure subscription through to the community leasing or owning "their" model, and affraying the costs though data-sharing.
+* there are plenty of stand-alone inboxes out there
+* Obsidian and others like it already provide excellent thinking tools based on markdown files, and are easily extensible (eg see my [[ReadingQ]] Obsidian plugin)
+* Groundmist allows a user to push local files onto their PDS, from where they can be published by any CMS using the PDS for storage.
 
-Many AI services will support individuals (cf Bluesky users subscribing to custom feeds and block lists) but other services could support entire communities, and can be configured and fine-tuned by the members to ensure they reflect their interests and preferences. After all, when you have a Hub on the ATmosphere you can choose to give your AI services access to a *lot* of content:
+**This provides credible exit:** any user can get started on MyHub in the knowledge that at any point they can export their content from the platform into markdown files on their hard drive, and start playing with Obsidian (or its alternatives) and Groundmist. 
 
-* what you do on your social network(s)
-* every article you bookmark or Hub (and so find really, really useful)
-* the notes you make about it as you curate it (which tells the AI exactly _what_ you find useful about it)
-* everything else (blog posts and professional references, mainly) which you publish alongside them
-* and everything else in your private knowledge library you make accessible to it.
+It can also be partial credible exit - there's nothing stopping somebody managing their content using Obsidian but using the MyHub platform for the public-facing site, for example.
 
-Individual users and communities would access these services via what the [Three Legged Stool manifesto](https://publicinfrastructure.org/2023/03/29/the-three-legged-stool/) calls a “Friendly Neighborhood Algorithm Store”.
+## Business model
 
-## Business model: two revenue streams
+### Fremium plans
 
-**The second overarching goal of the project is to explore two revenue streams.** 
-### Premium subscriptions
+While some people may enjoy fine-tuning Obsidian and configuring Groundmist, their PDS and CMS, I'm betting that many will be happy to pay a couple of euros a month to have myhub take care of all of that for them, safe in the knowledge that if the platform goes in a direction they don't like they can always take the local-first path.
 
-As mentioned above, with a few features added each Hub will become a "Substack on Steroids". There are two reasons why it would be better than anything else on the market:
+### Substack on Steroids
 
-**a) Better content offering:** On the one hand, it will allow Editors to offer subscribers access to some or all of the Editor's finished posts (as in Substack, Ghost, etc.), *plus:*
+Moreover, the fully-featured Hub you'd get for your subscription will be a Substack on steroids:
+
+**a) Better content offering:** Editors will be able to offer subscribers access to some or all of the Editor's finished posts (as in Substack, Ghost, etc.), *plus:*
 
 * everything the Editor read, particularly the resources influencing those finished posts, with the Editor's notes
 * collaborative spaces and groups for the Editor and his/her subscribers
@@ -146,19 +125,12 @@ As mentioned above, with a few features added each Hub will become a "Substack o
 
 As a result we will support creators for not just creating, but also *curating*, high-value content, and integrate this content into social and collaborative networks.
 
-**b) Better content productivity:** in addition, there is the productivity bonus the Editor gets from the integration between the inbox, the reading queue and thinking tool with their public and subscriber-only publishing engine.
+**b) Better content productivity:** then there's the productivity bonus the Editor gets from the integration between the inbox, the reading queue and thinking tool with their public and subscriber-only publishing engine.
+### Innovation
 
-### AI Services and AI4communities
+Finally, the marketplace will be open - designers and developers will be free to develop and market new site types and designs.
 
-Subscriptions are also relevant to the communities we want to see develop in the ATmosphere. Community members may pay a small subscription fee for access to an improved community environment and tools, supplied by, inter alia: 
 
-* apps which go beyond shortform chat (collaboration, co-creation), 
-* manual community management
-* a wide range of customisable AI services, as explored above.
-
-Moreover, the model collapse phenomenon may mean that a user's or communities' content may become valuable AI training data. This is *particularly* the case where a community is using apps which go beyond simple shortform chat - ie, the more communities curate, discuss and (co-)create longform, original content, the more valuable training data they will create, which they can then monetise as a community.
-
-Note that this is somewhat speculative, not least because the existence of the original model collapse phenomenon has been called into question since the original papers in [May](https://arxiv.org/abs/2305.17493) and [July](https://www.nature.com/articles/s41586-024-07566-y). I nevertheless believe that authentically human, high-value content created by communities may become valuable. 
 
 ---
 ## Revision Notes
@@ -166,8 +138,9 @@ Note that this is somewhat speculative, not least because the existence of the o
 This is one of this wiki's pages managed with the **permanent versions pattern** described in  [Two wiki authors and a blogger walk into a bar…](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e)  
 
 - changes in this version: 
-	- significantly shortened, rewritten to reflect more recent ideas 
+	- credible exit emphasised, 
+	- took out AI4Communities (too speculative)
 - version control
-    - this is version: 3
+    - this is version: 4
     - this is the current version: [[MyHub on the ATmosphere]]
-    - here is the previous version: [[MyHub on the ATmosphere 2]]
+    - here is the previous version: [[MyHub on the ATmosphere 3]]

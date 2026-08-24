@@ -241,4 +241,4 @@ This is one of this wiki's pages managed with the **permanent versions pattern**
 - version control
     - this is version: 2
     - this is the current version: [[MyHub on the ATmosphere]]
-    - here is the previous version: [[MyHub on the ATmosphere 1]]
+    - here is the previous version: [[MyHub on the ATmosphere 3]]
