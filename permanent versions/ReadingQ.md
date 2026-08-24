@@ -6,7 +6,7 @@ modification date: 236 August 2026 11:34:51
 
 **If your first reaction is to dogpile me for using AI to create code for personal use, please hold your nose and read to the end.**
 
-*(Notes: This is version 1 of this post; more details and version control in the footer.)
+*(Notes: This is version 1 of this post; more details and version control in the footer.)*
 
 ## But first, why this plugin? 
 
@@ -31,10 +31,13 @@ Here's what happens:
 * it sent a chunk of Chris' article to Claude, which compares it to my project list (a semantically rich file in my Obsidian vault) and returns one or more **project tags**. The above article, for example, was tagged #productivity, which is how I found it as I wrote this post before actually processing it fully
 	* (note: if no project can be found, it returns #tagme)
 * my plugin then turns the entire line into a [Task](https://community.obsidian.md/plugins/obsidian-tasks-plugin) with a deadline of tomorrow, applies the project tag(s) and the #readme tag to it, and moves it up one to the penultimate section of my daily note ("Added to readme today")
-* as a result, the URL appears as a task in today's daily note and:
-	* tomorrow's daily note, where it appears under "to read today" (thanks to the deadline and my daily note template)
-	* in a central Reading Queue thanks to the Tasks plugin, where it can be easily filtered by tag (that's how I found Chris' article)
-	* in each relevant project's ToDo list (a section of each project's Map of Content), thanks to the project tag and the Tasks plugin.
+
+
+**As a result, the URL appears as a task in today's daily note and:**
+
+* tomorrow's daily note, where it appears under "to read today" (thanks to the deadline and my daily note template)
+* in a central Reading Queue thanks to the Tasks plugin, where it can be easily filtered by tag (that's how I found Chris' article)
+* in each relevant project's ToDo list (a section of each project's Map of Content), thanks to the project tag and the Tasks plugin.
 
 ## What it doesn't fix
 
@@ -46,21 +49,16 @@ But it's still an improvement: reading queue content now appears everywhere rele
 
 **But the real benefit of the exercise was that I've learnt how to improve my own pipeline tools, rather than adopting and configuring someone else's. Anyone can.** 
 
-So this is the beginning of a journey, which I'm taking with Loki, my personal knowledge management AI assistant, created as a result of [Peter Kaminiski](https://peterkaminski.ai/)'s generosity. If you'd like your own AI assistant that lives in your notes, learns as you work and helps you build whatever you need, you can [get started for free](https://peterkaminski.ai/pkai-agent/), although I highly recommend becoming a [PKAI Insider](https://insiders.peterkaminski.ai/). 
-
-Reading Queue Manager is actually the first step in revamping MyHub. 
-I've wanted to improve collective intelligence by giving anyone who wants one a content pipeline, complete with a Hub for sharing content publicly, for many years. Since becoming atproto-pilled, however, I want these pipelines integrated into the Atmosphere. The idea is to offer both a revamped MyHub.ai platform *and* a local-first toolkit, providing credible exit from MyHub for each stage of the pipeline. My Reading Queue Obsidian plugin is a first step towards that local-first toolkit, but anything I create with AI will only ever be a proof of concept. If I can show there's enough interest to raise development funding, their first destination will be someone who actually knows what they're doing with the code.
+So this is the beginning of a journey, which I'm taking with Loki, my personal knowledge management AI assistant, created as a result of [Peter Kaminiski](https://peterkaminski.ai/)'s generosity. If you'd like your own AI assistant that lives in your notes, learns as you work and helps you build whatever you need, you can [get started with Pete's approach for free](https://peterkaminski.ai/pkai-agent/), although I highly recommend becoming a [PKAI Insider](https://insiders.peterkaminski.ai/). 
 
 And before you condemn me for using AI, remember:
 
 * this is **personal code**, a few Markdown files in a directory inside an Obsidian vault on 2 PCs and a phone: I'm not releasing it to the world, I'm not committing to maintain it, and it doesn't matter that the code isn't elegant 
 * this could not exist otherwise: I'm not a developer, and I'm sick and tired of describing systems I'll never see.
 
-All that said — if anyone wants it, I'm happy to pass it across. It's very simple If you use Obsidian, so feel free to hit me up and I'll send you the files.
+All that said — if anyone wants it, I'm happy to pass it across. It's very simple If you use Obsidian, so feel free to hit me up and I'll send you the files. 
 
-But by the time you read this, my plugin will almost certainly have evolved. 
-
-
+Just remember that by the time you read this, my plugin will almost certainly have evolved, as Reading Queue Manager is actually the first step in revamping MyHub (see [[MyHub on the ATmosphere]]).
 
 ---
 
@@ -68,11 +66,11 @@ But by the time you read this, my plugin will almost certainly have evolved.
 
 This is one of this wiki's pages managed with the **permanent versions pattern** described in  [Two wiki authors and a blogger walk into a bar…](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e)  
 
-- changes in this version: (2026-02-21)
+- changes in this version: (2026-08-24)
 	- n/a 
 - version control
     - this is version: 1
-    - this is the current version: [[Permanent version template]]
+    - this is the current version: [[ReadingQ]]
     - here is the previous version: n/a
 
 

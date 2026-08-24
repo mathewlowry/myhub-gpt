@@ -93,8 +93,8 @@ myhub.ai already provides the basic public-facing end of the pipeline, but needs
 * *(top centre)* the rest of the private content pipeline (reading queue, thinking tool), built into the MyHub Editor
 	* note: we'll use [private atproto spaces](https://atproto.com/blog/atproto-spaces-alpha), as this allows Friends-only collaboration
 * *(top right)* a marketplace where users can choose a variety of site types (Hubs, blogs, newsletters, wikis, etc.), and through which developers and designers can sell site types and designs.
-* *(bottom right)* to source the content from, and write to, the user's PDS, and so publish content onto the Atmosphere using [standard.site](https://standard.site/) - an Atmosphere lexicon for longform content
-	* note: in this way these sites can be interconnected with other sites and other ATProto apps (see Connection 2, below). 
+* *(bottom right)* to source the content from, and write to, the user's PDS, and so publish content onto the Atmosphere 
+	* note: we'll use [standard.site](https://standard.site/) - an Atmosphere lexicon for longform content
 * *(right)* to integrate enewsletter and Fediverse publication services with the public site.
 ### Local-first path
 
@@ -103,18 +103,18 @@ This path is already well-served, as:
 * there are plenty of stand-alone inboxes out there
 * Obsidian and others like it already provide excellent thinking tools based on markdown files, and are easily extensible (eg see my [[ReadingQ]] Obsidian plugin)
 * [Groundmist](https://myhub.ai/@mathewlowry/?types=like&types=do&types=think&timeframe=anytime&quality=all&tags=groundmist) allows users to push local files to their PDS, from where they can be published by any CMS using the PDS for storage.
-
-**This provides credible exit:** any user can get started on MyHub in the knowledge that at any point they can export their content from the platform into markdown files on their hard drive, and start playing with Obsidian (or its alternatives) and Groundmist. 
-
-Note that users can **exit *partially*** - there's nothing stopping somebody managing their content using Obsidian, for example, but using the MyHub platform for the public-facing site.
-
 ## Business model: where's the revenue?
 
 **The single most important development the Atmosphere needs to grow is for someone to create something some people are prepared to pay for.**
+
+The aoove local-first development path provides **credible exit:** any user can get started on MyHub in the knowledge that at any point they can export their content from the platform into markdown files on their hard drive, and start playing with Obsidian (or its alternatives) and Groundmist. 
+
+Moreover, they can even **exit *partially*** - there's nothing stopping somebody managing their content using Obsidian, for example, but using the MyHub platform for the public-facing site.
+
+But if anyone on myhub can jump ship for free alternatives at any time, how will it pay for itself?
 ### Fremium plans
 
 Some people enjoy fine-tuning Obsidian and configuring Groundmist, their PDS and CMS, but I'm betting many others will pay a couple of euros a month to have myhub take care of it for them, safe in the knowledge that if the platform does go in a direction they don't like they can always take the local-first path.
-
 ### Substack on Steroids
 
 Moreover, the fully-featured Hub you'd get for your subscription will be a Substack on steroids:
