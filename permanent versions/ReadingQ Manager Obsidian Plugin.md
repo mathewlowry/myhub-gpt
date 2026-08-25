@@ -58,7 +58,11 @@ And before you condemn me for using AI, remember:
 
 All that said — if anyone wants it, I'm happy to pass it across. It's very simple If you use Obsidian, so feel free to hit me up and I'll send you the files. 
 
-Just remember that by the time you read this, my plugin will almost certainly have evolved, as Reading Queue Manager is actually the first step in revamping MyHub (see [[MyHub on the ATmosphere]]).
+Just remember that by the time you read this, my plugin will almost certainly have evolved, as Reading Queue Manager is the first step (of many) taken as Loki and I revamp MyHub:
+
+![[Pasted image 20260825135506.png]]
+
+*Image adapted from [[MyHub on the ATmosphere]].*
 
 ---
 
@@ -70,7 +74,7 @@ This is one of this wiki's pages managed with the **permanent versions pattern**
 	- n/a 
 - version control
     - this is version: 1
-    - this is the current version: [[ReadingQ]]
+    - this is the current version: [[ReadingQ Manager Obsidian Plugin]]
     - here is the previous version: n/a
 
 

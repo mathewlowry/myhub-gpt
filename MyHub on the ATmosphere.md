@@ -101,7 +101,7 @@ myhub.ai already provides the basic public-facing end of the pipeline, but needs
 This path is already well-served, as: 
 
 * there are plenty of stand-alone inboxes out there
-* Obsidian and others like it already provide excellent thinking tools based on markdown files, and are easily extensible (eg see my [[ReadingQ]] Obsidian plugin)
+* Obsidian and others like it already provide excellent thinking tools based on markdown files, and are easily extensible (eg see my [[ReadingQ Manager Obsidian Plugin]] Obsidian plugin)
 * [Groundmist](https://myhub.ai/@mathewlowry/?types=like&types=do&types=think&timeframe=anytime&quality=all&tags=groundmist) allows users to push local files to their PDS, from where they can be published by any CMS using the PDS for storage.
 ## Business model: where's the revenue?
 
