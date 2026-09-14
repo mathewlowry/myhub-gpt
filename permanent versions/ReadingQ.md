@@ -91,7 +91,7 @@ This is one of this wiki's pages managed with the **permanent versions pattern**
 	- more on using AI, reflecting [last week's newsletter edition](https://leaflet.pub/01a0818c-db78-7223-bee3-97cabf5247c7) 
 - version control
     - this is version: 2
-    - this is the current version: [[ReadingQ Manager Obsidian Plugin]]
+    - this is the current version: [[ReadingQ]]
     - here is the previous version: [[ReadingQ Manager Obsidian Plugin 1]]
 
 

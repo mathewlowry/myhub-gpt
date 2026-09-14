@@ -74,7 +74,7 @@ This is one of this wiki's pages managed with the **permanent versions pattern**
 	- n/a 
 - version control
     - this is version: 1
-    - this is the current version: [[ReadingQ Manager Obsidian Plugin]]
+    - this is the current version: [[ReadingQ]]
     - here is the previous version: n/a
 
 
