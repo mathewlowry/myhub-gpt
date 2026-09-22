@@ -74,7 +74,7 @@ This follows [the model Andrej Karpathy set out](https://gist.github.com/karpath
 
 V2 of ReadingQ Manager turns my reading queue into the raw material required for this model. 
 
-### Hub Manager: the line AI won't cross
+### Hub Manager and the line AI won't cross
 
 **Another plugin is coming for my content pipeline. But not for all of it.** 
 
@@ -83,13 +83,13 @@ ReadingQ Manager gets content into my library and adds a task to read it onto va
 ![[content-pipeline-localfirst-all.png]]
 *The Hub Manager plugin takes over where ReadingQ Manager stops, helping create and move content through my pipeline until it's ready to publish onto my Personal Data Server (PDS).*
 
-I will publish more on Hub Manager when it's operational. For now, I'll just note where I've drawn the line AI shall *not* cross on my content pipeline. While Hub Manager will *support* the processes of curating other people's content, creating my own, and publishing everything onto my Hub, **the actual writing cannot be performed by AI, because writing = thinking**. 
+I will publish more on Hub Manager when it's operational. For now, I'll just note where I've drawn the line AI shall *not* cross on my content pipeline. While Loki and the plugins it create will *support* the processes of curating other people's content, creating my own, and publishing everything onto my Hub, **AI will not do any writing for me, because writing = thinking**. 
 
-> writing = thinking
+> writing = thinking... If you rely on an AI to write ... none of that knowledge will actually get into your head
 
 Not that AI can't write - it can, badly, but it's improving. But the process of writing is indispensable to both learning other people's ideas and coming up with your own. If you rely on an AI to write your notes, posts and articles for you, none of that knowledge will actually get into your head, where it can connect to everything else there to spark new ideas. As the authors of [a recent MIT report](https://aiandeducation.mit.edu/report/) put it, "Getting the right answer from a chatbot can create the illusion of learning".
 
-So while Loki may help me organise, it's still me who identifies what's valuable and why, and writes every word. Otherwise I'll internalise, and publish, nothing of value.
+So while Loki may help me organise, and write the software to help me publish, it's still me who identifies what's valuable and why, and writes every word. Otherwise I'll internalise, and publish, nothing of value.
 
 ## On vibe coding
 
