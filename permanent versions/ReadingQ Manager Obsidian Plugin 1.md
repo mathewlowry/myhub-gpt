@@ -74,7 +74,7 @@ This is one of this wiki's pages managed with the **permanent versions pattern**
 	- n/a 
 - version control
     - this is version: 1
-    - this is the current version: [[ReadingQ]]
+    - this is the current version: [[permanent versions/ReadingQ]]
     - here is the previous version: n/a
 
 

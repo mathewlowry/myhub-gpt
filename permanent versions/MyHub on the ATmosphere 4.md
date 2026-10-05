@@ -1,18 +1,26 @@
 # MyHub.ai on the ATmosphere
 
-*(This is version 5 of this post, published on my experimental wiki using the [permanent versions pattern](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e). Version control in the footer.)*
+**An onramp to cross-platform decentralised collective intelligence, with credible exit throughout.**
 
-The ATmosphere is the right ecosystem to bet on for developing decentralised collective intelligence, but it requires more than just exchanging 300-character status updates *(more: [[Bluesky Adoption Challenge]])*. How would moving MyHub.ai onto the ATmosphere help? 
+*(This is version 4 of this post, published on my experimental wiki using the [permanent versions pattern](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e). Version control in the footer.)*
 
-My basic answer can be found in my[ January 2023 manifesto posts](https://mathewlowry.medium.com/a-minimum-viable-ecosystem-for-collective-intelligence-7738848ce9c4), but that was before I understood really anything about ATProtocol. I've therefore created this page to collect my evolving ideas for how those ideas would translate onto the ATmosphere.
+The ATmosphere is the right ecosystem to bet on for developing decentralised collective intelligence, but it requires more than just exchanging 300-character status updates. We need:
+
+* more apps, offering deeper and more valuable content and collaboration 
+* a business model to sustain those apps
+* productive, trustable interconnections between them, so that growth in each app lifts many other boats.
+
+*(more: [[Bluesky Adoption Challenge]])*
+
+How would moving MyHub.ai onto the ATmosphere help? My basic answer can be found in my[ January 2023 manifesto posts](https://mathewlowry.medium.com/a-minimum-viable-ecosystem-for-collective-intelligence-7738848ce9c4), but that was before I understood really anything about ATProtocol. I've therefore created this page to collect my evolving ideas for how those ideas would translate onto the ATmosphere.
 ## Idea in a nutshell
 
 The basic idea is to: 
 
-* **develop the myhub.ai platform** to provide the key parts of a **content pipeline**: reading queue, a private thinking tool with "Friends only" collaboration spaces, and a public-facing site (Hubs to begin with, but also blogs, newsletters, wikis, etc.)
+* **develop the myhub.ai platform** to provide the key parts of a content pipeline: reading queue, a private thinking tool with "Friends only" collaboration spaces, and a public-facing site (Hubs to begin with, but also blogs, newsletters, wikis, etc.)
 * provide **credible exit** at each stage of the content pipeline, so users can later swap in alternative tools, self-host, innovate, etc
 
-The platform therefore acts as an **on-ramp**—a simple starting point for newcomers - which doesn't lock them in, because users: 
+The platform therefore acts as an **on-ramp**—a simple starting point for newcomers - which doesn't lock them in, as users: 
 
 * store their own content on their own Personal Data Servers and manage their own identity
 * can export their myhub content to local-first solutions whenever they like.
@@ -25,11 +33,11 @@ I developed my content pipeline to help tackle the firehose of content coming at
 
 In its simplest form, it's:
 
-* your **curated Inboxes**, which contain stuff which might be interesting
-* your **reading, thinking and writing stack**: a reading queue and private library where the Editor makes notes, thinks, drafts and ...
-* optionally, hits Publish, pushing the content to a **public site**.
+* your *curated Inboxes*, which contain stuff which might be interesting
+* your reading, thinking and writing stack: a reading queue and private library where the Editor makes notes, thinks, drafts and ...
+* optionally, hits Publish, pushing the content to a public site.
 
-Not shown: Editors should also be able to invite **Trusted Friends** to collaborate within their Library, but I'll leave that for later as the necessary technology ([permissioned data](https://myhub.ai/@mathewlowry/?tags=permissioned+data&types=like&types=do&types=think&timeframe=anytime&quality=all&tags=atprotocol), aka ATprotocol Spaces) is still under active development at the protocol layer. 
+Editors should also be able to invite Trusted Friends to collaborate within their Library, but I'll leave that for later.
 ## What's a Hub?  
 
 Today, a Hub is one of these personal public sites - it's the  public facing edge of my thinking and writing stack, combining:
@@ -56,7 +64,7 @@ Note that a Hub not only brings together a Hub Editor's content from across the 
 
 Both ends (Inbox and Public Site) of each thinking/writing stack can be connected to everyone elses' via ATproto and other protocols (RSS, ActivityPub, SMTP):
 
-![[myhub-social-ecosystem.png]]
+!["This is my ideal workflow, abstracted from my earlier posts"](https://whtwnd.com/api/cache?did=did:plc:2zxlmj2dvub7smpul2lvwqfk&cid=bafkreihmgjhhgvtlnvi3zdhnzh7kv6k7ppgbc6oomxpjmvqd7s3kmfjxci)
 
 The above figure shows:
 
@@ -77,37 +85,24 @@ There's plenty which is not shown: comments to hosted Hub items, for example, ca
 
 **I want to both develop the myhub.ai platform to support this *and* provide credible exit to local-first alternatives, so two development paths are required:**
 
-![[myhub development paths.png]]
-### Local-first path first
+![[Pasted image 20260824180704.png]]
+### Developing MyHub.ai
+myhub.ai already provides the basic public-facing end of the pipeline, but needs:
 
-I'm starting with this, as most of the pieces are already in place: 
+* *(optionally, top left)* integrated inboxes for protocols (email, RSS; etc.), although stand-alone tools already exist 
+* *(top centre)* the rest of the private content pipeline (reading queue, thinking tool), built into the MyHub Editor
+	* note: we'll use [private atproto spaces](https://atproto.com/blog/atproto-spaces-alpha), as this allows Friends-only collaboration
+* *(top right)* a marketplace where users can choose a variety of site types (Hubs, blogs, newsletters, wikis, etc.), and through which developers and designers can sell site types and designs.
+* *(bottom right)* to source the content from, and write to, the user's PDS, and so publish content onto the Atmosphere 
+	* note: we'll use [standard.site](https://standard.site/) - an Atmosphere lexicon for longform content
+* *(right)* to integrate enewsletter and Fediverse publication services with the public site.
+### Local-first path
+
+This path is already well-served, as: 
 
 * there are plenty of stand-alone inboxes out there
-* Obsidian and others like it already provide excellent thinking tools based on locally-stored files, and are easily extensible 
-* there's already multiple options for pushing local files to a PDS (from [Groundmist](https://myhub.ai/@mathewlowry/?types=like&types=do&types=think&timeframe=anytime&quality=all&tags=groundmist)  to the [Obsidian-Standard-site plugin](https://github.com/SootyOwl/obsidian-standard-site)), from where they can be published by any CMS.
-
-Right now I'm developing:
-
-* My [[ReadingQ Manager]] Obsidian plugin, which integrates content I've Queued into both all relevant ToDos *and*... 
-* ... the Karpathy LLM wiki I'm building in the heart of my library: [[Building a Karpathy LLMwiki inside my content pipeline]],
-* while the [[Hub Manager]] takes care of the rest of the pipeline.
-
-Next:
-
-* forking the [Obsidian-Standard-site plugin](https://github.com/SootyOwl/obsidian-standard-site) to get content onto PDSs
-* developing the necessary lexicons: for some content we can use [standard.site](https://standard.site/) (an Atmosphere lexicon for longform content), but I'll probably need to build on an existing lexicon for bookmarks to create something specific to myhub.
-
-Once all that's done I will have the content on my PDS, but noone will see it unless I have a website to display it, which brings me to...
-
-### Platform path: redeveloping MyHub.ai
-The myhub.ai platform will need to be rebuilt. While it already provides the basic public-facing end of the pipeline, it needs the ability to display content on a PDS (for those using the above local-first path) plus, for everyone else:
-
-* the private content pipeline (reading queue, thinking tool) built into the MyHub Editor (we'll use the aforementioned permissioned data, as this allows Friends-only collaboration)
-* the ability to *write* to the user's PDS
-* a marketplace, where users can choose a variety of site types (Hubs, blogs, newsletters, wikis, etc.), and through which developers and designers can sell site types and designs.
-* enewsletter and Fediverse publication services.
-
-That's not as much as it sounds, because the goal is *not* to build a rival to Obsidian inside the MyHub Editor - the Platform path exists to provide an easy on-ramp for new users, who can export their content to the local path to access Obsidian's power at any time.   
+* Obsidian and others like it already provide excellent thinking tools based on markdown files, and are easily extensible (eg see my [[permanent versions/ReadingQ]] Obsidian plugin)
+* [Groundmist](https://myhub.ai/@mathewlowry/?types=like&types=do&types=think&timeframe=anytime&quality=all&tags=groundmist) allows users to push local files to their PDS, from where they can be published by any CMS using the PDS for storage.
 ## Business model: where's the revenue?
 
 **The single most important development the Atmosphere needs to grow is for someone to create something some people are prepared to pay for.**
@@ -142,10 +137,10 @@ Finally, the marketplace will be open - designers and developers will be free to
 
 This is one of this wiki's pages managed with the **permanent versions pattern** described in  [Two wiki authors and a blogger walk into a bar…](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e)  
 
-- changes in this version (2026-10-04): 
-	- developed local-first path, added links
-	- shortened intro
+- changes in this version: 
+	- credible exit emphasised, 
+	- took out AI4Communities (too speculative)
 - version control
-    - this is version: 5
+    - this is version: 4
     - this is the current version: [[MyHub on the ATmosphere]]
-    - here is the previous version: [[MyHub on the ATmosphere 4]]
+    - here is the previous version: [[MyHub on the ATmosphere 3]]
