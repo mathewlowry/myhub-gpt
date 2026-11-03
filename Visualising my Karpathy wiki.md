@@ -61,7 +61,7 @@ That left over 80 resources tagged #tagme - resources Loki had auto-assigned any
 * the intersection of social media, politics and ethics and democracy, particularly the Nazi Bar problem.
 
 
-![[karpathywiki-graphview-8.png]]
+![[karpathywiki-graphview-8a.png]]
 
 
 
