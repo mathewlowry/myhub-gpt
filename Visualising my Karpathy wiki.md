@@ -1,87 +1,87 @@
 ---
-title: "Visualising my Karpathy wiki"
+title: Visualising my Karpathy wiki
 type: do
 source: hosted
 visibility: public
 publish: false
-hub_tags: ["myhub", "karpathy", "llmwiki", "data visualisation", "knowledge visualisation", "productivity"]
+hub_tags:
+  - myhub
+  - karpathy
+  - llmwiki
+  - data visualisation
+  - knowledge visualisation
+  - productivity
 description: ""
 slug: visualising-my-karpathy-wiki
-coverImage: 
-version: 1
+coverImage:
+version: 2
 ---
 # Visualising my Karpathy wiki
 
 **I'm [[Building a Karpathy LLMwiki inside my content pipeline]], so it was inevitable I'd see how Obsidian graph view could help me navigate the knowledge being knitted together by Loki in my personal library.**
 
-*(Note: This is version 1 of this post, published after only a small fraction of content has been processed into my LLM wiki. Version control in the footer.)*
+*(Note: This is version 2 of this post, and uses Obsidian graph view to explore the evolution of my LLMwiki. To understand graph view,  [[Visualising my Karpathy wiki 1|version 1]] is a good place to start. Version control in the footer.)*
 
-## First pass
+[[Visualising my Karpathy wiki - 1 - 2026-10-04|Version 1]] showed the first reading queue items I asked Loki to process, as well as Loki's level 2 files:
 
-My first try at an Obsidian graph looked great, until I realised it was only graphing Loki's Level 2 analyses and related management files, and not the actual Reading Queue content:
+![[karpathywiki-graphview-4.png]]
 
-![[karpathywiki-graphview-1.png]]
+## Batch 2: Exploring verification, trust & WSocial
 
-So I enlarged the view to everything in the reading queue (orange), and put the management files in a subfolder, which made it easy to ignore them. The graph view filter, in case you need it: 
+In the weeks that followed I had Loki ingest a fair bit of content about verification on the Atmosphere in general and WSocial in particular as I wrote [Proof of human](https://mathewlowry.leaflet.pub/3mxgh342lsc2a) and then [How not to build trust](https://mathewlowry.leaflet.pub/3mxwiozz7ns27). The above view evolved as a result, with most of the additions centring around WSocial:
+![[karpathywiki-graphview-5wsocial.png]]
 
-> (path:wiki OR path:"reading queue") -path:"wiki/management") )
+The highlighted node is an **entity page** that synthesises everything I've bookmarked, read and written on them, highlighting the arguments and where the various sources agree and disagree. Loki wrote:
 
-![[karpathywiki-graphview-2a.png]]
+> "*How to read this page (Mathew's steer, 2026-10-13):* **verifiable facts** are listed as bullets: statements that a document, record, recording or date could confirm or refute. They are not verified here; each says only who reported it. **Arguments and opinions** are in prose, attributed. **Where the sources agree and disagree** has its own section near the end" - Wsocial entity page
 
-This ... isn't great. Immediate problems:
+These are early days for my LLMwiki, so I find Loki's writing style not to my liking. But the way it can bring everything together into a structured overview was incredibly useful for writing [How not to build trust](https://mathewlowry.leaflet.pub/3mxwiozz7ns27), which included over 20 links. But as I point out in [[Hub Manager]], I'm the one holding the pen. 
 
-* this picks up everything in the reading queue Loki hasn't processed yet, swamping the signal
-* too many tags! (green)
-* it also picks up project files, in another part of the vault, with "wiki" in their path
+---
 
-Let's remove the tags and focus the filter: 
+In late October I decided to backfill the rest of my reading queue, asking Loki to cluster my reading queue backlog using my project tags, and then do each cluster in a batch so it could consult me on the process (see [[Building a Karpathy LLMwiki inside my content pipeline#Dialog bonus| Building a Karpathy LLMwiki ...> Dialog bonus]]).
 
-> (path:/^wiki\// OR path:"reading queue") -path:"wiki/management"
+## Batch 3: atprotocol
+This is what resulted after another 33 reading queue items clustered around atprotocol were ingested and I had given Loki some steering, identifying permissioned data as "super important" and asking for more focus on emerging ATprotocol products. Loki created new entity pages for Semble and Nostr and 11 new tags (not shown):
 
-![[karpathywiki-graphview-3.png.png]]
+![[karpathywiki-graphview-6.png]]
 
-Still not great, as it shows: 
 
-* **the core LLM wiki**: Loki's "level 2 files" summarizing and linking to the reading queue items it has processed
-* **a halo of unlinked nodes**, which Obsidian calls Orphans.
-### Exploring the core
+## Batch 4: 31 productivity resources
+Ingesting another 31 pages tagged productivity led to six new level 2 pages: Andrej Karpathy and his LLM-wiki pattern, Andy Matuschak, AI's effect on human cognition, agentic personal workflows, malleable software and Peter Kaminski's AI Starter Kit, which underpins the whole thing:
 
-Fortunately, Obsidian provides an "Ignore Orphans" toggle, so with a click I can focus on the reading queue items Loki *has* processed, and Loki's level 2 files:
+![[karpathywiki-graphview-7.png]]
 
-![[karpathywiki-graphview-4.png.png]]
+## Batch 5: The last 80 resources
 
-That's starting to look like something I can use, but this is based on a first batch of reading queue content, so I'll return to this when I have 50 resources processed by Loki, and then 100...
-### Processing the halo
+That left over 80 resources tagged #tagme - resources Loki had auto-assigned any project tags to. This is unsurprising - I have a small number of projects I want to focus on, but my reading areas of interest are much wider, which is why my post-backlog LLMwiki now has:
 
-But that  halo of unlinked nodes bothers me, as it is actually composed of two sorts of very different content:
+* AI as another centre of gravity
+* a level 2 page summarising everything relevant to the myhub relaunch that this is a part of
+* the intersection of social media, politics and ethics and democracy, particularly the Nazi Bar problem.
 
-* Queued resources Loki hasn't processed yet
-* some (but not all) of the "thin notes" - files with little content in them, generally tagged "social" and/or "stub" 
 
-Not knowing which is which is a bit of a problem.
-#### Unprocessed queued notes 
+![[karpathywiki-graphview-8.png]]
 
-The halo is probably full of unprocessed reading queue items, as we've currently only processed the first batch of my backlog. When I've processed the rest of the backlog, these much fewer unlinked nodes will hopefully give me a visual sense of the ongoing content to be processed by Loki into my Karpathy wiki.
 
-Note that these files *are* linked to from files across my vault (Reading Queue, Project Maps of Content and Daily Notes). Those notes, however, are all outside this graph's particular domain, so as far as this graph is concerned they're Orphans, which makes hiding them easy.
-#### Thin notes
 
-The problem is that the halo also contains "thin" reading queue items. These notes are all tagged "stub" because there's little content in them, generally because the queued resource is hiding most of its content behind a paywall, or is on a social platform (in which case it is also tagged "social").
+## Final thoughts, looking ahead
 
-With little content to work worth, Loki often can't see their relevance to any existing Level 2 file, so most of these thin note remain an Orphan. Occasionally, Loki adds one of these notes to a Level 2 file's Sources section, giving the item an inbound link and removing its Orphan status. But that link is *itself* by definition thin, based on little content.
+How useful, at the end of the day, is graph view?  I've never used it until now, and chances are I'll simply ask Loki to guide me to the content I need rather than clicking and poking these graphs.
 
-Actually reading all of this content, of course, is still managed using the to-dos that Reading Queue Manager creates for me. But until I do, some of those files appear in the halo, some appear in the core, and I can't tell one from the other in the present graph view. 
+But that might change when I've figured out how to include the content I'm working on and imported the content I've already published. That should show me links between the content I've queued to read, Loki's level 2 syntheses of key concepts and questions, the content I've published (which is versioned, like this page), and what I'm currently working on. 
 
-So next I'll process a few more batches of my backlog, taking screenshots of the resulting graph views as I go, and try and figure out what to do with the thin notes. New versions of this page will allow for comparisons. 
-
+Check back for version 3, I guess... 
 
 ---
 ## Revision Notes
 
 This is one of this wiki's pages managed with the **permanent versions pattern** described in  [Two wiki authors and a blogger walk into a bar…](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e)  
 
-- changes in this version (2026-10-04): n/a
+- changes in this version  (2026-11-03): 
+	- Batches 2-5
+	- final thoughts, looking ahead
 - version control
-    - this is version: 1
+    - this is version: 2
     - this is the current version: [[Visualising my Karpathy wiki]]
-    - here is the previous version: n/a
+    - here is the previous version: [[Visualising my Karpathy wiki 1]]
