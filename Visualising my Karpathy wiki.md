@@ -60,10 +60,7 @@ That left over 80 resources tagged #tagme - resources for which Loki had not fou
 * a level 2 page summarising everything relevant to the myhub relaunch that this is a part of
 * the intersection of social media, politics and ethics and democracy, particularly the Nazi Bar problem.
 
-
-![[karpathywiki-graphview-8a.png]]
-
-
+![[karpathywiki-graphview-8.png]]
 
 ## Final thoughts, looking ahead
 
