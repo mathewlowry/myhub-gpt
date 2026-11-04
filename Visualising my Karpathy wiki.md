@@ -54,14 +54,16 @@ Ingesting another 31 pages tagged productivity led to six new level 2 pages: And
 
 ## Batch 5: The last 80 resources
 
-That left over 80 resources tagged #tagme - resources for which Loki had not found any relevant project tags. This is unsurprising - I have a small number of projects I want to focus on, but my reading areas of interest are much wider, which is why my post-backlog LLMwiki now has:
+That left over 80 resources tagged #tagme - 80 resources for which Loki had not found any relevant project tags, which is unsurprising: I have a small number of projects I want to focus on, but my reading areas of interest are much wider.
+
+![[karpathywiki-graphview-8a.png]]
+
+
+My post-backlog LLMwiki now has:
 
 * AI as another centre of gravity
-* a level 2 page summarising everything relevant to the myhub relaunch that this is a part of
-* the intersection of social media, politics and ethics and democracy, particularly the Nazi Bar problem.
-
-![[karpathywiki-graphview-8.png]]
-
+* a level 2 page summarising everything relevant to the myhub relaunch that this is a part of (above)
+* a stronger focus on the intersection of social media, politics, ethics and democracy, particularly the Nazi Bar problem.
 ## Final thoughts, looking ahead
 
 How useful, at the end of the day, is graph view?  I've never used it until now, and chances are I'll simply ask Loki to guide me to the content I need rather than clicking and poking these graphs.
