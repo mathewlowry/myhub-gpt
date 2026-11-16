@@ -9,7 +9,7 @@ hub_tags:
 description: Early days (v1)
 slug: building-a-karpathy-llmwiki-inside-my-content-pipeline
 coverImage: hub/site/karpathywiki-v1-graphview.png
-version: 1
+version: 2
 ---
 
 # Building a Karpathy LLMwiki inside my content pipeline
@@ -20,7 +20,7 @@ As set out in [[MyHub on the ATmosphere]], I started developing the "local-first
 
 But somewhere in that process I came across the Karpathy LLM wiki model, so I upgraded ReadingQ Manager so that my library becomes a folder of content which Loki, my persistent personal agent, can help me work with directly.
 
-*(Note: This is version 1 of this post. Version control in the footer.)*
+*(Note: This is version 2 of this post. Version control in the footer.)*
 ## Clipping for Karpathy
 
 Hub Manager was already well underway when I read  [LLM Wiki by Andrej Karpathy](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f). I'll be brief, as there's no shortage of articles summarising Karpathy's idea:
@@ -62,7 +62,7 @@ I asked Loki to map this in Obsidian, and then in Mermaid so you can [at least z
 
 I'm fully aware this is hard to process in detail - I'll probably create something easier to read later this year, once I've processed the rest of the Reading Queue backlog I've been adding to my library since developing ReadingQ Manager over the summer. 
 
-## Dialog bonus
+### Dialog bonus
 
 One thing the above diagram does not capture at all, however, is the dialog I have with Loki when it processes a batch of Reading Queue items. After it takes a first look at the content, it suggests how it's relevant and asks for guidance. I then respond, and the resulting to-and-fro does two things:
 
@@ -71,32 +71,44 @@ One thing the above diagram does not capture at all, however, is the dialog I ha
 
 I'm still learning how to get the most out of this, but I tell Loki to commit what I learn to memory, so it becomes second nature to it, and hence to me.
 
-## What's next
+### Visualised knowledge
 
-Inevitably, of course, I've also started [[Visualising my Karpathy wiki]]:
+I've never been a big user of Obsidian Graph View, but I made an exception and started [[Visualising my Karpathy wiki]]: 
 
 ![[4 Karpathy graphs.png]]
 *The first 4 Obsidian Graph Views of my Karpathy LLM wiki*
 
-Once I've imported my backlog of reading queue items and refine this Graph View further I'll add the content I have written and am writing, in another vault folder, to the LLM wiki. There won't be a lot to start with, as I have only been using this vault to draft content for a few weeks. 
+The above images show the early evolution -  click through to see what happened to the visualisation after I finished processing my backlog of reading queue items, but note that I'm still unconvinced I'll use it to navigate the level two files when I can just ask Loki to find them for me. 
 
 > *when I import the 350+ pieces [I Do or Think](https://myhub.ai/@mathewlowry/?quality=all&types=do&types=think&timeframe=anytime) from my Hub, and then have Loki process them ... the fun will really begin*
 
-But when I import the 350+ pieces [I Do or Think](https://myhub.ai/@mathewlowry/?quality=all&types=do&types=think&timeframe=anytime) from my Hub, and then have Loki process them all into my wiki, my Graph View will show me links between:
+But when I import the 350+ pieces [I Do or Think](https://myhub.ai/@mathewlowry/?quality=all&types=do&types=think&timeframe=anytime) from my Hub, and then have Loki process *them* all into my wiki, that Graph View will show me links between:
 
 * the content on my reading queue I haven't yet read, 
 * notes on reading queue content I've already made, 
 * and everything I have already published or am still drafting. 
 
-And that's when the fun will really begin.
+That's when the fun will really begin.
+### Refining the Karpathy content strategy
+
+But before we get to that, I was really bothered by the verbose way Loki writes - when I'm scanning these files I don't want to read long paragraphs of text. Karpathy himself published a solution to this just as I was getting started:
+
+> **Ask your LLM to explain something in ASD-STE100**, it's a controlled language specification originally developed for aerospace maintenance documentation... comes with heavy constraints on clean writing style that I often find a lot more readable - [Andrej Karpathy (X, 2026-10-02)](https://x.com/karpathy/status/2105819303471976479)
+
+But I only really started investigating this after reading [Vishal Mysore's analysis](https://medium.com/@visrow/karpathy-says-make-your-llm-write-like-an-aircraft-manual-i-built-a-browser-tool-to-measure-it-17f0aaeb86b4). While he found some benefits (eg huge cut to average sentence length), he also discovered that an LLM armed only with ASD-STE100 drops critical details, so he proposes additional rules for the LLM to follow, including the creation of a separate "claimcheck" file.
+
+After running a couple of tests on some existing level 2 pages, I decided to also introduce a **nibble-bite-meal content strategy**, which essentially asks Loki to add a Synthesis to the top of every level two page, composed of a single summary paragraph and a bulleted list of key findings and open questions. 
+
+The results can be seen by comparing the original level 2 [[bluesky custom feeds]] concept page with [[bluesky custom feeds - experiment 2 V4]]. **As these files were extracted from my wiki to publish here, none of the links work.** 
 
 ---
 ## Revision Notes
 
 This is one of this wiki's pages managed with the **permanent versions pattern** described in  [Two wiki authors and a blogger walk into a bar…](https://mathewlowry.medium.com/two-wiki-authors-and-a-blogger-walk-into-a-bar-7106c8376c6e)  
 
-- changes in this version (2026-10-04): n/a
+- changes in this version (2026-11-14): 
+	- "Refining the Karpathy content strategy" added
 - version control
-    - this is version: 1
+    - this is version: 2
     - this is the current version: [[Building a Karpathy LLMwiki inside my content pipeline]]
-    - here is the previous version: n/a
+    - here is the previous version: [[Building a Karpathy LLMwiki inside my content pipeline 1]]
