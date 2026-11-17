@@ -95,11 +95,13 @@ But before we get to that, I was really bothered by the verbose way Loki writes 
 
 > **Ask your LLM to explain something in ASD-STE100**, it's a controlled language specification originally developed for aerospace maintenance documentation... comes with heavy constraints on clean writing style that I often find a lot more readable - [Andrej Karpathy (X, 2026-10-02)](https://x.com/karpathy/status/2105819303471976479)
 
-But I only really started investigating this after reading [Vishal Mysore's analysis](https://medium.com/@visrow/karpathy-says-make-your-llm-write-like-an-aircraft-manual-i-built-a-browser-tool-to-measure-it-17f0aaeb86b4). While he found some benefits (eg huge cut to average sentence length), he also discovered that an LLM armed only with ASD-STE100 drops critical details, so he proposes additional rules for the LLM to follow, including the creation of a separate "claimcheck" file.
+But I only really started investigating this after reading [Vishal Mysore's analysis](https://medium.com/@visrow/karpathy-says-make-your-llm-write-like-an-aircraft-manual-i-built-a-browser-tool-to-measure-it-17f0aaeb86b4). While he found some benefits (eg huge cut to average sentence length), he also discovered that **an LLM armed only with ASD-STE100 drops critical details**, so he proposes additional rules for the LLM to follow, including the creation of a separate "claimcheck" file.
 
-After running a couple of tests on some existing level 2 pages, I decided to also introduce a **nibble-bite-meal content strategy**, which essentially asks Loki to add a Synthesis to the top of every level two page, composed of a single summary paragraph and a bulleted list of key findings and open questions. 
+After running a couple of tests to see how ASD-STE100 would rewrite some existing level 2 pages, I decided to also introduce a **nibble-bite-meal content strategy**, which essentially asks Loki to add a Synthesis to the top of every level two page, composed of a single summary paragraph and a bulleted list of key findings and open questions. Taken together, you get this:
 
-The results can be seen by comparing the original level 2 [[bluesky custom feeds]] concept page with [[bluesky custom feeds - experiment 2 V4]]. **As these files were extracted from my wiki to publish here, none of the links work.** 
+![[llmwiki-asd-ste100.png]]
+
+The results can be seen by comparing the original level 2 [[bluesky custom feeds]] concept page (*left*) with [[bluesky custom feeds - experiment 2 V4]] (*right*). **As these files were extracted from my wiki to publish here, none of the links work.** 
 
 ---
 ## Revision Notes
